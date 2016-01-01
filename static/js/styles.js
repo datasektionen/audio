@@ -4,6 +4,8 @@ var styles = {
   centered: {
     marginLeft: "auto",
     marginRight: "auto",
+    paddingLeft: 20,
+    paddingRight: 20,
     maxWidth: 1240,
     width: "100%",
     position: "relative"
@@ -17,6 +19,12 @@ var styles = {
     color: "white",
     fontWeight: "bold",
     textAlign: "center"
+  },
+  mainbutton: {
+    position: "absolute",
+    right: 20,
+    top: 27,
+    fontWeight: "bold"
   },
   searchbar: {
     backgroundColor: "white",
@@ -34,14 +42,12 @@ var styles = {
     float: "right",
     marginRight: -20
   },
-  songoverlay: {
+  song: {
     backgroundColor: "white",
-    position: "absolute",
-    maxWidth: "75%",
-    top: 20,
-    right: 100,
-    padding: 50,
-    boxShadow: "0 0 10px 3px rgba(0, 0, 0, .2)"
+    position: "relative",
+    marginTop: "0.5rem",
+    border: "1px solid #e0e0e0",
+    padding: 50
   },
   close: {
     position: "absolute",
@@ -56,10 +62,5 @@ var styles = {
   songtext: {},
   songmeta: {
     color: "gray"
-  },
-  mainbutton: {
-    position: "absolute",
-    right: 0,
-    top: 27
   }
 };

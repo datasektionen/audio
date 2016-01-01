@@ -1,7 +1,7 @@
 "use strict";
 
-var Song = React.createClass({
-  displayName: "Song",
+var SongListItem = React.createClass({
+  displayName: "SongListItem",
 
   handleCheckboxClick: function handleCheckboxClick(e) {
     this.props.onSelectedChange(e.target.checked, this.props.songid);
@@ -37,7 +37,7 @@ var SongList = React.createClass({
 
   render: function render() {
     var songs = this.props.songs.map((function (song) {
-      return React.createElement(Song, {
+      return React.createElement(SongListItem, {
         key: song.songid,
         songid: song.songid,
         songtitle: song.songtitle,
@@ -45,27 +45,29 @@ var SongList = React.createClass({
         , onClick: this.props.onSongClick,
         onSelectedChange: this.props.onSelectedChange });
     }).bind(this));
+    var largewidth = this.props.currentsong ? "l7 pull-l5" : "l12";
     return React.createElement(
       "div",
-      { className: "collection" },
+      { className: "collection col s12 " + largewidth },
       songs
     );
   }
 });
 
-var SongOverlay = React.createClass({
-  displayName: "SongOverlay",
+var Song = React.createClass({
+  displayName: "Song",
 
+  componentDidUpdate: function componentDidUpdate() {
+    if (window.scrollY > 300) {
+      window.scrollTo(0, 160);
+    }
+  },
   render: function render() {
-    var _this = this;
-
-    if (this.props.allSongs.hasOwnProperty(this.props.currentsong)) {
-      var song = this.props.allSongs.filter(function (song) {
-        return song.songid == _this.props.currentsong;
-      })[0]; // TODO: this is really ugly
+    if (this.props.currentsong != false) {
+      var song = this.props.currentsong;
       return React.createElement(
         "div",
-        { id: "overlay", style: styles.songoverlay },
+        { className: "col s12 l5 push-l7", style: styles.song },
         React.createElement(
           "a",
           { href: "#", style: styles.close },
@@ -84,16 +86,15 @@ var SongOverlay = React.createClass({
   }
 });
 
-var SearchApp = React.createClass({
-  displayName: "SearchApp",
+var AudioApp = React.createClass({
+  displayName: "AudioApp",
 
-  allSongs: [],
   fuse: {},
   getInitialState: function getInitialState() {
-    return { searchstring: '', currentsong: location.hash.substr(1), songs: [], selected: [] };
+    return { currentsong: false, songs: [], selected: [] };
   },
   componentDidMount: function componentDidMount() {
-    $.getJSON('/songs', (function (data) {
+    $.getJSON("/songs", (function (data) {
       var options = {
         caseSensitive: false,
         includeScore: false,
@@ -105,44 +106,51 @@ var SearchApp = React.createClass({
         keys: ["songtitle", "firstline"]
       };
       this.fuse = new Fuse(data.songs, options);
-      this.allSongs = data.songs;
-      this.setState({ songs: this.search() });
+      this.setState({ songs: this.fuse.list });
+      this.setState({ currentsong: this.getSong(location.hash.substr(1)) });
     }).bind(this));
     window.addEventListener("hashchange", (function () {
-      this.setState({ currentsong: location.hash.substr(1) });
+      this.setState({ currentsong: this.getSong(location.hash.substr(1)) });
     }).bind(this));
   },
   handleSelectedChange: function handleSelectedChange(checked, songid) {
-    var newstate;
-    if (checked) newstate = this.state.selected.concat([songid]);else newstate = this.state.selected.filter(function (item) {
+    var newselected;
+    if (checked) newselected = this.state.selected.concat([songid]);else newselected = this.state.selected.filter(function (item) {
       return item != songid;
     });
-    this.setState({ selected: newstate });
+    this.setState({ selected: newselected });
 
-    var link = 'songs.pdf?songids=' + Array.from(newstate);
+    var link = "songs.pdf?songids=" + Array.from(newselected);
     this.refs.PDFLink.href = link;
   },
   handleSongClick: function handleSongClick(songid) {
-    this.setState({ currentsong: songid });
+    this.setState({ currentsong: this.getSong(songid) });
   },
   handleSongOverlayClose: function handleSongOverlayClose() {
     this.setState({ currentsong: false });
-    location.hash = '';
+    location.hash = "";
   },
   handleSearchChange: function handleSearchChange(e) {
-    if (e.target.value.length > 0) this.setState({ searchstring: e.target.value, songs: this.search() });else this.setState({ searchstring: "", songs: this.fuse.list });
+    if (e.target.value.length > 0) this.setState({ songs: this.search(e.target.value) });else this.setState({ songs: this.fuse.list });
   },
   handleSubmit: function handleSubmit(e) {
     e.preventDefault();
-    var topsongid = this.state.songs[0].songid;
-    this.setState({ currentsong: topsongid });
-    location.hash = topsongid;
+    var topsong = this.state.songs[0];
+    this.setState({ currentsong: topsong });
+    location.hash = topsong.songid;
   },
-  search: function search() {
-    if (this.state.searchstring.length > 0) return this.fuse.search(this.state.searchstring);else return this.fuse.list;
+  search: function search(searchstring) {
+    if (searchstring.length > 0) return this.fuse.search(searchstring);else return this.fuse.list;
+  },
+  getSong: function getSong(songid) {
+    songid = parseInt(songid);
+    var filter = this.fuse.list.filter(function (song) {
+      return song.songid === songid;
+    }); // TODO: this is really ugly
+    if (filter.length > 0) return filter[0];else return false;
   },
   render: function render() {
-    var disabled = this.state.selected.length < 1 ? ' disabled' : '';
+    var disabled = this.state.selected.length < 1 ? " disabled" : "";
     return React.createElement(
       "div",
       null,
@@ -161,7 +169,7 @@ var SearchApp = React.createClass({
             "a",
             { ref: "PDFLink", target: "_blank",
               style: styles.mainbutton,
-              className: "btn deep-orange" + disabled },
+              className: "btn deep-orange darken-1" + disabled },
             "PDF"
           )
         )
@@ -178,19 +186,19 @@ var SearchApp = React.createClass({
       ),
       React.createElement(
         "div",
-        { style: styles.centered },
+        { className: "row", style: styles.centered },
+        React.createElement(Song, {
+          currentsong: this.state.currentsong,
+          onClose: this.handleSongOverlayClose }),
         React.createElement(SongList, {
           songs: this.state.songs,
           selected: this.state.selected,
+          currentsong: this.state.currentsong != false,
           onSongClick: this.handleSongClick,
-          onSelectedChange: this.handleSelectedChange }),
-        React.createElement(SongOverlay, {
-          allSongs: this.allSongs,
-          currentsong: this.state.currentsong,
-          onClose: this.handleSongOverlayClose })
+          onSelectedChange: this.handleSelectedChange })
       )
     );
   }
 });
 
-ReactDOM.render(React.createElement(SearchApp, null), document.getElementById("wrapper"));
+ReactDOM.render(React.createElement(AudioApp, null), document.getElementById("wrapper"));
