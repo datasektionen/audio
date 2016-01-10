@@ -1,77 +1,10 @@
-var SongListItem = React.createClass({
-  handleCheckboxClick: function(e) {
-    this.props.onSelectedChange(e.target.checked, this.props.songid);
-  },
-  handleSongClick: function(e) {
-    this.props.onClick(this.props.songid);
-  },
-  render: function() {
-    return (
-      <div className="collection-item">
-        <a href={"#" + this.props.songid} onClick={this.handleSongClick}>
-          {this.props.songtitle}
-        </a>
-        <div style={styles.checkbox}>
-            <input
-              type="checkbox"
-              id={"song" + this.props.songid}
-              defaultChecked={this.props.checked}
-              onChange={this.handleCheckboxClick} />
-          <label htmlFor={"song" + this.props.songid} />
-        </div>
-      </div>
-    );
-  }
-});
+var styles = require('./styles.js')
 
-var SongList = React.createClass({
-  render: function() {
-    var songs = this.props.songs.map(function(song) {
-      return (
-        <SongListItem
-          key={song.songid}
-          songid={song.songid}
-          songtitle={song.songtitle}
-          checked={this.props.selected.indexOf(song.songid) != -1} // TODO: this is kinda ugly
-          onClick={this.props.onSongClick}
-          onSelectedChange={this.props.onSelectedChange} />
-      );
-    }.bind(this));
-    var largewidth = this.props.currentsong ? "l7 pull-l5" : "l12"
-    return (
-      <div className={"collection col s12 " + largewidth}>
-        {songs}
-      </div>
-    );
-  }
-});
+var SongList = require('./song-list.jsx')
+var SongText = require('./song-text.jsx')
 
-var Song = React.createClass({
-  componentDidUpdate: function() {
-    if(window.scrollY > 300) {
-      window.scrollTo(0, 160);
-    }
-  },
-  render: function() {
-    if(this.props.currentsong != false) {
-      var song = this.props.currentsong;
-      return (
-        <div className="col s12 l5 push-l7" style={styles.song}>
-          <a href="#" style={styles.close}>
-            <i className="material-icons"  onClick={this.props.onClose}>add</i>
-          </a>
-          <h3 style={styles.songtitle} dangerouslySetInnerHTML={{__html: song.songtitle}}></h3>
-          <p style={styles.songmeta} dangerouslySetInnerHTML={{__html: song.songmeta}}></p>
-          <p style={styles.songtext} dangerouslySetInnerHTML={{__html: song.songtext}}></p>
-          <p style={styles.songmeta} dangerouslySetInnerHTML={{__html: song.songnotes}}></p>
-        </div>
-      );
-    }
-    else return false;
-  }
-});
-
-var AudioApp = React.createClass({
+module.exports = React.createClass({
+  displayName: "SongApp",
   fuse: {},
   getInitialState: function() {
     return {currentsong: false, songs: [], selected: []};
@@ -157,7 +90,7 @@ var AudioApp = React.createClass({
             onChange={this.handleSearchChange} />
         </form>
         <div className="row" style={styles.centered}>
-          <Song
+          <SongText
             currentsong={this.state.currentsong}
             onClose={this.handleSongOverlayClose} />
           <SongList
@@ -171,8 +104,3 @@ var AudioApp = React.createClass({
     );
   }
 });
-
-ReactDOM.render(
-  <AudioApp />,
-  document.getElementById("wrapper")
-);

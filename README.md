@@ -13,16 +13,10 @@ sudo apt-get install $(cat apt-packages)
 
 pip install -r requirements.txt
 
-npm install --global babel-cli
-npm install babel-preset-react babel-preset-es2015
+npm install
 ```
 
-Watch js folder for changes
-```bash
-babel --presets es2015,react --watch js/ --out-dir static/js/
-```
-
-Start development server (in a differente terminal)
+Start development server
 ```bash
 python audio.py
 ```
