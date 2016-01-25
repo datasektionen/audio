@@ -11,6 +11,8 @@ module.exports = React.createClass({
   },
   componentDidMount: function() {
     $.getJSON("/songs", function(data){
+      var titlesort = function(x,y){return x.songtitle.localeCompare(y.songtitle, 'sv')};
+      data.songs.sort(titlesort);
       var options = {
         caseSensitive: false,
         includeScore: false,
