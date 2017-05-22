@@ -17,18 +17,16 @@
     <style type="text/css">*{font-family:'Lato',sans-serif;}</style>
   </head>
   <body>
-    <div id="tbaas"></div>
+    <div id="methone-container-replace"></div>
     <div id="wrapper"></div>
 
     <script>
-      window.tbaas_conf = {
-        system_name: "yfinger",
-        target_id: "tbaas",
-        primary_color: "#ff5722",
-        secondary_color: "white",
-        login_text: null,
+      window.methone_conf = {
+        system_name: "audio",
+        color_scheme: "deep-orange",
+        login_text: "",
         login_href: "",
-        topbar_items: [
+        links: [
           {
             str: "Wow",
             href: "/#29"
@@ -45,7 +43,7 @@
 
       }
     </script>
-    <script async src="//methone.datasektionen.se/" type="text/javascript"></script>
+    <script async src="//methone.datasektionen.se/bar.js" type="text/javascript"></script>
     {% assets "js_all" %}
       <script type="text/javascript" src="{{ ASSET_URL }}"></script>
     {% endassets %}
