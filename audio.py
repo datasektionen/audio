@@ -75,7 +75,7 @@ def pdf():
         except LatexBuildError as e:
             return Response(tex, mimetype='text/plain')
 
-        return Response(pdffile.file.read(), mimetype='application/pdf')
+        return Response(bytes(pdffile), mimetype='application/pdf')
 
 if __name__ == '__main__':
     app.run(debug=True)
