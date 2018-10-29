@@ -1,6 +1,4 @@
 from flask import Flask, request, jsonify, abort, Response, render_template
-from flask_assets import Environment, Bundle
-from webassets_browserify import Browserify
 
 from latex import build_pdf, LatexBuildError
 from latex.jinja2 import make_env
@@ -11,20 +9,14 @@ from string import digits,letters
 
 app = Flask(__name__, static_url_path='/static')
 
-assets = Environment(app)
-js = Bundle('js/main.jsx',
-            depends=('*/*.js*'),
-            filters=Browserify,
-            output='app.js')
-assets.register('js_all', js)
-
 @app.route('/')
-def index(): return render_template('index.html')
+def index(): return app.send_static_file('index.html')
 
 song_dict = get_songs()
 song_list = song_dict.values()
+
 @app.route('/songs/')
-@app.route('/songs/<int:songid>')
+@app.route('/songs/<songid>')
 def songs(songid=None):
     def filter_keys(item):
         return {
@@ -32,6 +24,7 @@ def songs(songid=None):
             for key in [
                 'songid',
                 'songtitle',
+                'alttitle',
                 'firstline',
                 'songmeta',
                 'songtext',
@@ -39,7 +32,7 @@ def songs(songid=None):
             ]
         }
 
-    if songid == None:      return jsonify(songs=map(filter_keys, song_list))
+    if songid == None:      return jsonify({ k: filter_keys(v) for k, v in song_dict.items() })
     if songid in song_dict: return jsonify(filter_keys(song_dict[songid]))
     else:                   return abort(404)
 
@@ -77,10 +70,9 @@ def pdf():
     else:
         try:
             pdffile = build_pdf(tex)
+            return Response(bytes(pdffile), mimetype='application/pdf')
         except LatexBuildError as e:
             return Response(tex, mimetype='text/plain')
-
-        return Response(bytes(pdffile), mimetype='application/pdf')
 
 if __name__ == '__main__':
     app.run(debug=True)

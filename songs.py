@@ -1,9 +1,6 @@
-from itertools import count
 from os import listdir
-from os.path import join
+from os.path import join, splitext
 from re import search, sub
-
-id_counter = count()
 
 latex_to_html = {
     r'\\\\': '',
@@ -23,7 +20,7 @@ latex_to_html = {
 def read_song(title):
     with open(join('songs', title), 'r') as song:
         tex = song.read()
-        songid    = id_counter.next()
+        songid    = splitext(title)[0]
         songtitle = search(r'\\songtitle{(.*)}', tex)
         firstline = search(r'\\firstline{(.*)}', tex)
         alttitle  = search(r'\\alttitle{(.*)}', tex) # should do findall
@@ -34,7 +31,7 @@ def read_song(title):
     def parse_match(match):
         if not match: return None
 
-        text = match.group(1).strip().decode('utf8')
+        text = match.group(1).strip()
 
         for key, value in latex_to_html.items():
             text = sub(key, value, text)
@@ -42,7 +39,7 @@ def read_song(title):
         return text
 
     return {
-        'tex': tex.decode('utf8'),
+        'tex': tex,
         'songid': songid,
         'songtitle': parse_match(songtitle),
         'alttitle':  parse_match(alttitle),

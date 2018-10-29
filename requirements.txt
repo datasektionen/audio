@@ -1,5 +1,3 @@
 Flask
-Flask-Assets
-webassets-browserify
 gunicorn
 latex

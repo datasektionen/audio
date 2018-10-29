@@ -9,14 +9,11 @@ Make a virtualenv here if you want
 
 Install some dependencies
 ```bash
-sudo apt-get install $(cat apt-packages)
-
 pip install -r requirements.txt
-
 npm install
 ```
 
 Start development server
 ```bash
-python audio.py
+npm start && python audio.py
 ```
