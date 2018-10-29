@@ -3,11 +3,12 @@
   "dependencies": {
     "browserify":          "latest",
     "babelify":            "latest",
-    "babel-preset-react":  "latest",
-    "babel-preset-es2015": "latest",
-    "uglifyjs":            "latest"
+    "@babel/preset-react": "latest",
+    "@babel/preset-env":   "latest",
+    "uglify-js":           "latest",
+    "@babel/core":         "latest"
   },
   "browserify": {
-    "transform": [["babelify", {"presets": ["es2015", "react"]}]]
+    "transform": [["babelify", {"presets": ["@babel/preset-env", "@babel/preset-react"]}]]
   }
 }
