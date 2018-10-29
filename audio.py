@@ -1,11 +1,13 @@
 from flask import Flask, request, jsonify, abort, Response, render_template
-from flask.ext.assets import Environment, Bundle
+from flask_assets import Environment, Bundle
 from webassets_browserify import Browserify
 
 from latex import build_pdf, LatexBuildError
 from latex.jinja2 import make_env
 
 from songs import get_songs
+
+from string import digits,letters
 
 app = Flask(__name__, static_url_path='/static')
 
@@ -41,15 +43,27 @@ def songs(songid=None):
     if songid in song_dict: return jsonify(filter_keys(song_dict[songid]))
     else:                   return abort(404)
 
+def whitelist(string, alphabet):
+    return ''.join([x for x in string if x in alphabet])
+
 texenv = make_env(loader=app.jinja_loader)
 @app.route('/songs.pdf')
 def pdf():
     texonly     = 'texonly' in request.args
     orientation = 'landscape' if 'landscape' in request.args else 'portrait'
-    cols        = request.args.get('cols') or 2
+    cols        = request.args.get('cols')
     font        = request.args.get('font')
     fontoptions = request.args.get('fontoptions')
     songids     = request.args.get('songids')
+
+    if font:
+        font = whitelist(font, digits+letters)
+    if fontoptions:
+        fontoptions = whitelist(fontoptions, digits+letters)
+    
+    if cols:
+        cols = whitelist(cols, digits)
+    cols = cols or 2
 
     if songids:
         try:
