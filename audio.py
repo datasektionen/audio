@@ -51,7 +51,7 @@ texenv = make_env(loader=app.jinja_loader)
 def pdf():
     texonly     = 'texonly' in request.args
     orientation = 'landscape' if 'landscape' in request.args else 'portrait'
-    cols        = request.args.get('cols')
+    cols        = whitelist(request.args.get('cols', '2'), digits)
     font        = request.args.get('font')
     fontoptions = request.args.get('fontoptions')
     songids     = request.args.get('songids')
