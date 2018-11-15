@@ -5,12 +5,12 @@
 \usepackage[utf8]{inputenc}
 \usepackage{multicol}
 \usepackage{alltt}
+\usepackage{tipa}
 \BLOCK{if font}
 \usepackage\BLOCK{if fontoptions}[\VAR{fontoptions}]\BLOCK{endif}{\VAR{font}}
 \BLOCK{endif}
 
 \def\newpage{} % ignore page breaks
-\def\sci{}     % what is this even
 \def\textrussian#1{\foreignlanguage{russian}{#1}}
 \def\includegraphics#1{} %ignore images
 
@@ -55,7 +55,7 @@
 \begin{document}
 	\begin{multicols*}{\VAR{cols}}
 	\BLOCK{for song in songs}
-		\VAR{song.tex}
+		\VAR{song}
 	\BLOCK{endfor}
 	\end{multicols*}
 \end{document}

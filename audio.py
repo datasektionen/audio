@@ -3,63 +3,40 @@ from flask import Flask, request, jsonify, abort, Response, render_template
 from latex import build_pdf, LatexBuildError
 from latex.jinja2 import make_env
 
-from songs import get_songs
+from os import listdir
+from os.path import join, splitext
+from string import digits, ascii_letters
 
-from string import digits,letters
-
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__, static_url_path='', static_folder='build')
 
 @app.route('/')
 def index(): return app.send_static_file('index.html')
 
-song_dict = get_songs()
-song_list = song_dict.values()
+def read_song(filename):
+    with open(join('songs', filename), 'r') as f: return f.read()
 
-@app.route('/songs/')
-@app.route('/songs/<songid>')
-def songs(songid=None):
-    def filter_keys(item):
-        return {
-            key: item[key]
-            for key in [
-                'songid',
-                'songtitle',
-                'alttitle',
-                'firstline',
-                'songmeta',
-                'songtext',
-                'songnotes'
-            ]
-        }
-
-    if songid == None:      return jsonify({ k: filter_keys(v) for k, v in song_dict.items() })
-    if songid in song_dict: return jsonify(filter_keys(song_dict[songid]))
-    else:                   return abort(404)
+songs = {
+    splitext(filename)[0]: read_song(filename)
+    for filename in sorted(listdir('songs'))
+}
 
 def whitelist(string, alphabet):
     return ''.join([x for x in string if x in alphabet])
 
 texenv = make_env(loader=app.jinja_loader)
 @app.route('/songs.pdf')
-def pdf():
-    texonly     = 'texonly' in request.args
+@app.route('/songs.tex', defaults={'texonly': True})
+def pdf(texonly=False):
+    texonly     = texonly or 'texonly' in request.args
     orientation = 'landscape' if 'landscape' in request.args else 'portrait'
     cols        = whitelist(request.args.get('cols', ''), digits) or '2'
-    font        = whitelist(request.args.get('font', ''), digits+letters)
-    fontoptions = whitelist(request.args.get('fontoptions', ''), digits+letters)
-    songids     = request.args.get('songids')
-
-    if songids:
-        try:
-            songids = map(int, songids.split(','))
-        except ValueError:
-            return 'Invalid songid'
-    else:
-        return 'No songs'
+    font        = whitelist(request.args.get('font', ''), digits+ascii_letters)
+    fontoptions = whitelist(request.args.get('fontoptions', ''), digits+ascii_letters)
+    songids     = request.args.get('songids').split(',')
 
     template = texenv.get_template('songs.tex')
     tex = template.render(
-        songs=[song_dict[x] for x in songids if x in song_dict],
+        songs=[songs[x] for x in songids if x in songs],
         cols=cols,
         orientation=orientation,
         font=font,
@@ -71,8 +48,9 @@ def pdf():
         try:
             pdffile = build_pdf(tex)
             return Response(bytes(pdffile), mimetype='application/pdf')
-        except LatexBuildError as e:
-            return Response(tex, mimetype='text/plain')
+        except: #LatexBuildError as e:
+            sorry = '\%Unfortunately the server failed to compile this file.\n'
+            return Response(sorry+tex, mimetype='text/plain')
 
 if __name__ == '__main__':
     app.run(debug=True)
