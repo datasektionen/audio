@@ -1,1 +1,1 @@
-web: gunicorn audio:app
+web: python audio.py
