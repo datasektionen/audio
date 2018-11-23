@@ -7,9 +7,12 @@ const List = styled.div`
 
 const ListItem = styled.div`
   transition: none;
-  h2 {
+  background: #FFF;
+  h2#h2 { /* need to do this because aurora */
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 10px 0;
 
     span {
       flex: 1;
@@ -30,7 +33,11 @@ const ListItem = styled.div`
     }
   }
 
-  #text {
+  p {
+    padding: 10px;
+  }
+
+  #text { /* aurora pls */
     white-space: pre-wrap;
     color: black;
   }
@@ -84,7 +91,7 @@ export const Playlist = ({ songs, expanded, setExpanded, playlist, setPlaylist }
                 {({ draggableProps, dragHandleProps, innerRef }) =>
                   <ListItem ref={innerRef} {...draggableProps} >
                     <>
-                      <h2 {...dragHandleProps} onClick={() => song.id === expanded ? setExpanded(false) : setExpanded(song.id)}>
+                      <h2 id="h2" {...dragHandleProps} onClick={() => song.id === expanded ? setExpanded(false) : setExpanded(song.id)}>
                         <span>
                           {song.title} {song.alttitle && `(${song.alttitle})`}
                         </span>
