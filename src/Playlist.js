@@ -70,7 +70,7 @@ export const Playlist = ({ songs, expanded, setExpanded, playlist, setPlaylist }
                     <div>
                       <h2 {...dragHandleProps}>
                         <Button onClick={e => removeSong(song, e)}>
-                          -
+                          remove
                         </Button>
                         <Button onClick={() => song.id === expanded ? setExpanded(false) : setExpanded(song.id)} >
                           {song.id === expanded ? 'contract' : 'expand'}

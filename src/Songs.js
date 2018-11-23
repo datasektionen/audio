@@ -38,7 +38,7 @@ export const Songs = ({ songList, addToPlaylist, setExpanded }) => {
 
   const handleSearchChange = e => {
     if(e.target.value) {
-      fuzzysort.goAsync(e.target.value, songList, {keys: ['title', 'alttitle', 'id'], allowTypo: true})
+      fuzzysort.goAsync(e.target.value, songList, {keys: ['title', 'alttitle', 'firstline', 'id'], allowTypo: true})
         .then(s => setSongs(s.map(s => ({
             ...s.obj,
             title: fuzzysort.highlight(s[0]) || s.obj.title,
@@ -78,9 +78,7 @@ export const Songs = ({ songList, addToPlaylist, setExpanded }) => {
           href={'/' + song.id}
           onClick={e => playNow(song.id, e)}
         >
-          <span dangerouslySetInnerHTML={{__html:
-            `${song.title}${song.alttitle ? ` (${song.alttitle})` : ''}`}}
-          />
+          <span dangerouslySetInnerHTML={{__html: `${song.title}${song.alttitle ? ` (${song.alttitle})` : ''}`}} />
 
           <Button onClick={e => playNext(song.id, e)}>
             Add next
