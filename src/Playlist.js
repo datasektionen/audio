@@ -1,29 +1,34 @@
 import React from 'react'
 import styled from 'styled-components'
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
 
 const List = styled.div`
 `
 
-const ListItem = styled.a`
-  display: block;
-  margin: 5px 0;
-  padding: 10px;
-  border: 1px solid #EEE;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+const ListItem = styled.div`
   transition: none;
+  border: 1px solid black;
+  #text {
+    white-space: pre-wrap;
+    color: black;
+  }
 
-  :hover {
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    background: #EEE;
+  .meta {
+    white-space: pre-wrap;
+  }
+
+  .notes {
+    ol {
+      margin-left: 40px;
+    }
   }
 `
 
 const Button = styled.button`
-  margin-left: auto;
+  float: right;
 `
 
-export const Playlist = ({ songs, setSong, playlist, setPlaylist }) => {
+export const Playlist = ({ songs, expanded, setExpanded, playlist, setPlaylist }) => {
   const removeSong = (song, e) => {
     e.stopPropagation()
     e.preventDefault()
@@ -61,22 +66,29 @@ export const Playlist = ({ songs, setSong, playlist, setPlaylist }) => {
             {playlist.map(songId => songs[songId]).map((song, index) =>
               <Draggable key={song.id} draggableId={song.id} index={index}>
                 {({ draggableProps, dragHandleProps, innerRef }) =>
-                  <ListItem
-                    href={'/' + song.id}
-                    ref={innerRef}
-                    {...draggableProps}
-                    {...dragHandleProps}
-                    onClick={e => {
-                      e.preventDefault()
-                      setSong(song.id)
-                    }}
-                  >
-                    <span dangerouslySetInnerHTML={{__html:
-                      `${song.title}${song.alttitle ? ` (${song.alttitle})` : ''}`}}
-                    />
-                    <Button onClick={e => removeSong(song, e)}>
-                      -
-                    </Button>
+                  <ListItem ref={innerRef} {...draggableProps} >
+                    <div>
+                      <h2 {...dragHandleProps}>
+                        <Button onClick={e => removeSong(song, e)}>
+                          -
+                        </Button>
+                        <Button onClick={() => song.id === expanded ? setExpanded(false) : setExpanded(song.id)} >
+                          {song.id === expanded ? 'contract' : 'expand'}
+                        </Button>
+
+                        {song.title} {song.alttitle && `(${song.alttitle})`}
+                      </h2>
+                      {
+                        song.id === expanded &&
+                        <>
+                          <p className='meta'>
+                            {song.meta}
+                          </p>
+                          <p id='text' dangerouslySetInnerHTML={{__html: song.text}} />
+                          <p className='notes' dangerouslySetInnerHTML={{__html: song.notes}} />
+                        </>
+                      }
+                    </div>
                   </ListItem>
                 }
               </Draggable>)}

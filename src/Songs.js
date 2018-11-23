@@ -13,7 +13,7 @@ const Search = styled.input`
 const List = styled.div`
 `
 
-const ListItem = styled.a`
+const ListItem = styled.div`
   display: block;
   margin: 5px 0;
   padding: 10px;
@@ -24,14 +24,15 @@ const ListItem = styled.a`
   :hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     background: #EEE;
+    cursor: pointer;
   }
 `
 
 const Button = styled.button`
-  margin-left: auto;
+  float: right;
 `
 
-export const SongList = ({ setSong, songList, addToPlaylist }) => {
+export const Songs = ({ songList, addToPlaylist, setExpanded }) => {
 
   const [ songs, setSongs ] = useState(songList)
 
@@ -49,9 +50,19 @@ export const SongList = ({ setSong, songList, addToPlaylist }) => {
     }
   }
 
-  const addSong = (songId, e) => {
+  const playNow = (songId, e) => {
+    window.scroll(0, 100)
+    addToPlaylist(songId, true)
+    setExpanded(songId)
+  }
+
+  const playNext = (songId, e) => {
     e.stopPropagation()
-    e.preventDefault()
+    addToPlaylist(songId, true)
+  }
+
+  const addToQueue = (songId, e) => {
+    e.stopPropagation()
     addToPlaylist(songId)
   }
 
@@ -65,21 +76,21 @@ export const SongList = ({ setSong, songList, addToPlaylist }) => {
         <ListItem
           key={song.id}
           href={'/' + song.id}
-          onClick={e => {
-            e.preventDefault()
-            setSong(song.id)
-            window.scroll(0, 0)
-          }}
+          onClick={e => playNow(song.id, e)}
         >
           <span dangerouslySetInnerHTML={{__html:
             `${song.title}${song.alttitle ? ` (${song.alttitle})` : ''}`}}
           />
-          <Button onClick={e => addSong(song.id, e)}>
-            +
+
+          <Button onClick={e => playNext(song.id, e)}>
+            Add next
+          </Button>
+          <Button onClick={e => addToQueue(song.id, e)}>
+            Add last
           </Button>
         </ListItem>)}
     </List>
   </>
 }
 
-export default SongList
+export default Songs
