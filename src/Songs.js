@@ -6,30 +6,54 @@ import fuzzysort from 'fuzzysort'
 const Search = styled.input`
   width: 100%;
   padding: 10px;
+  margin: 10px 0;
   border: 1px solid #EEE;
   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.1em;
 `
 
 const List = styled.div`
+  margin: 10px 0;
 `
 
 const ListItem = styled.div`
-  display: block;
+  display: flex;
   margin: 5px 0;
   padding: 10px;
   border: 1px solid #EEE;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   transition: none;
+  align-items: center;
+
+  font-size: 1.1em;
 
   :hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     background: #EEE;
     cursor: pointer;
   }
-`
 
-const Button = styled.button`
-  float: right;
+  span {
+    flex: 1;
+  }
+
+  button {
+    margin-left: 5px;
+    padding: 0;
+    width: 2em;
+    height: 2em;
+    background: none;
+    box-shadow: none;
+    color: #ff5722;
+
+    :hover {
+      font-weight: bold;
+    }
+
+    @media only screen and (max-width: 600px) {
+      margin-left: 0;
+    }
+  }
 `
 
 export const Songs = ({ songList, addToPlaylist, setExpanded }) => {
@@ -73,19 +97,20 @@ export const Songs = ({ songList, addToPlaylist, setExpanded }) => {
     />
     <List>
       {songs.map(song =>
-        <ListItem
-          key={song.id}
-          href={'/' + song.id}
-          onClick={e => playNow(song.id, e)}
-        >
+        <ListItem key={song.id} onClick={e => playNow(song.id, e)} >
           <span dangerouslySetInnerHTML={{__html: `${song.title}${song.alttitle ? ` (${song.alttitle})` : ''}`}} />
-
-          <Button onClick={e => playNext(song.id, e)}>
-            Add next
-          </Button>
-          <Button onClick={e => addToQueue(song.id, e)}>
-            Add last
-          </Button>
+          <button
+            title="Add after the currently expanded song. First if no song is expanded."
+            onClick={e => playNext(song.id, e)}
+          >
+            ›
+          </button>
+          <button
+            title="Add to the end of the queue."
+            onClick={e => addToQueue(song.id, e)}
+          >
+            ››
+          </button>
         </ListItem>)}
     </List>
   </>

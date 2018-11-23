@@ -5,5 +5,11 @@ body {
 }
 
 .primary-action {
-	margin-left: 5px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+  header .header-inner .header-right a.primary-action {
+    display: none;
+  }
 }

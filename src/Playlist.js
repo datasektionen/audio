@@ -7,7 +7,29 @@ const List = styled.div`
 
 const ListItem = styled.div`
   transition: none;
-  border: 1px solid black;
+  h2 {
+    display: flex;
+    align-items: center;
+
+    span {
+      flex: 1;
+    }
+
+    button {
+      margin-left: 5px;
+      padding: 0;
+      width: 2em;
+      height: 2em;
+      background: none;
+      box-shadow: none;
+      color: #ff5722;
+
+      :hover {
+        font-weight: bold;
+      }
+    }
+  }
+
   #text {
     white-space: pre-wrap;
     color: black;
@@ -18,15 +40,12 @@ const ListItem = styled.div`
   }
 
   .notes {
-    ol {
+    ol { /* Specifically for the ahrskours-visah */
       margin-left: 40px;
     }
   }
 `
 
-const Button = styled.button`
-  float: right;
-`
 
 export const Playlist = ({ songs, expanded, setExpanded, playlist, setPlaylist }) => {
   const removeSong = (song, e) => {
@@ -36,10 +55,7 @@ export const Playlist = ({ songs, expanded, setExpanded, playlist, setPlaylist }
   }
 
   const onDragEnd = result => {
-    // dropped outside the list
-    if (!result.destination) {
-      return
-    }
+    if (!result.destination) return
 
     const source = result.source.index
     const destination = result.destination.index
@@ -67,16 +83,17 @@ export const Playlist = ({ songs, expanded, setExpanded, playlist, setPlaylist }
               <Draggable key={song.id} draggableId={song.id} index={index}>
                 {({ draggableProps, dragHandleProps, innerRef }) =>
                   <ListItem ref={innerRef} {...draggableProps} >
-                    <div>
-                      <h2 {...dragHandleProps}>
-                        <Button onClick={e => removeSong(song, e)}>
-                          remove
-                        </Button>
-                        <Button onClick={() => song.id === expanded ? setExpanded(false) : setExpanded(song.id)} >
-                          {song.id === expanded ? 'contract' : 'expand'}
-                        </Button>
-
-                        {song.title} {song.alttitle && `(${song.alttitle})`}
+                    <>
+                      <h2 {...dragHandleProps} onClick={() => song.id === expanded ? setExpanded(false) : setExpanded(song.id)}>
+                        <span>
+                          {song.title} {song.alttitle && `(${song.alttitle})`}
+                        </span>
+                        <button onClick={() => song.id === expanded ? setExpanded(false) : setExpanded(song.id)} >
+                          {song.id === expanded ? ' ⌃' : '⌄'}
+                        </button>
+                        <button className="remove" onClick={e => removeSong(song, e)}>
+                          x
+                        </button>
                       </h2>
                       {
                         song.id === expanded &&
@@ -88,7 +105,7 @@ export const Playlist = ({ songs, expanded, setExpanded, playlist, setPlaylist }
                           <p className='notes' dangerouslySetInnerHTML={{__html: song.notes}} />
                         </>
                       }
-                    </div>
+                    </>
                   </ListItem>
                 }
               </Draggable>)}
