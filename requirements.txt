@@ -1,3 +1,0 @@
-latex
-responder<1.1.2
-starlette<0.8.0
