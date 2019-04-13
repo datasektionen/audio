@@ -32,7 +32,7 @@ const replacements = [
   [/\\textit\{(.*)\}/g, '<i>$1</i>'],
   [/\\paragraph\{(.*)\}/g, '<p>$1</p>'],
   [/\\setlength\{\\(parskip|itemsep)\}\{0cm\}\s/g, ''],
-  [/\\begin\{enumerate\}\s\\setcounter\{enumi\}\{(\d+)\}/g, '<ol start=$1>'],
+  [/\\begin\{enumerate\}\s\\setcounter\{enumi\}\{(\d+)\}/g, (_, p1) => `<ol start=${parseInt(p1) + 1}>`],
   [/\\end\{enumerate\}/g, '</ol>'],
 ]
 
