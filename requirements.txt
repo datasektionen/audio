@@ -1,2 +1,0 @@
-latex
-https://github.com/kennethreitz/responder/archive/master.zip

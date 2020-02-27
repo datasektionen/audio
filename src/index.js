@@ -130,14 +130,7 @@ const Header = ({ playlist }) =>
       <div className="row">
         <div className="header-left col-md-3"></div>
         <div className="col-md-6"><h2>/dev/audio</h2></div>
-        <div className="header-right col-md-3">
-          <a className="primary-action" href={`/songs.tex?songids=${playlist.join(',')}`}>
-            TeX
-          </a>
-          <a className="primary-action" href={`/songs.pdf?songids=${playlist.join(',')}`}>
-            PDF
-          </a>
-        </div>
+        <div className="header-right col-md-3"></div>
       </div>
     </div>
   </header>
