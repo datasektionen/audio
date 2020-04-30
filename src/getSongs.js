@@ -1,6 +1,7 @@
 const glob = require('glob')
 const fs = require('fs')
 const path = require('path')
+const katex = require('katex')
 
 const songFiles = glob.sync('./songs/*.tex')
 
@@ -15,6 +16,8 @@ const replacements = [
   [/\\sci\{\}/g, 'I'],
   [/\\ng\{\}/g, 'ŋ'],
   [/\\begin\{math\}\\rho\\end\{math\}/g, 'ρ'],
+  [/\$([^\$]+)\$/g, (_, math) => katex.renderToString(math)],
+  [/\$([^\$]+)\$/g, (_, math) => katex.renderText(math)],
   [/\\sqrt\{(.*)\}/g, '√<span style="text-decoration:overline;">$1</span>'],
   [/\\textquotedblleft\{\}/g, '“'],
   [/\\textquotedblright\{\}/g, '”'],
