@@ -4,7 +4,7 @@ from os import listdir
 from os.path import join, splitext
 from string import digits, ascii_letters
 
-api = responder.API(static_dir='build', static_route='/build')
+api = responder.API(static_dir='build', static_route='/')
 
 api.add_route('/', static=True, default=True)
 
