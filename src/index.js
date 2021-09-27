@@ -21,7 +21,7 @@ const config = {
   links: [
     {
       str: "Trippeln",
-      href: "/portos_visa,hej_pa_er_broder_alla,skitakare_andersson#portos_visa"
+      href: "/portos_visa,skitakare_andersson,hej_pa_er_broder_alla#portos_visa"
     },
     {
       str: "Årskursvisan",
