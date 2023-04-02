@@ -9,7 +9,6 @@ FROM rust:1.67
 WORKDIR /usr/src/audio
 COPY --from=builder /usr/src/audio /usr/src/audio
 RUN cargo install --path .
-RUN cargo clean
 
 EXPOSE 8000
 
