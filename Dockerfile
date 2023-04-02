@@ -3,6 +3,8 @@ FROM rust:1.64
 WORKDIR /usr/src/audio
 COPY . .
 
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+RUN nvm install 16
 RUN apt-get install npm
 RUN npm install
 RUN npm run build
