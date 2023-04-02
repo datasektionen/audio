@@ -1,0 +1,2 @@
+[default.databases.audio]
+url = "postgresql://terra@localhost:5432/audio"
