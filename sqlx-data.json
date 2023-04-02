@@ -1,0 +1,75 @@
+{
+  "db": "PostgreSQL",
+  "40d94fe315e4a5a3998d5b6138a731b7aa49493df994a65ffe5fb5795cf42687": {
+    "describe": {
+      "columns": [
+        {
+          "name": "id",
+          "ordinal": 0,
+          "type_info": "Varchar"
+        },
+        {
+          "name": "title",
+          "ordinal": 1,
+          "type_info": "Varchar"
+        },
+        {
+          "name": "alttitle",
+          "ordinal": 2,
+          "type_info": "Varchar"
+        },
+        {
+          "name": "firstline",
+          "ordinal": 3,
+          "type_info": "Varchar"
+        },
+        {
+          "name": "meta",
+          "ordinal": 4,
+          "type_info": "Varchar"
+        },
+        {
+          "name": "text",
+          "ordinal": 5,
+          "type_info": "Text"
+        },
+        {
+          "name": "notes",
+          "ordinal": 6,
+          "type_info": "Varchar"
+        }
+      ],
+      "nullable": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "parameters": {
+        "Left": []
+      }
+    },
+    "query": "SELECT id, title, alttitle, firstline, meta, text, notes FROM songs;"
+  },
+  "e8c82a09e033e2a19a1ade5a57ac61b0048caad4ecd8a0f39fd6d7416d013382": {
+    "describe": {
+      "columns": [],
+      "nullable": [],
+      "parameters": {
+        "Left": [
+          "Varchar",
+          "Varchar",
+          "Varchar",
+          "Varchar",
+          "Varchar",
+          "Text",
+          "Varchar"
+        ]
+      }
+    },
+    "query": "INSERT INTO songs (id, title, alttitle, firstline, meta, text, notes) VALUES ($1, $2, $3, $4, $5, $6, $7) ON CONFLICT DO NOTHING"
+  }
+}
