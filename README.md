@@ -15,5 +15,9 @@ npm install
 Start development server
 
 ```bash
-npm start && python audio.py
+npm start
 ```
+
+In case you're getting webpack errors, you can attempt to solve it by
+running `npm dedupe` to fix multiple versions of webpack being
+installed. We tried removing webpack, but then it *also* complained.
