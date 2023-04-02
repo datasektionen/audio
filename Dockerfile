@@ -7,7 +7,7 @@ RUN rm -rf node-modules
 
 FROM rust:1.64
 WORKDIR /usr/src/audio
-COPY --from=builder /usr/src/audio
+COPY --from=builder /usr/src/audio /usr/src/audio
 RUN cargo install sqlx-cli
 RUN cargo sqlx prepare
 RUN cargo install --path .
