@@ -3,10 +3,10 @@ FROM rust:1.64
 WORKDIR /usr/src/audio
 COPY . .
 
-RUN wget https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.xz
-RUN tar xf node-v18.15.0-linux-x64.tar.xz
-RUN mv node-v18.15.0-linux-x64/bin/node /bin
-RUN mv node-v18.15.0-linux-x64/bin/npm /bin
+RUN wget https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.xz \
+    && tar xf node-v18.15.0-linux-x64.tar.xz \
+    && mv node-v18.15.0-linux-x64/bin/node /bin \
+    && mv node-v18.15.0-linux-x64/bin/npm /bin
 RUN npm install
 RUN npm run build
 RUN cargo install sqlx-cli
