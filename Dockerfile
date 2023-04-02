@@ -3,9 +3,9 @@ FROM rust:1.64
 WORKDIR /usr/src/audio
 COPY . .
 
-RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-RUN nvm install 16
-RUN apt-get install npm
+RUN curl https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.xz
+RUN tar xvf node-v18.15.0-linux-x64.tar.xz
+RUN mv node-v18.15.0-linux-x64/bin/{node,npm} /bin
 RUN npm install
 RUN npm run build
 RUN cargo install sqlx-cli
