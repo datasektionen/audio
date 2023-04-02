@@ -3,7 +3,7 @@ FROM rust:1.64
 WORKDIR /usr/src/audio
 COPY . .
 
-RUN curl https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.xz
+RUN wget https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.xz
 RUN tar xvf node-v18.15.0-linux-x64.tar.xz
 RUN mv node-v18.15.0-linux-x64/bin/{node,npm} /bin
 RUN npm install
