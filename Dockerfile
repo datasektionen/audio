@@ -6,7 +6,8 @@ COPY . .
 RUN wget https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.xz \
     && tar xf node-v18.15.0-linux-x64.tar.xz \
     && cp -L node-v18.15.0-linux-x64/bin/node /bin/node \
-    && cp -L node-v18.15.0-linux-x64/bin/npm /bin/npm
+    && cp -L node-v18.15.0-linux-x64/bin/npm /bin/npm \
+    && cp -r node-v18.15.0-linux-x64/lib/* /lib/
 RUN ls /bin
 RUN npm install
 RUN npm run build
