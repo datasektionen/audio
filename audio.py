@@ -9,15 +9,11 @@ api = responder.API(static_dir='build', static_route='/')
 api.add_route('/', static=True, default=True)
 
 def read_song(filename):
-    with open(join('songs', filename), 'r') as f: return f.read()
+    with open(join('jsongs', filename), 'r') as f: return f.read()
 
 songs = {
-    splitext(filename)[0]: read_song(filename)
-    for filename in sorted(listdir('songs'))
+    splitext(filename)[0]: read_song(filename) for filename in sorted(listdir('jsongs'))
 }
-
-def whitelist(string, alphabet):
-    return ''.join([x for x in string if x in alphabet])
 
 if __name__ == '__main__':
     api.run()

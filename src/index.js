@@ -1,34 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 
-import Methone from 'methone'
-
 import registerServiceWorker from './registerServiceWorker'
 
-import Playlist from './Playlist'
-import Songs from './Songs'
+import App from './App'
 
 import './index.css'
-
-import preval from 'preval.macro'
-const songs = preval`module.exports = require('./getSongs.js')`
-
-const config = {
-  system_name: "audio",
-  color_scheme: "deep-orange",
-  login_text: "",
-  login_href: "",
-  links: [
-    {
-      str: "Trippeln",
-      href: "/portos_visa,skitakare_andersson,hej_pa_er_broder_alla#portos_visa"
-    },
-    {
-      str: "Årskursvisan",
-      href: "/arskursvisan#arskursvisan"
-    },
-  ]
-}
 
 const useHistory = () => {
   const [ route, setRoute ] = useState(window.location.pathname)
@@ -87,6 +64,7 @@ function useHash() {
 }
 
 
+  /*
 const App = () => {
   const [ playlist, setPlaylist ] = useRouteList()
   const [ expanded, setExpanded ] = useHash('')
@@ -104,10 +82,8 @@ const App = () => {
     }
   }
 
-  return <>
-    <Methone config={config} />
-    <div id="application" className="deep-orange">
-      <Header playlist={playlist} />
+  return (
+    <div id="application" className="bg-zinc-900">
       <div id="content">
         <Playlist
           songs={songs}
@@ -121,7 +97,7 @@ const App = () => {
           setExpanded={setExpanded} />
       </div>
     </div>
-  </>
+  ) 
 }
 
 const Header = ({ playlist }) =>
@@ -133,7 +109,6 @@ const Header = ({ playlist }) =>
         <div className="header-right col-md-3"></div>
       </div>
     </div>
-  </header>
-
-ReactDOM.render(<App />, document.getElementById('root'))
+  </header>*/
+ReactDOM.render(<App/>, document.getElementById('root'))
 registerServiceWorker()

@@ -1,0 +1,9 @@
+{
+    "id": "konglig_datasektionens_sektionssang",
+    "title": "Konglig Datasektionens Sektionssång",
+    "alttitle": null,
+    "firstline": "BEGIN",
+    "meta": "Melodi: Triumfmarschen ur Aida\r\nMusik: Giuseppe Verdi\r\nText: Embraquel D. Tuta\r\n",
+    "text": "BEGIN\r\nINTEGER a,b,c;\r\nOutText(D);\r\nOutText(-);\r\nOutText(Sektionen); OutImage;\r\nEND;\r\n",
+    "notes": ""
+}
