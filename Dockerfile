@@ -11,5 +11,5 @@ COPY --from=builder /usr/src/audio /usr/src/audio
 RUN cargo install --path .
 
 EXPOSE 8000
-
+ENV ROCKET_ENV=staging
 CMD ["audio"]
