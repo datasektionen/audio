@@ -1,0 +1,10 @@
+-- Add migration script here
+CREATE TABLE songs (
+       id VARCHAR PRIMARY KEY,
+       title VARCHAR NOT NULL,
+       alttitle VARCHAR,
+       firstline VARCHAR,
+       meta VARCHAR NOT NULL,
+       songtext TEXT,
+       notes VARCHAR
+)

@@ -1,0 +1,19 @@
+[package]
+name = "audio"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+rocket = { version = "=0.5.0-rc.3", features = ["json"] }
+
+[dependencies.sqlx]
+version = "0.6.0"
+default-features = false
+features = ["macros", "offline", "migrate"]
+
+[dependencies.rocket_db_pools]
+version = "=0.1.0-rc.3"
+features = ["sqlx_postgres"]

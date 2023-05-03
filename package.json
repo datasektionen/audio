@@ -1,37 +1,37 @@
 {
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "fuzzysort": "^1.1.4",
-    "katex": "^0.11.1",
-    "methone": "^1.0.0",
-    "preval.macro": "^3.0.0",
-    "react": "^16.7.0-alpha.2",
-    "react-beautiful-dnd": "^10.0.2",
-    "react-dom": "^16.7.0-alpha.2",
-    "react-scripts": "^5.0.1",
-    "seedrandom": "^3.0.5",
-    "styled-components": "^4.1.1",
-    "tailwind-scrollbar": "^2.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "homepage": "/",
-  "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.19",
-    "tailwindcss": "^3.2.4"
-  }
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "fuzzysort": "^1.9.0",
+        "katex": "^0.11.1",
+        "methone": "^1.0.0",
+        "preval.macro": "^3.0.0",
+        "react": "^17.0",
+        "react-dom": "^17.0",
+        "react-scripts": "^5.0.1",
+        "seedrandom": "^3.0.5",
+        "styled-components": "^4.4.1",
+        "tailwind-scrollbar": "^2.0.1",
+        "webpack": "^5.77.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "heroku-postbuild": "npm run build"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "homepage": "/",
+    "devDependencies": {
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.19",
+        "tailwindcss": "^3.2.4"
+    }
 }
