@@ -32,7 +32,7 @@ export const App = () => {
     const [ songs, setSongs ] = useState({});
     useEffect(() => {
         const getSongs = async () => {
-            let url = "http://" + window.location.host + "/songs.json";
+            let url = "https://" + window.location.host + "/songs.json";
             console.log(url)
             var res = await fetch(url);
             var json = await res.json();
