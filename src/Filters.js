@@ -2,11 +2,23 @@ import React, { useState, useEffect } from 'react'
 
 const defaultChapterName = "Övriga Sånger"
 
-export const Filters = ({hidden, partitions, chosenPartition, setChosenPartition}) => {
 
+//Counts number of applied filters.
+
+
+export const Filters = ({partitions, chosenPartition, setChosenPartition}) => {
+
+    let clearFilters = () => {
+        setChosenPartition(-1)
+    }
+
+    //Count number of applied filters
+    let numFilters = 0
+    numFilters += chosenPartition != -1
+
+    const [ hidden, setHidden ] = useState(true)
     const [ showPartitions, setShowPartitions ] = useState(false)
 
-    console.log(chosenPartition)
     
     let partitionName = getPartitionName(chosenPartition, partitions)
     
@@ -16,6 +28,15 @@ export const Filters = ({hidden, partitions, chosenPartition, setChosenPartition
     }
 
     return (
+        <div>
+            <div className='flex flex-row '>
+              <button className='text-white flex-grow font-thin hover:bg-[#222222]  rounded-3xl' onClick={() => setHidden(!hidden)}>
+                {hidden?"Visa Filter":"Dölj Filter"}
+              </button>
+              <button className={`${numFilters==0?"hidden":""} text-white flex-grow font-thin hover:bg-[#222222]  rounded-3xl`} onClick={() => clearFilters()}>
+            {`Rensa Filter (${numFilters})`}
+              </button>
+            </div>
         <div className={`${hidden?"py-0" : "py-2"} my-2 p-4 bg-transparent text-white`}>
             <div class={`${hidden?"h-0" : "h-[30pt]"} overflow-hidden ${showPartitions?"overflow-visible" : ""} flex flex-col justify-center`}>
                 <div>
@@ -29,7 +50,7 @@ export const Filters = ({hidden, partitions, chosenPartition, setChosenPartition
                     </button>
                         
                         <div hidden={!showPartitions} class="absolute left-0 z-10 ml-28 mt-2 py-2 rounded-md bg-[#222222] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                            <div class="mx-6 py-1 mr-2 flex flex-col max-h-[50vh] overflow-y-scroll scrollbar-thin scrollbar-thumb-zinc-500 scrollbar-track-zinc-900 scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
+                            <div class="mx-6 py-1 mr-2 flex flex-col max-h-[55vh] overflow-y-scroll scrollbar-thin scrollbar-thumb-zinc-500 scrollbar-track-zinc-900 scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
                             {[-1, ...Array(partitions.length).keys(), -2].map(part => 
                                 <button class="bg-transparent hover:bg-[#333333] px-5 mr-4"
                                             onClick={() => {
@@ -47,6 +68,7 @@ export const Filters = ({hidden, partitions, chosenPartition, setChosenPartition
                 </div>
             </div>
         </div>
+    </div>
     )
 }
 

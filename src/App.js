@@ -5,7 +5,8 @@ import preval from 'preval.macro'
 import React, { useState, useEffect } from 'react'
 import SongBook from './SongBook';
 
-// const songs = preval`module.exports = require('./getSongs.js')`
+const partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till Ölet", "Sånger till Vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga Sånger"]
+const staticSongs = preval`module.exports = require('./getSongs.js')`
 const originUrl = window.location.hostname;
 var seedrandom = require('seedrandom');
 
@@ -32,14 +33,16 @@ export const App = () => {
     const [ songs, setSongs ] = useState({});
     useEffect(() => {
         const getSongs = async () => {
-            let url = "http://" + window.location.host + "/songs.json";
-            console.log(url)
-            var res = await fetch(url);
-            var json = await res.json();
-            console.log(json);
-            globalSongs = json;
+            //let url = "http://" + window.location.host + "/songs.json";
+            //console.log(url)
+            //var res = await fetch(url);
+            //console.log(res)
+            //var json = await res.text();
+            //console.log(json);
+            console.log(staticSongs);
+            globalSongs = staticSongs;
             setSongOfTheDay();
-            setSongs(json);
+            setSongs(staticSongs);
             setIsLoading(false);
         };
         getSongs();
@@ -125,11 +128,11 @@ export const App = () => {
             <div className="flex-1 flex flex-row h-0"> {/*"calc(100vh-9rem)" calculates viewport height minues header height.*/}
             <div className="flex-grow"/>
             <div className="flex-grow w-[700pt] m-auto">
-            <SongBook bookletList={bookletList} allSongs={songs} songIndex={songIndex} setSongIndex={setSongIndex} />
+            <SongBook bookletList={bookletList} allSongs={songs} songIndex={songIndex} setSongIndex={setSongIndex} partitions={partitions}/>
             </div>
             {/* Sidebar */}
             <div className="flex-grow"/>
-            <SearchBar allSongs={Object.values(songs)} addToBooklet={addToBooklet} bookletList={bookletList}/>
+            <SearchBar allSongs={Object.values(songs)} addToBooklet={addToBooklet} bookletList={bookletList} partitions={partitions}/>
             </div>
 
             </div>

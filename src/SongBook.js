@@ -1,7 +1,7 @@
 import {ReactComponent as Cover} from './assets/Omslag.svg';
 import SongPage from './SongPage';
 
-export const SongBook = ({ bookletList, allSongs, songIndex, setSongIndex }) => {
+export const SongBook = ({ bookletList, allSongs, songIndex, setSongIndex, partitions}) => {
 
     var leftMostPage = songIndex === 0 || songIndex === -1
     var rightMostPage = songIndex === bookletList.length - 1
@@ -28,7 +28,13 @@ export const SongBook = ({ bookletList, allSongs, songIndex, setSongIndex }) => 
                 bookletList.length == 0 || songIndex < 0 ?
                 <Cover fill="#EE2A7B" className="max-w-[200pt] h-min p-4"/>
                 :
-                    <SongPage song={allSongs[bookletList[songIndex]]} bookletIndex={songIndex} />
+                    <div className='flex flex-col'>
+                        <SongPage song={allSongs[bookletList[songIndex]]} bookletIndex={songIndex} partitions={partitions}/>
+                        <div className='align-center text-[#777777]'>
+                            {`${songIndex + 1}/${bookletList.length}`}
+                        </div>
+                    </div>
+                    
                 }
                 <button onClick={incrementIndex} disabled={rightMostPage} className="invisible w-0 h-0 landscape:visible bg-zinc-600 md:w-16 md:h-16 m-auto rounded-full hover:bg-zinc-500 disabled:hover:bg-zinc-800 disabled:bg-zinc-800 disabled:text-gray-500">
                     {">"}
