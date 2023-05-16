@@ -2,10 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 const defaultChapterName = "Övriga Sånger"
 
-
-//Counts number of applied filters.
-
-
+// The component below the SearchBar, handling search filters
 export const Filters = ({partitions, chosenPartition, setChosenPartition}) => {
 
     let clearFilters = () => {
@@ -19,9 +16,9 @@ export const Filters = ({partitions, chosenPartition, setChosenPartition}) => {
     const [ hidden, setHidden ] = useState(true)
     const [ showPartitions, setShowPartitions ] = useState(false)
 
-    
+
     let partitionName = getPartitionName(chosenPartition, partitions)
-    
+
 
     if(hidden && showPartitions){
         setShowPartitions(false);
@@ -48,10 +45,10 @@ export const Filters = ({partitions, chosenPartition, setChosenPartition}) => {
                             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                         </svg>
                     </button>
-                        
+
                         <div hidden={!showPartitions} class="absolute left-0 z-10 ml-28 mt-2 py-2 rounded-md bg-[#222222] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                             <div class="mx-6 py-1 mr-2 flex flex-col max-h-[55vh] overflow-y-scroll scrollbar-thin scrollbar-thumb-zinc-500 scrollbar-track-zinc-900 scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
-                            {[-1, ...Array(partitions.length).keys(), -2].map(part => 
+                            {[-1, ...Array(partitions.length).keys(), -2].map(part =>
                                 <button class="bg-transparent hover:bg-[#333333] px-5 mr-4"
                                             onClick={() => {
                                             setChosenPartition(part);
@@ -60,7 +57,7 @@ export const Filters = ({partitions, chosenPartition, setChosenPartition}) => {
                                         {getPartitionName(part, partitions)}
                                     </button>
                                 )}
- 
+
                             </div>
                         </div>
                         </div>

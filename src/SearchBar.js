@@ -12,12 +12,12 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
   const [ songs, setSongs ] = useState(allSongs)
   const [ show, setShow ] = useState(true)
 
-  //If song changes,
-  useEffect(() => {
+  //If song changes, if small screen, collapse search bar.
+  const checkAddedSongCollapse = e => {
     if(show && window.innerWidth < 768){
       handleCollapse()
     }
-  }, [bookletList])
+  }
 
   const handleCollapse = e => {
     setShow(!show)
@@ -28,8 +28,10 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
     let filteredSongs = allSongs.filter(song =>  {
       if(chosenPartition >= 0){
         //Partition chosen
-        return "partition" in song && song.partition == chosenPartition + 1// Add 1 because only partitions 1 and onward are present.
-                                                                           //(partition 0 is only in the physical copy)
+        // Add 1 because only partitions 1 and onward are present.
+        // (partition 0 is only in the physical copy)
+        return "partition" in song && song.partition == chosenPartition + 1
+
       } else if(chosenPartition == -2){
         //Other Songs
         return !("partition" in song)
@@ -52,7 +54,7 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
       }
   }
   return (
-    <div className={`${show? "w-[350pt]":"w-0"} min-w-0 max-w-full pt-28 md:pt-0 py-10 absolute inset-y-0 right-0 z-10 md:static h-full flex flex-row justify-end`}>
+    <div className={`${show? "w-[350pt]":"w-0"} min-w-0 max-w-full pt-28 md:pt-0 py-10 absolute inset-y-0 right-0 z-8 md:static h-full flex flex-row justify-end`}>
         <button className='my-auto min-w-[3rem] md:min-w-[2.5rem] h-24 p-3 rounded-l-2xl bg-zinc-800 text-white hover:bg-zinc-700' onClick={handleCollapse}>
             {show?">":"<"}
         </button>
@@ -62,14 +64,14 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
                 placeholder = "Kalmarevisan"
                 onChange={(e) => handleSearchChange(e.target.value.trim())}
             />
-            
-            
+
+
             <Filters partitions={partitions} chosenPartition={chosenPartition} setChosenPartition={(partition) => {chosenPartition = partition; handleSearchChange(searchString);}}/>
             <hr className='border-[#333333] m-1 mx-3'/>
             <div className='scroll overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-500 scrollbar-track-zinc-900 scrollbar-thumb-rounded-full scrollbar-track-rounded-full '>
 
                 {songs.map(song =>
-                    <SongTile key={song.id} song ={song} addToBooklet={addToBooklet} handleCollapse={handleCollapse}/>
+                    <SongTile key={song.id} song ={song} addToBooklet={(id, song) => {addToBooklet(id, song); checkAddedSongCollapse();}} handleCollapse={handleCollapse}/>
                 )}
             </div>
         </div>
