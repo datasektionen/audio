@@ -6,7 +6,9 @@
         "firstline": null,
         "meta": "Melodi: Ritsch-ratsch\r\nSpråk: Siffror\r\n",
         "text": "1 2 45 6 7 45 6 7 45 6 7\r\n3 2 45 7 1 43 7 1 92\r\n103 102 101 105 6 19 47\r\n19 18 17 16 15 14 13 11\r\n16 17 18 19 13 55\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 11,
+        "5ePage": 183
     },
     "agdas_skal": {
         "id": "agdas_skal",
@@ -15,7 +17,9 @@
         "firstline": "Ni som samlat er här",
         "meta": "Melodi: The Star-Spangled Banner  (John Stafford Smith)\r\nText: M. Hammarström, T91\r\nSektion: Flyg\r\n",
         "text": "Ni som samlat er här\r\nifrån fjärran och när,\r\nsäg, vad vore vår värld\r\nutan farkoster alla?\r\n\r\nSedan Noak så stark\r\nseglat flott med sin ark\r\nfinnes fartyg för färd\r\növer djupen de kalla.\r\n\r\nHögt dit upp i det blå,\r\nvar och en kan förstå,\r\ningen män'ska kan nå\r\nutan Flyg-KTH!\r\n\r\nSå kröner vi vår hyllning\r\ntill Agda, i ord och ton\r\nmed en skål för dess person\r\noch för Flyg - vår sektion!\r\n",
-        "notes": "Visan skrevs till Flygsektionens vårbal 1997, som hölls tillsammans med Väg & Vattensektionen på Piperska Muren.\r\n"
+        "notes": "Visan skrevs till Flygsektionens vårbal 1997, som hölls tillsammans med Väg & Vattensektionen på Piperska Muren.\r\n",
+        "partition": 2,
+        "5ePage": 65
     },
     "an_en_gang_daran": {
         "id": "an_en_gang_daran",
@@ -24,7 +28,9 @@
         "firstline": "Än en gång däran, bröder",
         "meta": "Melodi: Än en gång däran\r\nText: Evert Taube\r\n",
         "text": "Än en gång däran, bröder,\r\nän en gång däran!\r\nFöljom den urgamla seden!\r\nIntill sista man, bröder,\r\nintill sista man\r\ntrotsa vi hatet och vreden!\r\nBlankare vapen sågs aldrig i en här\r\nän dessa glasen, kamrater: I gevär!\r\nÄn en gång däran, bröder,\r\nän en gång däran!\r\nSvenska hjärtans djup – här är din sup!\r\n\r\nLivet är så kort, bröder!\r\nLivet är så kort!\r\nLek det ej bort, nej, var redo!\r\nKämpa mot allt torrt, bröder,\r\nkämpa mot allt torrt!\r\nTänk på de gamle som skredo\r\nfram utan tvekan i floder av champagne,\r\nstyrkta från början av brännvin från vårt land!\r\nKämpa mot allt torrt, bröder,\r\nkämpa mot allt torrt!\r\nSvenska hjärtans djup, här är din sup!\r\n",
-        "notes": "I andra versen brukar “… är din sup” sjungas hälften så fort.\r\nNotera anspelningen på Kungssången, “Ur svenska hjärtans djup…”.\r\n"
+        "notes": "I andra versen brukar “… är din sup” sjungas hälften så fort.\r\nNotera anspelningen på Kungssången, “Ur svenska hjärtans djup…”.\r\n",
+        "partition": 8,
+        "5ePage": 137
     },
     "angbaten": {
         "id": "angbaten",
@@ -33,7 +39,9 @@
         "firstline": "Å så kommer det en ångbåt",
         "meta": "Alternativa titlar: Å så kommer det…, Ubåten\r\nMelodi: Jazzgossen\r\n",
         "text": "Å så kommer det en ångbåt,\r\nsom säger:\r\nTUUUUUUUUUUUUUUUUUUT.\r\n\r\nÅ så kommer det en ubåt,\r\nsom säger:\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 6,
+        "5ePage": 117
     },
     "anglapunsch": {
         "id": "anglapunsch",
@@ -42,7 +50,9 @@
         "firstline": "Kalla den gudagåva eller himlanektar, vad du vill",
         "meta": "Melodi: Änglamark\r\nMusik: Evert Taube\r\n",
         "text": "Kalla den gudagåva eller himlanektar, vad du vill;\r\npunschen den gyllne, de gamla oss skänkte.\r\nVet att så länge som punschen nånsin funnits till\r\nglädjen den höjde och sorgerna dränkte.\r\n\r\nBlunda och dröm om en blommande sommarnatt,\r\nsvala bersåer där punschen står immig,\r\neller en höstdag, när Nordan har lekt tafatt,\r\nvarm punsch som ångar och ärtsoppa simmig.\r\n\r\nPunschen den älskas nog av alla och envar.\r\nLåt festen börja, låt punschen få flöda!\r\nSkål alla vänner som har nå't i glaset kvar,\r\nhedra nu minnet av gamle kung Oscars da'r!\r\n\r\nKalla den gudagåva eller himlanektar, vad du vill;\r\npunschen den gyllne, som får oss att drömma.\r\nFukta din strupe, låt inte flaskan få stå still.\r\nSkåla för punschen och glasen vi tömma!\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 5,
+        "5ePage": 100
     },
     "anti-snapsvisa": {
         "id": "anti-snapsvisa",
@@ -51,7 +61,9 @@
         "firstline": "Huvudet vi lyfter med ett stön ur vår säng",
         "meta": "Melodi: Sjösala vals\r\nMusik: Evert Taube\r\n",
         "text": "Huvudet vi lyfter med ett stön ur vår säng.\r\nTvättmaskin i buken, kanoner i huvudet.\r\nTungan som en plyschsoffa och yrseln i sväng,\r\nångesten vi svettas, kom sjung din refräng:\r\n\r\nVarför finns det aldrig nån nykter karneval?\r\nO, låt oss somna om så vi slipper våra kval,\r\nmen se, så många supar vi redan kastat upp i sängen:\r\nRenat och Skåne, Svart Vinbär och fager Bäsk!\r\n",
-        "notes": "Lundakarnevalen 1986\r\n"
+        "notes": "Lundakarnevalen 1986\r\n",
+        "partition": 7,
+        "5ePage": 129
     },
     "arkitektvisan": {
         "id": "arkitektvisan",
@@ -60,7 +72,9 @@
         "firstline": "Vi är arkitekter, vi",
         "meta": "Melodi: Karl Alfred Boy\r\nSektion: Arkitektur\r\n",
         "text": "Vi är arkitekter, vi.\r\nVi är ej som andra, vi.\r\nVi äro konstnärer,\r\nse till att ni lär er:\r\nvi är ej som andra, vi!\r\n\r\nVårt ämne är ej teknik.\r\nVi kör med estetik.\r\nMed nakna modellen\r\nvi tillbringar kvällen.\r\nVårt ämne är ej teknik.\r\n\r\nMed lera och skissblock vi,\r\nvi arbeta ej som ni.\r\nMed höghusens kader\r\nvi ger andra spader.\r\nVi arbeta ej som ni.\r\n\r\nFör Stockholmsplaneringen\r\nhar vi gjort saneringen.\r\nKritiker har riktats\r\noch nidvisor diktats\r\nmot Stockholmsplaneringen.\r\n\r\nSnart river vi hela sta'n,\r\nmen det ska bli kul som fan.\r\nAtt folk störs av tanken,\r\ndet giver vi fanken.\r\nSnart river vi hela sta'n!\r\n\r\nVi ritade höghus, vi,\r\nsom vi ej vill bo uti.\r\nMed barn och med frugor\r\nvi bor sen i stugor.\r\nVi ritade höghus, vi.\r\n\r\nVårt kårhus ska byggas ut.\r\nDet visar sig nog till slut,\r\nnär nöden är störst,\r\när ju hjälpen som närmast.\r\nVårt kårhus ska byggas ut.\r\n\r\nVi är arkitekter, va'.\r\nSom skapelsens krona, ja.\r\nOm ni inte fattar\r\noch oss ej uppskattar\r\nså vet ni vart ni kan dra!\r\n",
-        "notes": "Sångartäfvlan 1963\r\n"
+        "notes": "Sångartäfvlan 1963\r\n",
+        "partition": 2,
+        "5ePage": 60
     },
     "arskursvisan": {
         "id": "arskursvisan",
@@ -69,7 +83,9 @@
         "firstline": null,
         "meta": "Melodi: Trad.\r\n",
         "text": "Det var i vår ungdoms fagraste vår,\r\nvi drack varandra till och vi sade gutår!\r\nAlla så dricka vi nu D-Osquarina till.\r\nOch D-Osquarina vi säger inte nej därtill.\r\nFör det var i vår ungdoms fagraste vår,\r\nvi drack varandra till och vi sade gutår!\r\n",
-        "notes": "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n“gästerna” och eventuellt “personalen”.\r\n\r\nVartefter Konglig Datasektionens årskurser fick längre och längre namn, innebar det en större utmaning att hinna sjunga “Och alla så dricka vi nu…”. Därför föreslås följande sätt att sjunga längre-än-tvåstaviga namn:\r\n<ul>\r\n\n\n<li>“Och alla vi dricka D-Osquarina till” (Ex: dovicesimus)</li>\r\n<li>“Och alla, drick D-Osquarina till” (Ex: dodevicesimus)</li>\r\n<li>“Och alla, nu drick D-Osquarina till” (Ex: vicesimus quartus)</li>\r\n</ul>\r\n\r\n<p>Årskursnamn hittills</p>\r\n\r\n\r\n\\begin{enumerate}\r\n\\setcounter{enumi}{1982}\r\n\n\n<li>primus</li>\r\n<li>secundus</li>\r\n<li>tertius</li>\r\n<li>quartus</li>\r\n<li>quintus</li>\r\n<li>sextus</li>\r\n<li>septimus</li>\r\n<li>octavus</li>\r\n<li>nonus</li>\r\n<li>decimus</li>\r\n<li>undecimus</li>\r\n<li>dodecimus</li>\r\n<li>tertius decimus</li>\r\n<li>sigvard</li>\r\n<li>quintus decimus</li>\r\n<li>sextus decimus</li>\r\n<li>septus decimus</li>\r\n<li>dodevicesimus</li>\r\n<li>undevicesimus</li>\r\n<li>vicesimus</li>\r\n<li>unvicesimus</li>\r\n<li>dovicesimus</li>\r\n<li>tertius vicesimus</li>\r\n<li>vicesimus quartus</li>\r\n<li>vicesimus quintus</li>\r\n<li>vicesimus sextus</li>\r\n<li>vicesimus septus</li>\r\n<li>duodetricesimus</li>\r\n<li>undetricesimus</li>\r\n<li>tricesimus</li>\r\n<li>untricesimus</li>\r\n<li>duotricesimus</li>\r\n<li>tricesimus tertius</li>\r\n<li>tricesimus quartus</li>\r\n<li>tricesimus quintus</li>\r\n<li>tricesimus sextus</li>\r\n<li>tricesimus septimus</li>\r\n<li>duodequadragesimus</li>\r\n<li>undequadragesimus</li>\r\n</ol>\r\n\r\n"
+        "notes": "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n“gästerna” och eventuellt “personalen”.\r\n\r\nVartefter Konglig Datasektionens årskurser fick längre och längre namn, innebar det en större utmaning att hinna sjunga “Och alla så dricka vi nu…”. Därför föreslås följande sätt att sjunga längre-än-tvåstaviga namn:\r\n<ul>\r\n<li>“Och alla vi dricka D-Osquarina till” (Ex: dovicesimus)</li>\r\n<li>“Och alla, drick D-Osquarina till” (Ex: dodevicesimus)</li>\r\n<li>“Och alla, nu drick D-Osquarina till” (Ex: vicesimus quartus)</li>\r\n</ul><p>Årskursnamn hittills</p>1983,\tprimus\r\n1984,\tsecundus\r\n1985,\ttertius\r\n1986,\tquartus\r\n1987,\tquintus\r\n1988,\tsextus\r\n1989,\tseptimus\r\n1990,\toctavius\r\n1991,\tnonus\r\n1992,\tdecimus\r\n1993,\tundecimus\r\n1994,\tdodecimus\r\n1995,\ttertius decimus\r\n1996,\tsigvard\r\n1997,\tquintus decimus\r\n1998,\tsextus decimus\r\n1999,\tseptus decimus\r\n2000,\tdodevicesimus\r\n2001,\tundevicesimus\r\n2002,\tvicesimus\r\n2003,\tunvicesimus\r\n2004,\tdovicesimus\r\n2005,\ttertius vicesimus\r\n2006,\tvicesimus quartus\r\n2007,\tvicesimus quintus\r\n2008,\tvicesimus sextus\r\n2009,\tvicesimus septus\r\n2010,\tduodetricesimus\r\n2011,\tundetricesimus\r\n2012,\ttricesimus\r\n2013,\tuntricesimus\r\n2014,\tduotricesimus\r\n2015,\ttricesimus tertius\r\n2016,\ttricesimus quartus\r\n2017,\ttricesimus quintus\r\n2018,\ttricesimus sextus\r\n2019,\ttricesimus septimus\r\n2020,\tduodequadragesimus\r\n2021,\tundequadragesimus\r\n2022,\tquadragesimus",
+        "partition": 2,
+        "5ePage": 37
     },
     "bergsman_vi_aro": {
         "id": "bergsman_vi_aro",
@@ -78,7 +94,9 @@
         "firstline": null,
         "meta": "Sektion: Bergs\r\n",
         "text": "Bergsmän vi äro,\r\nbergsmän av ära,\r\njärnets och stålets och gruvornas män.\r\nAldrig på tunga\r\ntankar vi bära;\r\nvi älska glädjen och sjunger om den.\r\n\r\nHur vi än sträva,\r\nglädjen må leva\r\nalltid bland järnets och gruvornas män.\r\n\r\nDjupt in i jorden\r\ngruvkarlen tränger,\r\nföljer sin stegväg mot gruvornas natt.\r\nMalmen ur bergen\r\nvåldsamt han spränger.\r\nMörkt är i gruvan, men sinnet är glatt.\r\n\r\nHur vi än sträva…\r\n\r\nTackjärnets gnistrande\r\nglödheta vågor\r\nströmma ur stället var dag och natt.\r\nHyttkarlen älskar\r\ngnistor och lågor.\r\nLjuset och värmen hans sinne gör glatt.\r\n\r\nHur vi än sträva…\r\n\r\nBergsmän blott hållen\r\nalltid tillsammans.\r\nSamlens kring hyttans och gruvornas bloss.\r\nLåtom oss leva\r\nlivet i gamman,\r\nlåt aldrig leda få makt över oss.\r\n\r\nHur vi än sträva…\r\n",
-        "notes": "Sången skrevs 1916, av Magnus Tigerschiöld som då var en ung Bergsstudent.\r\n"
+        "notes": "Sången skrevs 1916, av Magnus Tigerschiöld som då var en ung Bergsstudent.\r\n",
+        "partition": 2,
+        "5ePage": 62
     },
     "berkeley_california": {
         "id": "berkeley_california",
@@ -86,8 +104,10 @@
         "alttitle": null,
         "firstline": "In a dark dim machine room",
         "meta": "Melodi: Hotel California\r\nText: David Barr, Ken Hornstein, Greg Nagy\r\nMusik: Don Felder, Glenn Frey, Don Henley\r\n",
-        "text": "In a dark dim machine room,\r\ncool A/C in my hair,\r\nwarm smell of silicon\r\nrising up through the air.\r\nUp ahead in the distance,\r\nI saw a Solarian(tm) light.\r\nMy kernel grew heavy, and my disk grew slim.\r\nI had to halt(8) for the night.\r\nThe backup spun in the tape drive.\r\nI heard a terminal bell.\r\nAnd I was thinking to myself:\r\nThis could be BSD or USL.\r\nThen they started a lawsuit\r\nand they showed me the way.\r\nThere were salesmen down the corridor.\r\nI thought I heard them say:\r\n\r\nWelcome to Berkeley California.\r\nSuch a lovely place, (Such a lovely place)\r\nSuch a lovely trace(1)\r\nPlenty of jobs at Berkeley California.\r\nAny time of year, (Any time of year)\r\nyou can find one here.\r\nYou can find one here.\r\n\r\nTheir code was definitely twisted,\r\nbut they've got the stock market trends.\r\nThey've got a lot of pretty, pretty lawyers\r\nthat they call friends.\r\nHow they dance in the courtroom,\r\nsee BSDI sweat.\r\nSome sue to remember,\r\nsome sue to forget.\r\nSo I called up Kernighan:\r\nPlease bring me ctime(3)\r\nHe said:\r\nWe haven't had that tm_year since 1969.\r\nAnd still those functions are calling from far away.\r\nWake up Jobs in the middle of the night,\r\njust to hear them say:\r\n\r\nWelcome to Berkeley California.\r\nSuch a lovely Place,\r\n(Such a lovely Place)\r\nsuch a lovely trace(1)\r\nThey're livin' it up suing Berkeley California.\r\nWhat a nice surprise,\r\n(What a nice surprise)\r\nbring your alibies.\r\n\r\n\r\nWindows NT a dreaming,\r\nPink OS on ice.\r\nAnd they said:\r\nWe are all just prisoners here\r\nof a marketing device.\r\nAnd in the judges' chambers\r\nthey gathered for the feast.\r\nThey diff(1)'d the source code listings\r\nbut they can't kill -9 the beast.\r\nLast thing I remember,\r\nI was restore(8)'ing | more(1)\r\nI had to find the soft link back\r\nto the path I was before.\r\nsleep(3) said the pagedaemon\r\nWe are programmed to recv(2)\r\nYou can swap out any time you like\r\nBut you can never leave(1)\r\n",
-        "notes": "[substitute whirring of disk and tape drives for guitar solo]\r\nSkriven av David Barr, Ken Hornstein och Greg Nagy i ljuset av stämningsmålet\r\nmellan AT&T och BSDI (1992) samt att Sun m.fl. bytte ut gamla go'a BSD mot System V.\r\n"
+        "text": "In a dark dim machine room,\r\ncool A/C in my hair,\r\nwarm smell of silicon\r\nrising up through the air.\r\nUp ahead in the distance,\r\nI saw a Solarian(tm) light.\r\nMy kernel grew heavy, and my disk grew slim.\r\nI had to halt(8) for the night.\r\nThe backup spun in the tape drive.\r\nI heard a terminal bell.\r\nAnd I was thinking to myself:\r\nThis could be BSD or USL.\r\nThen they started a lawsuit\r\nand they showed me the way.\r\nThere were salesmen down the corridor.\r\nI thought I heard them say:\r\n\r\nWelcome to Berkeley California.\r\nSuch a lovely place, (Such a lovely place)\r\nSuch a lovely trace(1)\r\nPlenty of jobs at Berkeley California.\r\nAny time of year, (Any time of year)\r\nyou can find one here.\r\nYou can find one here.\r\n\r\nTheir code was definitely twisted,\r\nbut they've got the stock market trends.\r\nThey've got a lot of pretty, pretty lawyers\r\nthat they call friends.\r\nHow they dance in the courtroom,\r\nsee BSDI sweat.\r\nSome sue to remember,\r\nsome sue to forget.\r\nSo I called up Kernighan:\r\nPlease bring me ctime(3)\r\nHe said:\r\nWe haven't had that tm_year since 1969.\r\nAnd still those functions are calling from far away.\r\nWake up Jobs in the middle of the night,\r\njust to hear them say:\r\n\r\nWelcome to Berkeley California.\r\nSuch a lovely Place,\r\n(Such a lovely Place)\r\nsuch a lovely trace(1)\r\nThey're livin' it up suing Berkeley California.\r\nWhat a nice surprise,\r\n(What a nice surprise)\r\nbring your alibies.\r\n\r\nWindows NT a dreaming,\r\nPink OS on ice.\r\nAnd they said:\r\nWe are all just prisoners here\r\nof a marketing device.\r\nAnd in the judges' chambers\r\nthey gathered for the feast.\r\nThey diff(1)'d the source code listings\r\nbut they can't kill -9 the beast.\r\nLast thing I remember,\r\nI was restore(8)'ing | more(1)\r\nI had to find the soft link back\r\nto the path I was before.\r\nsleep(3) said the pagedaemon\r\nWe are programmed to recv(2)\r\nYou can swap out any time you like\r\nBut you can never leave(1)\r\n",
+        "notes": "[substitute whirring of disk and tape drives for guitar solo]\r\n\r\nSkriven av David Barr, Ken Hornstein och Greg Nagy i ljuset av stämningsmålet\r\nmellan AT&T och BSDI (1992) samt att Sun m.fl. bytte ut gamla go'a BSD mot System V.\r\n",
+        "partition": 11,
+        "5ePage": 171
     },
     "betlehems_stjarna": {
         "id": "betlehems_stjarna",
@@ -96,7 +116,9 @@
         "firstline": null,
         "meta": "Alternativ titel: Gläns över sjö och strand\r\nMelodi: Betlehems stjärna\r\nText: Viktor Rydberg\r\nMusik: Alice Tegnér\r\n",
         "text": "Gläns över sjö och strand, stjärna ur fjärran,\r\ndu, som i Österland tändes av Herran.\r\nStjärnan från Betlehem\r\nleder ej bort, men hem.\r\nBarnen och herdarna följa dig gärna,\r\nstrålande stjärna, strålande stjärna!\r\n\r\nNatt över Judaland, natt över Sion.\r\nBorta vid västerrand slocknar Orion.\r\nHerden, som sover trött,\r\nbarnet som slumrar sött,\r\nvakna vid underbar korus av röster,\r\nskåda en härlig klar stjärna i öster.\r\n\r\nGånga från lamm och hem, sökande Eden,\r\nstjärnan från Betlehem visar dem leden.\r\nStjärnan från Betlehem\r\nleder ej bort, men hem.\r\nBarnen och herdarna följa dig gärna,\r\nstrålande stjärna, strålande stjärna!\r\n",
-        "notes": "Sv. psalm nr 134\r\n"
+        "notes": "Sv. psalm nr 134\r\n",
+        "partition": 10,
+        "5ePage": 161
     },
     "bordeaux_bordeaux": {
         "id": "bordeaux_bordeaux",
@@ -105,7 +127,9 @@
         "firstline": "Jag minns än idag hur min fader",
         "meta": "Melodi: I sommarens soliga dagar\r\n",
         "text": "Jag minns än idag hur min fader\r\nkom hem ifrån staden så glader\r\noch rada' upp flaskor i rader\r\noch sade nöjd som så:\r\n“Bordeaux, Bordeaux!”\r\n\r\nHan tog ett glas, kom i extas\r\noch sedan blev det stort kalas.\r\nOch vi små glin, ja, vi drack vin\r\nsom första klassens fyllesvin,\r\noch vi dansade runt där på bordet\r\noch skrek så vi blev blå:\r\n“Bordeaux, Bordeaux!”\r\n",
-        "notes": ""
+        "notes": "",
+        "partition": 4,
+        "5ePage": 89
     },
     "bredbandshymn": {
         "id": "bredbandshymn",
@@ -114,16 +138,20 @@
         "firstline": "Allt fler numera",
         "meta": "Melodi: Sovjethymnen (Alexander Alexandrov)\r\nText: Henrik Eriksson\r\nAlternativ titel: En tråd att stilla bedja om\r\n",
         "text": "Allt flera numera\r\nvill telegrafera.\r\nSnart sprängs tråden längs\r\nvilken alla nu trängs.\r\nDen optiska fiber\r\nav grövre kaliber\r\nom vilken nu vi ber\r\när framtidens tråd.\r\n\r\nVi går i ledband till Jonas Birgersson, HEJ!\r\nBredband får inte fattas nån, NEJ!\r\nDatateknik är vår framtidsfabrik.\r\nFör ska det chattas i taski' ASCII-kod\r\nfattas det några megabaud.\r\nVärlden har råd\r\nmed en tjockare tråd!\r\n",
-        "notes": "Dataspelet 1999, “Hermans historia” eller “…och kungen blev\r\nnaturligtvis rasande”, Datasektionen KTH.\r\n"
+        "notes": "Dataspelet 1999, “Hermans historia” eller “…och kungen blev\r\nnaturligtvis rasande”, Datasektionen KTH.\r\n",
+        "partition": 1,
+        "5ePage": 47
     },
     "brev_fran_campus": {
         "id": "brev_fran_campus",
         "title": "Brev från campus",
         "alttitle": null,
         "firstline": "Hejsan morsan, hejsan stabben!",
-        "meta": "Alternativ titel: Brev från Barbagyver\r\nMelodi: Brev från kolonien\r\nText: Christian Adåker, F04, Jonas Lejon, F02\r\nMusik: Amilcare Ponchielli\r\nSektion: Teknisk Fysik\r\n",
+        "meta": "Melodi: Brev från kolonien\r\nText: Christian Adåker, F04, Jonas Lejon, F02\r\nMusik: Amilcare Ponchielli\r\nSektion: Teknisk Fysik\r\n",
         "text": "Hejsan morsan, hejsan stabben!\r\nHär är brev från oäkta grabben.\r\nJag har funnit min plats på jorden.\r\nDär jag lever är det kallt så in i norden!\r\n\r\nMassa kåkar utav tegel;\r\ninga avsteg från denna regel.\r\nDet är lätt att tappa bort sig.\r\nCampus diameter, den är inte kort, nej.\r\n\r\nMina Daddor* är så rara.\r\nJa, de är helt underbara!\r\nOm jag nånsin blir mindre schlemmig\r\nska jag bli lika fin, cerise*, god, glad och klämmig.\r\n\r\nJag hinner inte skriva mera,\r\nty jag måste divergera.\r\nLycka till på långa färden,\r\nmen nu måste jag gå ut och rädda världen.\r\n",
-        "notes": ""
+        "notes": "",
+        "partition": 11,
+        "5ePage": 176
     },
     "bruces_philosophers_song": {
         "id": "bruces_philosophers_song",
@@ -132,7 +160,9 @@
         "firstline": "Immanuel Kant was a real pissant",
         "meta": "Alternativ titel: Bruces' song\r\nAlternativ titel 2: The Philosophy Song\r\nAlternativ titel 3: The Philosopher's Song\r\nMelodi: Bruces' Philosophers Song\r\nText och Musik: Eric Idle\r\n",
         "text": "Immanuel Kant was a real pissant\r\nwho was very rarely stable.\r\nHeidegger, Heidegger was boozy beggar\r\nwho could think you under the table.\r\nDavid Hume could out-consume\r\nWilhelm Friedrich Hegel,\r\nand Wittgenstein was a beery swine\r\nwho was just as schloshed as Schlegel.\r\n\r\nThere's nothing Nietzsche couldn't teach ya\r\n'bout the raising of the wrist.\r\nSocrates, himself, was permanently pissed.\r\n\r\nJohn Stuart Mill, of his own free will,\r\non half a pint of shandy was particularly ill.\r\nPlato, they say, could stick it away,\r\nhalf a crate of whisky every day.\r\nAristotle, Aristotle was a bugger for the bottle.\r\nHobbes was fond of his dram,\r\nand René Descartes was a drunken fart,\r\n“I drink, therefore I am.”\r\n\r\nYes, Socrates, himself, is particularly missed.\r\nA lovely little thinker, but a bugger when he's pissed!\r\n",
-        "notes": "Martin Heidegger var den enda av de nämnda filosoferna som ännu var i livet när sången skrevs. Han dog 1976, 86 år gammal.\r\n"
+        "notes": "Martin Heidegger var den enda av de nämnda filosoferna som ännu var i livet när sången skrevs. Han dog 1976, 86 år gammal.\r\n",
+        "partition": 11,
+        "5ePage": 174
     },
     "byggingenjorernas_bekannelse": {
         "id": "byggingenjorernas_bekannelse",
@@ -141,7 +171,9 @@
         "firstline": "Här är vi som det sig bör",
         "meta": "Melodi: Yellow Submarine (John Lennon, Paul McCartney)\r\nSektion: Ingenjörssektionen\r\n",
         "text": "Här är vi som det sig bör.\r\nVi går och läser till ingenjör.\r\nVi valde bygg, så blir man rik.\r\nVi läser konstruktion och byggteknik.\r\n\r\nFör vi läser och vi lär.\r\nVi med stolta steg vår kunskap bär.\r\nNu till Bacchus gör visit\r\nty vi dricka vin med bonne esprit.\r\n\r\n||: Jag ska dricka, stinna mitt begär.\r\nDom andra som är här\r\nut med mig sen bär.\r\nJag ska festa som en ingenjör.\r\nOm av detta jag dör,\r\ndet inte något gör! :||\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 2,
+        "5ePage": 68
     },
     "can_can": {
         "id": "can_can",
@@ -150,7 +182,9 @@
         "firstline": "Nu dax",
         "meta": "Melodi: Can can (Jacques Offenbach)\r\n",
         "text": "Nu dax\r\ntaga sig en snaps strax,\r\nsom din kropp tar opp och\r\nlåter rinna ner och ger dig smak för fler.\r\nDitt liv\r\nblott ett tidsfördriv, du\r\nkastar ner en kask och\r\nlever glatt och ler\r\nnär fler du ser.\r\n\r\nMed sill,\r\neller vad du vill till,\r\nhåll din strupe våt, åt\r\nBacchus ge din själ. Han vill dig bara väl\r\nså skjut\r\nförst en kort salut ut.\r\nNu tar sången slut, trut.\r\nGapa, svälj och njut,\r\nja, svälj och njut!\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 6,
+        "5ePage": 109
     },
     "cecilia_lind": {
         "id": "cecilia_lind",
@@ -159,7 +193,8 @@
         "firstline": "Från Öckerö loge hörs dragspel och bas",
         "meta": "Alternativ titel: Cecilia Lind\r\nMelodi: Monday Morning\r\nText: Cornelis Vreeswijk\r\nMusik: Trad.\r\n",
         "text": "Från Öckerö loge hörs dragspel och bas\r\noch fullmånen lyser som var den av glas.\r\nDär dansar Fredrik Åkare kind emot kind\r\nmed lilla fröken Cecilia Lind.\r\n\r\nHon dansar och blundar så nära intill.\r\nHon följer i dansen precis vart han vill.\r\nHan för och hon följer så lätt som en vind,\r\nmen säg, varför rodnar Cecilia Lind?\r\n\r\nSäg, var det för det Fredrik Åkare sa?\r\n“Du doftar så gott och du dansar så bra.\r\nDin midja är smal och barmen är trind.\r\nVad du är vacker, Cecilia Lind.”\r\n\r\nMen dansen tog slut och vart skulle dom gå?\r\nDom bodde så nära varandra ändå.\r\nTill slut kom dom fram till Cecilias grind.\r\n“Nu vill jag bli kysst”, sa Cecilia Lind.\r\n\r\n\r\nVet hut, Fredrik Åkare, skäms gamla karl'n!\r\nCecilia Lind är ju bara ett barn.\r\nRen som en blomma, skygg som en hind.\r\n“Jag fyller snart sjutton”, sa Cecilia Lind.\r\n\r\nOch stjärnorna vandra och timmarna fly\r\noch Fredrik är gammal men månen är ny.\r\nJa, Fredrik är gammal men kärlek är blind.\r\n“Åh, kyss mig igen”, sa Cecilia Lind.\r\n",
-        "notes": "Kommunalrådet i Eslövs kommun (2002-) heter Cecilia Lind, men det är inte henne sången handlar om.\r\n"
+        "notes": "Kommunalrådet i Eslövs kommun (2002-) heter Cecilia Lind, men det är inte henne sången handlar om.\r\n",
+        "preventSongOfTheDay": true
     },
     "daddans_sang": {
         "id": "daddans_sang",
@@ -168,7 +203,8 @@
         "firstline": "Vi vill ha sill med Skåne till",
         "meta": "Melodi: Johnny B Goes Maching Home\r\n",
         "text": "Vi vill ha sill med Skåne till\r\nEn dadda älskar nØllan som sin bäste vän.\r\nVi hjälper den stackar'n både hit och hem.\r\nI glädje sjunger vi ut,\r\ni dur och i moll.\r\nVi kommer alltid att ha nØllan i behåll.\r\n\r\nVi låter nØllan festa med i vårat gäng.\r\nsen kryper schlemmet sakta åter till sin säng.\r\nVi daddor stannar dock kvar,\r\noch tar en stilla dans.\r\nSkrattar sen åt bristande balans.\r\n\r\nVi daddor lever livet i ett glädjerus.\r\nÖl och vin vi tar, i både glas och krus.\r\nVi dricker ur till sång en sup,\r\nvi tar en omgång till.\r\nSäg mig den som då kan sitta still.\r\n\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 12
     },
     "daddekram": {
         "id": "daddekram",
@@ -177,7 +213,8 @@
         "firstline": "En Dadda kan vara bra att ha",
         "meta": "Melodi: Måsen\r\n",
         "text": "En Dadda kan vara bra att ha\r\nom man är nØllan och vilsen.\r\nMen Daddan kan ocksa vara bra,\r\nnär man ska koda i lispen.\r\nMen om lispen redan är klar,\r\nså ger nog Daddan nØllan en kram.\r\nEn daddekram\r\när bra att ha.\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 12
     },
     "dadderiets_klemarvisa": {
         "id": "dadderiets_klemarvisa",
@@ -186,7 +223,8 @@
         "firstline": "Daddorna dom är väldigt snälla",
         "meta": "Melodi: Riddare kring det runda bordet\r\n",
         "text": "Daddorna dom är väldigt snälla,\r\ndet vet ju alla och envar.\r\nTy när nØllan högt börjar gnälla,\r\nDaddan tröstar den likt dess far.\r\nDaddan torkar nØllans schlemm\r\noch hjälper den hitta hem;\r\nDaddan vill bara nØllans väl.\r\nDaddan följer Storebror,\r\när för nØllan en ny mor;\r\nDaddan vill bara nØllans väl.\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 12
     },
     "daddornas_introduktion": {
         "id": "daddornas_introduktion",
@@ -195,7 +233,8 @@
         "firstline": "Vad ska vi göra med nya nØllan? (3ggr)",
         "meta": "Melodi: Drunken Sailor, (Trad.)\r\n",
         "text": "Vad ska vi göra med nya nØllan? (3ggr)\r\nTa dem med på fester.\r\n\r\nSkål, skål alla vänner. (3ggr)\r\nnØllan den är här nu.\r\n\r\n“Häll lite mera vin i glasen!” (3ggr)\r\nropar vi åt nØllan.\r\n\r\nHäll, häll upp i glasen, (3ggr)\r\nnØllningen har börjat!\r\n\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 12
     },
     "dance_macabre": {
         "id": "dance_macabre",
@@ -204,7 +243,9 @@
         "firstline": "Runt kring vår stuga smådjävlar sluga",
         "meta": "Melodi: Vårvindar friska (trad.)\r\nSpråk: Svenska\r\n",
         "text": "Runt kring vår stuga smådjävlar sluga\r\ntassa så tyst med bockfot och svans.\r\nVarulvar yla, isande kyla\r\nsveper i dimma fanstygens dans.\r\n\r\nBäva, o broder, lyssna och hör\r\nvrålen från gast, som osalig dör.\r\nSatan, han skrattar, flaskan han fattar,\r\nsuper tills dagen gryr.\r\n\r\nGastar och spöken skymtar i Kröken.\r\nDöingar släpa ruttnande lik.\r\nBenrangel skramla, spökhänder famla,\r\nkväva din strupes rosslande skrik.\r\n\r\nHelvetets alla fasor släpps loss.\r\nFan rider här med hela sin tross.\r\nGöm dig i stugan, du har fått flugan.\r\nDille - det blir din lott.\r\n",
-        "notes": null
+        "notes": null,
+        "partition": 1,
+        "5ePage": 170
     },
     "dataeliten": {
         "id": "dataeliten",
@@ -213,7 +254,9 @@
         "firstline": null,
         "meta": "Melodi: Vårvindar friska (Trad.)\r\n",
         "text": "Dataeliten, lugnast med fliten,\r\nvi går på fest och där trivs vi bäst.\r\nPlugga och tenta, det kan ju vänta,\r\nfestar och gasquar det gör vi mest.\r\n\r\nÖlen vi alla håller så kär,\r\ntack vare den vi klarar det här!\r\nStyrka och mod i flaska på bord\r\nnär vi bjuder upp till fest.\r\n\r\nDataeliten tål mest av spriten,\r\ntrots alkohol vi når våra mål.\r\nGroggar och punsch det tar vi till lunch men\r\nölen blir ändå vårt middagsmål.\r\n\r\nÖlen vi alla håller så kär,\r\ntack vare den vi klarar det här!\r\nTenta imorr'n, men tentor går om\r\nså lyft nu ditt glas, gutår!\r\n",
-        "notes": "Datasektionen KTH 1992\r\n"
+        "notes": "Datasektionen KTH 1992",
+        "partition": 1,
+        "5ePage": 46
     },
     "datalogik": {
         "id": "datalogik",
@@ -723,10 +766,19 @@
         "id": "jag_fangade_en_rav",
         "title": "Jag fångade en räv",
         "alttitle": null,
-        "firstline": null,
+        "firstline": "Jag fångade en räv idag",
         "meta": "Melodi: Jag fångade en räv\r\nText och musik: Frank Churchill, Leigh Harline,  Paul J. Smith\r\n",
         "text": "Jag fångade en räv idag,\r\nmen räven slank ur näven.\r\nLika glad för det är jag,\r\nmen gladast är nog räven.\r\n\r\nÅh hum, vår sång är dum,\r\nden är ju ingenting.\r\nVad gör det om hundra år,\r\nnär allting kommer kring?\r\n\r\nJag mjölkade en ko idag,\r\nmen när jag såg på juvret\r\nså hade jag nog tagit fel,\r\nför gladast var nog tjuren.\r\n\r\nÅh hum…\r\n\r\nJag fångade en sup idag,\r\nmen supen slank ur näven.\r\nLika glad för det är jag,\r\nmen gladast är nog levern.\r\n\r\nÅh hum…\r\n\r\nJag fångade en präst idag,\r\nmen prästen damp i gatan.\r\nLika glad för det är jag,\r\nmen gladast är nog Satan.\r\n\r\nÅh hum…\r\n\r\nJag fångade en biff idag,\r\nmen den var seg som kola\r\noch lika seg som den är jag;\r\ndet är så kul att skåla!\r\n\r\nÅh hum…\r\n\r\n",
         "notes": null
+    },
+    "jag_vill_va_som_du":{
+      "id": "jag_vill_va_som_du",
+      "title": "Jag vill va' som du",
+      "alttitle": null,
+      "firstline": "Jag kungen över adobe är",
+      "meta": "Melodi: Jag vill va' som du\r\nText: Gabriella Dalman, Martin Lindberg",
+      "text": "Jag kungen över adobe är\nGrafk, det är min grej\nMin frontend är ju snyggast här\nmen koden knasar sig\nJag drömmer om att bli en datalog\noch tänka helt i kod\nSå hör min bön och ge mig lön\nFör ni har ju faktiskt råd\n\nObidoo jag vill ju va som du\nJag vill va rik som du, skriva kod som du, duuu\nDet vill jag nu\nEn median som jag, vill lära mig bli en datalog!\n\nMästaren av alla språk\nsom Java, Pearl och C\nFrån salt och hash till git och bash\nMen jag vill va någons sked\nTänk om jag var en median\nmed grafisk kompetens\nMed frack och stil, en snygg profil\nJag vill veta hur det känns\n\nObidoo jag vill ju va som du\nFölja en trend som du, designa webb som du, duuu.\nDet vill jag nu\nEn datalog som jag, vill lära mig bli en median!",
+      "notes": "Skrevs tillsammans med både data- och medianØllan under Amejsing Rejs, mottagningen 2019."
     },
     "jag_har_aldrig_vart_pa_snusen": {
         "id": "jag_har_aldrig_vart_pa_snusen",
@@ -994,9 +1046,8 @@
         "title": "Medias visa",
         "alttitle": null,
         "firstline": "Vem vet vad dom gör på Media",
-        "meta": "Melodi: Datas visa\r\nText: Marie Alexander, Petter Djupfeldt, Frida Jansson\r\n",
-        "text": "Vem vet vad dom gör på Media\r\nInte ens dom själva vet nog det\r\nsöker man på Wikipedia\r\nblir man inte mycket visare av det\r\n\r\nDom går runt i sina frackar\r\när för fina för en overall\r\nPython är allt som dom hackar\r\nkom tillbaka när ni blivit 18 år\r\n\r\n||: Medieteknik, jag är unik :||\r\n\r\nPaparazzis är dom alla\r\nFixar tjejerna i photoshop\r\nmac får känslorna att svalla\r\noch iPhone är en del av deras kropp\r\n\r\nNu ska hela META städas;\r\nnågon pissa' i en papperskorg.\r\nBorden de får ej beträdas,\r\nNej, för hiphop tränas bäst på METAs golv\r\n\r\n||: Medieteknik, estetfabrik :||\r\n",
-        "notes": " Datasektionen, KTH\r\n"
+        "meta": "Melodi: Datas visa\r\nText: Medias Sånglederi 2013",
+        "text": "Jag vill aldrig gå på media\nHipstertöntar är dom allesammans\nDom kan inte programmera\nHackar pseudokod i rosa Comic Sans\nDom läser heller inte Hållfen\nMan blir knappt en riktig ingenjör\nFör vetenskapen är dom lekmän\nAll teknik dom kan är kamerans interiör\n\nMedieteknik - så magnifik\nMedieteknik - är ren komik\nMedieteknik - orsakar smärta och tragik\n\nMedieteknik - så magnifik\nMedieteknik - är ren komik\nMedieteknik - är skäl att drabbas av panik\n\nÄpplen slåss mot Androider\nMedia lider utav borderline\nBaren säljer bara cider\nSkriver ProInt-reflektion i InDesign\nDom tävlar i att kugga tentor\nStandard är individuell kursplan\nIntetsägande små männ’skor\nDärför går de under namnet “Median”\n\nMedieteknik..."
     },
     "mera_jarn": {
         "id": "mera_jarn",
