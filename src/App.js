@@ -10,13 +10,14 @@ const originUrl = window.location.hostname;
 var seedrandom = require('seedrandom');
 
 var globalSongs;
-var songOfTheDay
+var songOfTheDay;
+var metaData;
 
 //When testing, set this variable to true, in order to load songs statically, rather than from the database
-var loadSongsStatically = false
+var loadSongsStatically = true;
 // uncomment below line if loading songs statically
-//const staticSongs = preval`module.exports = require('./getSongs.js')`
-const partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till Ölet", "Sånger till Vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga Sånger", "Mottagningssånger"]
+const staticSongs = preval`module.exports = require('./getSongs.js')`;
+var partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till Ölet", "Sånger till Vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga Sånger", "Mottagningssånger"];
 
 
 // Gets a random song, seeded from todays date, so that everyone has the same random song, everyday.
@@ -53,15 +54,26 @@ export const App = () => {
         const getSongs = async () => {
           if(loadSongsStatically){
             globalSongs = staticSongs;
-            setSongOfTheDay();
-            setSongs(globalSongs);
-            setTimeout(() => { setIsLoading(false); }, 100);
           } else {
             let url = "http://" + window.location.host + "/songs.json";
             var res = await fetch(url);
             var json = await res.json();
               globalSongs = json;
           }
+          console.log("__META__" in globalSongs)
+          console.log(globalSongs)
+          console.log("__META__" in globalSongs && "partitions" in globalSongs["__META__"])
+          if("__META__" in globalSongs){
+            metaData = globalSongs["__META__"]
+            delete globalSongs["__META__"]
+            if("partitions" in metaData){
+              partitions = metaData["partitions"]
+            }
+          }
+
+          setSongOfTheDay();
+          setSongs(globalSongs);
+          setIsLoading(false);
         };
         getSongs();
     }, [])
@@ -113,7 +125,7 @@ export const App = () => {
     if(!isLoading){
         mainBody = <>
         {/* Header */}
-        <div className={`${!hideNav?"bg-black lg:bg-inherit":""} z-9 relative flex flex-none flex-col lg:flex-row lg:bg-inherit`}>
+        <div className={`${!hideNav?"bg-black lg:bg-inherit":""} z-11 relative flex flex-none flex-col lg:flex-row lg:bg-inherit`}>
           <div className='flex-1'/>
           <div className='flex flex-row'>
             <div className='flex-1'/>
@@ -159,7 +171,7 @@ export const App = () => {
         <SearchBar allSongs={Object.values(songs)} addToBooklet={addToBooklet} bookletList={bookletList} partitions={partitions}/>
       </div>
       <div className="absolute bottom-0">
-          Utvecklad av: Max Wippich, Sångledare 2023, i samarbete med IOR
+          {/*Utvecklad av: Max Wippich, Sångledare 2023, i samarbete med IOR*/}
       </div>
       </>
     }

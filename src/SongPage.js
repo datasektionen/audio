@@ -48,7 +48,7 @@ export const SongPage = ({ song, bookletIndex, partitions, removeSong }) => {
             </div>
             <div className='absolute'>
             <button onClick={() => {removeSong(bookletIndex)}} className="absolute top-[-20px] left-[-20px] pb-1 font-lg w-16 h-16 bg-zinc-600 m-auto rounded-full hover:bg-zinc-500 disabled:hover:bg-zinc-800 disabled:bg-zinc-800 disabled:text-gray-500">
-                {"x"}
+                x
             </button>
         </div>
     </>

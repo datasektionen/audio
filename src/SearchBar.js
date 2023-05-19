@@ -54,11 +54,11 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
       }
   }
   return (
-    <div className={`${show? "w-[350pt]":"w-0"} min-w-0 max-w-full pt-28 md:pt-0 py-10 absolute inset-y-0 right-0 z-8 md:static h-full flex flex-row justify-end`}>
-        <button className='my-auto min-w-[3rem] md:min-w-[2.5rem] h-24 p-3 rounded-l-2xl bg-zinc-800 text-white hover:bg-zinc-700' onClick={handleCollapse}>
+    <div className={`${show? "w-[350pt]":"w-0"} min-w-0 max-w-full pt-28 md:pt-0 py-10 absolute inset-y-0 right-0 z-8 md:static h-full flex flex-row justify-end pointer-events-none`}>
+        <button className='my-auto min-w-[3rem] md:min-w-[2.5rem] h-24 p-3 rounded-l-2xl bg-zinc-800 text-white hover:bg-zinc-700 pointer-events-auto' onClick={handleCollapse}>
             {show?">":"<"}
         </button>
-        <div className={`${!show? "w-0 px-0":"w-full"} bg-[#0B0B0B] flex flex-col rounded-l-3xl p-5 h-full w-full overflow-hidden`}>
+        <div className={`${!show? "w-0 px-0":"w-full"} bg-[#0B0B0B] flex flex-col rounded-l-3xl p-5 h-full w-full overflow-hidden pointer-events-auto`}>
 
             <input className='rounded-full p-3 pl-6 bg-gray-200 placeholder-gray-400 mb-4 min-w-0'
                 placeholder = "Kalmarevisan"
