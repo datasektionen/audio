@@ -14,9 +14,9 @@ var songOfTheDay;
 var metaData;
 
 //When testing, set this variable to true, in order to load songs statically, rather than from the database
-var loadSongsStatically = true;
+var loadSongsStatically = false;
 // uncomment below line if loading songs statically
-const staticSongs = preval`module.exports = require('./getSongs.js')`;
+//const staticSongs = preval`module.exports = require('./getSongs.js')`;
 var partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till Ölet", "Sånger till Vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga Sånger", "Mottagningssånger"];
 
 
