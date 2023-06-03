@@ -55,7 +55,7 @@ export const App = () => {
           if(loadSongsStatically){
             globalSongs = staticSongs;
           } else {
-            let url = "http://" + window.location.host + "/songs.json";
+            let url = "https://" + window.location.host + "/songs.json";
             var res = await fetch(url);
             var json = await res.json();
               globalSongs = json;
