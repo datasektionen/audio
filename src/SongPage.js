@@ -22,12 +22,8 @@ export const SongPage = ({ song, bookletIndex, partitions, removeSong }) => {
     }
 
     let page = ""
-    if("5ePage" in song){
-        page = song["5ePage"]
-        if(page % 2 == 1){
-            //Make into hex if odd
-            page = "0x" + page.toString(16).toUpperCase()
-        }
+    if("page" in song){
+        page = song["page"]
     }
 
     return (
