@@ -96,7 +96,7 @@
         "title": "Bergsmän vi äro",
         "alttitle": null,
         "firstline": null,
-        "meta": "Sektion: Bergs\r\n",
+        "meta": "Melodi: Ja, må han/hon leva\r\nSektion: Bergs\r\n",
         "text": "Bergsmän vi äro,\r\nbergsmän av ära,\r\njärnets och stålets och gruvornas män.\r\nAldrig på tunga\r\ntankar vi bära;\r\nvi älska glädjen och sjunger om den.\r\n\r\nHur vi än sträva,\r\nglädjen må leva\r\nalltid bland järnets och gruvornas män.\r\n\r\nDjupt in i jorden\r\ngruvkarlen tränger,\r\nföljer sin stegväg mot gruvornas natt.\r\nMalmen ur bergen\r\nvåldsamt han spränger.\r\nMörkt är i gruvan, men sinnet är glatt.\r\n\r\nHur vi än sträva…\r\n\r\nTackjärnets gnistrande\r\nglödheta vågor\r\nströmma ur stället var dag och natt.\r\nHyttkarlen älskar\r\ngnistor och lågor.\r\nLjuset och värmen hans sinne gör glatt.\r\n\r\nHur vi än sträva…\r\n\r\nBergsmän blott hållen\r\nalltid tillsammans.\r\nSamlens kring hyttans och gruvornas bloss.\r\nLåtom oss leva\r\nlivet i gamman,\r\nlåt aldrig leda få makt över oss.\r\n\r\nHur vi än sträva…\r\n",
         "notes": "Sången skrevs 1916, av Magnus Tigerschiöld som då var en ung Bergsstudent.\r\n",
         "partition": 2,
@@ -1350,6 +1350,24 @@
         "text": "Jag vill börja gasqua. Var faan är min flaska,\r\nvem i helvete stal min butelj?\r\nSka törsten mig tvinga, en TT börja svinga?\r\nNej för fan, bara blunda och svälj!\r\n\r\nVilken smörja, får jag spörja,\r\nvem för fan tror att jag är en älg?\r\n\r\nTill England vi rider och sedan vad det lider,\r\nträffar vi välan på någon pub,\r\noch där ska vi festa, blott dricka av det bästa\r\nutav whisky och portvin, jag tänker gå hårt in\r\nför att smaka på rubb och stubb.\r\n",
         "notes": "Sången hette ursprungligen “Athos visa” och är hämtad ur Bergsspexet “De tre musketörerna” från 1960.\r\n"
     },
+    "portos_visa_int": {
+        "id": "portos_visa_int",
+        "title": "International Portos Visa",
+        "alttitle": "",
+        "firstline": "I wanna start the gasque now",
+        "meta": "Melodi: You Can't Get a Man With a Gun\r\n",
+        "text": "I wanna start the gasque now, you see that cerise cow?\r\nBut where have i left all my beers?\r\nLet's not rest while tempted, my glass has to be emptied!\r\nWhat the hell, be so kind, shove it, cheers!\r\n\r\nThis is bullshit, where's the spirit?\r\nWho in helvete thinks im a deer?\r\n\r\nTo Tyskland we travel, to find the cheapest gravel\r\nwe can shove down our throats when we're home\r\nwe're ready to party until we're drunk and jerky\r\nJägermeister and beer - what a crazy career\r\nit's the best fucking day of my year",
+        "notes": ""
+    },
+    "anders_the_president": {
+        "id": "anders_the_president",
+        "title": "Anders, the President",
+        "alttitle": "(International Skitåkare Andersson)",
+        "firstline": "Who is that, who is that, who the fuck has stopped the music",
+        "meta": "Melodi: (ingen)\r\n",
+        "text": "Who is that, who is that, who the fuck has stopped the music!?\r\nJo, Anders, the President, the new one!\r\nAnders, the President, the new one!\r\nHe works hard in Brinellvägen 8.\r\nwhat does he do here, why can't I see clear?\r\nwait, he is coming for me.\r\n\r\n(whispering)\r\nLet me leave, I want to disappear now\r\nLet me leave, I don't want any beef, HEY!\r\nLet me leave, I want to disappear now\r\nLet me leave, I don't want any beef, HEY! Hey! Hey!",
+        "notes": ""
+    },
     "punschen_kommer_kall": {
         "id": "punschen_kommer_kall",
         "title": "Punschen kommer (kall)",
@@ -1880,5 +1898,15 @@
         "meta": "Alternativ titel: A DBA's backup song\r\nMelodi: Yesterday\r\nMusik: Paul McCartney\r\n",
         "text": "Yesterday\r\nall those backups seemed a waste of pay.\r\nNow my database has gone away.\r\nOh, I believe in yesterday.\r\n\r\nSuddenly,\r\nthere's not half the files there used to be,\r\nand there's a deadline hanging over me.\r\nThe system crashed so suddenly.\r\n\r\nI pushed something wrong,\r\nwhat it was, I could not say.\r\nNow my data's gone,\r\nand I long for yesterday-ay-ay-ay.\r\n\r\nYesterday,\r\nthe need for backups seemed so far away.\r\nThought all my data was here to stay.\r\nNow I believe in yesterday.\r\n",
         "notes": null
+    },
+    "ja_ma_d_leva": {
+        "id": "ja_ma_d_leva",
+        "title": "Ja, må D leva!",
+        "alttitle": null,
+        "firstline": "Ja, må D leva!",
+        "meta": "Melodi: Ja, må han/hon leva!\r\nText: Douglas Fischer och Delta-Johnny",
+        "text": "Ja, må D leva!\r\nJa, må D leva!\r\nJa, må D leva uti hundrade år!\r\nJavisst ska D leva!\r\nJavisst ska D leva!\r\nJavisst ska D leva uti hundrade år!",
+        "notes": "Grattis!",
+        "40jubPage": 38
     }
 }
