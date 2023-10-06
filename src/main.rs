@@ -24,7 +24,7 @@ struct Song {
     title: String,
     alttitle: Option<String>,
     firstline: Option<String>,
-    meta: String,
+    meta: Option<String>,
     text: Option<String>,
     notes: Option<String>,
 }
@@ -39,9 +39,9 @@ async fn get_songs(mut db: Connection<Db>) -> Value {
         Song,
         "SELECT id, title, alttitle, firstline, meta, text, notes FROM songs;"
     )
-        .fetch_all(&mut *db)
-        .await
-        .expect("Failed to read database stuff");
+    .fetch_all(&mut *db)
+    .await
+    .expect("Failed to read database stuff");
     let mut map = HashMap::new();
 
     for song in results {
@@ -111,8 +111,8 @@ async fn insert_songs(rocket: Rocket<Build>) -> fairing::Result {
             text,
             notes
         )
-            .execute(&**db)
-            .await;
+        .execute(&**db)
+        .await;
 
         if let Err(e) = res {
             error!("Failed to insert song {}: {}", title, e);
