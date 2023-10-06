@@ -8,6 +8,7 @@
         "text": "1 2 45 6 7 45 6 7 45 6 7\r\n3 2 45 7 1 43 7 1 92\r\n103 102 101 105 6 19 47\r\n19 18 17 16 15 14 13 11\r\n16 17 18 19 13 55\r\n",
         "notes": null,
         "partition": 11,
+        "page": "0xB7",
         "5ePage": 183
     },
     "agdas_skal": {
@@ -1903,6 +1904,6 @@
         "meta": "Melodi: Ja, må han/hon leva!\r\nText: Douglas Fischer och Delta-Johnny",
         "text": "Ja, må D leva!\r\nJa, må D leva!\r\nJa, må D leva uti hundrade år!\r\nJavisst ska D leva!\r\nJavisst ska D leva!\r\nJavisst ska D leva uti hundrade år!",
         "notes": "Grattis!",
-        "40jubPage": 38
+        "page": "38 (jubileumsutgåva)"
     }
 }
