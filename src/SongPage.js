@@ -21,14 +21,24 @@ export const SongPage = ({ song, bookletIndex, partitions, removeSong }) => {
       chapter = `Partition ${song.partition + 1} - ${partitions[song.partition]}`
     }
 
-    let page = ""
+    let pages = []
     if("5ePage" in song){
-        page = song["5ePage"]
+        let page = song["5ePage"]
         if(page % 2 == 1){
             //Make into hex if odd
             page = "0x" + page.toString(16).toUpperCase()
         }
+        pages.push(page)
     }
+    if ("40jubPage" in song){
+      let page = song["40jubPage"]
+      if(page % 2 == 1){
+          //Make into hex if odd
+          page = "0x" + page.toString(16).toUpperCase()
+      }
+      pages.push(page + " (jubileumsutgåva)")
+    }
+    let page = pages.join("\n")
 
     return (
         <>

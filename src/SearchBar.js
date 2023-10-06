@@ -23,6 +23,13 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
     setShow(!show)
   }
 
+
+
+  const copyBookletLink = booklet => {
+    let url = "https://audio.datasektionen.se/" + booklet.join(",")
+    navigator.clipboard.writeText(url);
+  }
+
   const handleSearchChange = e => {
     searchString = e;
     let filteredSongs = allSongs.filter(song =>  {
@@ -74,6 +81,10 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
                     <SongTile key={song.id} song ={song} addToBooklet={(id, song) => {addToBooklet(id, song); checkAddedSongCollapse();}} handleCollapse={handleCollapse}/>
                 )}
             </div>
+            <hr className='border-[#333333] m-1 mx-3'/>
+            <button onClick={() => {copyBookletLink(bookletList)}} disabled={bookletList.length == 0} className='text-[#EC5F99] disabled:text-[#333333] py-2 hover:bg-zinc-800 rounded-2xl disabled:hover:bg-black'>
+              Kopiera länk till sånghäfte
+            </button>
         </div>
     </div>
   )

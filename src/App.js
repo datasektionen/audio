@@ -14,9 +14,9 @@ var songOfTheDay;
 var metaData;
 
 //When testing, set this variable to true, in order to load songs statically, rather than from the database
-var loadSongsStatically = false;
+var loadSongsStatically = true;
 // uncomment below line if loading songs statically
-//const staticSongs = preval`module.exports = require('./getSongs.js')`;
+const staticSongs = preval`module.exports = require('./getSongs.js')`;
 var partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till Ölet", "Sånger till Vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga Sånger", "Mottagningssånger"];
 
 
@@ -29,7 +29,6 @@ function setSongOfTheDay(attempt = 0){
     while(true){
       var rand = Math.floor(rng()*(Object.keys(globalSongs).length-1));
       songOfTheDay = Object.values(globalSongs)[rand];
-      console.log(songOfTheDay);
       if(!"preventSongOfTheDay" in songOfTheDay || !songOfTheDay["preventSongOfTheDay"]){
         break;
       }
@@ -60,9 +59,6 @@ export const App = () => {
             var json = await res.json();
               globalSongs = json;
           }
-          console.log("__META__" in globalSongs)
-          console.log(globalSongs)
-          console.log("__META__" in globalSongs && "partitions" in globalSongs["__META__"])
           if("__META__" in globalSongs){
             metaData = globalSongs["__META__"]
             delete globalSongs["__META__"]
@@ -73,7 +69,15 @@ export const App = () => {
 
           setSongOfTheDay();
           setSongs(globalSongs);
+          //If path in route, add song ids to booklet
+          if(window.location.pathname.length > 1){
+            let pathSongs = window.location.pathname.substring(1).split(",")
+            pathSongs = pathSongs.filter((id) => id in globalSongs)
+            addToBooklet(pathSongs)
+            setSongIndex(0)
+          }
           setIsLoading(false);
+
         };
         getSongs();
     }, [])
@@ -85,14 +89,15 @@ export const App = () => {
         if ((typeof songIds) === "string"){
             songIds = [songIds]
         }
+
         // If song already in list, remove it and add it again to the end.
         songIds.forEach(songId => {
-            if(bookletList.includes(songId)){
-                const index = bookletList.indexOf(songId);
-                if (index > -1) { // only splice array when item is found
-                    bookletList.splice(index, 1); // 2nd parameter means remove one item only
-                }
-            }
+          if(bookletList.includes(songId)){
+              const index = bookletList.indexOf(songId);
+              if (index > -1) { // only splice array when item is found
+                  bookletList.splice(index, 1); // 2nd parameter means remove one item only
+              }
+          }
         })
         setbookletList([...bookletList, ...songIds])
         // Set the current song index to the last song (just added)
@@ -154,7 +159,7 @@ export const App = () => {
               Dagens Sång:
             </div>
             <div className='max-w-full lg:max-w-[128pt] m-auto truncate overflow-clip'>
-              {songOfTheDay.title}
+              {songOfTheDay?songOfTheDay.title:""}
             </div>
             </button>
           </nav>
