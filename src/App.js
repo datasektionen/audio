@@ -14,9 +14,9 @@ var songOfTheDay;
 var metaData;
 
 //When testing, set this variable to true, in order to load songs statically, rather than from the database
-var loadSongsStatically = false;
+var loadSongsStatically = true;
 // uncomment below line if loading songs statically
-//const staticSongs = preval`module.exports = require('./getSongs.js')`;
+const staticSongs = preval`module.exports = require('./getSongs.js')`;
 var partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till Ölet", "Sånger till Vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga Sånger", "Mottagningssånger"];
 
 
@@ -70,9 +70,13 @@ export const App = () => {
           setSongOfTheDay();
           setSongs(globalSongs);
           //If path in route, add song ids to booklet
-          if(window.location.pathname.length > 1){
-            let pathSongs = window.location.pathname.substring(1).split(",")
+          if(window.location.pathname.length > 2){
+            // Get route string and split over ",", substring is used to remove "/?"
+            // in the beginning of the route.
+            let pathSongs = window.location.pathname.substring(2).split(",")
+            // Filter out ids that are incorrect.
             pathSongs = pathSongs.filter((id) => id in globalSongs)
+            // Add all songs to the booklet
             addToBooklet(pathSongs)
             setSongIndex(0)
           }
