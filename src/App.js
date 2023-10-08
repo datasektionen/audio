@@ -85,10 +85,10 @@ export const App = () => {
           setSongOfTheDay();
           setSongs(globalSongs);
           //If path in route, add song ids to booklet
-          if(window.location.pathname.length > 2){
-            // Get route string and split over ",", substring is used to remove "/?"
+          if(window.location.search.length > 2){
+            // Get route string and split over ",", substring is used to remove "?"
             // in the beginning of the route.
-            let pathSongs = window.location.pathname.substring(2).split(",")
+            let pathSongs = window.location.search.substring(1).split(",")
             // Filter out ids that are incorrect.
             pathSongs = pathSongs.filter((id) => id in globalSongs)
             // Add all songs to the booklet
