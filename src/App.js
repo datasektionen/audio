@@ -17,7 +17,22 @@ var metaData;
 var loadSongsStatically = true;
 // uncomment below line if loading songs statically
 const staticSongs = preval`module.exports = require('./getSongs.js')`;
-var partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till Ölet", "Sånger till Vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga Sånger", "Mottagningssånger"];
+/*
+0 - Gasquesånger
+1 - Datasånger
+2 - Sektionssånger
+3 - Sånger till ölet
+4 - Sånger till vinet
+5 - Punschvisor
+6 - Nubbevisor
+7 - Dagen efter
+8 - Traditionellt
+9 - Högtid
+10 - Säsånger
+11 - Roliga sånger ("Byte-size skämt i sångformat" i jubileumsutgåvan)
+12 - Mottagningssånger (inte med i sångboken)
+*/
+var partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till ölet", "Sånger till vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga sånger", "Mottagningssånger"];
 
 
 // Gets a random song, seeded from todays date, so that everyone has the same random song, everyday.

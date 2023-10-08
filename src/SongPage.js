@@ -17,7 +17,7 @@ export const SongPage = ({ song, bookletIndex, partitions, removeSong }) => {
 
 
     let chapter = "Partition Null - Övriga Sånger"
-    if("partition" in song){
+    if("partition" in song && song.partition >= 0){
       chapter = `Partition ${song.partition + 1} - ${partitions[song.partition]}`
     }
 
