@@ -35,9 +35,7 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
     let filteredSongs = allSongs.filter(song =>  {
       if(chosenPartition >= 0){
         //Partition chosen
-        // Add 1 because only partitions 1 and onward are present.
-        // (partition 0 is only in the physical copy)
-        return "partition" in song && song.partition == chosenPartition + 1
+        return "partition" in song && song.partition == chosenPartition
 
       } else if(chosenPartition == -2){
         //Other Songs
