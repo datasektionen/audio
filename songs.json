@@ -470,7 +470,7 @@
     "ett_noll_ett": {
         "id": "ett_noll_ett",
         "title": "Ett nØll ett",
-        "alttitle": "Ett nØll ett",
+        "alttitle": "Ett noll ett",
         "firstline": "1010101",
         "meta": "Melodi: Jopphejdi…\r\n",
         "text": "||: 1010101,\r\n101, 101.\r\n1010101,\r\n10101.\r\n10, 01,\r\n101010 (1!) :||\r\n",
@@ -799,7 +799,7 @@
         "meta": "Melodi: Hej tomtegubbar\r\n",
         "text": "||: Hej, tomtegubbar, slå i glasen,\r\noch låt oss lustiga vara! :||\r\n\r\nEn liten tid vi leva här\r\nmed mycken möda och stort besvär.\r\n\r\nHej, tomtegubbar, slå i glasen\r\noch låt oss lustiga vara!\r\n",
         "notes": null,
-        "partition": 9,
+        "partition": 10,
         "page": "0xA5",
         "5ePage": 165
     },
@@ -1247,7 +1247,7 @@
         "meta": "Alternativ titel: Sankta Lucia\r\nAlternativ titel 2: Natten går tunga fjät\r\nMelodi: Luciasången\r\nText: Arvid Rosén\r\nMusik: Trad.\r\n",
         "text": "Natten går tunga fjät\r\nrunt går och stuva,\r\nkring jord som sol'n förlät\r\nskuggorna ruva.\r\n\r\n||: Då i vårt mörka hus\r\nstiger med tända ljus\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n\r\nNatten var stor och stum.\r\nNu hör det svingar\r\ni alla tysta rum\r\nsus som av vingar.\r\n\r\n||: Se, på vår tröskel står,\r\nvitklädd, med ljus i hår,\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n\r\n“Mörkret skall flykta snart\r\nur jordens dalar.”\r\nSå hon ett underbart\r\nord till oss talar.\r\n\r\n||: Dagen skall åter ny\r\nstiga ur rosig sky,\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n",
         "notes": "Arvid Rosén ville troligtvis att texten skulle låta som en ålderdomlig folkvisa, och använde sig  således av ord som stuva och förgät, ord som var svårbegripliga redan 1928, då texten skrevs. “Suset” i andra versen är lånat från den andra textversionen.\r\n",
-        "partition": 9,
+        "partition": 10,
         "page": "162",
         "5ePage": 162
     },
@@ -1809,7 +1809,7 @@
         "meta": "Alternativ titel: Du gamla, Du fria\r\nAlternativ titel 2: Till svenska fosterjorden\r\nMelodi: Sång till Norden\r\nText: Richard Dybeck\r\nMusik: Trad.\r\n",
         "text": "Du gamla, Du fria, Du fjällhöga nord,\r\nDu tysta, Du glädjerika sköna!\r\nJag hälsar Dig, vänaste land uppå jord,\r\n||: Din sol, Din himmel, Dina ängder gröna. :||\r\n\r\nDu tronar på minnen från fornstora da'r,\r\ndå ärat Ditt namn flög över jorden.\r\nJag vet att Du är och Du* blir vad Du var.\r\n||: Ja, jag vill leva, jag vill dö i Norden. :||\r\n",
         "notes": "Till skillnad från många andra nationalsånger har denna sång aldrig officiellt, genom något politiskt beslut, antagits som nationalsång. Visan framfördes för första gången den 13 november 1844, och publicerades i tryck 1865 i tidskriften Runa.\r\nYtterligare två verser, med mer uttalat svenskt tema, skrevs av Louise Ahlén, men sjungs mycket sällan och har därför heller inte tagits med här.\r\n*: “Du blir” i andra versen är i original endast “blir”, men “Du blir”, eller “förblir” sjungs oftast och passar även bättre i melodin.\r\n",
-        "partition": 8,
+        "partition": 9,
         "page": "0x93",
         "5ePage": 147
     },
