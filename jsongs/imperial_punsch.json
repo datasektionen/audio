@@ -5,5 +5,8 @@
     "firstline": "Punsch punsch punsch",
     "meta": "Melodi: Imperial March ur Star Wars (John Williams)\r\n",
     "text": "Punsch punsch punsch,\r\nmera punsch,\r\nmera punsch.\r\n\r\nPunsch punsch punsch,\r\nmera punsch,\r\nmera punsch.\r\n\r\nPunsch punsch punsch,\r\nmera punsch punsch punsch,\r\nmera punsch punsch punsch,\r\nmera punsch,\r\nmera punsch.\r\n",
-    "notes": "Datasektionen KTH 2000\r\n"
+    "notes": "Datasektionen KTH 2000\r\n",
+    "partition": 5,
+    "page": "0x65",
+    "5ePage": 101
 }

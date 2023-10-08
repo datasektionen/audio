@@ -5,5 +5,6 @@
     "firstline": "Guling, guling, kom du lilla fuling!",
     "meta": "Melodi: Tomtarnas julnatt\r\nText: Fritt efter Jan Rippe\r\nSpråk: Svenska, Engelska, Tyska, Finska\r\n",
     "text": "Guling, guling, kom du lilla fuling! Punsch, punsch, punsch!\r\n\r\nYellow, yellow, come you little ugly!\r\nPunch, punch, punch!\r\n\r\nGelbes, gelbes, kommst du kleines Gauner!\r\nPunsch, Punsch, Punsch!\r\n\r\nKeltainen, keltainen, tule pikku rumilus!\r\nPunssi, punssi, punssi!\r\n",
-    "notes": null
+    "notes": null,
+    "preventSongOfTheDay": true
 }

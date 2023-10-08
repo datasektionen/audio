@@ -5,5 +5,8 @@
     "firstline": "Emacs är en stor koloss",
     "meta": "Melodi: Rullan går\r\nText: Ingemar Ragnemalm, 1992\r\n",
     "text": "Emacs är en stor koloss.\r\nTugga på, tugga på.\r\nVerkar aldrig komma loss.\r\nTugga på, tugga på.\r\nFör att flytta på ett tecken\r\ngår två meg i garbage-säcken.\r\nNer i skärmens undre ran'\r\nstår: garbage collecting, done!\r\n\r\nVäntar på'n till min pension.\r\nTugga på, tugga på.\r\nEmacs gör en Sparcstation\r\nTugga på, tugga på.\r\nsnabb som en ABC-80.\r\nHögprestanda blir så smått i\r\nEmacs, den ser säkert till\r\ningen dödtid blir förspilld!\r\n\r\nEmacs skriven är i Lisp.\r\nTugga på, tugga på.\r\nInget rimmar alls på Lisp.\r\nTugga på, tugga på.\r\nOm du in i kärnan trevar\r\nfinn en GNU som motorn vevar.\r\nDen drar Emacs runt för hand\r\n- klart att det går trögt ibland!\r\n",
-    "notes": null
+    "partition": 1,
+    "notes": null,
+    "page": "0x31",
+    "5ePage": 49
 }

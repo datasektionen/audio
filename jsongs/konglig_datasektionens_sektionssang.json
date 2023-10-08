@@ -5,5 +5,8 @@
     "firstline": "BEGIN",
     "meta": "Melodi: Triumfmarschen ur Aida\r\nMusik: Giuseppe Verdi\r\nText: Embraquel D. Tuta\r\n",
     "text": "BEGIN\r\nINTEGER a,b,c;\r\nOutText(D);\r\nOutText(-);\r\nOutText(Sektionen); OutImage;\r\nEND;\r\n",
-    "notes": ""
+    "notes": "",
+    "partition": 1,
+    "page": "0x27",
+    "5ePage": 39
 }

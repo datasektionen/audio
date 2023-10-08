@@ -5,5 +5,6 @@
     "firstline": null,
     "meta": "Melodi: Hej tomtegubbar\r\n",
     "text": "||: Mitt lilla lån det räcker inte,\r\ndet går till öl och till brännvin. :||\r\n\r\nTill öl och brännvin går det åt,\r\noch till små flickor* emellanåt.\r\n\r\nMitt lilla lån det räcker inte,\r\ndet går till öl och till brännvin.\r\n",
-    "notes": "* Givetvis får man sjunga “pojkar”, om man föredrar det.\r\n…eller vad man nu kan tänkas tända på; här ska vi inte diskriminera någon!\r\nVissa skolor sjunger “flaskor”, men det är inte vanligt.\r\n"
+    "notes": "* Givetvis får man sjunga “pojkar”, om man föredrar det.\r\n…eller vad man nu kan tänkas tända på; här ska vi inte diskriminera någon!\r\nVissa skolor sjunger “flaskor”, men det är inte vanligt.\r\n",
+    "preventSongOfTheDay": true
 }
