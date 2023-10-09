@@ -1,10 +1,13 @@
 {
     "id": "anders_the_president",
     "title": "Anders, the President",
-    "alttitle": "(International Skitåkare Andersson)",
+    "alttitle": "International Skitåkare Andersson",
     "firstline": "Who is that, who is that, who the fuck has stopped the music",
-    "meta": "Melodi: (ingen)\r\n",
+    "meta": "Melodi: Traditionell\r\n",
     "text": "Who is that, who is that, who the fuck has stopped the music!?\r\nJo, Anders, the President, the new one!\r\nAnders, the President, the new one!\r\nHe works hard in Brinellvägen 8.\r\nwhat does he do here, why can't I see clear?\r\nwait, he is coming for me.\r\n\r\n(whispering)\r\nLet me leave, I want to disappear now\r\nLet me leave, I don't want any beef, HEY!\r\nLet me leave, I want to disappear now\r\nLet me leave, I don't want any beef, HEY! Hey! Hey!",
     "notes": "",
-    "partition": 0
+    "partition": 0,
+    "tags": [
+        "English"
+    ]
 }

@@ -1,0 +1,15 @@
+{
+    "id": "np_inte_p",
+    "title": "NP != P",
+    "firstline": "Labbar gör jag men min kod är långsam, är för långsam,",
+    "meta": "Melodi: Tomtarnas julnatt\r\nText: Max Wippich",
+    "text": "Labbar gör jag men min kod är långsam, är för långsam,\r\nKoden inte, går i O(n)* tid, O(n) tid\r\nNP, NP, NP, NP, NP,\r\nskilt, från, P\r\n\r\nSen jag inser vad som är problemet, vad är det då?\r\nNondeterministic polynomial, polynomial\r\nNP, NP, NP, NP, NP,\r\nskilt, från, P",
+    "notes": "Sångbokssittningen 2022",
+    "partition": 1,
+    "tags": [
+        "Programmering",
+        "Sångledares favoriter"
+    ],
+    "page": "44",
+    "5ePage": 44
+}

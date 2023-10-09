@@ -21,6 +21,7 @@
         "notes": "Visan skrevs till Flygsektionens vårbal 1997, som hölls tillsammans med Väg & Vattensektionen på Piperska Muren.\r\n",
         "partition": 2,
         "page": "0x41",
+        "tags": ["Flyg"],
         "5ePage": 65
     },
     "an_en_gang_daran": {
@@ -33,6 +34,7 @@
         "notes": "I andra versen brukar “… är din sup” sjungas hälften så fort.\r\nNotera anspelningen på Kungssången, “Ur svenska hjärtans djup…”.\r\n",
         "partition": 8,
         "page": "0x89",
+        "tags": ["Finsittning"],
         "5ePage": 137
     },
     "angbaten": {
@@ -41,7 +43,7 @@
         "alttitle": "Å så kommer det…",
         "firstline": "Å så kommer det en ångbåt",
         "meta": "Alternativa titlar: Å så kommer det…, Ubåten\r\nMelodi: Jazzgossen\r\n",
-        "text": "Å så kommer det en ångbåt,\r\nsom säger:\r\nTUUUUUUUUUUUUUUUUUUT.\r\n\r\nÅ så kommer det en ubåt,\r\nsom säger:\r\n",
+        "text": "Å så kommer det en ångbåt,\r\nsom säger:\r\nTUUUUUUUUUUUUUUUUUUT.\r\n\r\nÅ så kommer det en ubåt,\r\nsom säger:\r\n\"Gurgeliblurgeliglur\"",
         "notes": null,
         "partition": 6,
         "page": "0x75",
@@ -81,6 +83,7 @@
         "notes": "Sångartäfvlan 1963\r\n",
         "partition": 2,
         "page": "60",
+        "tags": ["Arkitekt"],
         "5ePage": 60
     },
     "arskursvisan": {
@@ -88,11 +91,12 @@
         "title": "Det var i vår ungdoms fagraste vår",
         "alttitle": "Årskursvisan",
         "firstline": null,
-        "meta": "Melodi: Trad.\r\n",
+        "meta": "Melodi: Traditionell\r\n",
         "text": "Det var i vår ungdoms fagraste vår,\r\nvi drack varandra till och vi sade gutår!\r\nAlla så dricka vi nu D-Osquarina till.\r\nOch D-Osquarina vi säger inte nej därtill.\r\nFör det var i vår ungdoms fagraste vår,\r\nvi drack varandra till och vi sade gutår!\r\n",
         "notes": "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n“gästerna” och eventuellt “personalen”.\r\n\r\nVartefter Konglig Datasektionens årskurser fick längre och längre namn, innebar det en större utmaning att hinna sjunga “Och alla så dricka vi nu…”. Därför föreslås följande sätt att sjunga längre-än-tvåstaviga namn:\r\n<ul>\r\n<li>“Och alla vi dricka D-Osquarina till” (Ex: dovicesimus)</li>\r\n<li>“Och alla, drick D-Osquarina till” (Ex: dodevicesimus)</li>\r\n<li>“Och alla, nu drick D-Osquarina till” (Ex: vicesimus quartus)</li>\r\n</ul><p>Årskursnamn hittills</p>1983,\tprimus\r\n1984,\tsecundus\r\n1985,\ttertius\r\n1986,\tquartus\r\n1987,\tquintus\r\n1988,\tsextus\r\n1989,\tseptimus\r\n1990,\toctavius\r\n1991,\tnonus\r\n1992,\tdecimus\r\n1993,\tundecimus\r\n1994,\tdodecimus\r\n1995,\ttertius decimus\r\n1996,\tsigvard\r\n1997,\tquintus decimus\r\n1998,\tsextus decimus\r\n1999,\tseptus decimus\r\n2000,\tdodevicesimus\r\n2001,\tundevicesimus\r\n2002,\tvicesimus\r\n2003,\tunvicesimus\r\n2004,\tdovicesimus\r\n2005,\ttertius vicesimus\r\n2006,\tvicesimus quartus\r\n2007,\tvicesimus quintus\r\n2008,\tvicesimus sextus\r\n2009,\tvicesimus septus\r\n2010,\tduodetricesimus\r\n2011,\tundetricesimus\r\n2012,\ttricesimus\r\n2013,\tuntricesimus\r\n2014,\tduotricesimus\r\n2015,\ttricesimus tertius\r\n2016,\ttricesimus quartus\r\n2017,\ttricesimus quintus\r\n2018,\ttricesimus sextus\r\n2019,\ttricesimus septimus\r\n2020,\tduodequadragesimus\r\n2021,\tundequadragesimus\r\n2022,\tquadragesimus",
         "partition": 2,
         "page": "0x25",
+        "tags": ["Finsittning"],
         "5ePage": 37
     },
     "bergsman_vi_aro": {
@@ -105,6 +109,7 @@
         "notes": "Sången skrevs 1916, av Magnus Tigerschiöld som då var en ung Bergsstudent.\r\n",
         "partition": 2,
         "page": "62",
+        "tags": ["Bergs"],
         "5ePage": 62
     },
     "berkeley_california": {
@@ -117,6 +122,7 @@
         "notes": "[substitute whirring of disk and tape drives for guitar solo]\r\n\r\nSkriven av David Barr, Ken Hornstein och Greg Nagy i ljuset av stämningsmålet\r\nmellan AT&T och BSDI (1992) samt att Sun m.fl. bytte ut gamla go'a BSD mot System V.\r\n",
         "partition": 11,
         "page": "0xAB",
+        "tags": ["English"],
         "5ePage": 171
     },
     "betlehems_stjarna": {
@@ -177,6 +183,7 @@
         "notes": "Martin Heidegger var den enda av de nämnda filosoferna som ännu var i livet när sången skrevs. Han dog 1976, 86 år gammal.\r\n",
         "partition": 11,
         "page": "174",
+        "tags": ["English"],
         "5ePage": 174
     },
     "byggingenjorernas_bekannelse": {
@@ -189,6 +196,7 @@
         "notes": null,
         "partition": 2,
         "page": "68",
+        "tags": ["Bygg"],
         "5ePage": 68
     },
     "can_can": {
@@ -201,6 +209,7 @@
         "notes": null,
         "partition": 6,
         "page": "0x6D",
+        "tags": ["Sångledares favoriter"],
         "5ePage": 109
     },
     "cecilia_lind": {
@@ -208,7 +217,7 @@
         "title": "Balladen om herr Fredrik Åkare  och den söta fröken Cecilia Lind",
         "alttitle": null,
         "firstline": "Från Öckerö loge hörs dragspel och bas",
-        "meta": "Alternativ titel: Cecilia Lind\r\nMelodi: Monday Morning\r\nText: Cornelis Vreeswijk\r\nMusik: Trad.\r\n",
+        "meta": "Alternativ titel: Cecilia Lind\r\nMelodi: Monday Morning\r\nText: Cornelis Vreeswijk",
         "text": "Från Öckerö loge hörs dragspel och bas\r\noch fullmånen lyser som var den av glas.\r\nDär dansar Fredrik Åkare kind emot kind\r\nmed lilla fröken Cecilia Lind.\r\n\r\nHon dansar och blundar så nära intill.\r\nHon följer i dansen precis vart han vill.\r\nHan för och hon följer så lätt som en vind,\r\nmen säg, varför rodnar Cecilia Lind?\r\n\r\nSäg, var det för det Fredrik Åkare sa?\r\n“Du doftar så gott och du dansar så bra.\r\nDin midja är smal och barmen är trind.\r\nVad du är vacker, Cecilia Lind.”\r\n\r\nMen dansen tog slut och vart skulle dom gå?\r\nDom bodde så nära varandra ändå.\r\nTill slut kom dom fram till Cecilias grind.\r\n“Nu vill jag bli kysst”, sa Cecilia Lind.\r\n\r\n\r\nVet hut, Fredrik Åkare, skäms gamla karl'n!\r\nCecilia Lind är ju bara ett barn.\r\nRen som en blomma, skygg som en hind.\r\n“Jag fyller snart sjutton”, sa Cecilia Lind.\r\n\r\nOch stjärnorna vandra och timmarna fly\r\noch Fredrik är gammal men månen är ny.\r\nJa, Fredrik är gammal men kärlek är blind.\r\n“Åh, kyss mig igen”, sa Cecilia Lind.\r\n",
         "notes": "Kommunalrådet i Eslövs kommun (2002-) heter Cecilia Lind, men det är inte henne sången handlar om.\r\n",
         "preventSongOfTheDay": true
@@ -248,7 +257,7 @@
         "title": "Daddornas introduktion",
         "alttitle": "Daddornas introduktion",
         "firstline": "Vad ska vi göra med nya nØllan? (3ggr)",
-        "meta": "Melodi: Drunken Sailor, (Trad.)\r\n",
+        "meta": "Melodi: Drunken Sailor\r\n",
         "text": "Vad ska vi göra med nya nØllan? (3ggr)\r\nTa dem med på fester.\r\n\r\nSkål, skål alla vänner. (3ggr)\r\nnØllan den är här nu.\r\n\r\n“Häll lite mera vin i glasen!” (3ggr)\r\nropar vi åt nØllan.\r\n\r\nHäll, häll upp i glasen, (3ggr)\r\nnØllningen har börjat!\r\n\r\n",
         "notes": null,
         "partition": 12
@@ -258,11 +267,12 @@
         "title": "Dance macabre",
         "alttitle": null,
         "firstline": "Runt kring vår stuga smådjävlar sluga",
-        "meta": "Melodi: Vårvindar friska (trad.)\r\nSpråk: Svenska\r\n",
+        "meta": "Melodi: Vårvindar friska",
         "text": "Runt kring vår stuga smådjävlar sluga\r\ntassa så tyst med bockfot och svans.\r\nVarulvar yla, isande kyla\r\nsveper i dimma fanstygens dans.\r\n\r\nBäva, o broder, lyssna och hör\r\nvrålen från gast, som osalig dör.\r\nSatan, han skrattar, flaskan han fattar,\r\nsuper tills dagen gryr.\r\n\r\nGastar och spöken skymtar i Kröken.\r\nDöingar släpa ruttnande lik.\r\nBenrangel skramla, spökhänder famla,\r\nkväva din strupes rosslande skrik.\r\n\r\nHelvetets alla fasor släpps loss.\r\nFan rider här med hela sin tross.\r\nGöm dig i stugan, du har fått flugan.\r\nDille - det blir din lott.\r\n",
         "notes": null,
         "partition": 1,
         "page": "170",
+        "tags": ["Sångledares favoriter"],
         "5ePage": 170
     },
     "dataeliten": {
@@ -270,7 +280,7 @@
         "title": "Dataeliten",
         "alttitle": null,
         "firstline": null,
-        "meta": "Melodi: Vårvindar friska (Trad.)\r\n",
+        "meta": "Melodi: Vårvindar friska",
         "text": "Dataeliten, lugnast med fliten,\r\nvi går på fest och där trivs vi bäst.\r\nPlugga och tenta, det kan ju vänta,\r\nfestar och gasquar det gör vi mest.\r\n\r\nÖlen vi alla håller så kär,\r\ntack vare den vi klarar det här!\r\nStyrka och mod i flaska på bord\r\nnär vi bjuder upp till fest.\r\n\r\nDataeliten tål mest av spriten,\r\ntrots alkohol vi når våra mål.\r\nGroggar och punsch det tar vi till lunch men\r\nölen blir ändå vårt middagsmål.\r\n\r\nÖlen vi alla håller så kär,\r\ntack vare den vi klarar det här!\r\nTenta imorr'n, men tentor går om\r\nså lyft nu ditt glas, gutår!\r\n",
         "notes": "Datasektionen KTH 1992",
         "partition": 1,
@@ -311,6 +321,7 @@
         "notes": "Framfördes första gången på Fysiksektionens Ettans fest läsåret 2001/2002. \r\nDe senaste åren har valda delar av sektionen börjat sjunga om Martin Frost\r\nistället för Lara Croft. Vet du inte vem Frost är? Fråga någon gammal.\r\n",
         "partition": 0,
         "page": "0x21",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 33
     },
     "den_blomstertid_nu_kommer": {
@@ -318,7 +329,7 @@
         "title": "Den blomstertid nu kommer",
         "alttitle": null,
         "firstline": null,
-        "meta": "Melodi: Den blomstertid nu kommer\r\nText: Israel Kolmodin\r\nMusik: Trad.\r\n",
+        "meta": "Melodi: Traditionell\r\nText: Israel Kolmodin",
         "text": "Den blomstertid nu kommer\r\nmed lust och fägring stor.\r\nDu nalkas, ljuva sommar,\r\ndå gräs och gröda gror.\r\nMed blid och livlig värma\r\ntill allt som varit dött,\r\nsig solens strålar närma,\r\noch allt blir återfött.\r\n\r\nDe fagra blomsterängar\r\noch åkerns ädla säd,\r\nde rika örtesängar\r\noch lundens\r\ngröna träd,\r\nde skola oss påminna\r\nGuds godhets rikedom,\r\natt vi den nåd besinna\r\nsom räcker året om.\r\n\r\nMan hörer fåglar sjunga\r\nmed mångahanda ljud,\r\nskall icke då vår tunga\r\nlovsäga Herren Gud?\r\nMin själ, upphöj Guds ära,\r\nstäm upp din glädjesång\r\ntill den som vill oss nära\r\noch fröjda på en gång!\r\n",
         "notes": "En av de mest kända svenska psalmerna, vars text trycktes redan i Den svenska psalmboken 1695. Den har därefter omarbetats ett flertal gånger, senast 1979.\r\nDet finns tre verser till, men de sjungs sällan, så de har inte tagits med här.\r\nSv. psalm nr 199\r\n",
         "partition": 10,
@@ -330,7 +341,7 @@
         "title": "Denna thaft",
         "alttitle": null,
         "firstline": null,
-        "meta": "Melodi: Helan går (Trad.)\r\nSpråk: Thventhka\r\n",
+        "meta": "Melodi: Traditionell\r\nSpråk: Thventhka\r\n",
         "text": "Denna thaft,\r\nden bäthta thaft thythemet haft.\r\nDenna thaft,\r\nden bäthta thaft dom haft\r\noch den thom inte har nån kraft\r\nhan dricka thkall av denna thaft.\r\nDenna thaft!\r\nTill landth, till thjöthth, till havth.\r\n",
         "notes": null,
         "partition": 6,
@@ -369,6 +380,7 @@
         "partition": 5,
         "notes": null,
         "page": "0x63",
+        "tags": ["Sångledares favoriter"],
         "5ePage": 99
     },
     "dom_som_ar_fulla": {
@@ -393,6 +405,7 @@
         "notes": null,
         "partition": 0,
         "page": "0x1B",
+        "tags": ["Alkfritt"],
         "5ePage": 27
     },
     "du_nya_du_frascha": {
@@ -405,6 +418,7 @@
         "notes": "Skrevs som gyckel till Sektionsgasquen 2007.\r\n",
         "partition": 1,
         "page": "54",
+        "tags": ["Nämnder"],
         "5ePage": 54
     },
     "elysisk_langtan": {
@@ -441,6 +455,7 @@
         "notes": "Sjunges knästående som tack, exempelvis till \r\nserveringspersonalen efter avslutad måltid.\r\n",
         "partition": 0,
         "page": "34",
+        "tags": ["Finsittning"],
         "5ePage": 34
     },
     "en_matematiker": {
@@ -477,6 +492,7 @@
         "notes": "Sjunges om och om igen, varannan gång med inverterad binärkod.\r\n",
         "partition": 1,
         "page": "48",
+        "tags": ["Programmering", "Sånger som aldrig tar slut"],
         "5ePage": 48
     },
     "festen_ska_borjas": {
@@ -484,11 +500,12 @@
         "title": "Festen ska börjas",
         "alttitle": null,
         "firstline": null,
-        "meta": "Melodi: Vårvindar friska (trad.)\r\n",
+        "meta": "Melodi: Vårvindar friska\r\n",
         "text": "Festen ska börjas, kråset ska smörjas,\r\nmagen ska få det som den vill ha.\r\nGlasen stå fulla, låt sången rulla,\r\nglädjen ska vara gäst här ida'.\r\n\r\nGlasen i handen, fatta och sjung.\r\nGlöm alla sorger, var bara ung.\r\nGlöm morgondagen, tänk blott på magen,\r\nskål alla vänner: Hej och gutår!\r\n",
         "notes": null,
         "partition": 0,
         "page": "0x15",
+        "tags": ["Finsittning"],
         "5ePage": 21
     },
     "festus_punschvisa": {
@@ -507,8 +524,8 @@
         "alttitle": null,
         "firstline": null,
         "meta": "Melodi: Marche militaire (Franz Schubert)\r\n",
-        "text": "Feta fransyskor som svettas om fötterna,\r\nde trampar druvor som sedan ska jäsas till vin.\r\nTranspirationen viktig é,\r\nty den ger fin bouquet.\r\nVårtor och svampar följer med,\r\nmen vad gör väl det?\r\n\r\nFör…\r\nVi vill ha vin, vill ha vin, vill ha mera vin\r\näven om följderna blir att vi må lida pin.\r\nFlickor: Flaskan och glaset gått i sin\r\nPojkar:  Hit med vin, mera vin\r\nFlickor: Tror ni att vi är fyllesvin?\r\nPojkar:  JA! (fast större)\r\n",
-        "notes": "Sångarstriden 1985, Lund\r\n",
+        "text": "Feta fransyskor som svettas om fötterna,\r\nde trampar druvor som sedan ska jäsas till vin.\r\nTranspirationen viktig é,\r\nty den ger fin bouquet.\r\nVårtor och svampar följer med,\r\nmen vad gör väl det?\r\n\r\nFör…\r\nVi vill ha vin, vill ha vin, vill ha mera vin\r\näven om följderna blir att vi må lida pin.\r\nA: Flaskan och glaset gått i sin\r\nB: Hit med vin, mera vin\r\nA: Tror ni att vi är fyllesvin?\r\nB: JA! (fast större)\r\n",
+        "notes": "Sångarstriden 1985, Lund\r\n*A är traditionellt flickor och B är traditionellt pojkar",
         "partition": 4,
         "page": "90",
         "5ePage": 90
@@ -579,23 +596,25 @@
         "title": "Frans Michael Franzéns dryckesvisa",
         "alttitle": "Bordsvisa",
         "firstline": "När skämtet tar ordet vid vänskapens bord",
-        "meta": "Alternativ titel: Bordsvisa\r\nMelodi: Frans Michael Franzéns dryckesvisa (trad.)\r\nText: Frans Michael Franzén\r\n",
+        "meta": "Alternativ titel: Bordsvisa\r\nMelodi: Traditionell\r\nText: Frans Michael Franzén\r\n",
         "text": "När skämtet tar ordet vid vänskapens bord\r\nmed fingret åt glasen som dofta,\r\nså drick och var glad: på vår sorgliga jord\r\nman gläder sig aldrig för ofta.\r\n\r\n||: En blomma är glädjen, i dag slår hon ut,\r\ni morgon förvissnar hon redan.\r\nJust nu när du kan hav en lycklig minut\r\noch tänk på den kommande sedan. :||\r\n\r\nVem drog ej en suck över tidernas lopp?\r\nDock sitt ej och dröm på kalaset!\r\nHär lev i sekunden och hela ditt hopp\r\nse fyllas och tömmas i glaset.\r\n\r\n||: Här sörj ej för glaset: om fullt, så drick ut.\r\nOm tomt, så försänd det att fyllas!\r\nOch minns att det sköna och goda förut,\r\nsen glädjen och nöjet, må hyllas. :||\r\n\r\nTy ägne vi först åt värdinnan en skål.\r\nVad vore vår fröjd utan henne?\r\nSen prise vi värden och särskilt hans bål.\r\nVad vore vårt mod utan denne?\r\n\r\n||: Dem båda förene ett glas och en sång:\r\nde själva så skönt sig förente.\r\nMed druvorna myrten blev skapt på en gång:\r\nvem ser ej vad himmelen mente? :||\r\n\r\nFör övrigt må värden ge alltid nytt skäl\r\ntill ständig omsättning av glasen\r\noch visa, att rangen är nyttig likväl --\r\ntill skålarnas mängd på kalasen!\r\n\r\n||: Men förr'n han är färdig med klang och harang,\r\nvi skynda att självmant dricka\r\noch helga ett glas, som är över all rang,\r\ni tysthet - envar åt sin flicka! :||\r\n",
         "notes": null,
         "partition": 8,
         "page": "138",
+        "tags": ["Finsittning"],
         "5ePage": 138
     },
     "fredmans_sang_no_21": {
         "id": "fredmans_sang_no_21",
         "title": "Fredmans sång no. 21",
-        "alttitle": "Under måltiden, varvid han ställer döden under gästernas ögon",
+        "alttitle": "Måltidssång",
         "firstline": "Så lunka vi så småningom",
-        "meta": "Alternativ titel: Måltidssång\r\nMelodi: Fredmans sång no. 21 (trad.)\r\nText: Carl Michael Bellman\r\n",
+        "meta": "Alternativ titel: Måltidssång\r\nMelodi: Traditionell\r\nText: Carl Michael Bellman\r\n",
         "text": "Så lunka vi så småningom\r\nfrån Bacchi buller och tumult,\r\nnär döden ropar: “Granne, kom,\r\nditt timglas är nu fullt!”\r\nDu gubbe, fäll din krycka ner,\r\noch du, du yngling, lyd min lag:\r\nden skönsta nymf som åt dig ler,\r\ninunder armen tag!\r\n\r\nTycker du att graven är för djup,\r\nnå, välan så tag dig då en sup,\r\ntag dig sen dito en, dito två, dito tre,\r\nså dör du nöjdare!\r\n\r\nSäg är du nöjd, min granne, säg?\r\nSå prisa värden nu till slut!\r\nOm vi har en och samma väg,\r\nså följoms åt, drick ut!\r\nMen först med vinet, rött och vitt\r\nför vår värdinna bugom oss\r\noch halkom sen i graven fritt\r\nvid aftonstjärnans bloss.\r\n\r\nTycker du…\r\n",
         "notes": null,
         "partition": 8,
         "page": "0x85",
+        "tags": ["Finsittning"],
         "5ePage": 133
     },
     "fredmans_sang_no_35": {
@@ -603,11 +622,12 @@
         "title": "Fredmans sång no. 35",
         "alttitle": "Gubben Noak",
         "firstline": null,
-        "meta": "Alternativ titel: Gubben Noak\r\nMelodi: Fredmans sång no. 35 (Carl Michael Bellman)\r\nText: Carl Michael Bellman\r\n",
+        "meta": "Alternativ titel: Gubben Noak\r\nMelodi: Traditionell\r\nText: Carl Michael Bellman\r\n",
         "text": "Gubben Noak, gubben Noak\r\nvar en hedersman.\r\nNär han gick ur arken,\r\nplantera' han på marken\r\nmycket vin, ja mycket vin, ja\r\ndetta gjorde han.\r\n\r\nNoak rodde, Noak rodde\r\nur sin gamla ark.\r\nKöpte sig buteljer,\r\nsådana man säljer\r\nför att dricka, för att dricka\r\npå vår nya park.\r\n\r\nHan väl visste, han väl visste\r\natt en män'ska var\r\ntörstig av naturen,\r\nsom de andra djuren.\r\nDärför han ock, därför han ock\r\nvin planterat har.\r\n\r\nGumman Noak, gumman Noak\r\nvar en hedersfru:\r\nHon gav man sin dricka.\r\nFick jag sådan flicka,\r\ngifte jag mig, gifte jag mig\r\njust på stunden nu.\r\n\r\nAldrig sa hon, aldrig sa hon\r\n“Kära far, nånå,\r\nsätt ifrån dig kruset!”\r\nNej, det ena ruset\r\npå det andra, på det andra\r\nlät hon gubben få.\r\n\r\nGubben Noak, gubben Noak\r\nbrukte egna hår,\r\npipskägg, hakan trinder,\r\nrosenröda kinder.\r\nDrack i botten, drack i botten.\r\nHurra och gutår!\r\n\r\nDå var lustigt, då var lustigt\r\npå vår gröna jord:\r\nMan fick väl till bästa\r\ningen törstig nästa\r\nsatt och blängde, satt och blängde,\r\nvid ett dukat bord.\r\n\r\nInga skålar, inga skålar\r\ngjorde då besvär.\r\nDå var ej den läran\r\n“Jag skall ha den äran!”\r\nNej, i botten, nej, i botten\r\ndrack man ur så här.\r\n",
         "notes": null,
         "partition": 4,
         "page": "92",
+        "tags": ["Finsittning"],
         "5ePage": 92
     },
     "fru_svenssons_lyckliga_karl": {
@@ -644,6 +664,7 @@
         "notes": "fkm* utmanade DKM på att skriva varandras gyckel under förfesten till en marskalksmiddag hösten 2000.\r\n",
         "partition": 0,
         "page": "32",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 32
     },
     "gaffas_visa": {
@@ -668,6 +689,7 @@
         "notes": "Denna text kan sjungas --- och sjungs --- på en hel uppsjö av melodier och det tillkommer ständigt fler,\r\nvarför det inte är någon mening med att ens försöka lista alla melodier.\r\n",
         "partition": 0,
         "page": "0x13",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 19
     },
     "gass_te_dej": {
@@ -718,7 +740,7 @@
         "title": "Gums visa",
         "alttitle": null,
         "firstline": "Skål kamrater, ty livet är glatt",
-        "meta": "Melodi: Gums visa (Trad.)\r\nText: Gumælius och Sebardt\r\n",
+        "meta": "Melodi: Traditionell\r\nText: Gumælius och Sebardt\r\n",
         "text": "Skål kamrater, ty livet är glatt\r\noch snart förgäta vi sorgen.\r\nVi söpo igår, vi supa idag\r\noch vi tar en sjujäkel i morgon.\r\nSkål, skål, skål, skål!\r\n",
         "notes": ""
     },
@@ -741,6 +763,7 @@
         "notes": "Fysiksektionens Gerhardsgasque 1977.\r\nTextraden om usla snören tarvar en förklaring. Fråga någon som ser gammal ut.\r\n",
         "partition": 0,
         "page": "0x1F",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 31
     },
     "har_kommer_det_elektriker": {
@@ -753,6 +776,7 @@
         "partition": 2,
         "notes": null,
         "page": "0x43",
+        "tags": ["Elektro"],
         "5ePage": 67
     },
     "harjarevisan": {
@@ -765,6 +789,7 @@
         "notes": "Ur Lundaspexet “Djingis Khan”, 1954. \r\nEndast andra och tredje versen härrör ur spexet ifråga. Den förstas ursprung är okänt.\r\n",
         "partition": 0,
         "page": "22",
+        "tags": ["Sångledares favoriter"],
         "5ePage": 22
     },
     "hederlige_stures_visa": {
@@ -813,6 +838,7 @@
         "notes": null,
         "partition": 2,
         "page": "0x45",
+        "tags": ["Maskin"],
         "5ePage": 69
     },
     "helan_gar": {
@@ -849,6 +875,7 @@
         "notes": null,
         "partition": 6,
         "page": "106",
+        "tags": ["English"],
         "5ePage": 106
     },
     "i_frankrike_dricks_det_viner": {
@@ -918,6 +945,7 @@
         "notes": "Det finns egentligen fyra ingenjörssektioner (Campus, Telge, Haninge och Kista),\r\nmen för att göra en lång historia kort var de ursprungligen en och samma sektion\r\noch har därför såväl gemensam sektionsvisa som  gemensam logotyp.\r\n",
         "partition": 2,
         "page": "70",
+        "tags": ["Ingenjörssektionen"],
         "5ePage": 70
     },
     "invers_aptit": {
@@ -954,6 +982,7 @@
       "notes": "Skrevs tillsammans med både data- och medianØllan under Amejsing Rejs, mottagningen 2019.",
       "partition": 1,
       "page": "0x2D",
+      "tags": ["Media", "Sångledares favoriter"],
       "5ePage": 45
     },
     "jag_har_aldrig_vart_pa_snusen": {
@@ -966,6 +995,7 @@
         "notes": "* Människor från andra städer sjunger ofta varianter på just detta ord i texten,\r\nsåsom “Näckrosdammen”, “hela Svartån” m.m. På KTH hörs ofta \r\n“Gasqueparksdammen”, vilket är namnet på fontänen utanför kårhuset Nymble.\r\nDet rekommenderas då att du klämmer i ordentligt, så att de stackars oupplysta \r\nsjälarna lär sig hur texten egentligen skall vara.\r\n\r\nAtt vomera öl är tämligen ouppfostrat.\r\n",
         "partition": 0,
         "page": "30",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 30
     },
     "jag_ser_ni_krokar": {
@@ -978,6 +1008,7 @@
         "notes": null,
         "partition": 0,
         "page": "0x13",
+        "tags": ["Alkfritt"],
         "5ePage": 19
     },
     "jag_ska_festa": {
@@ -990,6 +1021,7 @@
         "notes": "Sångarstriden 1987, D-LTH\r\n\r\n På Konglig Datasektionen är det vanligt att mellansticket upprepas, varpå Gaffeln sjungs som en tredje vers.\r\n",
         "partition": 0,
         "page": "18",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 18
     },
     "jamvikt_rader": {
@@ -1002,6 +1034,7 @@
         "partition": 2,
         "notes": null,
         "page": "68",
+        "tags": ["Fysik"],
         "5ePage": 68
     },
     "jasen": {
@@ -1009,11 +1042,12 @@
         "title": "JASen",
         "alttitle": null,
         "firstline": "Och JASen styrde mot Västerbron",
-        "meta": "Melodi: Måsen (Trad.)\r\nText: Det Kongliga Dadderiet anno 1993\r\n",
+        "meta": "Melodi: Måsen\r\nText: Det Kongliga Dadderiet anno 1993\r\n",
         "text": "Och JASen styrde mot Västerbron\r\nmen styrsystemet var trasigt.\r\nPiloten utsköt sig med kanon\r\nför planet vingla' så knasigt.\r\nHan ville uppåt, han ville mer\r\nmen planet svarte: “Jag vill ju ner\r\nmot alla hjon\r\npå Västerbron”.\r\n",
         "notes": null,
         "partition": 6,
         "page": "120",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 120
     },
     "ju_mera_ol_vi_dricker": {
@@ -1033,11 +1067,12 @@
         "title": "Kalmarevisan",
         "alttitle": null,
         "firstline": "Uti Kalmare stad",
-        "meta": "Text: G S Kallstenius\r\n",
-        "text": "||: Uti Kalmare stad,\r\nja där finns det ingen kvast :||\r\nförrän lördagen.\r\n\r\nHej dick!\r\nHej dack!\r\nJag slog i,\r\noch vi drack.\r\nHej dickom dickom dack!\r\nHej dickom dickom dack!\r\nFör uti Kalmare stad,\r\nja där finns det ingen kvast\r\nförrän lördagen.\r\n\r\n||: När som bonden kommer hem\r\nkommer bondekvinnan ut :||\r\noch är så stor i sin trut.\r\n\r\nHej dick…\r\n\r\n||: “Var är pengarna du fått?”\r\n“Jo, dom har jag supit opp :||\r\nuppå Kalmare slott.”\r\n\r\nHej dick…\r\n\r\n||: “Jag ska mäla dig an\r\nför vår kronbefallningsman :||\r\noch du ska få skam.”\r\n\r\nHej dick…\r\n\r\n||: “Kronbefallningsmannen vår\r\nsatt på krogen igår :||\r\noch var full som ett får.”\r\n\r\nHej dick…\r\n",
-        "notes": "Första versraderna samt varannan refrängrad sjungs av en försångare.\r\nDet finns även ett otal fler verser, som tillkommit vid olika tillfällen och platser.\r\n",
+        "meta": "Melodi: Traditionell\r\nText: G S Kallstenius\r\n",
+        "text": "||: <b>Uti Kalmare stad,</b>\r\nja där finns det ingen kvast :||\r\nförrän lördagen.\r\n\r\n<b>Hej dick!</b>\r\nHej dack!\r\n<b>Jag slog i,</b>\r\noch vi drack.\r\n<b>Hej dickom dickom dack!</b>\r\nHej dickom dickom dack!\r\nFör uti Kalmare stad,\r\nja där finns det ingen kvast\r\nförrän lördagen.\r\n\r\n||: <b>När som bonden kommer hem</b>\r\nkommer bondepartnern ut :||\r\noch är så stor i sin trut.\r\n\r\nHej dick…\r\n\r\n||: <b>“Var är pengarna du fått?”</b>\r\n“Jo, dom har jag supit opp :||\r\nuppå Kalmare slott.”\r\n\r\nHej dick…\r\n\r\n||: <b>“Jag ska mäla dig an</b>\r\nför vår kronbefallningsman :||\r\noch du ska få skam.”\r\n\r\nHej dick…\r\n\r\n||: <b>“Kronbefallningsmannen vår</b>\r\nsatt på krogen igår :||\r\noch var full som ett får.”\r\n\r\nHej dick…\r\n",
+        "notes": "Raderna i sången som är markerade i fetstil sjunges av en försångare, medan raderna direkt under dessa sjunges av resterande. Övriga rader sjunges av alla.\r\n\r\nDet finns även ett otal fler verser, som tillkommit vid olika tillfällen och platser.\r\n",
         "partition": 0,
         "page": "20",
+        "tags": ["Sångledares favoriter"],
         "5ePage": 20
     },
     "konglig_datasektionens_sektionssang": {
@@ -1050,6 +1085,7 @@
         "notes": "",
         "partition": 1,
         "page": "0x27",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 39
     },
     "konglig_fysiks_parahymn": {
@@ -1092,8 +1128,8 @@
         "alttitle": null,
         "firstline": "Kors i allsin da'r",
         "meta": "Melodi: Kors\r\n",
-        "text": "Kors i allsin da'r,\r\nhar du brännvin kvar?\r\nÄr du sparsam eller snål?\r\nSkål!\r\n",
-        "notes": null,
+        "text": "Kors i allsin da'r,\r\nhar du brännvin kvar?\r\nÄr du sparsam eller snål?\r\nSkål!*\r\n",
+        "notes": "*Snåla sjunger \"Snål!\"",
         "partition": 6,
         "page": "116",
         "5ePage": 116
@@ -1165,6 +1201,7 @@
         "notes": "Här har endast första och sista versen tagits med. Tre verser till finns, men\r\nsjungs mer sällan. \r\nKungssången skrevs till och uruppfördes vid en studentfest i Lund den 5 december\r\n1844 i anslutning till Lunds  universitets firande av Oscar I:s tronbestigning.\r\nTidigare hade det varit brukligt att byta kung och kungssång på samma gång,\r\nvarför auditoriet, som tog för givet att detta var den nya kungssången, reste\r\nsig och sjöng med. Fastän det inte är klarlagt att detta var vad\r\nupphovsmännen hade avsett, har sången därefter fått gälla som kungssång. \r\nTill skillnad från exempelvis den brittiska “God Save the Queen” har den\r\nsvenska kungssången inte status av nationalsång. Förutom Sverige har även\r\nDanmark, Norge och Thailand särskilda kungssånger.\r\n",
         "partition": 9,
         "page": "150",
+        "tags": ["Finsittning"],
         "5ePage": 150
     },
     "langtan_till_landet": {
@@ -1177,6 +1214,7 @@
         "notes": "Texten publicerades ursprungligen som vers i boken Jägarens vila, 1838. Några år\r\nefter att hans gode vän satt musik till versen skrev Herman Sätherberg ny text\r\ntill visan. Båda dessa textversioner börjar ungefär likadant. Ursprunglig\r\nversion är 4 verser lång, den reviderade versionen är 6 verser lång. Det är de\r\ntvå första verserna i den reviderade versionen som blivit folkkära och som\r\nåterges här.\r\nDet “land” textförfattaren längtade till\r\nnär texten skrevs var Nolinge säteri i Grödinge socken, \r\nSödermanland.\r\n",
         "partition": 10,
         "page": "152",
+        "tags": ["Finsittning"],
         "5ePage": 152
     },
     "lantmatarolen": {
@@ -1189,6 +1227,7 @@
         "notes": null,
         "partition": 2,
         "page": "0x47",
+        "tags": ["Lantmäteri"],
         "5ePage": 71
     },
     "lantmateri": {
@@ -1201,6 +1240,7 @@
         "notes": null,
         "partition": 2,
         "page": "0x47",
+        "tags": ["Lantmäteri"],
         "5ePage": 71
     },
     "lasa_matematik": {
@@ -1209,7 +1249,7 @@
         "alttitle": null,
         "firstline": "Om du ska läsa matematik",
         "meta": "Melodi: Läsa matematik\r\nText: Matte Matik\r\n",
-        "text": "Om du ska läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nOch har du en gång vandrat den smala väg\r\nmellan mängder och satslogik…\r\n\r\nJa, ska du läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nOch har du en gång vandrat den smala väg\r\nmellan mängder och satslogik\r\n\r\nSå vet du faran med matematik\r\nMan vandrar runt som ett levande lik\r\noch det som en gång kallades människa\r\nliknar nu mest en räknemaskin\r\n\r\nOm du ska läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nDet är en magisk dörr, till en annan värld\r\nsom baseras på aritmetik\r\n\r\nOch dom som läser matematik,\r\nvandrar runt som levande lik.\r\nOch det som en gång kallades människa\r\nliknar nu mest en räknemaskin.\r\n\r\n\r\nMan kan tycka att en liten integral\r\nverkar harmlös och inte kan skada.\r\nMen sen sitter man där halva natten\r\nför att lösa eländet (lösa eländet).\r\n\r\nOch det värsta är att man gör det för\r\natt man tycker att det är rätt trevligt.\r\nOch när man löst ett riktigt riktigt knepigt tal\r\nså känns det så himlades bra!\r\n\r\nJag är Pi-junkie jag, och jag tränar var dag\r\npå Pi och dess decimaler.\r\nOch jag trivs riktigt bra när jag tävlar med mina\r\nvänner om vem som kan flest decimaler på Pi.\r\n\r\nOm du ska läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nDet är en magisk dörr, till en annan värld\r\nsom baseras på aritmetik\r\n\r\nSå vet du faran med matematik\r\nMan vandrar runt som ett levande lik\r\noch det som en gång kallades människa\r\nliknar nu mest en räknemaskin\r\n\r\nOm du ska läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nDet är en magisk dörr, till en annan värld\r\nsom baseras på aritmetik\r\n",
+        "text": "Om du ska läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nOch har du en gång vandrat den smala väg\r\nmellan mängder och satslogik…\r\n\r\nJa, ska du läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nOch har du en gång vandrat den smala väg\r\nmellan mängder och satslogik\r\n\r\nSå vet du faran med matematik\r\nMan vandrar runt som ett levande lik\r\noch det som en gång kallades människa\r\nliknar nu mest en räknemaskin\r\n\r\nOm du ska läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nDet är en magisk dörr, till en annan värld\r\nsom baseras på aritmetik\r\n\r\nOch dom som läser matematik,\r\nvandrar runt som levande lik.\r\nOch det som en gång kallades människa\r\nliknar nu mest en räknemaskin.\r\n\r\nMan kan tycka att en liten integral\r\nverkar harmlös och inte kan skada.\r\nMen sen sitter man där halva natten\r\nför att lösa eländet (lösa eländet).\r\n\r\nOch det värsta är att man gör det för\r\natt man tycker att det är rätt trevligt.\r\nOch när man löst ett riktigt riktigt knepigt tal\r\nså känns det så himlades bra!\r\n\r\nJag är π-junkie jag, och jag tränar var dag\r\npå Pi och dess decimaler.\r\nOch jag trivs riktigt bra när jag tävlar med mina\r\nvänner om vem som kan flest decimaler på Pi.\r\n\r\nOm du ska läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nDet är en magisk dörr, till en annan värld\r\nsom baseras på aritmetik\r\n\r\nSå vet du faran med matematik\r\nMan vandrar runt som ett levande lik\r\noch det som en gång kallades människa\r\nliknar nu mest en räknemaskin\r\n\r\nOm du ska läsa matematik\r\nså vet att världen sig aldrig blir lik\r\nDet är en magisk dörr, till en annan värld\r\nsom baseras på aritmetik\r\n",
         "notes": null,
         "partition": 11,
         "page": "180",
@@ -1244,7 +1284,7 @@
         "title": "Luciasången",
         "alttitle": null,
         "firstline": "Natten går tunga fjät",
-        "meta": "Alternativ titel: Sankta Lucia\r\nAlternativ titel 2: Natten går tunga fjät\r\nMelodi: Luciasången\r\nText: Arvid Rosén\r\nMusik: Trad.\r\n",
+        "meta": "Alternativ titel: Sankta Lucia\r\nAlternativ titel 2: Natten går tunga fjät\r\nMelodi: Traditionell\r\nText: Arvid Rosén",
         "text": "Natten går tunga fjät\r\nrunt går och stuva,\r\nkring jord som sol'n förlät\r\nskuggorna ruva.\r\n\r\n||: Då i vårt mörka hus\r\nstiger med tända ljus\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n\r\nNatten var stor och stum.\r\nNu hör det svingar\r\ni alla tysta rum\r\nsus som av vingar.\r\n\r\n||: Se, på vår tröskel står,\r\nvitklädd, med ljus i hår,\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n\r\n“Mörkret skall flykta snart\r\nur jordens dalar.”\r\nSå hon ett underbart\r\nord till oss talar.\r\n\r\n||: Dagen skall åter ny\r\nstiga ur rosig sky,\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n",
         "notes": "Arvid Rosén ville troligtvis att texten skulle låta som en ålderdomlig folkvisa, och använde sig  således av ord som stuva och förgät, ord som var svårbegripliga redan 1928, då texten skrevs. “Suset” i andra versen är lånat från den andra textversionen.\r\n",
         "partition": 10,
@@ -1278,11 +1318,12 @@
         "title": "Måsen",
         "alttitle": null,
         "firstline": "Det satt en mås på en klyvarbom",
-        "meta": "Melodi: När månen vandrar på fästet blå (Trad.)\r\n",
+        "meta": "Melodi: När månen vandrar på fästet blå\r\n",
         "text": "Det satt en mås på en klyvarbom\r\noch tom i krävan var kräket.\r\nOch tungan lådde vid skeppar'ns gom\r\ndär skutan låg uti bleket.\r\n“Jag vill ha sill!” hördes måsen rope,\r\nmen skeppar'n svarte: “Jag vill ha O.P.\r\nom blott jag får,\r\nom blott jag får”.\r\n\r\nNu lyfter måsen från klyvarbom\r\noch vinden spelar i tågen.\r\nO.P.:n svalkat har skeppar'ns gom.\r\nJag önskar blott att jag såg 'en.\r\nHan är så lycklig den gamle saten.\r\nHan hissar storseglet den krabaten.\r\nTill sjöss han far…\r\n…och halvan tar.\r\n\r\nDen mås som satt på en klyvarbom,\r\nden är nu död och begraven,\r\noch skeppar'n som drack en flaska rom,\r\nhan har nu drunknat i haven.\r\nSå kan det gå om man fått för mycke',\r\nom man för brännvin har fattat tycke.\r\nVi som har kvar,\r\nvi resten tar!\r\n",
         "notes": "O.P. Anderson Aquavit är uppkallad efter spritfabrikören Olof Peter Anderson\r\n(1797-1876). Drycken lanserades av hans son, Carl August, vid\r\nGöteborgsutställningen 1891. Skåne Akvavit innehåller samma sorts kryddor, men\r\ni bara ungefär halva mängden.\r\n",
         "partition": 6,
         "page": "118",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 118
     },
     "matlab": {
@@ -1306,6 +1347,7 @@
         "text": "Jag vill aldrig gå på media\nHipstertöntar är dom allesammans\nDom kan inte programmera\nHackar pseudokod i rosa Comic Sans\nDom läser heller inte Hållfen\nMan blir knappt en riktig ingenjör\nFör vetenskapen är dom lekmän\nAll teknik dom kan är kamerans interiör\n\nMedieteknik - så magnifik\nMedieteknik - är ren komik\nMedieteknik - orsakar smärta och tragik\n\nMedieteknik - så magnifik\nMedieteknik - är ren komik\nMedieteknik - är skäl att drabbas av panik\n\nÄpplen slåss mot Androider\nMedia lider utav borderline\nBaren säljer bara cider\nSkriver ProInt-reflektion i InDesign\nDom tävlar i att kugga tentor\nStandard är individuell kursplan\nIntetsägande små männ’skor\nDärför går de under namnet “Median”\n\nMedieteknik...",
         "partition": 2,
         "page": "0x3B",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 59
     },
     "mera_jarn": {
@@ -1318,6 +1360,7 @@
         "notes": "Sjunges tills någon kommer ihåg hur man slutar…\r\n",
         "partition": 6,
         "page": "0x6F",
+        "tags": ["Sånger som aldrig tar slut", "Sångledares favoriter"],
         "5ePage": 111
     },
     "mesen": {
@@ -1325,9 +1368,10 @@
         "title": "Mesen",
         "alttitle": null,
         "firstline": "Det satt en mes i en klyvarmast",
-        "meta": "Melodi: Måsen (Trad.)\r\n",
+        "meta": "Melodi: Måsen\r\n",
         "text": "Det satt en mes i en klyvarmast.\r\nDär sågs han ragla och svaja,\r\nför trots att frön var hans enda last\r\nvar han nu full som en kaja.\r\n“Vad har du gjort?” hördes skeppar'n stöna,\r\noch mesen svarte: “Jag rökte fröna!\r\nI egen holk,\r\ni egen holk.”\r\n",
         "partition": 6,
+        "tags": ["Sånger som aldrig tar slut"],
         "notes": null
     },
     "meta_nationalsang": {
@@ -1338,6 +1382,7 @@
         "meta": "Melodi: Sveriges nationalsång \r\nHistoria: Av METAdorerna författat nationalsång för META \r\n",
         "text": "Du stora å luftiga, mé skyhögt i tak\r\nsom Media och Data förena\r\nJag hälsar dig Största lokal på KTH,\r\n||: Din bas, din rigg och dina soffor sköna. :||\r\nDu mången gång tatt hand om trött teknolog,\r\nsom just skrivit färdigt sin tentamen.\r\nJag vet att du är och förblir vad jag vill ha,\r\n||: Ja, jag vill leva, jag vill dö i META! :||\r\n",
         "partition": 1,
+        "tags": ["Nämnder"],
         "notes": null
     },
     "min_pilsner": {
@@ -1345,7 +1390,7 @@
         "title": "Min pilsner",
         "alttitle": null,
         "firstline": null,
-        "meta": "Melodi: My Bonnie (trad.)\r\n",
+        "meta": "Melodi: My Bonnie",
         "text": "Min pilsner skall svalka min tunga.\r\nMin pilsner skall duscha min gom.\r\nMin pilsner skall få mig att sjunga,\r\nom jag ser att flaskan är tom:\r\n\r\nPILSNER! PILSNER!\r\nKom, hämta en pilsner åt mig, åt mig.\r\nPILSNER! PILSNER!\r\nJa, hämta en pilsner åt mig!\r\n",
         "notes": null,
         "partition": 3
@@ -1394,6 +1439,7 @@
         "notes": null,
         "partition": 2,
         "page": "0x39",
+        "tags": ["IT"],
         "5ePage": 57
     },
     "molekylaren": {
@@ -1418,6 +1464,7 @@
         "notes": null,
         "partition": 1,
         "page": "48",
+        "tags": ["Programmering"],
         "5ePage": 48
     },
     "musen": {
@@ -1425,10 +1472,11 @@
         "title": "Musen",
         "alttitle": null,
         "firstline": "Det satt en mus i en hushållsost",
-        "meta": "Melodi: Måsen (Trad.)\r\n",
+        "meta": "Melodi: Måsen",
         "text": "Det satt en mus i en hushållsost\r\noch åt och åt utan måtta,\r\ntills osten blev till en mushålsost\r\noch han en klotformad råtta.\r\n“Så bra”, sa musen, “att va' en fettboll.\r\nNu kan jag rulla med hast åt rätt håll:\r\nOstindien,\r\nOstindien.”\r\n",
         "notes": null,
-        "partition": 6
+        "partition": 6,
+        "tags": ["Sånger som aldrig tar slut"]
     },
     "nar_jar_ar_fuller": {
         "id": "nar_jar_ar_fuller",
@@ -1531,7 +1579,7 @@
         "title": "Nu tar vi den",
         "alttitle": null,
         "firstline": null,
-        "meta": "Melodi: O Tannenbaum (Trad.)\r\n",
+        "meta": "Melodi: O Tannenbaum",
         "text": "||: Nu tar vi den. :|| (12 ggr)\r\n",
         "notes": null,
         "partition": 6,
@@ -1548,6 +1596,7 @@
         "notes": "Sjunges om och om igen, snabbare och snabbare, så länge man orkar och kan.\r\n",
         "partition": 11,
         "page": "0xB7",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 183
     },
     "o_gamla_klang": {
@@ -1560,6 +1609,7 @@
         "notes": "* Endast vid “kärnan” dunkas näven i bordet en gång. Ingen annanstans.\r\nDen sista versen sjungs stående, och efter det att sista versen sjungits sätter sig ingen åter till bords.\r\nMeningen med denna sång är att man ska ställa sig upp där man känner sig kallad.\r\nJerum = Tysk omskrivning av “Herr Jesus” (jfr. Jösses)\r\nO, quæ mutatio rerum! = O, vilken förändring i allt!\r\nQuæ uttalas egentligen “kvä”, därav ligaturerna. \r\nDet finns alternativa tredjeverser som sjungs vid olika lärosäten.\r\n",
         "partition": 9,
         "page": "148",
+        "tags": ["Finsittning"],
         "5ePage": 148
     },
     "o_hemska_lab": {
@@ -1572,6 +1622,7 @@
         "notes": "Sångartäfvlan 1992, Teknisk Fysik\r\n",
         "partition": 2,
         "page": "0x39",
+        "tags": ["Fysik"],
         "5ePage": 57
     },
     "ode_till_halvan": {
@@ -1639,7 +1690,7 @@
         "title": "Ont i huv'et",
         "alttitle": null,
         "firstline": "Om du har ont i huv'et",
-        "meta": "Melodi: Faster Ingeborg\r\nMusik: Trad.\r\n",
+        "meta": "Melodi: Faster Ingeborg",
         "text": "Om du har ont i huv'et\r\nnär du vaknar någon da',\r\nså häll en öl i håret\r\noch låt den stå och dra.\r\nOch känns det inte bättre\r\nså skyll inte på oss.\r\nAtt hälla öl i huv'et\r\när inte smart förstås.\r\n",
         "notes": "Lundakarnevalen 1990\r\n",
         "partition": 7,
@@ -1697,17 +1748,19 @@
         "meta": "Melodi: You Can't Get a Man With a Gun\r\n",
         "text": "I wanna start the gasque now, you see that cerise cow?\r\nBut where have i left all my beers?\r\nLet's not rest while tempted, my glass has to be emptied!\r\nWhat the hell, be so kind, shove it, cheers!\r\n\r\nThis is bullshit, where's the spirit?\r\nWho in helvete thinks im a deer?\r\n\r\nTo Tyskland we travel, to find the cheapest gravel\r\nwe can shove down our throats when we're home\r\nwe're ready to party until we're drunk and jerky\r\nJägermeister and beer - what a crazy career\r\nit's the best fucking day of my year",
         "notes": "",
-        "partition": 0
+        "partition": 0,
+        "tags": ["English"]
     },
     "anders_the_president": {
         "id": "anders_the_president",
         "title": "Anders, the President",
-        "alttitle": "(International Skitåkare Andersson)",
+        "alttitle": "International Skitåkare Andersson",
         "firstline": "Who is that, who is that, who the fuck has stopped the music",
-        "meta": "Melodi: (ingen)\r\n",
+        "meta": "Melodi: Traditionell\r\n",
         "text": "Who is that, who is that, who the fuck has stopped the music!?\r\nJo, Anders, the President, the new one!\r\nAnders, the President, the new one!\r\nHe works hard in Brinellvägen 8.\r\nwhat does he do here, why can't I see clear?\r\nwait, he is coming for me.\r\n\r\n(whispering)\r\nLet me leave, I want to disappear now\r\nLet me leave, I don't want any beef, HEY!\r\nLet me leave, I want to disappear now\r\nLet me leave, I don't want any beef, HEY! Hey! Hey!",
         "notes": "",
-        "partition": 0
+        "partition": 0,
+        "tags": ["English"]
     },
     "punschen_kommer_kall": {
         "id": "punschen_kommer_kall",
@@ -1731,7 +1784,8 @@
         "notes": "Sjunges på samma manér som ovanstående kallversion.\r\n",
         "partition": 5,
         "page": "0x61",
-        "5ePage": 97
+        "5ePage": 97,
+        "tags": ["Sångledares favoriter"]
     },
     "punschens_lov": {
         "id": "punschens_lov",
@@ -1743,6 +1797,7 @@
         "notes": "KTH:s Kårspex 1987, “Sven Hedin eller en enkel tur och retur”. \r\nFörsta “versen” upprepas gärna av en partition av sångarna, samtidigt som\r\nresten fortsätter med andra versen.\r\n",
         "partition": 5,
         "page": "98",
+        "tags": ["Sångledares favoriter"],
         "5ePage": 98
     },
     "punschkanon": {
@@ -1806,7 +1861,7 @@
         "title": "Sång till Norden",
         "alttitle": "Du gamla, Du fria",
         "firstline": null,
-        "meta": "Alternativ titel: Du gamla, Du fria\r\nAlternativ titel 2: Till svenska fosterjorden\r\nMelodi: Sång till Norden\r\nText: Richard Dybeck\r\nMusik: Trad.\r\n",
+        "meta": "Alternativ titel: Du gamla, Du fria\r\nAlternativ titel 2: Till svenska fosterjorden\r\nMelodi: Traditionell\r\nText: Richard Dybeck",
         "text": "Du gamla, Du fria, Du fjällhöga nord,\r\nDu tysta, Du glädjerika sköna!\r\nJag hälsar Dig, vänaste land uppå jord,\r\n||: Din sol, Din himmel, Dina ängder gröna. :||\r\n\r\nDu tronar på minnen från fornstora da'r,\r\ndå ärat Ditt namn flög över jorden.\r\nJag vet att Du är och Du* blir vad Du var.\r\n||: Ja, jag vill leva, jag vill dö i Norden. :||\r\n",
         "notes": "Till skillnad från många andra nationalsånger har denna sång aldrig officiellt, genom något politiskt beslut, antagits som nationalsång. Visan framfördes för första gången den 13 november 1844, och publicerades i tryck 1865 i tidskriften Runa.\r\nYtterligare två verser, med mer uttalat svenskt tema, skrevs av Louise Ahlén, men sjungs mycket sällan och har därför heller inte tagits med här.\r\n*: “Du blir” i andra versen är i original endast “blir”, men “Du blir”, eller “förblir” sjungs oftast och passar även bättre i melodin.\r\n",
         "partition": 9,
@@ -1835,6 +1890,7 @@
         "notes": null,
         "partition": 2,
         "page": "0x4D",
+        "tags": ["Indek"],
         "5ePage": 77
     },
     "sektionssangen_kemi_chalmers": {
@@ -1880,14 +1936,15 @@
         "firstline": "I Spanien hör det till god ton och etikett",
         "meta": "Melodi: Rule Britannia (Thomas Arne)\r\n",
         "text": "I Spanien hör det till god ton och etikett\r\natt gå omkring och skryta vitt och brett.\r\nDe trodde att de skulle slå oss lätt!\r\n\r\nMen vi är modesta,\r\nja, vår profil är låg,\r\nmen vi är de som väger tyngst på havets våg!\r\n\r\nSkål för vattnet, tjoho för H2O!\r\nSkål för ön där bara blyga britter bo!\r\nSkål för vattnet som gör vår flotta stark,\r\nhell allt vattnet som ger flyt åt vår monark!\r\n",
-        "notes": "Från Fysikalen på Vattenfestivalen 1992.\r\n"
+        "notes": "Från Fysikalen på Vattenfestivalen 1992.\r\n",
+        "tags": ["Alkfritt"]
     },
     "skitakare_andersson": {
         "id": "skitakare_andersson",
         "title": "Skitåkare Andersson",
         "alttitle": "Trippeln",
         "firstline": "Vem är det, vem är det",
-        "meta": "Melodi: (ingen)\r\n",
+        "meta": "Melodi: Traditionell\r\n",
         "text": "Vem är det, vem är det, vem är det som kommer där?\r\nJo, skitåkare Anderssonskans käring!\r\nSkitåkare Anderssonskans käring!\r\nHon som bor på Hagagatan 3.\r\nTjo faderittan, klia mej på träskon,\r\nhär ska ni vara med!\r\n\r\n<i>(viskandes)</i>\r\nJag vill dö, jag vill ej längre leva,\r\njag vill dö i famnen på en mö. HEJ!\r\nJag vill dö, jag vill ej längre leva,\r\njag vill dö i famnen på en mö. HEJ HEJ HEJ!\r\n\r\n",
         "notes": null,
         "partition": 0,
@@ -1950,6 +2007,7 @@
         "notes": "Visan skrevs till Medias deltagande i Maskins sångargasque 1999, det första året utbildningen fanns. Sedan dess skriver nØllan en ny visa varje år.\r\n",
         "partition": 2,
         "page": "58",
+        "tags": ["Media"],
         "5ePage": 58
     },
     "still_alive": {
@@ -2007,6 +2065,7 @@
         "notes": null,
         "partition": 1,
         "page": "0x35",
+        "tags": ["Programmering"],
         "5ePage": 53
     },
     "systeme_periodique": {
@@ -2067,6 +2126,7 @@
         "notes": "Samtliga kommandon följs. Inledande radnummer kan antingen utelämnas eller\r\nutropas av en ledsångare, på vars lott det i så fall faller att avgöra när\r\n“du fått nog”. BASIC konstruerades 1963 och akronymen utläses \r\n“Beginner's All-purpose Symbolic Instruction Code”.\r\n",
         "partition": 1,
         "page": "0x33",
+        "tags": ["Programmering"],
         "5ePage": 51
     },
     "the_moose": {
@@ -2074,11 +2134,12 @@
         "title": "The Moose",
         "alttitle": null,
         "firstline": "Det satt en älg i en klyvartopp",
-        "meta": "Melodi: Måsen (Trad.)\r\n",
+        "meta": "Melodi: Måsen",
         "text": "Det satt en älg i en klyvartopp,\r\nförklädd i älgjaktens månad.\r\nHan var befjädrad till horn och kropp.\r\nJa, skeppar'n blev rätt förvånad.\r\n“Jag är en mås, go'a skeppar'n”, ljög den\r\nförklädda älgen. Därefter flög den.\r\nMjukt föll den sen,\r\npå skepparen.\r\n",
         "partition": 6,
         "notes": null,
         "page": "120",
+        "tags": ["Sånger som aldrig tar slut"],
         "5ePage": 120
     },
     "till_emacs": {
@@ -2091,6 +2152,7 @@
         "partition": 1,
         "notes": null,
         "page": "0x31",
+        "tags": ["Programmering"],
         "5ePage": 49
     },
     "tjejernas_sang": {
@@ -2113,6 +2175,7 @@
         "notes": null,
         "partition": 2,
         "page": "66",
+        "tags": ["Elektro"],
         "5ePage": 66
     },
     "toj_hamtegubbar": {
@@ -2190,7 +2253,7 @@
         "title": "Uti vår hage",
         "alttitle": null,
         "firstline": "Uti vår hage där växa blåbär",
-        "meta": "Melodi: Uti vår hage\r\nText och Musik: Trad.\r\n",
+        "meta": "Melodi: Traditionell",
         "text": "Uti vår hage där växa blåbär.\r\nKom hjärtans fröjd!\r\nVill du mig något, så träffas vi där.\r\n\r\nKom liljor och akvileja,\r\nkom rosor och salivia,\r\nkom ljuva krusmynta, kom hjärtans fröjd!\r\n\r\nFagra små blommor där bjuda till dans.\r\nKom hjärtans fröjd!\r\nVill du så binder jag åt dig en krans.\r\n\r\nKom liljor…\r\n\r\nKransen den sätter jag sen i ditt hår.\r\nKom hjärtans fröjd!\r\nSolen den dalar, men hoppet uppgår.\r\n\r\nKom liljor…\r\n\r\nUti vår hage finns blommor och bär.\r\nKom hjärtans fröjd!\r\nMen utav alla du kärast mig är.\r\n\r\nKom liljor…\r\n",
         "notes": null,
         "partition": 9,
@@ -2202,9 +2265,10 @@
         "title": "Utvandraren",
         "alttitle": "Jag ska sälja min dromedar",
         "firstline": "Jag tänker sälja min dromedar",
-        "meta": "Alternativ titel: Jag ska sälja min dromedar\r\nMelodi: Måsen (Trad.)\r\n",
+        "meta": "Alternativ titel: Jag ska sälja min dromedar\r\nMelodi: Måsen",
         "text": "Jag tänker sälja min dromedar.\r\nJag tänker flytta till norden.\r\nVem vill va' bosatt uti ett land\r\ndär man får ligga vid borden?\r\nNu konverterar jag här på snabben!\r\nJag vill ha akvavit till kebaben!\r\nVar ingen mes, fyll upp min fez!\r\n",
         "notes": null,
+        "tags": ["Sånger som aldrig tar slut"],
         "partition": 6
     },
     "v-ingenjoren": {
@@ -2217,6 +2281,7 @@
         "notes": "*KVSIF = Konglig V-sektionens SpexeriIdkareFörbund, V-sektionens spex.\r\n",
         "partition": 2,
         "page": "0x4B",
+        "tags": ["Väg & Vatten"],
         "5ePage": 75
     },
     "valla_nollan": {
@@ -2234,11 +2299,12 @@
         "title": "Vårvindar friska",
         "alttitle": null,
         "firstline": null,
-        "meta": "Melodi: Vårvindar friska\r\nText: Julia Nyberg\r\nMusik: Trad.\r\n",
+        "meta": "Melodi: Traditionell\r\nText: Julia Nyberg",
         "text": "Vårvindar friska, leka och viska\r\nlunderna kring, likt älskande par.\r\nStrömmarna ila, finna ej vila,\r\nförrän i havet störtvågen far.\r\nKlappa mitt hjärta, klaga och hör,\r\nvallhornets klang bland klipporna dör.\r\nStrömkarlen spelar, sorgerna delar\r\nvakan kring berg och dal.\r\n\r\nHjärtat vill brista, ack, när den sista\r\ngången jag hörde kärlekens röst.\r\nÖgonens låga, avskedets plåga,\r\nmun emot mun med klappande bröst.\r\nFjälldalen stod i grönskade skrud.\r\nTrasten slog drill på drill för sin brud.\r\nStrömkarlen spelar, sorgerna delar\r\nvakan kring berg och dal.\r\n",
         "notes": null,
         "partition": 10,
         "page": "0x9D",
+        "tags": ["Finsittning"],
         "5ePage": 157
     },
     "varvinets_lov": {
@@ -2278,7 +2344,7 @@
         "alttitle": null,
         "firstline": "En viking älskar livets vann",
         "meta": "Melodi: When Johnny Comes Marching Home\r\n",
-        "text": "En viking älskar livets vann,\r\nhurra, hurra!\r\nDen hastigt i mitt svalg försvann,\r\nhurra, hurra!\r\nTill kalv, till oxe, till fisk, till fläsk,\r\nnär kärringen bara dricker läsk,\r\ndå vill alla vikingar ha en bäsk!\r\n\r\nNär vi har druckit bäsken slut,\r\ntragik, PANIK!\r\nDå bäres varje viking ut,\r\nsom lik, sig lik,\r\noch sen om vi vaknar, vi sjunger en bit,\r\nsen korkar vi upp Skånes Akvavit.\r\nSkål för alla vikingar som kom hit!\r\n",
+        "text": "En viking älskar livets vann,\r\nhurra, hurra!\r\nDen hastigt i mitt svalg försvann,\r\nhurra, hurra!\r\nTill kalv, till oxe, till fisk, till fläsk,\r\nnär veklingen bara dricker läsk,\r\ndå vill alla vikingar ha en bäsk!\r\n\r\nNär vi har druckit bäsken slut,\r\ntragik, PANIK!\r\nDå bäres varje viking ut,\r\nsom lik, sig lik,\r\noch sen om vi vaknar, vi sjunger en bit,\r\nsen korkar vi upp Skånes Akvavit.\r\nSkål för alla vikingar som kom hit!\r\n",
         "notes": "Sångarstriden 1981. E-sektionen, LTH.\r\n",
         "partition": 0,
         "page": "16",
@@ -2301,7 +2367,7 @@
         "title": "Den vingklippta måsen",
         "alttitle": null,
         "firstline": null,
-        "meta": "Alternativ titel: Vingklippta måsen\r\nMelodi: Måsen (Trad.)\r\n",
+        "meta": "Alternativ titel: Vingklippta måsen\r\nMelodi: Måsen",
         "text": "Det satt en mås på en klyvarbom\r\n- jag vill ha O.P.!\r\n",
         "notes": "",
         "partition": 6,
@@ -2362,7 +2428,8 @@
         "meta": "Melodi: When I'm Sixty Four (The Beatles)",
         "text": "When I get drunker, losing my mind\r\nmany beers from now.\r\nWill I still be having me a jolly good time,\r\nwhisky, gin and a bottle of wine.\r\nSo, fill up the glasses, drunk as a skunk,\r\ndon't say you want no more,\r\n'cause we are the singers\r\nand we are the swingers,\r\njoin us and you won't get bored.\r\n",
         "notes": null,
-        "partition": 11
+        "partition": 11,
+        "tags": ["English"]
     },
     "write_in_c": {
         "id": "write_in_c",
@@ -2374,6 +2441,7 @@
         "notes": null,
         "partition": 1,
         "page": "50",
+        "tags": ["English", "Programmering"],
         "5ePage": 50
     },
     "yesterday": {
@@ -2386,6 +2454,7 @@
         "notes": null,
         "partition": 11,
         "page": "0xA9",
+        "tags": ["English", "Programmering"],
         "5ePage": 169
     },
     "ja_ma_d_leva": {
@@ -2396,6 +2465,458 @@
         "meta": "Melodi: Ja, må han/hon leva!\r\nText: Douglas Fischer och Delta-Johnny",
         "text": "Ja, må D leva!\r\nJa, må D leva!\r\nJa, må D leva uti hundrade år!\r\nJavisst ska D leva!\r\nJavisst ska D leva!\r\nJavisst ska D leva uti hundrade år!",
         "notes": "Grattis!",
+        "partition": 1,
+        "tags": ["dJubileet"],
         "page": "38 (jubileumsutgåva)"
+    }, 
+    "nar_examen_viskar_mitt_namn": {
+        "id": "nar_examen_viskar_mitt_namn",
+        "title": "När examen viskar mitt namn",
+        "firstline": "Jag har kämpat och pluggat",
+        "meta": "Melodi: När vindarna viskar mitt namn\r\nText: Sandra Reinecke och Sara Videfors",
+        "text": "Jag har kämpat och pluggat\r\nOch slitit mitt hår\r\nMen ändå är jag inte klar\r\nDet känns som examen är långt härifrån\r\nJag har bara en kurs kvar\r\nSå ge mig min styrka\r\nGe mig kraft att få klara mitt E\r\nGe mig en väg att gå\r\nOch så kanske så blir det succé\r\nVill ni att jag tentar om fler-varren igen?*\r\nFår det E jag kämpat för\r\nHela min studietid\r\nGe mig ett jävla E <i>(lång och hög)</i>", 
+        "notes": "*Flervarren kan med fördel bytas ut mot godtycklig kurs.\r\nSångbokssittningen 2022",
+        "partition": 1,
+        "page": "0x27",
+        "5ePage": 39
+    },
+    "avslag_pa_csn": {
+        "id": "avslag_pa_csn",
+        "title": "Avslag på CSN",
+        "firstline": "Det fanns en gång en go' student",
+        "meta": "Melodi: Wellerman\r\nText: August Jönsson, Herman Karlsson, Maria Moliteus och Gábor Nagy",
+        "text": "Det fanns en gång en go' student\r\nSom inte klarat nån tenta än\r\nEn dag så gick hen på en gasque\r\nOch där fick hen besked\r\n\r\nAvslag på CSN\r\nOch Ladok skrämmer studenten\r\nMen spriten, den är för svag\r\nHen minns allting ändå\r\n\r\nHen börjar dricka mer och mer\r\nOch mer och mer\r\nOch mer och mer\r\nOch mer och mer\r\nOch mer och mer\r\nOch mer och mer och mer\r\n\r\nAvslag på CSN\r\noch Ladok skrämmer studenten\r\nMen spriten, den är för svag\r\n\"Jag tar väl ett år till.\"", 
+        "notes": "Sångbokssittningen 2022",
+        "partition": 1,
+        "tags": ["Sångledares favoriter"],
+        "page": "0x29",
+        "5ePage": 41
+    },
+    "den_kodbestrodde_norden": {
+        "id": "den_kodbestrodde_norden",
+        "title": "Den kodbeströdde nörden",
+        "firstline": "Det fanns en gång en go' student",
+        "meta": "Melodi: Star Sprangled Banner\r\nText: Kei",
+        "text": "Åh, säg kan du C, kan du Perl och Cobol?\r\nKan du Java, min vän? Kan du läsa Haskellkod?\r\nSkriver du i Prolog, tills du avger ett vrål\r\nDrömmer du varje kväll, om en mjukvarutråd?\r\nKan du inte kodspråk, kan du få dig ett åk\r\nTill ditt nya hem: handelshögskolans kåk\r\nÅh, hör du talangfyllde, männ'ska med mycket driv\r\nKom med i vårt program, kom och slösa ditt liv\r\n\r\nGenom labbarnas svett, genom trista projekt\r\nNär som andra program <i>(Media)</i>, har det på tok för lätt\r\nSitter data och svär, något galet och fräckt\r\nMen vi skrattar nog sist, för vår lön blir ej nätt\r\nData tar sitt befäl, våran business går väl\r\nEn monetär vinst, mot att sälja sin själ\r\nGe allting på KTH, till oss i vår sektion\r\nFärga Campus helt Cerise, och bygg oss en tron\r\n\r\nOsquars backe 21, denna plats fri från jäkt\r\nVår stolta sektion, är vad vi håller kärt\r\nMETA har blivit hem, åt en datalog-sekt\r\nSå assembla din kod, för en hymn i binärt\r\n01 0001 00 slut på rad ett\r\n00 100 011 och newline\r\n0 0 11 000 1 slut på rad tre\r\n00 1 0000 1 och sen är det slut", 
+        "notes": "Sångbokssittningen 2022",
+        "partition": 1,
+        "page": "40",
+        "5ePage": 40
+    },
+    "brev_fran_kongligen": {
+        "id": "brev_fran_kongligen",
+        "title": "Brev från Kongligen",
+        "firstline": "Hejsan Knugen, hejsan Hovet",
+        "meta": "Melodi: Brev från kolonien\r\nText: Kei",
+        "text": "Hejsan Knugen, hejsan Hovet\r\nVi har väntat hela lovet\r\nPå att ni ska läsa vårt brev\r\nTar det någon längre tid så blir det storvev\r\n\r\nVi vill ändra vårat namn nu\r\nBli en Kunglig D-sektion, ju\r\nKan det äntligen få hända?\r\nSå slipper vi få mera bråk på vår agenda\r\n\r\nNej, vi orkar inte mera\r\nFör du vägrar konversera\r\nEtt ”Adjöken”, från hela gruppen\r\nOm inte annat ses vi nog under statskuppen",
+        "notes": "Sångbokssittningen 2022\r\n\r\nDatasektionen har skrivit brev till Hovet för att få byta namn till \"Kungliga Datasektioen\", vilket även Maskinsektionen gjort. Det kom aldrig ett svar på detta brev.\r\nSenare skickades ytterligare ett brev till Hovet som meddelade Kungen om att han iallafall fick lov att kalla sig för Konglig om han så önskade.",
+        "partition": 1,
+        "page": "42",
+        "5ePage": 42
+    },
+    "en_kvall_i_meta": {
+        "id": "en_kvall_i_meta",
+        "title": "En kväll i META",
+        "firstline": "Hejsan Knugen, hejsan Hovet",
+        "meta": "Melodi: En kväll i juni \r\nText: Hampus Huledal, Jakob Carlsson, Love Lindgren",
+        "text": "Ja det var en kväll i META\r\nUnder tentavecka två\r\nSatt och krånglade med linalg\r\nJa hur ska man ens förstå\r\n\r\nVad fan är ett egenvärde\r\nKan ej få fram en determinant\r\nHur fan var det man nu kryssa\r\nVad betyder grad och rang\r\n\r\nOch så rev jag upp min bok\r\nKasta' laptopen i väggen\r\nOch så öppna' jag min flaska\r\nSa min sköna får jag lov\r\nDen var kall och den var god\r\nNär den rinner ner för strupen\r\nOch den tömmer alla sinnen\r\nOch den ger mig mera mod\r\n\r\nLala la...",
+        "notes": "Sångbokssittningen 2022",
+        "partition": 1,
+        "page": "0x2B",
+        "5ePage": 43
+    },
+    "prylmanglerister": {
+        "id": "prylmanglerister",
+        "title": "Prylmånglerister",
+        "firstline": "Prylmånglerister här finns i staden",
+        "meta": "Melodi: En sockerbagare\r\nText: Max Wippich",
+        "text": "Prylmånglerister här finns i staden\r\nde göra märken mest hela dagen.\r\nDe göra stora de göra små\r\nde göra svåra att sy på.\r\n\r\nOch deras ovvar är för alla smaker\r\nhar märken, pins och andra saker.\r\nOch har de inget att sy på\r\ntill prylisförsäljningen de gå.",
+        "notes": "Sångbokssittningen 2022",
+        "partition": 1,
+        "tags": ["Nämnder"],
+        "page": "44",
+        "5ePage": 44
+    },
+    "np_inte_p": {
+        "id": "np_inte_p",
+        "title": "NP != P",
+        "firstline": "Labbar gör jag men min kod är långsam, är för långsam,",
+        "meta": "Melodi: Tomtarnas julnatt\r\nText: Max Wippich",
+        "text": "Labbar gör jag men min kod är långsam, är för långsam,\r\nKoden inte, går i O(n)* tid, O(n) tid\r\nNP, NP, NP, NP, NP,\r\nskilt, från, P\r\n\r\nSen jag inser vad som är problemet, vad är det då?\r\nNondeterministic polynomial, polynomial\r\nNP, NP, NP, NP, NP,\r\nskilt, från, P",
+        "notes": "Sångbokssittningen 2022",
+        "partition": 1,
+        "tags": ["Programmering", "Sångledares favoriter"],
+        "page": "44",
+        "5ePage": 44
+    },
+    "vad_ska_vi_gora_med_supen": {
+        "id": "vad_ska_vi_gora_med_supen",
+        "title": "Vad ska vi göra med supen?",
+        "firstline": "Vad ska du göra med första supen?",
+        "meta": "Melodi: Drunken Sailor\r\nText: Kei",
+        "text": "||: Vad ska du göra med första supen?:|| (3 ggr)\r\n\r\nTidigt på vår kvällning\r\n\r\n||: Vänd upp och ner på glaset! :||(3 ggr)\r\n\r\nSvep allt i en sväljning\r\n\r\n||: Vad ska du göra med pajad lever? :|| (3 ggr)\r\n\r\nTidigt på vår kvällning\r\n\r\n||: In på akuten med dig :|| (3 ggr)\r\n\r\nDrick igen imorgon",
+        "notes": "Sångbokssittningen 2022",
+        "partition": 6,
+        "page": "0x7B",
+        "5ePage": 123
+    },
+    "datalogen": {
+        "id": "datalogen",
+        "title": "Datalogen",
+        "firstline": "Med en labb satt en datalog",
+        "meta": "Melodi: Måsen\r\nText: Max Wippich\r\nReviderad av: Adam Sjöberg, Douglas Fischer, Rej Karlander, Julia Wang, Kei & Max Wippich",
+        "text": "Med en labb satt en datalog\r\noch klockan var 23:50\r\nDen datalogen satt med prolog\r\nMen fick ej godkänt på kattis\r\n”Jag vill ha E!” rope datalogen\r\nMen datorn svarte med syntax error\r\nDatalogen\r\nNu fått ett F\r\n\r\nDen datalog som satt med prolog\r\nHar ej tagit examen\r\nHen nu ej är en teknolog\r\nOch kugga alla tentamen\r\nHen har nu hoppat av datalinjen\r\nOch har istället fått plats på Media\r\nMedianen\r\nNu fått ett A",
+        "notes": "Sångbokssittningen 2022",
+        "partition": 6,
+        "tags": ["Sånger som aldrig tar slut"],
+        "page": "0x77",
+        "5ePage": 118
+    },
+    "den_digitala_snapsvisan": {
+        "id": "den_digitala_snapsvisan",
+        "title": "Den digitala snapsvisan",
+        "firstline": "Med en labb satt en datalog",
+        "meta": "Melodi: Fattig bonddräng\r\nText: Dan Glimne",
+        "text": "Twitter, Skype och Facebook, jag har blitt virtuell;\r\nInstagram är bättre än att ses IRL!\r\nVill du träffs och skåla, nja, då blir jag nog less\r\nskicka hellre snapsen till min HUTT-mejladress!",
+        "notes": "3:e plats i SM i nyskrivna snapsvisor 2020.",
+        "partition": 6,
+        "page": "0x79",
+        "5ePage": 121
+    },
+    "borsras": {
+        "id": "borsras",
+        "title": "Börsras",
+        "firstline": "Med en labb satt en datalog",
+        "meta": "Melodi: Trollkarlen från Indialand\r\nText: Ulf Söderqvist",
+        "text": "När börsen har rasat får många panik\r\nför borta är drömmen att bli ack så rik\r\nMen nubben står stadig som ingenting hänt\r\nFör den ligger alltid kring 40 procent.",
+        "notes": "Årets snapsvisa 2012.",
+        "partition": 6,
+        "page": "122",
+        "5ePage": 122
+    },
+    "ingmar_bergman": {
+        "id": "ingmar_bergman",
+        "title": "Ingmar Bergmans snapsvisa",
+        "firstline": "TYSTNAD",
+        "meta": "Melodi: Ingen",
+        "text": "TYSTNAD\r\nTAGNING",
+        "notes": "",
+        "partition": 6,
+        "page": "126 (Jubileumsutgåva)"
+    },
+    "klockan": {
+        "id": "klockan",
+        "title": "Klockan",
+        "firstline": "Vi dricker inte klockor, men vi dricker gärna ur",
+        "meta": "Melodi: Ingen",
+        "text": "Vi dricker inte klockor, men vi dricker gärna ur",
+        "notes": "",
+        "partition": 6,
+        "page": "126",
+        "5ePage": 126
+    },
+    "stockholm_i_mitt_hjarta": {
+        "id": "stockholm_i_mitt_hjarta",
+        "title": "Stockholm i mitt hjärta",
+        "firstline": "Solljuset stiger ur havet",
+        "meta": "Melodi: Traditionell\r\nText och musik: Lasse Berghagen",
+        "text": "Solljuset stiger ur havet\r\nSpeglar i koppar och glas\r\nStockholm i gryningen strålar\r\nSom var hon en gyllene vas\r\nMed blommor från Östersjöns länder\r\nMed ängsört från ekarnas sal\r\nEn skönhet på urbergets stränder\r\nMälarens ljuva vestal\r\n\r\nStockholm i mitt hjärta\r\nLåt mig besjunga dig nu\r\nÅldrad i ungdomlig grönska\r\nÖarnas stad, det är du!\r\nAv städer jag känner i världen\r\nÄr du den stad som fått allt\r\nGenom Mälarens kärlek till havet\r\nEn blandning av sött och salt\r\n\r\nSolljuset dansar på fjärden\r\nDet glittrar för stort och för smått\r\nFör träkåken uppe på Söder\r\nMen även för Konungens slott...\r\nDet porlar i fiskrika strömmar\r\nDet valsar i Mälarens famn\r\nDet skymmer och skänker oss drömmar\r\nSjungandes sjöstadens namn\r\n\r\nStockholm i mitt hjärta…\r\n\r\nSäg, hör du musiken och skratten\r\nFrån Djurgården och Gröna Lund\r\nEn lovsång till Stockholm i natten\r\nFrån skärgårdens vikar och sund\r\n\r\nStockholm i mitt hjärta…",
+        "notes": "",
+        "partition": 8,
+        "page": "134",
+        "5ePage": 134
+    },
+    "bort_allt_vad_oro_gor": {
+        "id": "bort_allt_vad_oro_gor",
+        "title": "Bort allt vad oro gör",
+        "firstline": "Solljuset stiger ur havet",
+        "meta": "Melodi: Traditionell\r\nText och musik: Carl Michael Bellman",
+        "text": "Bort allt vad oro gör,\r\nbort allt vad hjärtat kväljer!\r\nBäst att man väljer\r\nbland dessa buteljer sin maglikör.\r\n||: Granne, gör du just som jag gör,\r\nvet denna oljan ger humör.\r\nVad det var läckert! Vad var det?\r\nRhenskt Bläckert? Oui, Monsigneur. :||\r\n\r\nBort allt vad oro gör,\r\nallt är ju stoft och aska.\r\nLåt oss bli raska\r\noch tömma vår flaska bland bröderna.\r\n||: Granne, gör du just som jag gör,\r\nvet denna oljan ger humör.\r\nVad det var mäktigt! Vad var det?\r\nJo, präktigt. Malaga - ja. :||",
+        "notes": "",
+        "partition": 8,
+        "page": "140 (jubileumsutgåva)",
+        "tags": ["Finsittning"]
+    },
+    "i_kalifornien": {
+        "id": "i_kalifornien",
+        "title": "I Kalifornien",
+        "firstline": "I Kalifornien där himmelen är blå,",
+        "meta": "Melodi: Oh! Susanna (Stephen Foster)",
+        "text": "I Kalifornien där himmelen är blå,\r\ndär näktergalar drillar slå.\r\n\r\nSjung hopp fallerallan-lej. Tjo!\r\nÅh Susanna gråt inte för din vän.\r\nHan har rest till Kali-Kalifornien,\r\nkommer aldrig mer igen. Tjo!\r\n\r\nDär är varenda sten av silver eller gull.\r\nAv sten är hela jorden full.\r\nSjung hopp...\r\n\r\nFör pengar får man där vad man vill,\r\noch hela sjön är full av sill.\r\nSjung hopp...\r\n\r\nDär är varenda mö så fager som en ros.\r\nfast ungdomen har flytt sin kos.\r\nSjung hopp...\r\n\r\nDär är man ingenjör och lever tills man dör.\r\nDet rår man inte för, fallera.\r\nSjung hopp...\r\n\r\nÅh Susanna gråt inte för din vän.\r\nHan har rest till Kali-Kalifornien,\r\nkommer aldrig mer igen. Tjo!",
+        "notes": "Sista stycket brukar sjungas långsammare än resten av sången.",
+        "partition": 8,
+        "page": "141 (jubileumsutgåva)",
+        "tags": ["Finsittning"]
+    },
+    "langt_new_i_smaland": {
+        "id": "langt_new_i_smaland",
+        "title": "Långt ner i småland",
+        "firstline": "I Kalifornien där himmelen är blå,",
+        "meta": "Melodi: Traditionell",
+        "text": "Långt ner i Småland,\r\ndär rider själva djävulen\r\nmed laddade pistoler och knallande gevär,\r\noch alla små djävlar, de spelar på fioler\r\noch själva fader Satan, han spelar handklaver.\r\nHurra för Svealand,\r\n\r\nhurra för Götaland,\r\noch hurra för potatisland\r\nsom ger oss brännevin!\r\n\r\nJa, nog ha vi glas,\r\nmen vi haver inget brännevin.\r\nFinns här någon handlingsman\r\nsom haver ett glas öl?\r\n\r\nHurra för…\r\n\r\nJa nubben kan tagas\r\npå mångahanda sätt och vis.\r\nDen lindar sig kring hjärtat\r\nsom rumpan på en gris.\r\n\r\nHurra för…",
+        "notes": "",
+        "partition": 11,
+        "page": "185.c (jubileumsutgåva)"
+    },
+    "hallen_lutar": {
+        "id": "hallen_lutar",
+        "title": "Hallen Lutar",
+        "firstline": "Jag minns knappt hur jag tog mig hem,",
+        "meta": "Melodi: Hallelujah (Leonard Cohen)",
+        "text": "Jag minns knappt hur jag tog mig hem,\r\nklockan var minst kvart i fem\r\nnär jag stod utanför min egen våning.\r\nJag lyfte upp min nyckelring,\r\noch haja nästan ingenting\r\nnär dörren öppnas står min hall och lutar.\r\n\r\nHallen luta, hallen luta,\r\nhallen luta, hallen lu-u-u-u-ta\r\n\r\nJag minns knappt julen åttitre\r\nmin bror var där å syster me,\r\nå snyggingen i rött satt alld’les breve.\r\nVi drack vår glögg och pratade,\r\nmin dejt blev trött och schappade.\r\nSå jag fick mera tid för han den röde.\r\n\r\nHan i luva, han i luva,\r\nhan i luva, han i lu-u-u-u-va\r\n\r\nFredagsmys har mer att ge\r\nän räkor, snask och en TV.\r\nMan kan ju hyra film och DVD.\r\nÅ vill man ha nåt riktigt bra,\r\nså kan man faktiskt bara ta,\r\nen film som vunnit Oscar åt en Berry:\r\n\r\nHalle Berry, Halle Berry,\r\nHalle Berry, Halle Be-e-e-e-rry",
+        "notes": "",
+        "partition": 11,
+        "page": "185.δ (jubileumsutgåva)"
+    },
+    "lapin_kulta": {
+        "id": "lapin_kulta",
+        "title": "Lapin Kulta",
+        "firstline": "Lapin Kulta",
+        "meta": "Melodi: Broder Jacob",
+        "text": "Lapin Kulta, Lapin Kulta\r\nKarjala, Karjala\r\nAura sekä Olvi,\r\nAura sekä Olvi\r\nKoff, Koff, Koff,\r\nKoff, Koff, Koff.",
+        "notes": "",
+        "partition": 3,
+        "page": "84",
+        "5ePage": 84
+    },
+    "strejk_pa_pripps": {
+        "id": "strejk_pa_pripps",
+        "title": "Strejk på Pripps",
+        "firstline": "I natt jag drömde något som",
+        "meta": "Melodi: I natt jag drömde",
+        "text": "I natt jag drömde något som\r\njag aldrig drömt förut\r\nJag drömde det var strejk på Pripps\r\noch alla bärs var slut\r\nJag drömde om en jättesal\r\ndär bärsen stod på rad\r\nså skrev de på ett konvolut\r\noch reste sig och sa:\r\n\r\nArmen i vinkel\r\nblicken i skyn\r\nså var det menat\r\nwhisky och renat\r\nvårt mål alkohol!\r\nSkål för dem som tål!", 
+        "notes": "",
+        "partition": 3,
+        "page": "86",
+        "5ePage": 86
+    },
+    "ratt_lyft": {
+        "id": "ratt_lyft",
+        "title": "Rätt lyft",
+        "firstline": "Jag vill inte gå på gym och lyfta skrot",
+        "meta": "Melodi: Kors på Idas grav ",
+        "text": "Jag vill inte gå på gym och lyfta skrot\r\nAnsiktslyftningar bär också mig emot\r\nLyfta blicken, lyfta frågan, lyfta lönen känns okejmen att lyfta glaset det är nog min grej", 
+        "notes": "",
+        "partition": 6,
+        "page": "108",
+        "5ePage": 108
+    },
+    "mata_spexet": {
+        "id": "mata_spexet",
+        "title": "Mata Spexet",
+        "firstline": "Nu vi kommit hit till spexM fest",
+        "meta": "Melodi: Oh! Susanna (Stephen Foster)",
+        "text": "Nu vi kommit hit till spexM fest\r\nEfter mycket slit\r\nmen för vårt flit\r\nvi vill ha hit\r\nen riktig spexig bit\r\n\r\nSå... MATA SPEXET\r\nVi ber om käket nu\r\nFör SpexMs mat\r\nden är så god\r\natt jag ej kan få nog",
+        "notes": "Andra stycket sjunges om och om igen tills man fått mat.",
+        "tags": ["Nämnder", "Sånger som aldrig tar slut"]
+    },
+    "mediehymnen": {
+        "id": "mediehymnen",
+        "title": "Mediehymnen",
+        "firstline": "För Teknis mitt hjärta blöda,",
+        "meta": "Melodi: Te Deum (Nobelsången)\r\nText: Medias Sånglederi 2004",
+        "text": "För Teknis mitt hjärta blöda,\r\npå Campus jag känner en stolthet såsom få\r\nför byggnader tegelröda\r\noch gräs och himmel, gröna, blå.\r\nO, ljuva ambrosia, nektar\r\nför själen och sinnet på vår akademi\r\när du, och mitt hjärta smäktar\r\noch älskar medieteknik.",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Media"],
+        "page": "60 (jubileumsutgåva)"
+    },
+    "nar_vi_festar": {
+        "id": "nar_vi_festar",
+        "title": "När vi festar",
+        "firstline": "När vi festar, när vi festar på sektion,",
+        "meta": "Melodi: 500 Miles\r\nSektion: Arkitektur",
+        "text": "När vi festar, när vi festar på sektion,\r\npå en sittning eller krog,\r\nja vilket som.\r\nNär vi partar, dricker rött utur kristall,\r\ngroggar fanta och champagne,\r\nja vilket som.\r\n\r\nFör vi på A vi visar vägen,\r\nja vi på A vi visar dom.\r\nNär ingen annan håller måttet,\r\nså gör vi klart var skåpet står.\r\n\r\n<i>Ena hälften:</i> ||: Tjalalalla!\r\n<i>Andra hälften:</i> Tjalalalla! :||\r\n<i>Alla:</i> Dö-ru-dundurudundurun-\r\ndurudunundundun-dö.\r\n\r\nKlockan åtta, börjar vi föra lite grand,\r\nkäkar nachos och champagne,\r\nför att vi kan.\r\nKlockan tio, börjar dra sig ner mot\r\nstan, tuben rullar fort som fan,\r\nför att den kan.\r\n\r\nFör vi på A...\r\n\r\nKlockan 00, börjar shotta är på G,\r\nupp och dansar hänger med,\r\nhar jävligt kul.\r\nKlockan 02 är det redan dags att gå,\r\njag har lite svårt att stå,\r\nmen jag kan.\r\n\r\nFör vi på A...\r\n\r\n<i>(Viskas)</i>\r\nSöndag morgon,\r\nminns knappt något från igår,\r\ndet ligger någon vid mitt lår,\r\nvem är det där?\r\n(Högt och tydligt)\r\nJa nu ser jag,\r\ndet är snyggingen från A!\r\nhar jag riktig tur så är du här ikväll!\r\n\r\nFör vi på A...", 
+        "notes": "A-sektionen LTH",
+        "partition": 2,
+        "tags": ["Arkitekt"],
+        "page": "60 (jubileumsutgåva)"
+    },
+    "balladen_om_arkitektens_kak": {
+        "id": "balladen_om_arkitektens_kak",
+        "title": "Balladen om arkitektens kåk",
+        "firstline": "För Teknis mitt hjärta blöda,",
+        "meta": "Melodi: Balladen om Theobald Thor\r\nText: Emilia Eckerlid, 2020\r\nSektion: Arkitektur",
+        "text": "Det var en gång en arkitekt\r\nsom jobba' på ett nytt projekt.\r\nIdén var häftig och helt perfekt\r\nNär han rita' och teckna' sin kåk.\r\n\r\nFör det var en stor kåk,\r\nen lång, konstig och ful\r\nFrån botten till nock\r\nvar det 12 meter opp\r\nmed en medelstor sockel till tak,\r\ntak, tak, takeli, tak, tak, tak.\r\n\r\nVår arkitekt han lämna' in\r\nritningen på kåken sin.\r\nMen ingen tyckte den var fin\r\nDå han rita och teckna sin kåk.\r\n\r\nFör det var en stor kåk...\r\n\r\nOch folket ville den ha bort,\r\nde sa ”det är inte rätt sort”.\r\nVår arkitekt han tog det hårt\r\nnär han teckna och rita sin kåk.\r\n\r\nFör det var en stor kåk....\r\n\r\nOch grannen han blev helt bestört,\r\noch skrek och svor nåt oerhört.\r\n\"Kvarteret blir ju helt förstört!!\"\r\nnär du ritar och tecknar din kåk.\r\n\r\nFör det var en stor kåk...\r\n\r\nVår arkitekt han ej förstod\r\nfelet på hans hus-klenod.\r\nHan tänkte \"Nu får det va nog,\r\nnär jag ritar och tecknar min kåk!\"\r\n\r\nFör det var en stor kåk...\r\n\r\nTill stadskontoret bar det av\r\noch arkitekten krävde svar.\r\n\"Vad är det nu för fel jag har\r\nnär jag ritar och tecknar min kåk?\"\r\nFör det var en stor kåk...\r\nDe sa \"här kammar du hem noll\",\r\nmen arkitekten hade koll.\r\n\"Ritningen är åt fel håll\r\nnär du tittar och kollar min kåk\"\r\n\r\nFör det var en fin kåk,\r\n\r\nen stor, vacker och bra kåk.\r\nFrån sockel till tak, var det en fin sak\r\nnär han rita och teckna sin kåk!",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Arkitekt"],
+        "page": "61.a (jubileumsutgåva)"
+    },
+    "en_bergsman_alskar": {
+        "id": "en_bergsman_alskar",
+        "title": "En Bergsman älskar",
+        "firstline": "En Bergsman älskar sången som sin bästa vän",
+        "meta": "Melodi: When Johnny comes marching home\r\nText: Roger R. Hjert\r\nSektion: Bergs",
+        "text": "En Bergsman älskar sången som sin bästa vän\r\nHan sjunger vackra visor om och om igen.\r\nMed glädje så sjunger han ut i dur och i moll.\r\nHan kommer alltid att ha sången i behåll.\r\n\r\nEn Bergsman älskar kvinnan\r\nskir och skär som den,\r\nhan fann en sommarkväll den största kärleken.\r\nI Folkets park där bjöd han upp\r\nden vackraste som fanns\r\nHan tog och han gav i en yrande dans.\r\n\r\nEn Bergsman lever livet i ett glädjerus.\r\nBrännevin han tar i både glas och krus.\r\nHan dricker ur till sång en sup,\r\nhan tar en omgång till.\r\nSäg mig den som då kan sitta still",
+        "notes": "En av de första sånger bergsnØllan lär sig. Om man går på en gasque med bergsmän och får för sig att sjunga vikingen kommer dessa att försöka att överösta sången med denna sång istället.",
+        "partition": 2,
+        "tags": ["Bergs"],
+        "page": "62 (jubileumsutgåva)"
+    },
+    "grabbarna_i_b": {
+        "id": "grabbarna_i_b",
+        "title": "Åh, Grabbarna i B",
+        "firstline": "Åh, grabbarna i B, de tar en nubbe té.",
+        "meta": "Melodi: Hertigen av York\r\nText: Carl Sebart\r\nSektion: Bergs",
+        "text": "Åh, grabbarna* i B, de tar en nubbe té.\r\nDem föra den till munnen sin,\r\noch slå den i halsen ner.\r\nÅh, när var den upp, var den upp.\r\nÅh, när den var ner var den ner.\r\nÅh när den på halva vägen var,\r\nvar den varken upp eller ner. Tjo!", 
+        "notes": "Sången sjunges som sista nubbevisa på alla gasquer på bergs. Sången upprepas av olika subpartitioner av sittande och * kan ersätts av tjejerna, årskursnamn, gästerna osv.",
+        "partition": 2,
+        "tags": ["Bergs"],
+        "page": "0x3F (jubileumsutgåva)"
+    },
+    "rovarvisan": {
+        "id": "rovarvisan",
+        "title": "Rövarvisan",
+        "firstline": "Nu drar vi ut på rövarstråt,",
+        "meta": "Melodi: Rövarnas visa\r\nSektion: IN",
+        "text": "Nu drar vi ut på rövarstråt,\r\nja vi skall ut och röva,\r\nmen bara sånt vi dricka kan,\r\noch sånt som gör oss döva.\r\n\r\nNu är det mörkt i stad och land,\r\nNu sover folk så gott de kan.\r\nNu drar vi iväg med vår alkoholtörst:\r\nBåde Kasper och Jesper och Jonathan.\r\n\r\nVi går till Kamomilla stad,\r\ntill alkoholbutiken,\r\noch rövar punsch och akvavit,\r\nså ingen blir besviken.\r\n\r\nDet händer nog att Jonathan,\r\nvill ha en whiskeyhutt ibland,\r\nmen annars så tar vi så lite vi kan,\r\nbåde Kasper och Jesper och Jonathan.\r\n\r\nVi vet så väl vad vi vill ha,\r\ndet finns så många sorter,\r\nhos alko tar vi äppelvin\r\noch Polens bästa porter.\r\n\r\nOch Gordon’s gin är gott minsann\r\noch rysk champagne går också an,\r\nmen annars så tar vi så lite vi kan,\r\nbåde Kasper och Jesper och Jonathan.\r\n\r\nMen vi behöver också öl,\r\ndet tjuvar vi om natten,\r\noch när vi druckit korgen tom\r\nså är vi mitt i hatten.\r\n\r\nNär Tuborg, Carlsberg runnit ner,\r\ndå vi ej mera gatan ser.\r\nmen annars så tar vi så lite vi kan,\r\nbåde Kasper och Jesper och Jonathan.",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Informations- & Nanoteknik"],
+        "page": "0x3F (jubileumsutgåva)"
+    },
+    "flygarsupen": {
+        "id": "flygarsupen",
+        "title": "Flygarsupen",
+        "firstline": "Vi Flygare vi tar supar med fart och med kläm",
+        "meta": "Melodi: Och jungfrun hon går i ringen\r\nText: Nils Söderberg\r\nSektion: Flyg",
+        "text": "Vi Flygare vi tar supar med fart och med kläm\r\nVi slår dom i våra strupar en tre, fyra, fem\r\nHå-hå, ja-ja, ja djävlar i de'\r\ndom går ner i magen i lodrät piké!\r\n\r\nVi Flygare vi tar supen på vårt lilla sätt\r\nVi störtar den ner i djupen, uti vårt porträtt.\r\nHå-hå, ja-ja, vad livet är kort\r\nden nubben skall säkert få fler i eskort!",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Flyg"],
+        "page": "65.a (jubileumsutgåva)"
+    },
+    "blaa_ringar": {
+        "id": "blaa_ringar",
+        "title": "Blåa ringar",
+        "firstline": "Vi har väl alla sen vi varit små",
+        "meta": "Melodi: Gå upp och pröva dina vingar\r\nText: Gunnar Hovmark, T-81\r\nSektion: Flyg",
+        "text": "Vi har väl alla sen vi varit små\r\ndrömt om att läsa på Teknis.\r\nI Jet-settet vill man ju också va me’\r\noch kombinationen av detta de’ e’:\r\n\r\nKom med och samla blåa ringar\r\npå KTH:s elitsektion.\r\nMot högre höjder vi oss svingar\r\noch gasquar enligt gammal tradition.\r\nSe på Viggarna som dundra i det blå\r\nännu högre vill vi nå.\r\nSå, kom med och samla blåa ringar\r\npå världens bästa Flygsektion!",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Flyg"],
+        "page": "65.a (jubileumsutgåva)"
+    },
+    "veritas_hermetica": {
+        "id": "veritas_hermetica",
+        "title": "Veritas Hermetica",
+        "firstline": "Kamrater, teknologer i Kemisternas sektion",
+        "meta": "Melodi: Fritiof Anderssons paradmarsch\r\nSektion: Kemi",
+        "text": "Kamrater, teknologer i Kemisternas sektion\r\nVeritas Hermetica\r\ngyllene valspråket ljuder\r\nI livets kamp där kämpa vi, en tapper legion\r\noch draga fram\r\ni rök och damm\r\nmed syra, salt och bas\r\n\r\nDe gamla alkemister ha sin konst till oss lärt ut\r\nav torv och talg och skogens stam blir guld förutan prut\r\nPotatisen blir brännvin, och av sand vi göra glas\r\nnär vi dra’ fram\r\ni rök och damm\r\nmed syra, salt och bas\r\n\r\nOch må vi aldrig spjälkas ens av starkaste zymas\r\nVeritas Hermetica\r\nFränder, höjen nu glasen\r\nVi veta att vår vänskap ej är blott en vacker fras\r\nnär vi dra’ fram\r\ni rök och damm\r\nmed syra, salt och bas\r\n\r\nI arbete och glädje, uppå tentor och kalas\r\nvår vänskap vuxit stor och stark, kan aldrig gå i kras\r\nKamrater alltid vi förbli, nu tömmen edra glas\r\nVi draga fram\r\ni rök och damm\r\nmed syra, salt och bas",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Kemi"],
+        "page": "65.b (jubileumsutgåva)"
+    },
+    "fanan_var": {
+        "id": "fanan_var",
+        "title": "Fanan Vår",
+        "firstline": "Se fanan vår, i topp den går,",
+        "meta": "Melodi: Nu grönskar det\r\nText: Tobbe och Marlene, Bearb.: Adam Åberg\r\nSektion: Samhällsbyggnad",
+        "text": "Se fanan vår, i topp den går,\r\nnu flaggas för vår S-sektion.\r\nMot himlen klar, vårt sektionsstandar,\r\nskall vaja i skön harmoni.\r\nTill vindens sång vi hör var gång,\r\nvår Qlocka slår an en melodi.\r\nSom då blir det bloss,\r\nsom skall leda oss,\r\ntill samhällsbyggnads sektion.",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Samhällsbyggnad"],
+        "page": "0x47 (jubileumsutgåva)"
+    },
+    "s_ingenjoren": {
+        "id": "s_ingenjören",
+        "title": "S-ingenjören",
+        "firstline": "S-ingenjören - skapelsens krona,",
+        "meta": "Melodi: fd Sovjetunionens fd nationalsång\r\nSektion: Samhällsbyggnad",
+        "text": "S-ingenjören - skapelsens krona,\r\ngudarnas gunstling, så Stark, Stor och Sann!\r\nFrån falsk blygsamhet vi ska er förskona,\r\nvi vet vad vi vill och vi vet vad vi kan.\r\n\r\nVi bygger bro – mellan fjärran stränder,\r\nvi ritar kartor – över alla länder,\r\nvi ser husens värden – i staden och byn.\r\nVi skapar kraft – tämjer syndafloden,\r\nvi äger makt – att dela in all jorden,\r\nfrån klingfasta berget till blånande skyn.\r\n\r\nSkåla kamrater – skål för varandra,\r\nskål ingenjörer av sten och av stål.\r\nVi breddar vartefter den vägen vi vandra,\r\nvårt mål är en skål – så skål för vårt mål.\r\n\r\nVi bygger bro…",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Samhällsbyggnad"],
+        "page": "0x47 (jubileumsutgåva)"
+    },
+    "mattes_visa": {
+        "id": "mattes_visa",
+        "title": "Mattes visa",
+        "firstline": "Jag vill aldrig gå på matte",
+        "meta": "Melodi: O, hur saligt att få vandra\r\nText: Felix Bengtsson, Alex Hamben & Tufva Linde\r\nSektion: Fysik",
+        "text": "Jag vill aldrig gå på matte\r\nAldrig tenta komplicerad analys\r\nIngen av oss har ju vänner\r\nPluggar algebra när de har fest och mys\r\n\r\nVi kan räkna integraler\r\nDerivera nolltegradens polynom\r\nHälften av oss dubblar Handels\r\nFör det är så lätt att bli en ekonom\r\n\r\n||: Matte är svårt - vi jobbar hårt\r\nDet inses lätt - om man gör rätt\r\nMatte är kul - om man är ful\r\nBeviset slut :||\r\n\r\nGauss lärjungar är vi alla\r\nEulers vänner är vi likaså\r\nTycker om att gå och malla\r\nFastän verkligheten vi ej kan förstå\r\n\r\nFinns det satser om att haffa?\r\nEkvationer som kan göra någon kär?\r\nPartner kan vi inte skaffa\r\nVi får nöja oss med en imaginär\r\n\r\nMatte är svårt...", 
+        "notes": "Skriven år 2021 till det nybildade programmet Teknisk Matematik.",
+        "partition": 2,
+        "tags": ["Matte", "Sånger som aldrig tar slut"],
+        "page": "0x4B (jubileumsutgåva)"
+    },
+    "cls_visa": {
+        "id": "cls_visa",
+        "title": "CLs visa",
+        "firstline": "Jag vill aldrig gå på CL",
+        "meta": "Melodi: O, hur saligt att få vandra\r\nText: Text: Veronica Vilbern, Felicia Rosenberg & Felix Alin CL17\r\nSektion: Civilingenjör & Lärare",
+        "text": "Jag vill aldrig gå på CL\r\nAldrig plugga pedagogiska idéer\r\nNågot måste vara fe-el\r\nHar hög EQ men inte nåt mer\r\n\r\nVi har jättemånga husdjur\r\nI en överfylld sektionslokal\r\nKlarar tentorna på ren tur\r\nOch i matten går det aldrig bra\r\n\r\n||: Pedagogik - Matematik :||\r\n\r\nAlla frågar ”vilka är ni?”\r\nBlir ni lärare för ingenjörer\r\nSvar har inte ens vårt kansli\r\nOrkar inte förklara det mer\r\n\r\nFör vårt program är som ett nödrim\r\nW vill ha en skilsmässa\r\nOvven kräver instruktionsfilm\r\nFörst då kan batiken bli bra\r\n\r\n||: Varför batik? - Det är unikt :||",
+        "notes": "Skrevs inför mottagningen 2020",
+        "partition": 2,
+        "tags": ["Civiligenjör & Lärare", "Sånger som aldrig tar slut"],
+        "page": "76 (jubileumsutgåva)"
+    },
+    "sang_om_tentor": {
+        "id": "sang_om_tentor",
+        "title": "Sång om tentor",
+        "firstline": "Var ligger landet där man jublar på tentorna?",
+        "meta": "Melodi: Var ligger landet där man böjer bananerna\r\nText: Johan Hedvall, CL15\r\nSektion: Civiligenjör & Lärare",
+        "text": "Var ligger landet där man jublar på tentorna?\r\nÄr det där de finns alla låga bostadsräntorna\r\nEller där Zlatan pryder varje femkronona\r\nVar ligger landet där man jublar på tentorna?",
+        "notes": "Enligt sägen skriven under en tenta som han F:ade",
+        "partition": 2,
+        "tags": ["Civiligenjör & Lärare"],
+        "page": "0x4D (jubileumsutgåva)"
+    },
+    "skalmen": {
+        "id": "skalmen",
+        "title": "Skälmen",
+        "firstline": "Bered en väg för Hacke",
+        "meta": "Melodi: Bered en väg för herran\r\nSkola: Chalmers\r\nSektion: Data",
+        "text": "Bered en väg för Hacke\r\nsymbolen för vår grupp.\r\nHan hävfer hela backen\r\nutan att kasta upp\r\n\r\nD-sektionens furste\r\nbland skyddshelgon den störste.\r\nVi jublar för att det är han\r\nsom alltid ror i land\r\n\r\nQuarl Anka skall vi spränga,\r\nFantomen ska klä’s av.\r\nSnobben ska vi hänga\r\noch Ast’rix trolldryck ta.\r\n\r\nFör Hacke är den enda\r\nsom inget ont kan hända\r\n||: Vi jublar för att det är han,\r\nsom allting ror i land. :||",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Chalmers"],
+        "page": "78 (jubileumsutgåva)"
+    },
+    "javlaranammas_sittningsvisa": {
+        "id": "javlaranammas_sittningsvisa",
+        "title": "Jävlaranammas sittningsvisa",
+        "firstline": "Höj nu glasen glada bröder",
+        "meta": "Skola: Chalmers",
+        "text": "Höj nu glasen glada bröder\r\nVi skall kröka så vi blöder\r\nVi skall dricka såna ruskiga volymer\r\nUt ur Bacci sköna källa\r\nVåra skallar skola smälla\r\nMot betongen, där vi bryter fram som Ymer\r\n\r\nFäll, drick ur, nu gutår\r\nSvep och häv så fort det går\r\nHalsa blint, ters och kvint\r\nLevern blir som en korint\r\n\r\nHöj nu glasen glada bröder\r\nVi skall kröka så vi blöder\r\nSociala späkningar\r\nI fekala kräkningar",
+        "notes": "",
+        "partition": 2,
+        "tags": ["Chalmers"],
+        "page": "0x4F (jubileumsutgåva)"
+    },
+    "hata_data_ltu": {
+        "id": "hata_data_ltu",
+        "title": "Hata Data",
+        "firstline": "Hata Data, tufft å vara full",
+        "meta": "Melodi: Bered en väg för herran\r\nSkola: Chalmers\r\nSektion: Data",
+        "text": "Hata Data, tufft å vara full\r\nvi kan supa utan att ha kul!",
+        "notes": "",
+        "partition": 2,
+        "tags": ["LTU"],
+        "page": "78 (jubileumsutgåva)"
+    },
+    "d_sektionen_lth": {
+        "id": "d_sektionen",
+        "title": "D-Sektionen",
+        "firstline": "Vem e störst och bäst i Skåne?",
+        "meta": "Melodi: Who's that lying on the runway\r\nSkola: LTH\r\nSektion: Data",
+        "text": "Vem e störst och bäst i Skåne?\r\nVem e kung på LTH, på LTH?\r\nJa det e Data Infocom som hela festen drar igång\r\nTacka gud för Data Infocom!",
+        "notes": "",
+        "partition": 2,
+        "tags": ["LTH"],
+        "page": "0x4F (jubileumsutgåva)"
+    },
+    "pa_data_ltu": {
+        "id": "pa_data_ltu",
+        "title": "På Data",
+        "firstline": "På data går grabbar med stake.",
+        "meta": "Melodi: My Bonnie\r\nSkola: LTU\r\nSektion: Data",
+        "text": "På data går grabbar med stake.\r\nPå data går tjejer med stil.\r\nMed oss finns det bara en hake.\r\nVi får aldrig framföra bil.\r\nÅh Data, Data,\r\npromillen går aldrig mot noll, mot noll!\r\nData, data,\r\npromillen går aldrig mot noll!\r\n\r\nVi vill vår princip ej förära\r\noch tro ej att det är ej ploj.\r\nVi anser man sprit kan förtära\r\nutan för den skull ha skoj.\r\nÅh supa, supa,\r\ndet är parollen för oss, förstås!\r\nSupa, supa,\r\ndet är parollen för oss!\r\n\r\nFontänen, ett badkar för Data.\r\nGolvet är sängen för oss.\r\nBekvämligheter vi rata.\r\nFör det extra järnet förstås.\r\nÅh däcka, däcka,\r\nminnet det kommer och går, DET GÅR!\r\nDäcka, däcka,\r\nminnet det kommer och går!",
+        "notes": "DØ -94",
+        "partition": 2,
+        "tags": ["LTU"],
+        "page": "80 (jubileumsutgåva)"
     }
 }

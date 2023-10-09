@@ -8,5 +8,8 @@
     "notes": "Sjunges på samma manér som ovanstående kallversion.\r\n",
     "partition": 5,
     "page": "0x61",
-    "5ePage": 97
+    "5ePage": 97,
+    "tags": [
+        "Sångledares favoriter"
+    ]
 }

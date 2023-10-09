@@ -3,8 +3,11 @@
     "title": "Musen",
     "alttitle": null,
     "firstline": "Det satt en mus i en hushållsost",
-    "meta": "Melodi: Måsen (Trad.)\r\n",
+    "meta": "Melodi: Måsen",
     "text": "Det satt en mus i en hushållsost\r\noch åt och åt utan måtta,\r\ntills osten blev till en mushålsost\r\noch han en klotformad råtta.\r\n“Så bra”, sa musen, “att va' en fettboll.\r\nNu kan jag rulla med hast åt rätt håll:\r\nOstindien,\r\nOstindien.”\r\n",
     "notes": null,
-    "partition": 6
+    "partition": 6,
+    "tags": [
+        "Sånger som aldrig tar slut"
+    ]
 }

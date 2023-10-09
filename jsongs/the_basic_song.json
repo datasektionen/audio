@@ -8,5 +8,8 @@
     "notes": "Samtliga kommandon följs. Inledande radnummer kan antingen utelämnas eller\r\nutropas av en ledsångare, på vars lott det i så fall faller att avgöra när\r\n“du fått nog”. BASIC konstruerades 1963 och akronymen utläses \r\n“Beginner's All-purpose Symbolic Instruction Code”.\r\n",
     "partition": 1,
     "page": "0x33",
+    "tags": [
+        "Programmering"
+    ],
     "5ePage": 51
 }
