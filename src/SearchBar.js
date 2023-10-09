@@ -5,9 +5,10 @@ import { Filters } from './Filters'
 
 let searchString = "";
 let chosenPartition = -1
+let chosenTags = []
 
 // The collapsible searchbar on the right side of the page. On mobile devices it covers the current song.
-export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) => {
+export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions, tags}) => {
 
   const [ songs, setSongs ] = useState(allSongs)
   const [ show, setShow ] = useState(true)
@@ -33,16 +34,32 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
   const handleSearchChange = e => {
     searchString = e;
     let filteredSongs = allSongs.filter(song =>  {
+      let inPartition = true;
       if(chosenPartition >= 0){
         //Partition chosen
-        return "partition" in song && song.partition == chosenPartition
+        inPartition = "partition" in song && song.partition == chosenPartition
 
       } else if(chosenPartition == -2){
         //Other Songs
-        return !("partition" in song)
+        inPartition = !("partition" in song)
       } else {
         //All songs
-        return true
+        inPartition = true
+      }
+
+      if(!inPartition){
+        return false;
+      } else {
+        //Check tags
+        if(chosenTags.length > 0){
+          if("tags" in song && song.tags){
+            return chosenTags.every((chosen) => song.tags.includes(chosen))
+          } else {
+            return false;
+          }
+        } else {
+          return true;
+        }
       }
     })
     if(e) {
@@ -71,7 +88,7 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions}) =>
             />
 
 
-            <Filters partitions={partitions} chosenPartition={chosenPartition} setChosenPartition={(partition) => {chosenPartition = partition; handleSearchChange(searchString);}}/>
+            <Filters partitions={partitions} chosenPartition={chosenPartition} setChosenPartition={(partition) => {chosenPartition = partition; handleSearchChange(searchString);}} tags={tags} chosenTags={chosenTags} setChosenTags={(tags) => {chosenTags = tags;  handleSearchChange(searchString);}}/>
             <hr className='border-[#333333] m-1 mx-3'/>
             <div className='scroll overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-500 scrollbar-track-zinc-900 scrollbar-thumb-rounded-full scrollbar-track-rounded-full '>
 

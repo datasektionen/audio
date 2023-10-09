@@ -31,8 +31,11 @@ const staticSongs = preval`module.exports = require('./getSongs.js')`;
 10 - Säsånger
 11 - Roliga sånger ("Byte-size skämt i sångformat" i jubileumsutgåvan)
 12 - Mottagningssånger (inte med i sångboken)
+For now they are hardcoded, but should be moved to database.
 */
 var partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till ölet", "Sånger till vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga sånger", "Mottagningssånger"];
+// Also hardcoded for now
+var tags = ["Sångledares favoriter", "Finsittning", "Alkfritt", "Programmering", "Nämnder", "Sånger som aldrig tar slut", "English"];
 
 
 // Gets a random song, seeded from todays date, so that everyone has the same random song, everyday.
@@ -192,7 +195,7 @@ export const App = () => {
         </div>
         {/* Sidebar */}
         <div className="flex-grow"/>
-        <SearchBar allSongs={Object.values(songs)} addToBooklet={addToBooklet} bookletList={bookletList} partitions={partitions}/>
+        <SearchBar allSongs={Object.values(songs)} addToBooklet={addToBooklet} bookletList={bookletList} partitions={partitions} tags={tags}/>
       </div>
       <div className="absolute bottom-0">
           {/*Utvecklad av: Max Wippich, Sångledare 2023, i samarbete med IOR*/}
