@@ -3,6 +3,7 @@ extern crate rocket;
 
 use rocket::fairing::{self, AdHoc};
 use rocket::fs::{relative, FileServer};
+use rocket::response::Redirect;
 use rocket::serde::{
     json::{self, Value},
     Deserialize, Serialize,
@@ -124,6 +125,11 @@ async fn insert_songs(rocket: Rocket<Build>) -> fairing::Result {
     Ok(rocket)
 }
 
+#[get("/")]
+fn index() -> Redirect {
+    Redirect::to("/index.html")
+}
+
 #[launch]
 fn rocket() -> _ {
     let mut figment = rocket::Config::figment();
@@ -148,6 +154,6 @@ fn rocket() -> _ {
                 .attach(AdHoc::try_on_ignite("SQLx Migrations", run_migrations))
                 .attach(AdHoc::try_on_ignite("Song reading", insert_songs))
         }))
-        .mount("/", routes![get_songs])
+        .mount("/", routes![get_songs, index])
         .mount("/", FileServer::from(relative!("build")).rank(20))
 }

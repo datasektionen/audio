@@ -73,8 +73,8 @@ export const App = () => {
             globalSongs = staticSongs;
           } else {
             let url = "https://" + window.location.host + "/songs.json";
-            var res = await fetch(url);
-            var json = await res.json();
+              var res = await fetch("/songs.json");
+              var json = await res.json();
               globalSongs = json;
           }
           if("__META__" in globalSongs){
