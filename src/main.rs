@@ -154,6 +154,6 @@ fn rocket() -> _ {
                 .attach(AdHoc::try_on_ignite("SQLx Migrations", run_migrations))
                 .attach(AdHoc::try_on_ignite("Song reading", insert_songs))
         }))
-        .mount("/", routes![get_songs, index])
+        .mount("/", routes![get_songs])
         .mount("/", FileServer::from(relative!("build")).rank(20))
 }
