@@ -3,6 +3,7 @@ extern crate rocket;
 
 use rocket::fairing::{self, AdHoc};
 use rocket::fs::{relative, FileServer};
+use rocket::response::Redirect;
 use rocket::serde::{
     json::{self, Value},
     Deserialize, Serialize,
@@ -122,6 +123,11 @@ async fn insert_songs(rocket: Rocket<Build>) -> fairing::Result {
     }
 
     Ok(rocket)
+}
+
+#[get("/")]
+fn index() -> Redirect {
+    Redirect::to("/index.html")
 }
 
 #[launch]
