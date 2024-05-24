@@ -27,7 +27,7 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions, tag
 
 
   const copyBookletLink = booklet => {
-    let url = "https://devaudio.datasektionen.se/?" + booklet.join(",")
+    let url = window.location.origin + "/?" + booklet.join(",")
     navigator.clipboard.writeText(url);
   }
 
