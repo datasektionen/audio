@@ -2,11 +2,10 @@ import { Input } from 'postcss';
 import {ReactComponent as Logo} from './assets/Logga.svg';
 import {ReactComponent as Cover} from './assets/Omslag.svg';
 import SearchBar from './SearchBar';
-import preval from 'preval.macro'
+// import preval from 'preval.macro'
 import React, { useState, useEffect } from 'react'
 import SongBook from './SongBook';
 
-const originUrl = window.location.hostname;
 var seedrandom = require('seedrandom');
 
 var globalSongs;
@@ -14,9 +13,9 @@ var songOfTheDay;
 var metaData;
 
 //When testing, set this variable to true, in order to load songs statically, rather than from the database
-var loadSongsStatically = true;
+var loadSongsStatically = false;
 // uncomment below line if loading songs statically
-const staticSongs = preval`module.exports = require('./getSongs.js')`;
+// const staticSongs = preval`module.exports = require('./getSongs.js')`;
 /*
 0 - Gasquesånger
 1 - Datasånger
@@ -47,7 +46,7 @@ function setSongOfTheDay(attempt = 0){
     while(true){
       var rand = Math.floor(rng()*(Object.keys(globalSongs).length-1));
       songOfTheDay = Object.values(globalSongs)[rand];
-      if(!"preventSongOfTheDay" in songOfTheDay || !songOfTheDay["preventSongOfTheDay"]){
+      if(!songOfTheDay.preventSongOfTheDay) {
         break;
       }
     }
@@ -72,7 +71,6 @@ export const App = () => {
           if(loadSongsStatically){
             globalSongs = staticSongs;
           } else {
-            let url = "https://" + window.location.host + "/songs.json";
               var res = await fetch("/songs.json");
               var json = await res.json();
               globalSongs = json;

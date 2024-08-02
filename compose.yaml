@@ -1,0 +1,11 @@
+services:
+  audio:
+    build: .
+    environment:
+      - DATABASE_URL=postgresql://audio:audio@db:5432/audio
+    ports: [ 8000:8000 ]
+  db:
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=audio
+      - POSTGRES_PASSWORD=audio

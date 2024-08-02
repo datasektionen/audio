@@ -3,20 +3,18 @@ extern crate rocket;
 
 use rocket::fairing::{self, AdHoc};
 use rocket::fs::{relative, FileServer};
-use rocket::response::Redirect;
 use rocket::serde::{
     json::{self, Value},
     Deserialize, Serialize,
 };
 use rocket::tokio;
 use rocket::{Build, Rocket};
-use rocket_db_pools::sqlx::{self, Row};
+use rocket_db_pools::sqlx;
 use rocket_db_pools::{Connection, Database};
 
 use std::collections::HashMap;
 use std::env;
 use std::fs;
-use std::io::{self, Read, Write};
 
 #[derive(Serialize, Deserialize)]
 #[serde(crate = "rocket::serde")]
@@ -123,11 +121,6 @@ async fn insert_songs(rocket: Rocket<Build>) -> fairing::Result {
     }
 
     Ok(rocket)
-}
-
-#[get("/")]
-fn index() -> Redirect {
-    Redirect::to("/index.html")
 }
 
 #[launch]
