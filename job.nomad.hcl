@@ -28,7 +28,7 @@ job "audio" {
       template {
         data        = <<ENV
 {{ with nomadVar "nomad/jobs/audio" }}
-DATABASE_URL="postgres://audio:{{ .db_password }}@postgres.dsekt.internal:5432/audio"
+DATABASE_URL=postgresql://audio:{{ .db_password }}@postgres.dsekt.internal:5432/audio
 {{ end }}
 ROCKET_PORT={{ env "NOMAD_PORT_http" }}
 ENV
