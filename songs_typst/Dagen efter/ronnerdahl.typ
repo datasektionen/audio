@@ -1,0 +1,30 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Rönnerdahl")[
+  #songmeta[
+    Melodi: Sjösala vals \ 
+    Musik: Ever Taube \ 
+  ]
+
+  #songtext[
+    Rönnerdahl han skuttar med ett skratt ur sin säng, \ 
+    fastnar i ett lakan, slår näsan i sänggaveln. \ 
+    Rullar ner på golvet i en våghalsig sväng, \ 
+    slutar sen att skratta när hans stortå får däng. \ 
+
+    Virrig i sin hjärna han reser sig på knä, \ 
+    och se, så mången stjärna fast morgon det nu e', \ 
+    och se, så många blåmärken som redan slagit ut på benen, \ 
+    blåa och vackra i morgonens svaga ljus. \ 
+
+    Rönnerdahl han vinglar uppå osäkra ben \ 
+    och den vita skjortan, den slafsar kring vadorna. \ 
+    Packad som en alika i majsolens sken \ 
+    skrålar han för ekorr'n som gungar på gren. \ 
+
+    “Titta”, ropar ungarna, “pappa han är full!” \ 
+    Han raglar runt i stugan och faller där omkull, \ 
+    och se, så många burkar han redan kastat ut på ängen: \ 
+    Löwenbräu, Heineken, Faxe och Norrlands Guld. \ 
+  ]
+]

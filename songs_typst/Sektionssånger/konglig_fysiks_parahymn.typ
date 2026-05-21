@@ -1,0 +1,34 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Konglig Fysiks paradhymn")[
+  #songmeta[
+    Melodi: Katyuscha \ 
+    Text: Dum-Dum, F73 \ 
+    Sektion: Teknisk Fysik \ 
+  ]
+
+  #songtext[
+    Här på festen stiger åter glammet. \ 
+    Sången börjar, tentan bortglömd är. \ 
+    Lyss, min strupe, du plågas utav dammet. \ 
+    Frukta ej, ty hjälpen är just här ibland oss: \ 
+    Höj pokalen, dess flöde känns som sammet. \ 
+    Drick till det som Bacchi vapen lär. \ 
+
+    Känn, o Osquar, känn hur blodet hettar. \ 
+    Du, Osqulda, orsak till det är. \ 
+    Timmar skrider och dygdens bojor lättar. \ 
+    Fest och glädje kärleksflamman när, men minns att \ 
+    blott ej synen en hungrig kärlek mättar. \ 
+    Drick till det som Venus' vapen lär. \ 
+
+    Fysiker, gasqueropen de har skallat \ 
+    likt musik från någon högre sfär. \ 
+    Tentans piska för länge har oss vallat. \ 
+    Trotsa den och studiernas misär, med lärdom \ 
+    från de makter som ytterst har oss kallat. \ 
+    Bacchus, Venus värdar hos oss är, och vänner: \ 
+    Bacchi nektar ej Venus' flamma släcker. \ 
+    Skål för det Fysiks skyddsgudar lär. \ 
+  ]
+]

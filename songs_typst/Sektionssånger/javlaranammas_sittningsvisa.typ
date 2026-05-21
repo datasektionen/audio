@@ -1,0 +1,26 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Jävlaranammas sittningsvisa")[
+  #songmeta[
+    Skola: Chalmers \ 
+  ]
+
+  #songtext[
+    Höj nu glasen glada bröder \ 
+    Vi skall kröka så vi blöder \ 
+    Vi skall dricka såna ruskiga volymer \ 
+    Ut ur Bacci sköna källa \ 
+    Våra skallar skola smälla \ 
+    Mot betongen, där vi bryter fram som Ymer \ 
+
+    Fäll, drick ur, nu gutår \ 
+    Svep och häv så fort det går \ 
+    Halsa blint, ters och kvint \ 
+    Levern blir som en korint \ 
+
+    Höj nu glasen glada bröder \ 
+    Vi skall kröka så vi blöder \ 
+    Sociala späkningar \ 
+    I fekala kräkningar \ 
+  ]
+]

@@ -1,0 +1,35 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Kopparslagaren")[
+  #songmeta[
+    Melodi: En sockerbagare \ 
+    Musik: Alice Tegnér \ 
+  ]
+
+  #songtext[
+    Små kopparslagare här bor i staden, \ 
+    dom är ett otyg för varje glad en. \ 
+    Dom plågar stora, de plågar små, \ 
+    dom plågar många -- mest da'n därpå. \ 
+
+    På förmiddagen dom väcker opp en \ 
+    med dunderslag uti huvudknoppen. \ 
+    Sin dag dom börjar med friskt humör \ 
+    och till sin verkstad dom huv'et gör. \ 
+
+    När hettan ökar inunder pannan \ 
+    man söker släcka med vattenkannan. \ 
+    Man dricker mjölk och tar Magnecyl \ 
+    men ändock glöder var molekyl. \ 
+
+    Dock, kopparslagare kan man nog slippa \ 
+    om man går nykter från varje hippa, \ 
+    om man förblir vad man är helt visst \ 
+    -- en pigg och skötsam absolutist. \ 
+
+    Men vi, som lärt utav livet mera, \ 
+    vet andra medel att dem parera. \ 
+    Vi har en visdom, oändligt djup: \ 
+    vi stiger opp och tar oss en sup! \ 
+  ]
+]

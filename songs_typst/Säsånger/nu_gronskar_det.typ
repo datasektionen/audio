@@ -1,0 +1,29 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Nu grönskar det")[
+  #songmeta[
+    Melodi: Nu grönskar det \ 
+    Text: Evelyn Lindström \ 
+    Musik: Johann Sebastian Bach \ 
+  ]
+
+  #songtext[
+    Nu grönskar det i dalens famn. \ 
+    Nu doftar äng och lid. \ 
+    Kom med, kom med på vandringsfärd \ 
+    i vårens glada tid! \ 
+    Var dag är som en gyll'ne skål \ 
+    till brädden fylld med vin. \ 
+    Så drick, min vän, drick sol och doft, \ 
+    ty dagen den är din! \ 
+
+    Långt bort från stadens gråa hus \ 
+    vi glatt vår kosa styr \ 
+    och följer vägens vita band \ 
+    mot ljusa äventyr. \ 
+    Med öppna ögon låt oss se \ 
+    på livets rikedom, \ 
+    som gror och sjuder överallt \ 
+    där våren går i blom. \ 
+  ]
+]

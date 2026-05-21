@@ -1,0 +1,30 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Änglapunsch")[
+  #songmeta[
+    Melodi: Änglamark \ 
+    Musik: Evert Taube \ 
+  ]
+
+  #songtext[
+    Kalla den gudagåva eller himlanektar, vad du vill; \ 
+    punschen den gyllne, de gamla oss skänkte. \ 
+    Vet att så länge som punschen nånsin funnits till \ 
+    glädjen den höjde och sorgerna dränkte. \ 
+
+    Blunda och dröm om en blommande sommarnatt, \ 
+    svala bersåer där punschen står immig, \ 
+    eller en höstdag, när Nordan har lekt tafatt, \ 
+    varm punsch som ångar och ärtsoppa simmig. \ 
+
+    Punschen den älskas nog av alla och envar. \ 
+    Låt festen börja, låt punschen få flöda! \ 
+    Skål alla vänner som har nå't i glaset kvar, \ 
+    hedra nu minnet av gamle kung Oscars da'r! \ 
+
+    Kalla den gudagåva eller himlanektar, vad du vill; \ 
+    punschen den gyllne, som får oss att drömma. \ 
+    Fukta din strupe, låt inte flaskan få stå still. \ 
+    Skåla för punschen och glasen vi tömma! \ 
+  ]
+]

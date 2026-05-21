@@ -1,0 +1,27 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Byggingenjörernas bekännelse")[
+  #songmeta[
+    Melodi: Yellow Submarine (John Lennon, Paul McCartney) \ 
+    Sektion: Ingenjörssektionen \ 
+  ]
+
+  #songtext[
+    Här är vi som det sig bör. \ 
+    Vi går och läser till ingenjör. \ 
+    Vi valde bygg, så blir man rik. \ 
+    Vi läser konstruktion och byggteknik. \ 
+
+    För vi läser och vi lär. \ 
+    Vi med stolta steg vår kunskap bär. \ 
+    Nu till Bacchus gör visit \ 
+    ty vi dricka vin med bonne esprit. \ 
+
+    ||: Jag ska dricka, stinna mitt begär. \ 
+    Dom andra som är här \ 
+    ut med mig sen bär. \ 
+    Jag ska festa som en ingenjör. \ 
+    Om av detta jag dör, \ 
+    det inte något gör! :|| \ 
+  ]
+]

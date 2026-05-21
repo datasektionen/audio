@@ -1,0 +1,22 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Hej på er bröder alla")[
+  #songtext[
+    Hej på er bröder alla! \ 
+    Nu ska vi supa till dess vi falla, \ 
+    men brännvinslitern, den är för liten, \ 
+    den är för liten för oss alla. \ 
+
+    Och en gång när jag är döder \ 
+    och lagd mellan tvenne bröder, \ 
+    begrav mig, begrav mig \ 
+    i en brännvinskällare på Söder. \ 
+
+    Och på min gravsten ska det stå ristat \ 
+    med tvenne små enkla rader: \ 
+    “Här vilar det en fyllebror, \ 
+    som alltid var så god och glader. \ 
+    Ja, här vilar det en fyllebror, \ 
+    som alltid var så glad och goder.” \ 
+  ]
+]

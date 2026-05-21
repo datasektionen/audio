@@ -1,0 +1,49 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Om Haga")[
+  #songmeta[
+    Alternativ titel: Fjäriln vingad \ 
+    Alternativ titel 2: Fjäriln vingad syns på Haga \ 
+    Alternativ titel 3: Fredmans sång no. 64 \ 
+    Melodi: Om Haga \ 
+    Text och Musik: Carl Michael Bellman \ 
+  ]
+
+  #songtext[
+    Fjäriln vingad syns på Haga, \ 
+    mellan dimmors frost och dun \ 
+    sig sitt gröna skjul tillaga \ 
+    och i blomman sin paulun. \ 
+    Minsta kräk i kärr och syra, \ 
+    nyss av solens värma väckt, \ 
+    till en ny högtidlig yra \ 
+    eldas vid sefirens fläkt. \ 
+
+    Haga i ditt sköte röjes \ 
+    gräsets brodd och gula plan. \ 
+    Stolt i dina rännlar höjes \ 
+    gungande den vita svan. \ 
+    Längst ur skogens glesa kamrar \ 
+    höras täta återskall \ 
+    än från den graniten hamrar, \ 
+    än från yx i björk och tall. \ 
+
+    Se Brunnsvikens små najader \ 
+    höja sina gyllne horn, \ 
+    och de frusande kaskader \ 
+    sprutas över Solna torn. \ 
+    Under skygd av välvda stammar \ 
+    på den väg man städad ser, \ 
+    fålen yvs och hjulen dammar, \ 
+    bonden milt åt Haga ler. \ 
+
+    Vad gudomlig lust att röna \ 
+    inom en så ljuvlig park, \ 
+    då man hälsad av sin sköna \ 
+    ögnas av en mild monark! \ 
+    Varje blick hans öga skickar, \ 
+    lockar tacksamhetens tår; \ 
+    rörd och tjust av dessa blickar, \ 
+    själv den trumpne glättig går. \ 
+  ]
+]

@@ -1,0 +1,36 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Pokemon intro")[
+  #songmeta[
+    Musik: John Loeffler \ 
+    Språk: Svenska \ 
+    Översättning: Anoo Bhagavan? \ 
+  ]
+
+  #songtext[
+    Nu tänker jag bli allra bäst \ 
+    och bygga upp ett lag \ 
+    För jag ska söka och fånga flest \ 
+    och träna dom var dag \ 
+
+    Jag ska resa från stad till stad \ 
+    efter pokémon \ 
+    Så får jag se från grad till grad \ 
+    var kraften kommer från \ 
+
+    Pokémon! (Måste fånga fler) \ 
+    Det är du och jag \ 
+    Tillsammans blir vi ett lag \ 
+    Pokémon! \ 
+    Ååh min bästa vän vi räddar världen om igen \ 
+
+    Pokémon! (Måste fånga fler) \ 
+    Helt okej \ 
+    Vi vet hur man klarar sig \ 
+
+    Du lär mig och jag lär dig \ 
+    P-o-k-é-m-o-n (Måste fånga fler) \ 
+    Jag ska fånga fler \ 
+    Pokémon! \ 
+  ]
+]

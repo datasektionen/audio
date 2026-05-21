@@ -1,0 +1,30 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Tjejernas sång")[
+  #songmeta[
+    Melodi: Än en gång däran (Evert Taube) \ 
+    Text: Jenny Forss, decima \ 
+  ]
+
+  #songtext[
+    Här på vår sektion finns en liten god portion \ 
+    som utgörs av oss som är tjejer. \ 
+    Det ger oss en särskild förhandlingsposition \ 
+    för killarna gör som vi säger. \ 
+    Vi lindar runt lillfingret varje teknolog. \ 
+    Dom gör våra tentor och labbar i Prolog. \ 
+    Ingen annanstans \ 
+    har väl vi så många fans, \ 
+    tur vi är så få på KTH! \ 
+
+    Tråkigt nog är livet på Teknis ganska kort \ 
+    - dom som gått ut vill tillbaka. \ 
+    Visst är det ändå rätt så dumt att kasta bort \ 
+    chansen att välja och vraka. \ 
+    För ute i världen, där finns det konkurrens. \ 
+    Bäst att man skyndar sig hitta en romans. \ 
+    Ragga me'ns vi kan, \ 
+    vi ska ragga me'ns vi kan. \ 
+    Tur vi är så få på KTH! \ 
+  ]
+]

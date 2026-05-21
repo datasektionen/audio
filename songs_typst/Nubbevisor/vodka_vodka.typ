@@ -1,0 +1,24 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Vodka, vodka")[
+  #songmeta[
+    Melodi: Stenka Razin \ 
+  ]
+
+  #songtext[
+    Vodka, vodka vill jag dricka. \ 
+    Jag vill äta kaviar. \ 
+    ||: Jag vill älska russkij flicka. \ 
+    Jag vill spy i samovar. :|| \ 
+
+    Uppå väggen går en gädda \ 
+    på långa ludna svarta ben, \ 
+    ||: men ni skall inte vara rädda, \ 
+    tag en sup och allt går väl. :|| \ 
+
+    Vita möss som går i taket \ 
+    råma hest och falla ned, \ 
+    ||: men ni skall inte vara rädda \ 
+    tag en sup och allt går väl. :|| \ 
+  ]
+]

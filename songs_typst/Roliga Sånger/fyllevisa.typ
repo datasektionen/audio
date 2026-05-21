@@ -1,0 +1,21 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Fyllevisa")[
+  #songmeta[
+    Melodi: Vi går över daggstänkta berg \ 
+  ]
+
+  #songtext[
+    Vi som oss för att glupa satt supa glatt, \ 
+    ity den som försmår sin första tår törsta får. \ 
+    Av längtan vi tryckas \ 
+    av trängtan att lyckas. \ 
+    Vi nu med bravur häller ur, eller hur? \ 
+
+    Vi ger tätt som titt strupen sitt. Supen stritt \ 
+    skall forsa, och snart får sig tarmen vår varm en tår. \ 
+    Er öven i seder \ 
+    och söven er neder \ 
+    vid denna protest-bullerfest. Full är bäst! \ 
+  ]
+]

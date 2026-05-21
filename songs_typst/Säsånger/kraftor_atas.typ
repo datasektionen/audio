@@ -1,0 +1,27 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Kräftor ätas")[
+  #songmeta[
+    Melodi: Kors på Idas grav \ 
+  ]
+
+  #songtext[
+    Kräftor ätas uti sen augustikväll. \ 
+    Strupar vätas med nånting ur en putell. \ 
+    Lyften glasen, klara basen \ 
+    så i stämning vi kan bli. \ 
+    Kräftkalasen de är fina, tycka vi. \ 
+
+    Läckert röda våra skaldjur ligga här. \ 
+    Utan möda ett par tjog vi friskt förtär. \ 
+    Glasen imma, kräftor simma \ 
+    bäst i brännvin, som ni vet. \ 
+    Lyktor glimma känsligt mot all härlighet. \ 
+
+    Första tjoget kravlat ner i magens djup. \ 
+    I begravningståget gick en fattig sup \ 
+    så att tersen här i versen \ 
+    kommer före nummer två. \ 
+    Tål ni pärsen ta vi halvan ovanpå. \ 
+  ]
+]

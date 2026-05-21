@@ -1,0 +1,20 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Anti-snapsvisa")[
+  #songmeta[
+    Melodi: Sjösala vals \ 
+    Musik: Evert Taube \ 
+  ]
+
+  #songtext[
+    Huvudet vi lyfter med ett stön ur vår säng. \ 
+    Tvättmaskin i buken, kanoner i huvudet. \ 
+    Tungan som en plyschsoffa och yrseln i sväng, \ 
+    ångesten vi svettas, kom sjung din refräng: \ 
+
+    Varför finns det aldrig nån nykter karneval? \ 
+    O, låt oss somna om så vi slipper våra kval, \ 
+    men se, så många supar vi redan kastat upp i sängen: \ 
+    Renat och Skåne, Svart Vinbär och fager Bäsk! \ 
+  ]
+]

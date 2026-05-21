@@ -1,0 +1,8 @@
+#include "bordeaux_bordeaux.typ"
+#include "elysisk_langtan.typ"
+#include "feta_fransyskor.typ"
+#include "fredmans_sang_no_35.typ"
+#include "imsig_vimsig.typ"
+#include "som_en_blomma.typ"
+#include "varvinets_lov.typ"
+#include "vinets_lov.typ"

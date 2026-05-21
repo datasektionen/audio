@@ -1,0 +1,31 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Yesterday")[
+  #songmeta[
+    Alternativ titel: A DBA's backup song \ 
+    Melodi: Yesterday \ 
+    Musik: Paul McCartney \ 
+  ]
+
+  #songtext[
+    Yesterday \ 
+    all those backups seemed a waste of pay. \ 
+    Now my database has gone away. \ 
+    Oh, I believe in yesterday. \ 
+
+    Suddenly, \ 
+    there's not half the files there used to be, \ 
+    and there's a deadline hanging over me. \ 
+    The system crashed so suddenly. \ 
+
+    I pushed something wrong, \ 
+    what it was, I could not say. \ 
+    Now my data's gone, \ 
+    and I long for yesterday-ay-ay-ay. \ 
+
+    Yesterday, \ 
+    the need for backups seemed so far away. \ 
+    Thought all my data was here to stay. \ 
+    Now I believe in yesterday. \ 
+  ]
+]

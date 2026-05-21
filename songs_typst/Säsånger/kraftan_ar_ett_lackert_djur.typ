@@ -1,0 +1,27 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Kräftan är ett läckert djur")[
+  #songmeta[
+    Melodi: Kovan kommer, kovan går \ 
+  ]
+
+  #songtext[
+    Kräftan är ett läckert djur \ 
+    läckert djur, läckert djur. \ 
+    Färgen den går aldrig ur, \ 
+    aldrig ur, aldrig ur. \ 
+    Går den bakåt är den okokt, \ 
+    går den framåt är det oklokt \ 
+    att du tar en pärla till, \ 
+    men du gör ju som du vill! \ 
+
+    Kräftan fodrar nubbar små, \ 
+    nubbar små, nubbar små. \ 
+    Annars börjar den att gå, \ 
+    den att gå, den att gå. \ 
+    Uti magen din den kryper \ 
+    och i tarmarna dig nyper. \ 
+    Detta är ett ofint sätt \ 
+    svälj nu nubben fort och lätt. \ 
+  ]
+]

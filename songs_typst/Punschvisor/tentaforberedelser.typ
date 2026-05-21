@@ -1,0 +1,20 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "Tentaförberedelser")[
+  #songmeta[
+    Melodi: Mössens Julafton \ 
+    Sångtext: Sånglederiet 2004 \ 
+  ]
+
+  #songtext[
+    Då tentorna är många som studiemetodik \ 
+    tar vissa sitt förnuft till fånga - andra arsenik. \ 
+    Men här är en idé, kanske okonventionell? \ 
+    Nu kommer ett galant recept på tentaskräll. \ 
+
+    Sprit i vatten, pressa en citron, \ 
+    blanda sen med socker, smaka av och må kanon. \ 
+    I med arrak, tag däri ett bad. \ 
+    När tentan kommer är du redan full och nöjd och glad! \ 
+  ]
+]

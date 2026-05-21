@@ -1,0 +1,19 @@
+#import "template.typ": songbook, song, songmeta, songtext
+
+#song(title: "METAs nationalsång")[
+  #songmeta[
+    Melodi: Sveriges nationalsång  \ 
+    Historia: Av METAdorerna författat nationalsång för META \ 
+  ]
+
+  #songtext[
+    Du stora å luftiga, mé skyhögt i tak \ 
+    som Media och Data förena \ 
+    Jag hälsar dig Största lokal på KTH, \ 
+    ||: Din bas, din rigg och dina soffor sköna. :|| \ 
+    Du mången gång tatt hand om trött teknolog, \ 
+    som just skrivit färdigt sin tentamen. \ 
+    Jag vet att du är och förblir vad jag vill ha, \ 
+    ||: Ja, jag vill leva, jag vill dö i META! :|| \ 
+  ]
+]
