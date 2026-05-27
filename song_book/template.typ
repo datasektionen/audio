@@ -202,9 +202,14 @@
 ///
 /// - body (content):
 /// ->
-#let song-notes(body, text-notes-spacing: 3.4mm) = {
+#let song-notes(
+  body,
+  text-notes-spacing: 3.4mm,
+  notes-leading: 3.7pt,
+  notes-spacing: 3.4mm,
+) = {
   set text(style: "italic", size: 10pt)
-  set par(leading: 3.7pt)
+  set par(leading: notes-leading, spacing: notes-spacing)
   v(text-notes-spacing, weak: true)
   body
 }
@@ -221,6 +226,8 @@
 ///   texts.
 /// - text-notes-spacing: Override for the space between the main song and
 ///   notes texts.
+/// - notes-leading: Override for the spacing between lines in the notes text.
+/// - notes-spacing: Override for the paragraph spacing in the notes text.
 /// - after-spacing: Override the space after the end of the song and the next
 ///   one.
 /// - add-after-nth-par (none|tuple): If set, should be an array containing an
@@ -238,6 +245,8 @@
   text-spacing: 0.2in,
   meta-text-spacing: 3.4mm,
   text-notes-spacing: 0.2in,
+  notes-leading: 3.7pt,
+  notes-spacing: 3.4mm,
   after-spacing: 9mm,
   add-after-nth-par: none,
   override-text-content: none,
@@ -292,6 +301,8 @@
           parse-text-content(data.notes)
         } else { override-notes-content },
         text-notes-spacing: text-notes-spacing,
+        notes-leading: notes-leading,
+        notes-spacing: notes-spacing,
       )
     } else { none }
   ]
