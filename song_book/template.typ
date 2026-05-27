@@ -30,6 +30,21 @@
   ]
 }
 
+/// How many extra pages will be added until the primary page counter starts
+/// incrementing again.
+#let remaining-extra-pages = state("extra-pages", 0)
+/// The visual page number, allowing extra pages to be inserted between primary
+/// pages.
+#let virtual-page = counter("virtual-page")
+
+/// Inserts a number of extra pages after the current page. If this function was
+/// called on page 'x' with 3, the extra pages will be numbered 'x.a'..'x.c'.
+///
+/// - number (int): The number of extra pages to insert.
+/// -> content
+#let insert-virtual-pages(number) = {
+  remaining-extra-pages.update(count => count + number)
+}
 
 /// Defines a new partition without any visual content.
 /// `body` should contain the name of the partition.
@@ -83,33 +98,41 @@
       left: base-margin,
       right: base-margin,
     ),
-    header: context {
-      let page = counter(page).get().at(0)
-      let is-left-page = calc.rem(page, 2) == 0
+    header: {
+      // Increment virtual page
+      context if 0 < remaining-extra-pages.get() {
+        virtual-page.step(level: 2)
+      } else {
+        virtual-page.step(level: 1)
+      }
+      remaining-extra-pages.update(count => calc.max(count - 1, 0))
 
-      show: align.with(if is-left-page { left } else { right } + bottom)
-      set par(leading: 5pt)
+      context {
+        let page = counter(page).get().at(0)
+        let is-left-page = calc.rem(page, 2) == 0
 
-      let partition-number = current-partition-number()
+        show: align.with(if is-left-page { left } else { right } + bottom)
+        set par(leading: 5pt)
 
-      // Only show headers after the first partition has been defined.
-      if partition-number != none [
-        #text(size: 10.5pt, {
-          if is-left-page {
-            [Konglig Datasektionens Sångbok]
-          } else {
-            [Partition #partition-number -- #current-partition-text()]
-          }
-        })\
-        #text(size: 5.3pt, page-message-codepoints-binary)
-        #v(-2pt)
-      ]
+        let partition-number = current-partition-number()
+
+        // Only show headers after the first partition has been defined.
+        if partition-number != none [
+          #text(size: 10.5pt, {
+            if is-left-page {
+              [Konglig Datasektionens Sångbok]
+            } else {
+              [Partition #partition-number -- #current-partition-text()]
+            }
+          })\
+          #text(size: 5.3pt, page-message-codepoints-binary)
+          #v(-2pt)
+        ]
+      }
     },
     footer: (
       context {
-        let page-counter = counter(page)
-        let page = page-counter.get().at(0)
-        let is-left-page = calc.rem(page, 2) == 0
+        let is-left-page = calc.rem(counter(page).get().first(), 2) == 0
 
         // TODO: Figure out precise text size
         set text(size: 12pt)
@@ -121,14 +144,27 @@
 
         let partition-number = current-partition-number()
 
+        let primary-page = virtual-page.get().first()
+        // let primary-page = counter(page).get().first()
+        let secondary-page = virtual-page.get().at(1, default: none)
+        let show-decimal = is-left-page or secondary-page != none
+        // let show-decimal = is-left-page
+
         // Only show headers after the first partition has been defined.
         if (partition-number != none) {
-          if is-left-page {
-            left-pad-zeros(str(page-counter.get().first()), 3)
+          if show-decimal {
+            left-pad-zeros(str(primary-page), 3)
           } else {
-            "0x" + upper(str(page, base: 16))
+            "0x" + upper(str(primary-page, base: 16))
           }
         }
+        virtual-page.display((primary-page, ..remaining) => {
+          let secondary-page = remaining.pos().first(default: none)
+          if secondary-page == none {
+            return
+          }
+          "." + str.from-unicode("a".to-unicode() - 1 + secondary-page)
+        })
       }
     )
       // Add marker for end of page to be queried for.
@@ -177,6 +213,9 @@
 ///
 /// - id-label (label): A label containing one of the top level IDs in
 ///   "songs.json".
+/// - text-size: Override for the font size of the main song text.
+/// - text-leading: Override for the spacing between lines in the main song
+///   text.
 /// - text-spacing: Override for the paragraph spacing in the main song text.
 /// - meta-text-spacing: Override for the space between the meta and main song
 ///   texts.
@@ -188,13 +227,21 @@
 ///   index and content. That content will be inserted after the paragraph with
 ///   that index (zero-indexed). Is used for edge-cases where the original PDF
 ///   has manually adjusted the layout in the middle of a song.
+/// - override-text-content (none|content): If set, replaces the text content
+///   with the provided content, instead of reading it from "songs.json".
+/// - override-text-content (none|content): If set, replaces the notescontent
+///   with the provided content, instead of reading it from "songs.json".
 #let song(
   id-label,
+  text-size: 11pt,
+  text-leading: 4pt,
   text-spacing: 0.2in,
   meta-text-spacing: 3.4mm,
   text-notes-spacing: 0.2in,
   after-spacing: 9mm,
   add-after-nth-par: none,
+  override-text-content: none,
+  override-notes-content: none,
 ) = {
   assert(
     str(id-label) in songs-data,
@@ -210,7 +257,8 @@
   }
 
   let song-text(body) = {
-    set par(spacing: text-spacing)
+    set text(size: text-size)
+    set par(spacing: text-spacing, leading: text-leading)
     // TODO: Temporary to check consistency with original, remove once all songs
     //   have been added.
     set par(first-line-indent: (amount: 6pt, all: true))
@@ -229,14 +277,20 @@
     #song-meta(parse-text-content(data.meta))
 
     #v(meta-text-spacing, weak: true)
-    #song-text(parse-text-content(
-      data.text,
-      add-after-nth-par: add-after-nth-par,
-    ))
+    #song-text(if override-text-content == none {
+      parse-text-content(
+        data.text,
+        add-after-nth-par: add-after-nth-par,
+      )
+    } else {
+      override-text-content
+    })
 
     #if data.notes != none {
       song-notes(
-        parse-text-content(data.notes),
+        if override-notes-content == none {
+          parse-text-content(data.notes)
+        } else { override-notes-content },
         text-notes-spacing: text-notes-spacing,
       )
     } else { none }
