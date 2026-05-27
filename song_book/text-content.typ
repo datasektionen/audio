@@ -11,6 +11,9 @@
   // To parse the HTML we just pretend that it's valid XML, and use the built in
   // XML parser (surely this won't cause issues). We need to wrap the document
   // in any arbitrary root element for it to be valid XML.
+  // We also replace the `&shy;` entity manually since Typst's XML parser
+  // doesn't support defining entities.
+  string = string.replace("&shy;", [-?].text)
   let xml-document = ("<root>" + string + "</root>")
 
   let document = xml(bytes(xml-document))
@@ -80,6 +83,9 @@
       [---]
       ends.last()
     }
+    show "\"": sym.quote.r.double
+    show "'": sym.quote.r.single
+
     block(breakable: false, par(parse-basic-html(string)))
     if (add-after-nth-par != none and index == add-after-nth-par.at(0)) {
       add-after-nth-par.at(1)

@@ -29,7 +29,8 @@
 
 #include "/song_book/content/partitions/datasånger.typ"
 
-#dev-ensure-page(81)
+#include "/song_book/content/partitions/sektionssånger.typ"
+
 #include "/song_book/content/partitions/sånger-till-ölet.typ"
 
 #dev-ensure-page(152)
