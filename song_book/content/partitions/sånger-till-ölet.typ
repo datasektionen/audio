@@ -1,8 +1,8 @@
 #import "/song_book/template.typ": base-margin, partition-page, song, song-notes
 
-#partition-page[Sånger-till-ölet][
+#partition-page[Sånger till Ölet][
   #v(4.2mm)
-  = #h(6pt) Sånger till ölet
+  = #h(6pt) Sånger till Ölet
   #v(1fr)
   #v(-5pt)
   #align(center, pad(
