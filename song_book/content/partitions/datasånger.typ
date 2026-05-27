@@ -1,16 +1,15 @@
 #import "/song_book/template.typ": base-margin, partition-page, song, song-notes
 
 #partition-page[Datasånger][
+  #show: block.with(width: 100%, breakable: false)
   #v(4.2mm)
   = #h(6pt) Datasånger
-  #v(1fr)
-  #v(-5pt)
+  #v(-4.2mm)
   #align(center, pad(
     x: -base-margin,
     top: 15pt,
-    image(width: 85% - 15pt, "/song_book/assets/images/Datorsånger.png"),
+    image(width: 88mm, "/song_book/assets/images/Datorsånger.png"),
   ))
-  #v(1fr)
 ]
 
 // årskursvisan panikar av någon anledning
@@ -120,9 +119,7 @@
 #pagebreak()
 
 #box(
-  [
-    #text(size: 10.8pt, [#song(<den_kodbestrodde_norden>)])
-  ],
+  pad(right: -3pt, song(<den_kodbestrodde_norden>))
 )
 #pagebreak()
 
@@ -193,11 +190,10 @@
 #pagebreak()
 #set page(margin: (x: base-margin, y: base-margin))
 
-#text(size: 10.7pt)[
-  #song(<matlab>, text-notes-spacing: 14pt)
-]
+#pad(right: -1pt, song(<matlab>, text-notes-spacing: 14pt, notes-leading: 3pt, notes-spacing: 2.5mm))
 
-#v(-1.45em)
+#v(-1mm)
+
 #song(<systeme_interweb>)
 #pagebreak()
 
