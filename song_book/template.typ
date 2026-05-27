@@ -37,7 +37,7 @@
 
 /// Defines a new partition and creates a new page only containing `body` heading element along with metadata which defines a new partition.
 #let partition-page(partition-content, body) = {
-  pagebreak()
+  pagebreak(weak: true)
   partition-marker(partition-content)
 
   show heading: set text(size: 30pt, weight: "regular")
