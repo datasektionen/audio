@@ -37,12 +37,14 @@
 
 #include "/song_book/content/partitions/punschvisor.typ"
 
-#dev-ensure-page(127+4) // Original page: 127 (adjusted for 4 extra pages)
+#dev-ensure-page(131) // Original page: 127 (adjusted for 4 extra pages)
 
 #include "/song_book/content/partitions/dagen-efter.typ"
 
 #include "/song_book/content/partitions/traditionellt.typ"
 
-#dev-ensure-page(152)
+#include "/song_book/content/partitions/högtid.typ"
+
+//#dev-ensure-page(152)
 // Physical page in original pdf: 152
-#song(<o_gamla_klang>, text-spacing: 0.2in)
+//#song(<o_gamla_klang>, text-spacing: 0.2in)
