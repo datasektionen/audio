@@ -35,6 +35,8 @@
 
 #include "/song_book/content/partitions/sånger-till-vinet.typ"
 
+#include "/song_book/content/partitions/punschvisor.typ"
+
 #dev-ensure-page(152)
 // Physical page in original pdf: 152
 #song(<o_gamla_klang>, text-spacing: 0.2in)
