@@ -236,8 +236,10 @@
 ///   has manually adjusted the layout in the middle of a song.
 /// - override-text-content (none|content): If set, replaces the text content
 ///   with the provided content, instead of reading it from "songs.json".
-/// - override-text-content (none|content): If set, replaces the notescontent
+/// - override-notes-content (none|content): If set, replaces the notes content
 ///   with the provided content, instead of reading it from "songs.json".
+/// - text-first-line-indent: Override for the indentation of the first line in
+///   each paragraph of the main song text.
 #let song(
   id-label,
   text-size: 11pt,
@@ -251,6 +253,7 @@
   add-after-nth-par: none,
   override-text-content: none,
   override-notes-content: none,
+  text-first-line-indent: 6pt,
 ) = {
   assert(
     str(id-label) in songs-data,
@@ -270,7 +273,7 @@
     set par(spacing: text-spacing, leading: text-leading)
     // TODO: Temporary to check consistency with original, remove once all songs
     //   have been added.
-    set par(first-line-indent: (amount: 6pt, all: true))
+    set par(first-line-indent: (amount: text-first-line-indent, all: true))
     body
     v(0em)
   }
