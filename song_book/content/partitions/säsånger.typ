@@ -3,7 +3,7 @@
 #partition-page[Säsånger][
   #show: block.with(width: 100%, breakable: false)
   #v(4.2mm)
-  = Säsånger #h(6pt)
+  = #h(6pt) Säsånger
   #v(-4.2mm)
   #align(center, pad(
     x: -base-margin,
