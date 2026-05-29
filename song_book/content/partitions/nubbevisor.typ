@@ -3,17 +3,19 @@
 #partition-page[Nubbevisor][
   #show: block.with(width: 100%, breakable: false)
   #v(4.2mm)
-  = #h(6pt) Nubbevisor
+   = #h(6pt) Nubbevisor
   #v(-4.2mm)
   #align(center, pad(
-    left: -base-margin - 5mm,
-    top: 2pt,
-    image(width: 130mm, "/song_book/assets/images/nubbevisor.png"),
+    x: -base-margin,
+    top: 45pt,
+    image(width: 100mm, "/song_book/assets/images/nubbevisor.png"),
   ))
 ]
 
+#let subheader-size = 24pt
+
 #box[
-  = Helan
+   #text(size: subheader-size)[Helan]
   #song(<helan_gar>)
   #song(<hell_and_gore>)
 ]
@@ -21,7 +23,7 @@
 
 #box[
   #song(<denna_thaft>)
-  = Halvan
+   #text(size: subheader-size)[Halvan]
   #song(<tank_om_jag_hade>)
 ]
 #pagebreak()
@@ -30,7 +32,7 @@
 #song(<ratt_lyft>)
 #pagebreak()
 
-= Tersen
+ #text(size: subheader-size)[Tersen]
 #song(<can_can>)
 #pagebreak()
 
@@ -41,7 +43,7 @@
 #song(<imbelupet>)
 #pagebreak()
 
-= Qvarten
+ #text(size: subheader-size)[Qvarten]
 #song(<grav_ur_tundran>)
 #pagebreak()
 
@@ -49,7 +51,8 @@
 #song(<en_gang_i_manan>)
 #pagebreak()
 
-= Qvinten
+ #text(size: subheader-size)[Qvinten]
+
 #song(<fordom_odlade_man>)
 #song(<magen_brummar>)
 #pagebreak()
@@ -60,12 +63,12 @@
 ]
 #pagebreak()
 
-= Sexten
+ #text(size: subheader-size)[Sexten]
 #song(<vodka_vodka>)
 #song(<angbaten>)
 #pagebreak()
 
-= Måsen
+ #text(size: subheader-size)[Måsen]
 #song(<masen>)
 #song(<datalogen>)
 #pagebreak()
@@ -75,14 +78,14 @@
 #song(<vingklippta_masen>)
 #pagebreak()
 
-= Byten
+ #text(size: subheader-size)[Byten]
 #song(<vi_aro_sma_humlor_vi>)
 #song(<den_digitala_snapsvisan>)
 #song(<nu_tar_vi_den>)
 #pagebreak()
 
 #song(<minnet>)
-= Biten
+ #text(size: subheader-size)[Biten]
 #song(<borsras>)
 #pagebreak()
 
@@ -90,7 +93,7 @@
 #song(<sill_och_ansjovis>)
 #pagebreak()
 
-= Barstopp
+ #text(size: subheader-size)[Barstopp]
 #song(<toj_hamtegubbar>)
 #song(<krok_armen_i_vinkel>)
 #pagebreak()
@@ -99,7 +102,7 @@
 #song(<helangorakatt>)
 #pagebreak()
 
-= Spökförrådet
+ #text(size: subheader-size)[Spökförrådet]
 #song(<finska_cykellandslagets_snapsvisa>)
 #song(<finsk_snapsvisa>)
 #song(<ingmar_bergman>)
