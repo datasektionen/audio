@@ -37,7 +37,7 @@
 
 #include "/song_book/content/partitions/punschvisor.typ"
 
-#dev-ensure-page(131) // Original page: 127 (adjusted for 4 extra pages)
+#include "/song_book/content/partitions/nubbevisor.typ"
 
 #include "/song_book/content/partitions/dagen-efter.typ"
 
