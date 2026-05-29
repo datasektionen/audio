@@ -45,6 +45,8 @@
 
 #include "/song_book/content/partitions/högtid.typ"
 
+#include "/song_book/content/partitions/säsånger.typ"
+
 //#dev-ensure-page(152)
 // Physical page in original pdf: 152
 //#song(<o_gamla_klang>, text-spacing: 0.2in)
