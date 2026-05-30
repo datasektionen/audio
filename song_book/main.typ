@@ -53,4 +53,6 @@
 
 #include "/song_book/content/partitions/register.typ"
 
+#include "/song_book/content/credits.typ"
+
 #include "/song_book/content/bucket-list.typ"
