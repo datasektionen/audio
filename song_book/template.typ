@@ -82,6 +82,27 @@
   }
 }
 
+/// Formats page numbers as done in the book, with support for inserted pages.
+///
+/// - hex (bool): Whether to format the page numbers in hexadecimal. If
+///   false, formats in decimal.
+/// - numbers (array): The page number, should be a value of the `virtual-page`
+///   counter. The first value is the primary page number, and the second value
+///   (if present) is the secondary page number.
+/// -> content
+#let page-number(hex: false, ..numbers) = {
+  let primary-page = numbers.pos().first()
+  let secondary-page = numbers.pos().at(1, default: none)
+  if hex {
+    "0x" + upper(str(primary-page, base: 16))
+  } else {
+    left-pad-zeros(str(primary-page), 3)
+  }
+  if secondary-page != none {
+    numbering(".a", secondary-page)
+  }
+}
+
 #let song-book(body) = {
   // You need to have this font installed, sorry!
   set text(font: "Bell MT", size: 11pt, lang: "sv")
@@ -145,26 +166,13 @@
         let partition-number = current-partition-number()
 
         let primary-page = virtual-page.get().first()
-        // let primary-page = counter(page).get().first()
         let secondary-page = virtual-page.get().at(1, default: none)
         let show-decimal = is-left-page or secondary-page != none
-        // let show-decimal = is-left-page
 
         // Only show headers after the first partition has been defined.
         if (partition-number != none) {
-          if show-decimal {
-            left-pad-zeros(str(primary-page), 3)
-          } else {
-            "0x" + upper(str(primary-page, base: 16))
-          }
+          page-number(hex: not show-decimal, ..virtual-page.get())
         }
-        virtual-page.display((primary-page, ..remaining) => {
-          let secondary-page = remaining.pos().first(default: none)
-          if secondary-page == none {
-            return
-          }
-          "." + str.from-unicode("a".to-unicode() - 1 + secondary-page)
-        })
       }
     )
       // Add marker for end of page to be queried for.
@@ -194,13 +202,12 @@
   show heading: set block(below: 12pt)
   show outline.entry: set text(size: 12pt)
   
-  let page-number(location) = numbering("1", ..virtual-page.at(location))
   show outline.entry: it => link(
     it.element.location(),
     [
       #it.body()
       #box(width: 1fr, it.fill)
-      #page-number(it.element.location())
+      #page-number(..virtual-page.at(it.element.location()))
     ]
   ) + linebreak()
 
@@ -295,6 +302,10 @@
 
   [
     #heading(level: 3, data.title) #id-label
+    #metadata(data.title) <song-marker>
+    #if "alttitle" in data and data.alttitle != none [
+      #metadata(data.alttitle) <song-marker>
+    ]
 
     #song-meta(parse-text-content(data.meta))
 
