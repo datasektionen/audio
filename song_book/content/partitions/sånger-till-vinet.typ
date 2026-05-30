@@ -2,8 +2,9 @@
 
 // Title page
 #partition-page[Sånger till Vinet][
+  #show heading: pad.with(left: 6pt)
   #v(4.2mm)
-  = #h(6pt) Sånger till Vinet
+  = Sånger till Vinet
   #v(1fr)
   #v(-5pt)
   #align(center, pad(
