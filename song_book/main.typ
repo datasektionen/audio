@@ -49,6 +49,4 @@
 
 #include "/song_book/content/partitions/roliga-sånger.typ"
 
-//#dev-ensure-page(152)
-// Physical page in original pdf: 152
-//#song(<o_gamla_klang>, text-spacing: 0.2in)
+#include "/song_book/content/partitions/egna-sånger.typ"
