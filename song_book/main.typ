@@ -50,3 +50,5 @@
 #include "/song_book/content/partitions/roliga-sånger.typ"
 
 #include "/song_book/content/partitions/egna-sånger.typ"
+
+#include "/song_book/content/bucket-list.typ"
