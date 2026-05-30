@@ -2,8 +2,9 @@
 
 #partition-page[Högtid][
   #show: block.with(width: 100%, breakable: false)
+  #show heading: pad.with(6pt)
   #v(4.2mm)
-  = #h(6pt) Högtid
+  = Högtid
   #v(-4.2mm)
   #align(center, pad(
     left: -base-margin - 5mm,

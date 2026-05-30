@@ -1,9 +1,10 @@
 #import "/song_book/template.typ": base-margin, partition-page, song, song-notes
 
 #partition-page[Säsånger][
+  #show heading: pad.with(left: 6pt)
   #show: block.with(width: 100%, breakable: false)
   #v(4.2mm)
-  = #h(6pt) Säsånger
+  = Säsånger
   #v(-4.2mm)
   #align(center, pad(
     x: -base-margin,
