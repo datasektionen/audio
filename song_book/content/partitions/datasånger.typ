@@ -2,8 +2,9 @@
 
 #partition-page[Datasånger][
   #show: block.with(width: 100%, breakable: false)
+  #show heading: pad.with(left: 6pt)
   #v(4.2mm)
-  = #h(6pt) Datasånger
+  = Datasånger
   #v(-4.2mm)
   #align(center, pad(
     x: -base-margin,

@@ -193,6 +193,16 @@
   show heading: set text(size: 30pt)
   show heading: set block(below: 12pt)
   show outline.entry: set text(size: 12pt)
+  
+  let page-number(location) = numbering("1", ..virtual-page.at(location))
+  show outline.entry: it => link(
+    it.element.location(),
+    [
+      #it.body()
+      #box(width: 1fr, it.fill)
+      #page-number(it.element.location())
+    ]
+  ) + linebreak()
 
   outline(target: heading.where(level: 1))
   pagebreak()

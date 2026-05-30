@@ -4,8 +4,9 @@
 
 // Title page
 #partition-page[Sektionssånger][
+  #show heading: pad.with(left: 6pt)
   #v(4.2mm)
-  = #h(6pt) Sektionssånger
+  = Sektionssånger
   #v(20.2mm)
   #align(center, pad(
     x: -base-margin,
