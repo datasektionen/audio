@@ -120,7 +120,7 @@
 #pagebreak()
 
 #box(
-  pad(right: -3pt, song(<den_kodbestrodde_norden>))
+  pad(right: -10pt, song(<den_kodbestrodde_norden>))
 )
 #pagebreak()
 
@@ -135,17 +135,16 @@
 
 #box(
   [
-    #song(<prylmanglerister>)
+    #song(<prylmanglerister>, after-spacing: 6mm)
     #song(<np_inte_p>)
   ],
 )
 #pagebreak()
 
-#box(
-  [
-    #text(size: 10.8pt, song(<jag_vill_va_som_du>)) // Jag vill "ju" var' som du borde det väl vara
-  ],
-)
+#box[
+  // Jag vill "ju" var' som du borde det väl vara
+  #pad(right: -5pt, song(<jag_vill_va_som_du>))
+]
 #pagebreak()
 
 #song(<dataeliten>)
@@ -168,26 +167,17 @@
 #set page(margin: (bottom: 3cm))
 #song(<write_in_c>)
 
-// Here is a pagebreak I dont want
-
-#block(breakable: false)[
-  #song(<the_basic_song>)
-  #text(font: "Consolas", size: 10.7pt)[ // Ta bort detta och lägg till alternativ till annan font för #song()
-    #v(-2.5em)
-    10 LET oss nu fatta i våra glas
-    #v(-0.6em)
-    20 INPUT en klunk utav det som där has
-    #v(-0.6em)
-    30 IF du fått nog THEN till 50 min vän
-    #v(-0.6em)
-    40 ELSE GOTO-baka till 10 igen
-    #v(-0.6em)
-    50 END
-    #v(0.5em)
-  ]
-
-  #song-notes("Samtliga kommandon följs. Inledande radnummer kan antingen utelämnas eller utropas av en ledsångare, på vars lott det i så fall faller att avgöra när ”du fått nog”. BASIC konstruerades 1963 och akronymen utläses ”Beginner’s All-purpose Symbolic Instruction Code”.")
-]
+#block()
+#place(song(<the_basic_song>,override-text-content: [
+  #set par(leading: 3.6pt)
+  #set text(font: "Inconsolata", size: 11.5pt, weight: 500, stretch: 105%)
+  #show: pad.with(right: -1mm)
+  10 LET oss nu fatta i våra glas\
+  20 INPUT en klunk utav det som där has\
+  30 IF du fått nog THEN till 50 min vän\
+  40 ELSE GOTO-baka till 10 igen\
+  50 END\
+]))
 #pagebreak()
 #set page(margin: (x: base-margin, y: base-margin))
 

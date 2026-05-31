@@ -60,7 +60,7 @@
 
 #box[
   #song(<lilla_manasse>)
-  #song(<kors>)
+  #song(<kors>, text-notes-spacing: 3.5mm)
 ]
 #pagebreak()
 
