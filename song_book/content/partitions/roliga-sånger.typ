@@ -43,7 +43,11 @@
 #song(<brev_fran_campus>)
 #pagebreak()
 
-#song(<en_matematiker>)
+#song(<en_matematiker>, override-notes-content: [
+  #set par(leading: 4pt)
+  ρ (rho) syftar på den grekiska bokstaven, vilket ibland benämns som "the plastic number" vilket är den unika reella lösningen på ekvationen $x^3 = x + 1$.\
+  ρ kallas ibland även "the silver number", vilket används för "the silver ratio": $1 + sqrt(2)$.
+])
 #pagebreak()
 
 #song(<gaffas_visa>)
