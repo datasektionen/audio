@@ -104,8 +104,18 @@
 }
 
 #let song-book(body) = {
-  // You need to have this font installed, sorry!
-  set text(font: "Bell MT", size: 11pt, lang: "sv")
+  set text(
+    // This font was chosen since it was most similar free alternative to the
+    // original PDF's font, "Bell MT", especially in its character height and
+    // width.
+    // It's installed by default in Typst btw!
+    font: "Libertinus Serif",
+    size: 11pt,
+    lang: "sv",
+    // This ensures that the text layouting box is the same height as with "Bell
+    // MT", the font used in the original PDF.
+    top-edge: 0.638em
+  )
   set par(justify: false)
   show heading.where(level: 1): set text(size: 22pt, weight: "regular")
   show heading.where(level: 1): set block(below: 10pt)
@@ -224,8 +234,9 @@
   text-notes-spacing: 3.4mm,
   notes-leading: 3.7pt,
   notes-spacing: 3.4mm,
+  notes-tracking: -0.23pt,
 ) = {
-  set text(style: "italic", size: 10pt)
+  set text(style: "italic", size: 10pt, tracking: notes-tracking)
   set par(leading: notes-leading, spacing: notes-spacing)
   v(text-notes-spacing, weak: true)
   body
@@ -245,6 +256,8 @@
 ///   notes texts.
 /// - notes-leading: Override for the spacing between lines in the notes text.
 /// - notes-spacing: Override for the paragraph spacing in the notes text.
+/// - notes-tracking: Override for the font tracking in the notes text, i.e. the
+///   extra space between characters.
 /// - after-spacing: Override the space after the end of the song and the next
 ///   one.
 /// - add-after-nth-par (none|tuple): If set, should be an array containing an
@@ -266,6 +279,7 @@
   text-notes-spacing: 0.2in,
   notes-leading: 3.7pt,
   notes-spacing: 3.4mm,
+  notes-tracking: -0.23pt,
   after-spacing: 9mm,
   add-after-nth-par: none,
   override-text-content: none,
@@ -320,6 +334,7 @@
     })
 
     #if data.notes != none {
+      set text(tracking: notes-tracking)
       song-notes(
         if override-notes-content == none {
           parse-text-content(data.notes)
@@ -327,6 +342,7 @@
         text-notes-spacing: text-notes-spacing,
         notes-leading: notes-leading,
         notes-spacing: notes-spacing,
+        notes-tracking: notes-tracking,
       )
     } else { none }
   ]

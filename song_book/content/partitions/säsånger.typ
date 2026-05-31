@@ -13,7 +13,7 @@
   ))
 ]
 
-#song(<langtan_till_landet>)
+#box(song(<langtan_till_landet>, text-spacing: 4mm, text-notes-spacing: 4mm))
 #song(<nu_gronskar_det>)
 #pagebreak()
 
