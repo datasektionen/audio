@@ -29,7 +29,7 @@
 #pagebreak()
 
 #song(<mediehymnen>, after-spacing: 7.5mm)
-#song(<nar_vi_festar>, text-spacing: 0.21in, add-after-nth-par: (1, v(-2.43mm)))
+#song(<nar_vi_festar>, add-after-nth-par: (1, v(-2.43mm)))
 #insert-virtual-pages(2)
 #pagebreak()
 
@@ -142,7 +142,7 @@
 #pagebreak()
 
 #song(<sang_om_tentor>, text-notes-spacing: 4mm, after-spacing: 3.5mm)
-#song(<sektionssang_i>)
+#song(<sektionssang_i>, text-spacing: 4.9mm)
 #pagebreak()
 
 #song(<skalmen>, after-spacing: 8mm)

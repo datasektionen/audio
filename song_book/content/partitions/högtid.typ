@@ -2,7 +2,7 @@
 
 #partition-page[Högtid][
   #show: block.with(width: 100%, breakable: false)
-  #show heading: pad.with(6pt)
+  #show heading: pad.with(left: 6pt)
   #v(4.2mm)
   = Högtid
   #v(-4.2mm)
@@ -22,5 +22,5 @@
 #song(<o_gamla_klang>)
 #pagebreak()
 
-#song(<kungssangen>, text-notes-spacing: 10pt)
+#box(song(<kungssangen>, text-notes-spacing: 9pt))
 #pagebreak()
