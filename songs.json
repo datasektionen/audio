@@ -2059,7 +2059,7 @@
         "alttitle": null,
         "firstline": "W kg m Wb s",
         "meta": "Melodi: Studentsången\r\nSektion: Fysik\r\n",
-        "text": "W kg m Wb s\r\nΩ m T A rad\ncd S N s\nΩ A m Ix db\nC W/m&#178;\nJ/kg H V C\nkg/m&#179; mol\nm/s&#178;\nm/s&#178;\nF!",
+        "text": "W kg m Wb s\r\nΩm T A rad\r\ncd Sv N s\r\nΩA m lx dB\r\n°C W/m²\r\nJ/kg H V C\r\nkg/m³ mol\r\nm/s²\r\nm/s²\r\nF!",
         "notes": null,
         "partition": 11,
         "page": "0xB9",
