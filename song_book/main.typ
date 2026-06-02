@@ -25,6 +25,8 @@
 
 #include "/song_book/content/partitions/introduktion.typ"
 
+#include "/song_book/content/ovve-guide-frack-guide.typ"
+
 #include "/song_book/content/partitions/gasquesånger.typ"
 
 #include "/song_book/content/partitions/datasånger.typ"
