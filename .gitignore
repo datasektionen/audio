@@ -25,3 +25,7 @@ yarn-error.log*
 # Added by cargo
 
 /target
+
+# Ignore Typst compiled PDF files
+
+*.pdf
