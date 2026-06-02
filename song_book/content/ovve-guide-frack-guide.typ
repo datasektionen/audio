@@ -7,13 +7,17 @@
 
   #set heading(numbering: "1.1.")
 
+  #set page(margin: (top: base-margin + 1pt, bottom: base-margin - 1pt))
+  #set par(leading: 4pt, spacing: 0.2in)
+  #set text(size: 11pt)
+
   #title()
   Alvin Yang, D-25
 
   = Overallguide
   == Ovven
 
-  Overallen, eller Ovven som den ofta kallas, är bland de mest ärofyllda plaggen som en Datalog kan bära. Datasektionens overaller är cerise. Vissa andra missförstår färgen som rosa, orange eller röd, men tro inte på dem. De är bara färgblinda.
+  Overallen, eller Ovven som den ofta kallas, är bland de mest ärofyllda plaggen som en Datalog kan bära. Datasektionens overaller är cerise. Vissa andra missförstår färgen som rosa, orange eller till och med röd, men tro inte på dem. De är bara färgblinda.
 
   == Märken
 
@@ -26,13 +30,14 @@
     + "KTH - Vetenskap och konst" ("KTH-märket") sitter på vänster överarm
     + Sektionsmärket sitter närmast hjärtat, alltså på vänster sida av bröstet
     + Årskursmärket (som väljs av er på en pub i vinter) sitter i nivå med sektionsmärket, på höger sida av bröstet.
-    + Om ni någon gång hade varit nØllan hade ni nog fått märken för mottagningsevent. Dessa bildar nØlleraden, en vertikal kolumn av märken som sitter på vänster ben med tidigaste eventet längst ner och nØllegasquemärket högst upp. Självklart ska mottagningsmärket (även känd som Domarn) sitta över nØlleraden.
+    + Märken som erhölls udner mottagningsevent ska sitta i en vertikal kolumn (nØlleraden) på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket (även känd som Domarn) ska sitta över nØlleraden.
 
   #pagebreak()
+  \[Placera en bild på overallen här\]
   #pagebreak()
 
   == Ovvenamn
-  + Ovvenamnet är ditt namn eller ett ett smeknamn som du fått av någon annan.
+  + Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
   + Ovvenamnet ska sitta på overallens högra ben.
   + Ett hållbart tyg, exempelvis möbeltyg, rekommenderas för att sy på ovvenamn.
 
@@ -65,9 +70,9 @@
 
   == Byte av ovvedel
 
-  = Frackguide
+  = Guide till Högtidsdräkt
 
-  Frack är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med klädkod frack, har god förståelse över frackets delar samt fracketiquette. Detta dokument ämnar att vägleda Datalogen i de myriader delar och etiquetter som finns i klädkoden frack.
+  Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förståelse över frackets delar samt fracketiquette. Detta dokument ämnar att vägleda Datalogen i de myriader delar och etiquetter som finns i .
 
   == Lista över frackets delar
   Listan är i den ordning som blir lättast när man ska sätta på fracket. Datalogen kan använda denna som handledning eller inköpslista.
@@ -80,26 +85,45 @@
   + Frackväst
   + Ev. frackband
   + Ev. fickur
-  + Frackjackan
+  + Frackrock
   + Pins och (Näsduk eller ev. medaljer)
   + Lackskor
   + Huvudbonad (läs: Teknologmössan)
 
   #pagebreak()
 
-  = Fracketiquette i korthet
-  == Teknologmössan
-  + Till frack bör Teknologmössa bäras.
-  + Teknologmössan benämns även Schmeck.
-  + Den har en svart tofs som fästes på kroken på höger sida på Schmecken.
-  == Färger och material
+  == Fracketiquette i korthet
+  === Teknologmössan
+  Till frack bör Teknologmössa bäras.
+
+  Den har en svart tofs som fästes på kroken på mössans högra sida.
+
+  THS-symbolen på mössans band kan med fördel fästas med hjälp av tång för att böja upp och ned klorna samt en syl eller ett tunt borrhuvud för att fixa hål i mössan.
+  === Färger och material
   + Frackskjorta och flugan ska vara vita.
   + Västen är vanligtvis vit (med vissa undantag).
   + Frackskjorta, -väst, och flugan ska ha samma material.
   + Frackrock och frackbyxor ska vara svarta eller djupt midnattsblå (nästan svarta).
   + Frackrock och -byxor ska ha samma material.
   + Strumpor ska vara svarta.
-  + Frackskor ska helst vara lackskor eller läderskor.
-  == Utmärkelser
-  == Andra detaljer
+  + Frackskor ska helst vara lackskor eller finskor i läder.
+  === Utmärkelser
+  Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och eller högst tre pins.
+  ==== Medaljer
+  Medaljer ska fästas på frackrocken, över den vänstra fickan. När medaljer bärs ska näsduk inte bäras. Detta kan även formaliseras i Prolog: ```prolog
+    ValidFrackrock(
+      Medals, 
+      Handkerchief
+    ) :-
+      (Medals, \+ Handkerchief); 
+      (\+ Medals, Handkerchief).
+  ```
+  ==== Pins 
+  Reglerna kring pins är vagare. Vissa Dataloger fäster pins på slaget, andra på Teknolog-mössans plös. Vissa andra hävdar att den enda platsen som du får fästa pins på ett frack är på frackbandet. 
+  ==== Ordensband
+  På ett frack ska frackbandet löpa från höger axel till väsnter höft, innanför västen. De kan förslagsvis fästas med hjälp av säkerhetsnålar, eller med nål och tråd. Man kan även sy ihop frackbanden så att de sitter ihop med varandra.
+
+  Ordensbandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
+
+  
 ]
