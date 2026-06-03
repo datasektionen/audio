@@ -2,6 +2,8 @@
 //! songs in 'songs.json', which support line breaks, basic HTML elements, and
 //! some character aliases.
 
+#import "/song_book/gender-marker.typ": gender-marker
+
 /// Parses a string containing <i> and <b> HTML tags into content. Any other
 /// tags is an error.
 ///
@@ -34,6 +36,9 @@
       "p": par,
       "b": strong,
       "i": text.with(style: "italic"),
+      "sup": super,
+      // Custom element
+      "gender": gender-marker,
     )
 
     let element-function = if element.tag in tag-element-functions {
@@ -85,6 +90,13 @@
     }
     show "\"": sym.quote.r.double
     show "'": sym.quote.r.single
+    
+    // This character doesn't have an italic glyph, so we simply force it to be
+    // rendered normally.
+    show "⚧": it => {
+      set text(style: "normal")
+      it
+    }
 
     block(breakable: false, par(parse-basic-html(string)))
     if (add-after-nth-par != none and index == add-after-nth-par.at(0)) {

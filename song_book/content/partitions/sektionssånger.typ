@@ -15,7 +15,7 @@
 ]
 
 // Konglig Fysiks 💵-hymn :)
-#song(<konglig_fysiks_parahymn>)
+#place(song(<konglig_fysiks_parahymn>))
 #pagebreak()
 
 #song(<o_hemska_lab>)
