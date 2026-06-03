@@ -53,7 +53,7 @@ resterande prylmånglerister som hjälpts åt men
 inte återfinns i listan ovan!
 
 #contributor-category[Illustrationer][
-  Isak Karlander\
+  Rey Karlander\
   Julia Wang\
   Kei\
 ]
