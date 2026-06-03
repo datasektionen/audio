@@ -17,7 +17,7 @@
 
 #box[
    #text(size: subheader-size)[Helan]
-  #song(<helan_gar>)
+  #song(<helan_gar>, after-spacing: 6mm)
   #song(<hell_and_gore>)
 ]
 #pagebreak()
