@@ -1,4 +1,4 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes
+#import "/song_book/template.typ": base-margin, footnote-entry, partition-page, song, song-notes
 
 // Title page
 #partition-page[Gasquesånger][
@@ -51,7 +51,7 @@
   center + bottom,
   dx: -0.5mm,
   dy: 9mm,
-  image(width: 90%, "/song_book/assets/images/trippeln-nohead.png"),
+  image(width: 80%, "/song_book/assets/images/trippeln-nohead.png"),
 )
 
 #song(<hej_pa_er_broder_alla>, text-spacing: 3.4mm)
@@ -84,7 +84,19 @@
 #song(<festen_ska_borjas>)
 #pagebreak()
 
-#song(<harjarevisan>)
+#song(
+  <harjarevisan>,
+  add-after-nth-par: (
+    3,
+    place(bottom + left, footnote-entry[
+      #super[⚧]Original: och blir en man från hår till häl.
+    ])
+  ),
+  override-notes-content: [
+    Ur Lundaspexet ”Djingis Khan”, 1954.\
+    Endast andra och tredje versen härrör ur spexet ifråga. Den förstas ursprung är okänt.
+  ]
+)
 #song(<livet_ar_harligt>)
 #pagebreak()
 
