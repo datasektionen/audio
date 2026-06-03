@@ -1,5 +1,6 @@
 #import "/song_book/template.typ": (
-  base-margin, footnote-entry, partition-marker, table-of-contents, insert-virtual-pages
+  base-margin, footnote-entry, insert-virtual-pages, partition-marker,
+  table-of-contents,
 )
 
 #partition-marker[Introduktion]
@@ -23,6 +24,11 @@
   Max Wippich\
   Tricesimus Sextus\
   Prylmånglaren 2020, Sångledare 22/23\
+
+  #insert-virtual-pages(1)
+  #pagebreak()
+
+  #include "/song_book/content/könade-ord.typ"
   #pagebreak()
 
   = Datasektionens historia
