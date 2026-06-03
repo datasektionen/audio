@@ -302,9 +302,6 @@
   let song-text(body) = {
     set text(size: text-size)
     set par(spacing: text-spacing, leading: text-leading)
-    // TODO: Temporary to check consistency with original, remove once all songs
-    //   have been added.
-    set par(first-line-indent: (amount: text-first-line-indent, all: true))
     body
     v(0em)
   }
