@@ -3,7 +3,7 @@
 )
 
 #[
-  #set document(title: [Datalogens guide till Overall och Frack])
+  #set document(title: [Datalogens guide till Overall och Högtidsdräkt])
 
   #set heading(numbering: "1.1.")
 
@@ -12,7 +12,6 @@
   #set text(size: 11pt)
 
   #title()
-  Alvin Yang, D-25
 
   = Overallguide
   == Ovven
@@ -33,7 +32,7 @@
     + Märken som erhölls udner mottagningsevent ska sitta i en vertikal kolumn (nØlleraden) på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket (även känd som Domarn) ska sitta över nØlleraden.
 
   #pagebreak()
-  \[Placera en bild på overallen här\]
+  \[Placera en infographic på overallen här\]
   #pagebreak()
 
   == Ovvenamn
@@ -42,11 +41,10 @@
   + Ett hållbart tyg, exempelvis möbeltyg, rekommenderas för att sy på ovvenamn.
 
   == Att sy på märken
-  + Märken skall sys för hand.
-    + Märken som fästes på andra sätt får ryckas.
+  + Märken skall sys för hand. Märken som fästes på andra sätt får ryckas.
   + Märket ska inte täcka över någon del av Datasigillet på rygggen.
   + Om ryggmärken önskas ska dessa sys så att stygnen inte går igenom Datasektionens sigill.
-    + Det rekommenderas därför att sy märken på insidan av ryggen, på den nedcabbade delen
+    + Det rekommenderas därför att sy märken på insidan av ryggen, på den nedcabbade överdelen. De heter rumpmärken för en anledning!
   + För att få märken att sitta hårt rekommenderas stark tråd, vanligtvis benämnt "björntråd". Ett exempel är Gütermann Extra Stark.
 
   == Tvätt
@@ -66,16 +64,41 @@
 
   Notera att vissa sektioner bär B-frack. Dessa är: Doktorandsektionen (Dr), Flygsektionen (T), Maskinsektionen (M), och Mediasektionen (Me). Bergssektionen (B) bär grå jaquette, något som är unikt för dem.
 
-  Det bör även tilläggas till att det är din ovve och att du gör vad du vill, hur du vill med den. Mycket nöje!
-
   == Byte av ovvedel
+  *TODO*
+
+  Det bör även tilläggas till denna guide att det är din ovve och att du gör vad du vill, hur du vill med den. Mycket nöje!
 
   = Guide till Högtidsdräkt
 
-  Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förståelse över frackets delar samt fracketiquette. Detta dokument ämnar att vägleda Datalogen i de myriader delar och etiquetter som finns i .
+  Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette samt olika delar. Denna del av Sångboken ämnar att vägleda Datalogen i frack och balklänning, de två olika plagg som tillåts på ett evenemang med klädkod högtidsdräkt.
 
-  == Lista över frackets delar
-  Listan är i den ordning som blir lättast när man ska sätta på fracket. Datalogen kan använda denna som handledning eller inköpslista.
+  #pagebreak()
+
+  \[Placera en infographic med frack och balklänning här.\]
+
+  #pagebreak()
+
+  == Gemensamt för frack & balklänning
+  === Teknologmössan
+  Till frack bör Teknologmössa bäras.
+
+  Mössan har en svart tofs som fästes på kroken på mössans högra sida.
+  På mössan ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise.
+
+  THS-symbolen på mössans band kan med fördel fästas på följande sätt:
+  + Böj upp symbolens ben med en liten spetsig tång.
+  + Gör lämpligt stora hål i mössan med hjälp av en syl, kniv, eller liten borr.
+  + Stick in symbolen och böj ner fötterna igen med tång.
+  === Utmärkelser
+  Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och eller högst tre pins.
+
+  När det kommer till ordensband ska bandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
+  * OBS! Om du använder händerna riskerar du att bryta THS-emblemets ben. Det är lättare med tång, tro mig.*
+
+  == Frack
+  === Lista över frackets delar
+  Ett frack har väldigt många delar och detaljer som man måste ha koll på. Nedan följer en lista. Listan är i den ordning som blir lättast när man ska sätta på fracket. Datalogen kan använda denna som handledning eller inköpslista.
   + Frackskjorta
   + Strumpor
   + Bröstknappar och manschettknappar
@@ -88,17 +111,7 @@
   + Frackrock
   + Pins och (Näsduk eller ev. medaljer)
   + Lackskor
-  + Huvudbonad (läs: Teknologmössan)
-
-  #pagebreak()
-
-  == Fracketiquette i korthet
-  === Teknologmössan
-  Till frack bör Teknologmössa bäras.
-
-  Den har en svart tofs som fästes på kroken på mössans högra sida.
-
-  THS-symbolen på mössans band kan med fördel fästas med hjälp av tång för att böja upp och ned klorna samt en syl eller ett tunt borrhuvud för att fixa hål i mössan.
+  + Teknologmössan.
   === Färger och material
   + Frackskjorta och flugan ska vara vita.
   + Västen är vanligtvis vit (med vissa undantag).
@@ -107,8 +120,13 @@
   + Frackrock och -byxor ska ha samma material.
   + Strumpor ska vara svarta.
   + Frackskor ska helst vara lackskor eller finskor i läder.
+  === Andra detaljer
+  Nedan följer några detaljer som kan vara bra att ha koll på.
+  - Man ska aldrig ta av frackrocken. Skjortan är tunn och västen saknar rygg för en anledning.
+    - När det är kallt kan man spänna fast frackrocken med hjälp av dess knappar samt ett spänne, men denna ska tas av i kapprummet.
+  - Se till att du inte skrynklar frackrockens svansar när du sitter. 
+  - 
   === Utmärkelser
-  Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och eller högst tre pins.
   ==== Medaljer
   Medaljer ska fästas på frackrocken, över den vänstra fickan. När medaljer bärs ska näsduk inte bäras. Detta kan även formaliseras i Prolog: ```prolog
     ValidFrackrock(
@@ -119,11 +137,12 @@
       (\+ Medals, Handkerchief).
   ```
   ==== Pins 
-  Reglerna kring pins är vagare. Vissa Dataloger fäster pins på slaget, andra på Teknolog-mössans plös. Vissa andra hävdar att den enda platsen som du får fästa pins på ett frack är på frackbandet. 
+  Reglerna kring pins är vagare. Vissa Dataloger fäster pins på slaget, andra på Teknologmössans plös. Några hävdar att den enda platsen som du får fästa pins på ett frack är på ordensbandet. 
   ==== Ordensband
   På ett frack ska frackbandet löpa från höger axel till väsnter höft, innanför västen. De kan förslagsvis fästas med hjälp av säkerhetsnålar, eller med nål och tråd. Man kan även sy ihop frackbanden så att de sitter ihop med varandra.
 
-  Ordensbandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
+  == Balklänning
+  *TODO*
 
   
 ]
