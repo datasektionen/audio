@@ -1,4 +1,4 @@
-#import "/song_book/template.typ": base-margin, footnote-entry, partition-page, song, song-notes
+#import "/song_book/template.typ": base-margin, footnote-entry, partition-page, song, song-notes, insert-virtual-pages
 
 // Title page
 #partition-page[Gasquesånger][
@@ -63,6 +63,21 @@
 ))
 
 #song(<vikingen>)
+#insert-virtual-pages(2)
+#pagebreak()
+
+#box[
+  #song(<feministvikingen>)
+  #v(-1em)
+  #song(<pacifistvikingen>, text-notes-spacing: 10pt)
+]
+#pagebreak()
+
+#box[
+  #song(<kapitalistvikingen>)
+  #v(-1em)
+  #song(<kommunistvikingen>)
+]
 #pagebreak()
 
 #song(<solen>)
