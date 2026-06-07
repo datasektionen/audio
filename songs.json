@@ -495,6 +495,18 @@
         "tags": ["Programmering", "Sånger som aldrig tar slut"],
         "5ePage": 48
     },
+    "feministvikingen": {
+        "id": "feministvikingen",
+        "title": "Feministvikingen",
+        "alttitle": null,
+        "firstline": null,
+        "meta": "Melodi: Vikingen,\r\nText: Kemis sångbok",
+        "text": "En viking viker tvätten själv Hurra hurra! \r\nOrdet viking kommer sig därav, jaha! \r\nFöräldraledighet delas exakt, \r\nnär vikingen sina barn har lagt, \r\ndå är frun hans ute på en jakt! \r\n\r\nEn viking vill ha livets vann Hurra hurra! \r\nMen på sig själv han lägger band, jaha, vad bra! \r\nMjödet det prioriteras sist,\r\n tvätta och städa blir aldrig trist.\r\n För våran viking, han är feminist!",
+        "notes": null,
+        "partition": 0,
+        "page": null,
+        "tags": null
+    },
     "festen_ska_borjas": {
         "id": "festen_ska_borjas",
         "title": "Festen ska börjas",
@@ -1062,6 +1074,15 @@
         "page": "84",
         "5ePage": 84
     },
+    "kapitalistvikingen": {
+        "id": "kapitalistvikingen",
+        "title": "Kapitalistvikingen",
+        "alttitle": null,
+        "firsline": null,
+        "meta": "Melodi: Pacifistvikingen\r\nText: Erik Nordlöf (D-19) &amp; Emil Wiktorsson (F-21)",
+        "text": "En viking köper aktier, hurra, hurra!\r\nEn öppen marknad är vad vi vill ha, så bra!\r\nI stan, på landet, i varje by, \r\nnär skatter blir otroligt dyrt. \r\nJa, då vill ingen viking ha de pyrt.\r\n\r\nNär börsen småningom går ner, panik, panik!\r\nBankmannen har hängt sig själv, tragik, tragik!\r\nMen sen när det vänder, vi köper javisst,\r\n för aktievinst är aldrig trist.\r\n För vår viking han är kapitalist!",
+        "notes": "Från Amerikasittningen, 2025"
+    },
     "kalmarevisan": {
         "id": "kalmarevisan",
         "title": "Kalmarevisan",
@@ -1074,6 +1095,15 @@
         "page": "20",
         "tags": ["Sångledares favoriter"],
         "5ePage": 20
+    },
+    "kommunistvikingen": {
+        "id": "kommunistvikingen",
+        "title": "Kommunistvikingen",
+        "alttitle": null,
+        "firstline": null,
+        "meta": "Melodi: Kapitalistvikingen",
+        "text": "",
+        "notes": null
     },
     "konglig_datasektionens_sektionssang": {
         "id": "konglig_datasektionens_sektionssang",
@@ -1697,6 +1727,15 @@
         "partition": 7,
         "page": "130",
         "5ePage": 130
+    },
+    "pacifistvikingen": {
+        "id": "pacifistvikingen",
+        "title": "Pacifistvikingen",
+        "alttitle": null,
+        "firstline": null,
+        "meta": "Melodi: Feministvikingen\r\nText: David Lindkvist (D-25) &amp; Erik Sparr (D-25)",
+        "text": "En viking är så snäll och rar, hurra, hurra!\r\nFred i världen ska det va, hurra hurra\r\nFrån norr, till söder, till öst, till väst,\r\nfest istället för krig är bäst,\r\nDet är vad vår viking vill ha mest!\r\n\r\nNär freden småningom är slut\r\nTragik, PANIK!\r\nDå sörjer varje viking hens etik, logik\r\nHen går ut på staden som aktivist,\r\n och håller upp skylten med duva och kvist\r\n För vår viking, hen är pacifist!",
+        "notes": "Skrevs på Sista Sångledarens Sittning, 2025, i protest mot /dev/audio's brist på vikingar."
     },
     "pilsnergladje": {
         "id": "pilsnergladje",
