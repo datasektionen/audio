@@ -9,7 +9,7 @@
 
   #set page(margin: (top: base-margin + 1pt, bottom: base-margin - 1pt))
   #set par(leading: 4pt, spacing: 0.2in)
-  #set text(size: 11pt)
+  #set text(size: 11pt, hyphenate: true)
 
   //#title()
 
@@ -150,7 +150,7 @@
   + Klänningen måste gå hela vägen till golvet. 
   === Accessoarer
   - Om handskar bärs ska de täcka armbågarna. Man bär aldrig ringar utanpå handskar.
-  - En handväska är praktiskt då balklänningar sällan har fickor. Bär gärna en handväska som matchar din klänning och dubblar som assecoar. Både handväska med och utan axelrem är OK.
+  - En handväska är praktiskt då balklänningar sällan har fickor. Bär gärna en handväska som matchar din klänning och dubblar som accessoar. Både handväska med och utan axelrem är OK.
   - Skorna ska vara fina, dvs. ej sneakers eller idrottsskor.
   === Medaljer
   Medaljer placeras på vänster sida, förslagsvis tillsammans med eventuella ordensband.
