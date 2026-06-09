@@ -13,14 +13,6 @@
   ))
 ]
 
-// årskursvisan panikar av någon anledning
-//#song(<arskursvisan>, text-spacing: 3.4mm)
-
-//=== Det var i vår ungdoms fagraste vår
-//#set text(style: "italic", size: 10pt)
-//Melodi: Trad.
-//#v(0em)
-
 #box(
   [
     #song(<arskursvisan>)
@@ -58,9 +50,6 @@
 )
 #pagebreak()
 
-//\r\n\r\n\r\n\r\n\r\n
-
-//</li>\r\n</ul><p>Årskursnamn hittills</p>1983,\tprimus\r\n1984,\tsecundus\r\n1985,\ttertius\r\n1986,\tquartus\r\n1987,\tquintus\r\n1988,\tsextus\r\n1989,\tseptimus\r\n1990,\toctavius\r\n1991,\tnonus\r\n1992,\tdecimus\r\n1993,\tundecimus\r\n1994,\tdodecimus\r\n1995,\ttertius decimus\r\n1996,\tsigvard\r\n1997,\tquintus decimus\r\n1998,\tsextus decimus\r\n1999,\tseptus decimus\r\n2000,\tdodevicesimus\r\n2001,\tundevicesimus\r\n2002,\tvicesimus\r\n2003,\tunvicesimus\r\n2004,\tdovicesimus\r\n2005,\ttertius vicesimus\r\n2006,\tvicesimus quartus\r\n2007,\tvicesimus quintus\r\n2008,\tvicesimus sextus\r\n2009,\tvicesimus septus\r\n2010,\tduodetricesimus\r\n2011,\tundetricesimus\r\n2012,\ttricesimus\r\n2013,\tuntricesimus\r\n2014,\tduotricesimus\r\n2015,\ttricesimus tertius\r\n2016,\ttricesimus quartus\r\n2017,\ttricesimus quintus\r\n2018,\ttricesimus sextus\r\n2019,\ttricesimus septimus\r\n2020,\tduodequadragesimus\r\n2021,\tundequadragesimus\r\n2022,\tquadragesimus\r\n2023,\tunquadragesimus
 === Årskursnamn hittills
 
 #set text(size: 10pt)
@@ -142,7 +131,6 @@
 #pagebreak()
 
 #box[
-  // Jag vill "ju" var' som du borde det väl vara
   #pad(right: -5pt, song(<jag_vill_va_som_du>))
 ]
 #pagebreak()
