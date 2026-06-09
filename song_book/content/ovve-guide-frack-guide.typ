@@ -5,13 +5,13 @@
 #[
   #set document(title: [Datalogens guide till Overall och Högtidsdräkt])
 
-  #set heading(numbering: "1.1.")
+  //#set heading(numbering: "1.1.")
 
   #set page(margin: (top: base-margin + 1pt, bottom: base-margin - 1pt))
   #set par(leading: 4pt, spacing: 0.2in)
   #set text(size: 11pt)
 
-  #title()
+  //#title()
 
   = Overallguide
   == Ovven
@@ -65,23 +65,26 @@
   Notera att vissa sektioner bär B-frack. Dessa är: Doktorandsektionen (Dr), Flygsektionen (T), Maskinsektionen (M), och Mediasektionen (Me). Bergssektionen (B) bär grå jaquette, något som är unikt för dem.
 
   == Byte av ovvedel
-  *TODO*
+  Något som är vanligt bland overallare är byte av delar på ovven. Olika sektioner har olika regler för detta. Nedan följer några vanliga regler:
 
-  Det bör även tilläggas till denna guide att det är din ovve och att du gör vad du vill, hur du vill med den. Mycket nöje!
+  - Att byta ben med någon betyder att man är nära vänner.
+  - Att byta bakfickor betyder att man gått bakvägen med personen. Tolkas fritt.
+  - Att byta krage betyder att man har bytt kroppsvätskor. Detta kan också tolkas fritt.
+
+
+  Det bör även tilläggas till denna guide att det är din egen ovve i grund och botten och att du gör vad du vill, hur du vill med den. Mycket nöje!
 
   = Guide till Högtidsdräkt
 
-  Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette samt olika delar. Denna del av Sångboken ämnar att vägleda Datalogen i frack och balklänning, de två olika plagg som tillåts på ett evenemang med klädkod högtidsdräkt.
+  Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette och delar. Denna del av Sångboken ämnar att vägleda Datalogen i frack och balklänning, de två olika plagg som tillåts på ett evenemang med klädkod högtidsdräkt.
 
   #pagebreak()
 
   \[Placera en infographic med frack och balklänning här.\]
 
   #pagebreak()
-
-  == Gemensamt för frack & balklänning
-  === Teknologmössan
-  Till frack bör Teknologmössa bäras.
+  == Teknologmössan
+  Till högtidsdräkt bör Teknologmössa bäras.
 
   Mössan har en svart tofs som fästes på kroken på mössans högra sida.
   På mössan ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise.
@@ -90,7 +93,8 @@
   + Böj upp symbolens ben med en liten spetsig tång.
   + Gör lämpligt stora hål i mössan med hjälp av en syl, kniv, eller liten borr.
   + Stick in symbolen och böj ner fötterna igen med tång.
-  === Utmärkelser
+
+  == Utmärkelser
   Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och eller högst tre pins.
 
   När det kommer till ordensband ska bandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
@@ -121,13 +125,11 @@
   + Strumpor ska vara svarta.
   + Frackskor ska helst vara lackskor eller finskor i läder.
   === Andra detaljer
-  Nedan följer några detaljer som kan vara bra att ha koll på.
-  - Man ska aldrig ta av frackrocken. Skjortan är tunn och västen saknar rygg för en anledning.
-    - När det är kallt kan man spänna fast frackrocken med hjälp av dess knappar samt ett spänne, men denna ska tas av i kapprummet.
+  Nedan följer några mindre detaljer som kan vara bra att ha koll på.
+  - Man ska aldrig ta av frackrocken även om det är varmt. Skjortan är tunn och västen saknar rygg för en anledning.
+    - När det är kallt kan man spänna fast frackrocken med hjälp av dess knappar samt ett spänne, men spännet ska av i kapprummet.
   - Se till att du inte skrynklar frackrockens svansar när du sitter. 
-  - 
-  === Utmärkelser
-  ==== Medaljer
+  === Medaljer
   Medaljer ska fästas på frackrocken, över den vänstra fickan. När medaljer bärs ska näsduk inte bäras. Detta kan även formaliseras i Prolog: ```prolog
     ValidFrackrock(
       Medals, 
@@ -136,13 +138,27 @@
       (Medals, \+ Handkerchief); 
       (\+ Medals, Handkerchief).
   ```
-  ==== Pins 
+  === Pins 
   Reglerna kring pins är vagare. Vissa Dataloger fäster pins på slaget, andra på Teknologmössans plös. Några hävdar att den enda platsen som du får fästa pins på ett frack är på ordensbandet. 
-  ==== Ordensband
+  === Ordensband
   På ett frack ska frackbandet löpa från höger axel till väsnter höft, innanför västen. De kan förslagsvis fästas med hjälp av säkerhetsnålar, eller med nål och tråd. Man kan även sy ihop frackbanden så att de sitter ihop med varandra.
 
   == Balklänning
+  === Färg och material
+  Utformningen av balklänningen har mycket större valfrihet jämfört med fracket. De enda reglerna är som följer:
+  + Materialet ska vara lyxigt och/eller festligt.
+  + Klänningen måste gå hela vägen till golvet. 
+  === Accessoarer
+  - Om handskar bärs ska de täcka armbågarna. Man bär aldrig ringar utanpå handskar.
+  - En handväska är praktiskt då balklänningar sällan har fickor. Bär gärna en handväska som matchar din klänning och dubblar som assecoar. Både handväska med och utan axelrem är OK.
+  - Skorna ska vara fina, dvs. ej sneakers eller idrottsskor.
+  === Medaljer
+  Medaljer placeras på vänster sida, förslagsvis tillsammans med eventuella ordensband.
+  === Pins
   *TODO*
-
+  === Ordensband
+  Då Datalogen önskar bära ordensband till balklänning, ska denna knytas i en prydlig rosett och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Ordensband ska i alla fall fästas på ett sådant sätt att de(t) inte nuddar huden.
+  #pagebreak()
+  \[Placera en tutorial till rosett här\]
   
 ]
