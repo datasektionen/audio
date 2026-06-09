@@ -155,7 +155,7 @@
   === Medaljer
   Medaljer placeras på vänster sida, förslagsvis tillsammans med eventuella ordensband.
   === Pins
-  *TODO*
+  Pins kan fästas på klänningen på samma sätt som medaljer, eller fästas på Teknologmössans plös. 
   === Ordensband
   Då Datalogen önskar bära ordensband till balklänning, ska denna knytas i en prydlig rosett och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Ordensband ska i alla fall fästas på ett sådant sätt att de(t) inte nuddar huden.
   #pagebreak()
