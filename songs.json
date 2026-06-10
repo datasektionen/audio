@@ -3430,5 +3430,32 @@
   "meta": "Melodi: Vikingen",
   "text": "A viking loves the joys of life,\nhurra, hurra!\n\nThey're quickly running down his throat,  \nhurra, hurra!\n\nWith veal, with ox, with fish, with pork,\nVikings never use a fork,\nVikings only want to pop the cork.\n\nThe bäsk eventually runs out,\noh no, oh no!\n\nEvery viking's carried out  \nyo ho, yo ho!\n\nAnd when we wake up, we sing a just a bit,\nand open a bottle of Akvavit.\nSkål to every, skål to every, skål to every\nviking that took the hit!",
   "notes": null
+ },
+ "kopa_hela_indek": {
+  "id": "kopa_hela_indek",
+  "title": "Köpa hela indek",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Kjøpe Hele Sverige\nText: Alvin Yang (D-25)",
+  "text": "VI KAN KÖPA HELA INDEK OM VI VILL\nVI KAN KÖPA HELA INDEK OM VI VILL \nVI KAN KÖPA HELA INDEK VI KAN KÖPA HELA INDEK\nVI KAN KÖPA HELA INDEK OM VI VILL \n\nSätt er ner, kära I\nför ifrån Meta kommer vi\nStår med höger hand på hjärtat när vi sjunger starkt o fint\n\"BEGIN; OutText(D);\"\nFör vi har pengar, mer än er\n\nKOM IGEN*\nVI KAN KÖPA HELA INDEK OM VI VILL\nVI KAN KÖPA HELA INDEK OM VI VILL \nVI KAN KÖPA HELA INDEK VI KAN KÖPA HELA INDEK\nVI KAN KÖPA HELA INDEK OM VI VILL \n\nVi har Cerise och vi har Lusen\ndet är våra bilar två✌️\nOch som roligast i världen är när Indek skriver kod\nOch våra ovvar är CERISE!\n\nI-sektionen, can you hear us?\n\nEN GÅNG TILL!\nVI KAN KÖPA HELA INDEK OM VI VILL\nVI KAN KÖPA HELA INDEK OM VI VILL \nVI KAN KÖPA HELA INDEK VI KAN KÖPA HELA INDEK\nVI KAN KÖPA HELA INDEK OM VI VILL\nHÆJ!",
+  "notes": "Framfördes för första gången på Reclaim 2025\n\n* Utropas av toastmastern"
+ },
+ "fader_abraham": {
+  "id": "fader_abraham",
+  "title": "Fader Abraham",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Fader Abraham",
+  "text": "Fader abraham har fire sønner,\nja fire sønner, har fader abraham!\nOgså drakk de litt (drikk.)\nOgså drakk de litt (drikk.)\nOg de moret seg og sang; \n\nHøyre arm                     (Første gang)\nVenstre arm                   (Andre gang)\nHøyre fot Venstre fot    (Tredje gang)\nRumpa ut\t                      (Fjerde gang)\nKroppen frem\t               (Femte gang)\nTunga ut                        (Sjette gang)",
+  "notes": "Når en linjeforening på arrangerer sitt ball eller annen galla, er det vanlig at de eksterne gjestene (f.eks. folk\nfra styret i andre linjeforeninger) samler seg og framfører denne sangen på scenen. Den synges/utføres i\nsamme stil som barnesangen gjøres. - Linjeforeningen for informatikk ved NTNU Trondheim, Norge"
+ },
+ "gravolsvisa_fran_rengsjo": {
+  "id": "gravolsvisa_fran_rengsjo",
+  "title": "Gravölsvisa från Rengsjö",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Traditionell",
+  "text": "||: Ja dricker brännvin nu mens ja lever,\nnär ja ä dö så ha ja inte ti :||\n\nNär som ja själver ligger i mull,\nkan ja fäll inte supa mej full. \nNär som ja själver ligger i mull,\nkan ja fäll inte supa.\n\nSchlö i, schlö i,\nbara ideligen, bara ideligen,\nbrännvin!",
+  "notes": "Sista stycket sjunges i annan melodi som även den är traditionell."
  }
 }
