@@ -533,8 +533,8 @@
   "title": "Feministvikingen",
   "alttitle": null,
   "firstline": null,
-  "meta": "Melodi: Vikingen,\r\nText: Kemis sångbok",
-  "text": "En viking viker tvätten själv Hurra hurra! \r\nOrdet viking kommer sig därav, jaha! \r\nFöräldraledighet delas exakt, \r\nnär vikingen sina barn har lagt, \r\ndå är frun hans ute på en jakt! \r\n\r\nEn viking vill ha livets vann Hurra hurra! \r\nMen på sig själv han lägger band, jaha, vad bra! \r\nMjödet det prioriteras sist,\r\n tvätta och städa blir aldrig trist.\r\n För våran viking, han är feminist!",
+  "meta": "Melodi: Vikingen",
+  "text": "En viking viker tvätten själv, hurra hurra!\r\nOrdet viking härstammar därav, jaha!\r\nFöräldraledighet delas exakt, \r\nnär vikingen sina barn har lagt, \r\ndå är frun hens ute på en jakt! \r\n\r\nEn viking vill ha livets vann, hurra hurra! \r\nMen på sig själv hen lägger band, jaha, vad bra! \r\nMjödet det prioriteras sist,\r\ntvätta och städa blir aldrig trist.\r\nFör vår viking, hen är feminist!",
   "notes": null,
   "partition": 0,
   "page": null,
@@ -1150,7 +1150,7 @@
   "firsline": null,
   "meta": "Melodi: Pacifistvikingen\r\nText: Erik Nordlöf (D-19) &amp; Emil Wiktorsson (F-21)",
   "text": "En viking köper aktier, hurra, hurra!\r\nEn öppen marknad är vad vi vill ha, så bra!\r\nI stan, på landet, i varje by, \r\nnär skatter blir otroligt dyrt. \r\nJa, då vill ingen viking ha de pyrt.\r\n\r\nNär börsen småningom går ner, panik, panik!\r\nBankmannen har hängt sig själv, tragik, tragik!\r\nMen sen när det vänder, vi köper javisst,\r\n för aktievinst är aldrig trist.\r\n För vår viking han är kapitalist!",
-  "notes": "Från Amerikasittningen, 2025"
+  "notes": "Från Amerikasittningen 2025"
  },
  "kalmarevisan": {
   "id": "kalmarevisan",
@@ -1839,7 +1839,7 @@
   "firstline": null,
   "meta": "Melodi: Feministvikingen\r\nText: David Lindkvist (D-25) &amp; Erik Sparr (D-25)",
   "text": "En viking är så snäll och rar, hurra, hurra!\r\nFred i världen ska det va, hurra hurra\r\nFrån norr, till söder, till öst, till väst,\r\nfest istället för krig är bäst,\r\nDet är vad vår viking vill ha mest!\r\n\r\nNär freden småningom är slut\r\nTragik, PANIK!\r\nDå sörjer varje viking hens etik, logik\r\nHen går ut på staden som aktivist,\r\n och håller upp skylten med duva och kvist\r\n För vår viking, hen är pacifist!",
-  "notes": "Skrevs på Sista Sångledarens Sittning, 2025, i protest mot /dev/audio's brist på vikingar."
+  "notes": "Skrevs på Sista Sångledarens Sittning, 2025, i protest mot\n/dev/audio's brist på vikingar."
  },
  "pilsnergladje": {
   "id": "pilsnergladje",
@@ -2704,7 +2704,7 @@
   "firstline": "Hejsan Knugen, hejsan Hovet",
   "meta": "Melodi: Brev från kolonien\r\nText: Kei",
   "text": "Hejsan Knugen, hejsan Hovet\r\nVi har väntat hela lovet\r\nPå att ni ska läsa vårt brev\r\nTar det någon längre tid så blir det storvev\r\n\r\nVi vill ändra vårat namn nu\r\nBli en Kunglig D-sektion, ju\r\nKan det äntligen få hända?\r\nSå slipper vi få mera bråk på vår agenda\r\n\r\nNej, vi orkar inte mera\r\nFör du vägrar konversera\r\nEtt ”Adjöken”, från hela gruppen\r\nOm inte annat ses vi nog under statskuppen",
-  "notes": "Sångbokssittningen 2022\r\n\r\nDatasektionen har skrivit brev till Hovet för att få byta namn till \"Kungliga Datasektioen\", vilket även Maskinsektionen gjort. Det kom aldrig ett svar på detta brev.\r\nSenare skickades ytterligare ett brev till Hovet som meddelade Kungen om att han iallafall fick lov att kalla sig för Konglig om han så önskade.",
+  "notes": "Sångbokssittningen 2022\r\n\r\nDatasektionen har skrivit brev till Hovet för att få byta namn till \"Kungliga Datasektionen\", vilket även Maskinsektionen gjort. Det kom aldrig ett svar på detta brev.\r\nSenare skickades ytterligare ett brev till Hovet som meddelade Kungen om att han iallafall fick lov att kalla sig för Konglig om han så önskade.",
   "partition": 1,
   "page": "42",
   "5ePage": 42
