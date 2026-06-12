@@ -3476,5 +3476,32 @@
   "meta": "Melodi: Du gamla, du fria",
   "text": "Du ädla, du friska, du livselexir,\nmed dig vill jag mina läppar blöta.\nDen svenskaste drycken, på jorden den förblir.\n||: Den gyllene, den underbara söta. :||\n\nSom iskall till kaffet du ställs på vårt bord\noch även som varm till torsdagslunchen.\nJag halsar dig lenaste dryck upp på jord.\n||: Ja, jag vill leva, jag vill dö av punschen... :||",
   "notes": "Från Ekonomspexet Erik XIV, 1992"
+ },
+ "var_ar_punschen": {
+  "id": "var_ar_punschen",
+  "title": "Var är punschen?",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Längtan till landet\nText: Kristin Rosen (D-21)",
+  "text": "Var är punschen? Jag vill ha den nu, tack!\nVad jag törstar efter något gott!\nDenna drycken smakar inte arrak\nI mitt glas, vad är det jag har fått?\n\nBrännvin, ouzo, vodka, limoncello\nIngefära, limejuice, flädersaft\nNåt som smakar handsprit blandat med chili\nVar är punschen? Detta är ju snaps!",
+  "notes": "Punschvisa som sjungs när &quot;punschen&quot; man fått inte är punsch. Startas med fördel spontant av gasque-gästerna."
+ },
+ "crash_branns_kampvisa_systeme_technologique": {
+  "id": "crash_branns_kampvisa_systeme_technologique",
+  "title": "Système Technologique (Crash & bränns kampvisa)",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Système Interweb\nText: Rasmus Söderhielm (D-25)",
+  "text": "Open ID Connect SSO\nVue React Django Simple Store Solution\nWireguard Nomad Hetzner Nix\nDocker Secure Socket Layer\n\nUniversal Resource Locator\nApplication Programming Interface\nStructured Query Language\nHtmx Rust och Go\nHypertext Transfer Protocol\nSecure!",
+  "notes": "Skrevs under INDA-tentamen 2026"
+ },
+ "jag_kan_lara_dig_rust": {
+  "id": "jag_kan_lara_dig_rust",
+  "title": "Jag kan lära dig Rust",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Jag kan lära dig C\nText: David Lindkvist (D-25), Rasmus Söderhielm (D-25) &amp; Dima Chirin (D-22)",
+  "text": "Låt mig visa dig kod\nVacker, effektiv, härlig\nSäg om du ska va ärlig,\nhar du drömt om den ibland?\n\nJag kan lära dig Rust\nSäker minneshantering\nMera säker kompilering\nBorrow checka här med mig\n\nCargo init!\nNu kan vi göra vad som helst\nUnwrapen många är\nRustboken lär\nkompilatorn är vår vän (FAKTISKT!)\nEn helt ny värld\nPå låg nivå, med MDI\nOpinionerat ja, så underbart\nAtt koda i en helt ny värld, med dig",
+  "notes": "Skrevs under Pingst-Skiftes 2026"
  }
 }
