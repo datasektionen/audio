@@ -15,35 +15,35 @@
 
 #v(2mm)
 
-#contributor-category[Design och Projektledare (och lite allt möjligt)][
-  Max Wippich\
+#contributor-category[Projektledare (och lite allt möjligt)][
+  David Lindkvist\
 ]
 
 #contributor-category[Urval av Sånger][
-  Erik Nordlöf\
-  Douglas Fischer\
+  Dmitri Chirin \
+  David Lindkvist \
+  Rasmus Söderhielm\
 ]
 
 #contributor-category[Övriga Texter i Boken][
-  Erik Nordlöf\
-  Adam Sjöberg\
   Douglas Fischer\
   Kristin Mickols\
+  Erik Nordlöf\
+  Adam Sjöberg\
+  Alvin Yang\
 ]
 
 #contributor-category[JML-Genomgång][
-  Amanda Berg\
-  Julia Wang\
-  Ebba Bråtman\
+  Rasmus Söderhielm\
 ]
 
 #contributor-category[Korrekturläsare][
-  Jakob Carlsson\
-  Douglas Fischer\
-  Sara Videfors\
-  Kei\
-  Kristin Mickols\
-  Adam Sjöberg\
+  Dmitri Chirin\
+  Simon Kåhre\
+  Erik Sparr\
+  Rasmus Söderhielm\
+  Marcus Sörberg\
+  Alvin Yang\
 ]
 
 #v(10mm, weak: true)
@@ -53,9 +53,10 @@ resterande prylmånglerister som hjälpts åt men
 inte återfinns i listan ovan!
 
 #contributor-category[Illustrationer][
+  Kei\
+  Albin Haraldsson\
   Rey Karlander\
   Julia Wang\
-  Kei\
 ]
 
 #v(1fr)
