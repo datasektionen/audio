@@ -42,9 +42,9 @@
       #bucket-list-item[Sjung “Konglig Datasektionens Sektionssång” #text(style: "italic")[(s.39)] på #linebreak() en annan sektions (eller studentorginisations) sittning.]
       #bucket-list-item[Sjung “Bordeaux, Bordeaux” #text(style: "italic")[(s.89)] medan du dricker Bordeaux (Eller alkoholfritt alternativ).]
       #bucket-list-item[Sjung starkast av alla i någon sång (Starkt är vackert).]
-      #bucket-list-item(after-spacing: -0.6em)[Få boken signerad av alla på föregående uppslag.]
+      #bucket-list-item(after-spacing: -0.6em)[Få boken signerad av 5 personer på föregående uppslag.]
 
-      #bucket-list-item(square-color: white, after-spacing: 0pt)[#text(style: "italic", size: 9pt)[Den som kan uppvisa och försvara 20 ikryssade rutor kan köpa ett exklusivt märke hos Prylis...]]
+      #bucket-list-item(square-color: white, after-spacing: 0pt)[#text(style: "italic", size: 9pt)[Den som kan uppvisa och försvara 19 ikryssade rutor kan köpa ett exklusivt märke hos Prylis...]]
     ]
   )
 ]
