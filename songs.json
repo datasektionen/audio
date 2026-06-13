@@ -1733,7 +1733,7 @@
  "o_gamla_klang": {
   "id": "o_gamla_klang",
   "title": "O, gamla klang- och jubeltid!",
-  "alttitle": null,
+  "alttitle": "Gamla klang- och jubeltid!",
   "firstline": null,
   "meta": "Melodi: O alte Burschenherrlichkeit (Eugen Höfling)\r\nText: August Lindh\r\n",
   "text": "O, gamla klang och jubeltid,\r\nditt minne skall förbliva.\r\nOch än åt livets bistra strid\r\nett rosigt skimmer giva.\r\nSnart tystnar allt vårt yra skämt,\r\nvår sång blir stum, vårt skratt förstämt.\r\nO, jerum, jerum, jerum!\r\nO, quæ mutatio rerum!\r\n\r\nVar äro de som kunde allt,\r\nblott ej sin ära svika.\r\nSom voro folk av äkta halt,\r\noch världens furstar lika.\r\nDe drogo bort från vin och sång,\r\ntill vardagslivets tråk och tvång.\r\nO, jerum, jerum, jerum!\r\nO, quæ mutatio rerum!\r\n\r\nDen ene vetenskap och vett\r\nin i scholares mänger. <i>(filosofer)</i>\r\nDen andre i sitt anlets svett\r\npå paragrafer vränger. <i>(jurister)</i>\r\nEn plåstrar själen som är skral. <i>(teologer)</i>\r\nEn lappar hop dess trasiga fodral. <i>(medicinare)</i>\r\nO, jerum, jerum, jerum!\r\nO, quæ mutatio rerum!\r\n\r\nMen hjärtat i en sann student\r\nkan ingen tid förfrysa.\r\nDen glädjeeld som där hen tänt,\r\nhens hela liv skall lysa.\r\nDet gamla skalet brustit har,\r\nmen kärnan* finnes frisk dock kvar.\r\nOch vad hen än skall mista,\r\nden skall dock aldrig brista.\r\n\r\nSå sluten vänner fast vår krets\r\ntill glädjens värn och ära.\r\nTrots allt vi tryggt och väl tillfreds,\r\nvår vänskap trohet svära.\r\nLyft bägarn högt och klinga vän,\r\nde gamla gudar leva än.\r\nBland skålar och pokaler!\r\nBland skålar och pokaler!\r\n",
@@ -3489,7 +3489,7 @@
  "crash_branns_kampvisa_systeme_technologique": {
   "id": "crash_branns_kampvisa_systeme_technologique",
   "title": "Système Technologique (Crash & bränns kampvisa)",
-  "alttitle": null,
+  "alttitle": "Crash & bränns kampvisa",
   "firstline": null,
   "meta": "Melodi: Système Interweb\nText: Rasmus Söderhielm (D-25)",
   "text": "Open ID Connect SSO\nVue React Django Simple Store Solution\nWireguard Nomad Hetzner Nix\nDocker Secure Socket Layer\n\nUniversal Resource Locator\nApplication Programming Interface\nStructured Query Language\nHtmx Rust och Go\nHypertext Transfer Protocol\nSecure!",
