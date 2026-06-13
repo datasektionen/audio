@@ -46,6 +46,14 @@
   remaining-extra-pages.update(count => count + number)
 }
 
+/// Skipts the primary page counter a number of pages. Needs to be added after
+/// the pagebreak that breaks to the first page that should have the skipped
+/// page number.
+#let skip-pages(number) = {
+  virtual-page.update(count => count + number)
+}
+
+
 /// Defines a new partition without any visual content.
 /// `body` should contain the name of the partition.
 #let partition-marker(body) = [#metadata(body) <partition-marker>]
