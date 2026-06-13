@@ -1,4 +1,4 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, skip-pages
+#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, skip-pages, insert-virtual-pages
 
 #partition-page[Roliga sånger][
   #show: block.with(width: 100%, breakable: false)
@@ -11,7 +11,14 @@
     top: 25pt,
     image(width: 88mm, "/song_book/assets/images/funny.png"),
   ))
+  #insert-virtual-pages(2)
 ]
+
+#song(<portho_s_song>)
+#pagebreak()
+
+#song(<hallen_lutar>)
+#pagebreak()
 
 #song(<gravolsvisa_fran_rengsjo>)
 #pagebreak()
