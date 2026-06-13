@@ -97,7 +97,7 @@
   "title": "Det var i vår ungdoms fagraste vår",
   "alttitle": "Årskursvisan",
   "firstline": null,
-  "meta": "Melodi: Traditionell\r\n",
+  "meta": "Alternativ titel: Årskursvisan\r\nMelodi: Traditionell\r\n",
   "text": "Det var i vår ungdoms fagraste vår,\r\nvi drack varandra till och vi sade gutår!",
   "notes": null,
   "partition": 2,
@@ -164,7 +164,7 @@
  "bredbandshymn": {
   "id": "bredbandshymn",
   "title": "Bredbandshymn",
-  "alttitle": "Bredbandshymn",
+  "alttitle": null,
   "firstline": "Allt fler numera",
   "meta": "Melodi: Sovjethymnen (Alexander Alexandrov)\r\nText: Henrik Eriksson\r\nAlternativ titel: En tråd att stilla bedja om\r\n",
   "text": "Allt flera numera\r\nvill telegrafera.\r\nSnart sprängs tråden längs\r\nvilken alla nu trängs.\r\nDen optiska fiber\r\nav grövre kaliber\r\nom vilken nu vi ber\r\när framtidens tråd.\r\n\r\nVi går i ledband till Jonas Birgersson, HEJ!\r\nBredband får inte fattas nån, NEJ!\r\nDatateknik är vår framtidsfabrik.\r\nFör ska det chattas i taski' ASCII-kod\r\nfattas det några megabaud.\r\nVärlden har råd\r\nmed en tjockare tråd!\r\n",
@@ -243,7 +243,7 @@
  "daddans_sang": {
   "id": "daddans_sang",
   "title": "Daddans sång",
-  "alttitle": "Daddans sång",
+  "alttitle": null,
   "firstline": "Vi vill ha sill med Skåne till",
   "meta": "Melodi: Johnny B Goes Maching Home\r\n",
   "text": "Vi vill ha sill med Skåne till\r\nEn dadda älskar nØllan som sin bäste vän.\r\nVi hjälper den stackar’n både hit och hem.\r\nI glädje sjunger vi ut,\r\ni dur och i moll.\r\nVi kommer alltid att ha nØllan i behåll.\r\n\r\nVi låter nØllan festa med i vårat gäng.\r\nsen kryper schlemmet sakta åter till sin säng.\r\nVi daddor stannar dock kvar,\r\noch tar en stilla dans.\r\nSkrattar sen åt bristande balans.\r\n\r\nVi daddor lever livet i ett glädjerus.\r\nÖl och vin vi tar, i både glas och krus.\r\nVi dricker ur till sång en sup,\r\nvi tar en omgång till.\r\nSäg mig den som då kan sitta still.",
@@ -253,7 +253,7 @@
  "daddekram": {
   "id": "daddekram",
   "title": "Daddekram",
-  "alttitle": "Daddekram",
+  "alttitle": null,
   "firstline": "En Dadda kan vara bra att ha",
   "meta": "Melodi: Måsen\r\n",
   "text": "En Dadda kan vara bra att ha\r\nom man är nØllan och vilsen.\r\nMen Daddan kan ocksa vara bra,\r\nnär man ska koda i lispen.\r\nMen om lispen redan är klar,\r\nså ger nog Daddan nØllan en kram.\r\nEn daddekram\r\när bra att ha.\r\n",
@@ -273,7 +273,7 @@
  "daddornas_introduktion": {
   "id": "daddornas_introduktion",
   "title": "Daddornas introduktion",
-  "alttitle": "Daddornas introduktion",
+  "alttitle": null,
   "firstline": "Vad ska vi göra med nya nØllan? (3ggr)",
   "meta": "Melodi: Drunken Sailor\r\n",
   "text": "Vad ska vi göra med nya nØllan? (3ggr)\r\nTa dem med på fester.\r\n\r\nSkål, skål alla vänner. (3ggr)\r\nnØllan den är här nu.\r\n\r\n”Häll lite mera vin i glasen!” (3ggr)\r\nropar vi åt nØllan.\r\n\r\nHäll, häll upp i glasen, (3ggr)\r\nnØllningen har börjat!",
@@ -324,7 +324,7 @@
   "title": "Datas Bordsvisa",
   "alttitle": "Mata Data",
   "firstline": "Vi vill ha sill med Skåne till",
-  "meta": "Melodi: Oh! Susanna (Stephen Foster)\r\n",
+  "meta": "Alternativ titel: Mata Data\r\nMelodi: Oh! Susanna (Stephen Foster)\r\n",
   "text": "Vi vill ha sill med Skåne till\r\noch kanske lite Bäsk,\r\nmen till vår sprit\r\nvi vill ha hit\r\nen riktigt schlemmig bit.\r\n\r\nSå… MATA DATA!\r\nRo hit me' käket nu!\r\nFår jag ej nån mat\r\nblir jag plakat\r\noch käkar min kamrat!\r\n",
   "notes": "Refrängen upprepas ofta tills man fått mat, eller tills man tröttnat.\r\n",
   "partition": 1,
@@ -685,7 +685,7 @@
  "fru_svenssons_lyckliga_karl": {
   "id": "fru_svenssons_lyckliga_karl",
   "title": "Fru Svenssons lyckliga karl",
-  "alttitle": "Variation på Studentsången",
+  "alttitle": null,
   "firstline": "Sjung om fru Svenssons lyckliga karl",
   "meta": "Melodi: Studentsången\r\nText: Povel Ramel\r\n",
   "text": "Sjung om fru Svenssons lyckliga karl!\r\nLåt honom plöja i ungdomens fåror.\r\nFem gamla hjärtan i sprit jag har\r\noch en ljus elefant i dess snår.\r\nInga stoppar den\r\ni vårat linneskåp.\r\nLoppor tär vår vän\r\nsom idisslar en sko\r\nnär vi snyta en rund liten hund\r\ndär den här lilla bagaren bor,\r\ndär den här lilla bagaren bor.\r\nHursa!?",
@@ -1004,7 +1004,7 @@
  "ingenjorssektionens_sang": {
   "id": "ingenjorssektionens_sang",
   "title": "Ingenjörssektionens sång",
-  "alttitle": "Ingenjörssektionens sång",
+  "alttitle": null,
   "firstline": "Om du vill gå på KTH",
   "meta": "Melodi: Fredmans sång nr. 21\r\nMusik: Carl Michael Bellman\r\nSektion: Ingenjörssektionen\r\n",
   "text": "Om du vill gå på KTH\r\nmen komma ut väl fort ändå,\r\ndu slipper alla gråa hår\r\n- examen på tre år.\r\nBetänk ditt linjeval min vän,\r\nså slipper du bli kvar här sen.\r\nNär vi på IS har gått ut\r\nser resten inget slut.\r\n\r\nTycker du att civ-ing är för lång,\r\neller Handels kanske är för vrång?\r\nGå då ett år och två år och tre år på Ing;\r\ndu bliver nöjdare.\r\n\r\nSå tentar vi så småningom\r\ni samma ämne gång på gång.\r\nExamen ska vi en gång nå,\r\nför vi på IS gå.\r\n\r\nTycker du…\r\n",
@@ -1681,10 +1681,10 @@
  },
  "nu_har_vi_ljus": {
   "id": "nu_har_vi_ljus",
-  "title": "Nu ska vi ha ljus",
-  "alttitle": "Nu ska vi ha ljus här i vårat hus",
+  "title": "Julpolska",
+  "alttitle": "Nu har vi ljus",
   "firstline": "Nu ha vi ljus här i vårt hus",
-  "meta": "Alternativ titel: Nu ska vi ha ljus här i vårat hus\r\nAlternativ titel 2: Nu har vi ljus\r\nAlternativ titel 3: Julpolska\r\nMelodi: Nu ska vi ha ljus\r\nText: Rafael Hertzberg\r\nMusik: Johanna Ölander\r\n",
+  "meta": "Alternativ title: Nu har vi ljus\r\nMelodi: Julpolska\r\nText: Rafael Hertzberg\r\nMusik: Johanna Ölander\r\n",
   "text": "Nu ha vi ljus här i vårt hus,\r\njulen är kommen, hopp-tra-la-la-la!\r\nBarnen i ring dansa omkring,\r\ndansa omkring.\r\nGranen står så grön och grann i stugan,\r\ngranen står så grön och grann i stugan.\r\ntra-la-la-la-la, tra-la-la-la-la,\r\ntra-la-la-la-la-la-la!\r\n\r\nKom lilla vän, kom nu igen!\r\nDansa kring granen, hopp-tra-la-la-la!\r\nGlädjen är stor, syster och bror<gender>1</gender>,\r\nsyster och bror<gender>1</gender>,\r\npappa, mamma<gender>2</gender>, alla gå i dansen,\r\npappa, mamma<gender>2</gender>, alla gå i dansen.\r\ntra-la-la-la-la, tra-la-la-la-la,\r\ntra-la-la-la-la-la-la!\r\n\r\nKom, ta en sväng! Klappar i mängd\r\nJulbocken hämtat, hopp-tra-la-la-la!\r\nLutfisk och gröt, tårta så söt,\r\ntårta så söt,\r\nfå vi sedan när vi tröttnat dansa,\r\nfå vi sedan när vi tröttnat dansa.\r\nTra-la-la-la-la, tra-la-la-la-la,\r\ntra-la-la-la-la-la-la!\r\n",
   "notes": "<gender>1</gender>Alternativt ”syskonen två”\r\n<gender>2</gender>Alternativt ”nära kära”",
   "partition": 10,
@@ -1887,7 +1887,7 @@
  "portos_visa_int": {
   "id": "portos_visa_int",
   "title": "International Portos Visa",
-  "alttitle": "",
+  "alttitle": null,
   "firstline": "I wanna start the gasque now",
   "meta": "Melodi: You Can’t Get a Man With a Gun\r\n",
   "text": "I wanna start the gasque now, you see that cerise cow?\r\nBut where have i left all my beers?\r\nLet’s not rest while tempted, my glass has to be emptied!\r\nWhat the hell, be so kind, shove it, cheers!\r\n\r\nThis is bullshit, where’s the spirit?\r\nWho in helvete thinks im a deer?\r\n\r\nTo Tyskland we travel, to find the cheapest gravel\r\nwe can shove down our throats when we’re home\r\nwe’re ready to party until we’re drunk and jerky\r\nJägermeister and beer - what a crazy career\r\nit’s the best fucking day of my year",
@@ -2404,7 +2404,7 @@
  "uppsala_ar_bast": {
   "id": "uppsala_ar_bast",
   "title": "Uppsala är bäst",
-  "alttitle": "Uppsala är bäst",
+  "alttitle": null,
   "firstline": "Svara mig, Glunten, på ära och tro",
   "meta": "Melodi: Uppsala är bäst\r\nText: Gunnar Wennerberg\r\nSkola: Uppsala\r\n",
   "text": "Svara mig, Glunten, på ära och tro\r\nutan avseende på små fataliteter\r\n- sådana, vet du ju, bygga och bo\r\nvarhelst du kommer inom alla fakulteter\r\n- är inte Uppsala märkvärdigt bra,\r\nbättre än alla andra städer här i Norden?\r\nJag vågar till och med påstå - jaha!\r\n- bättre än någon annan fläck på hela jorden?\r\n\r\nDu talar som en häst!\r\nUppsala är bäst,\r\nbäst utav allt, som finns på denna sidan solen\r\noch maken till den sta’n,\r\nfinns ej, ta mej Fan,\r\nletar du också från ekvatorn och till polen.\r\n\r\nNej!\r\nIngenstäds i vida världen finns en vrå\r\ndär man hela dygnet om kan leva så\r\nutan risk och bara immerbadd gå på,\r\njust som turkar och få heta folk ändå.\r\nOch finns det, så är det på en annan planet,\r\nvars namn ej självaste Bredman vet!\r\n\r\nJa, du har ovedersägligen rätt,\r\noch, såsom du, så tycker jag och många flera,\r\nmen det finns andra som inte så lätt\r\nvårt käraste Uppsalas förträfflighet sentera.\r\nSomliga skryta med sitt Göteborg,\r\nandra i Stockholm fram och åter vilja ränna.\r\nSomliga tänka på Karlstad med sorg,\r\nandra på päron och äpplen ner i Gränna.\r\n\r\nJa, ser du, kära bror,\r\nregeln är för stor\r\natt den ej skulle någon jämkning kunna tåla;\r\nmen är det solens skuld\r\natt dess klara guld\r\naldrig beundras av en mullvad i dess håla?\r\n\r\nNej!\r\nIngenstädes i vida världen…\r\n    ",
@@ -2468,7 +2468,7 @@
  "valla_nollan": {
   "id": "valla_nollan",
   "title": "Valla nØllan",
-  "alttitle": "Valla nØllan",
+  "alttitle": null,
   "firstline": "Dom säger att Daddor är gjorda av jord",
   "meta": "Melodi: 16 Tons (Merle Travis)\r\n",
   "text": "Dom säger att Daddor är gjorda av jord\r\noch inte av muskler, ben och blod.\r\nMen vad är det här om inte ett ben?\r\nEn massa så'na vi hittar re’n.\r\nVi vallar nØllan, allt på ackord.\r\nVi kämpar och sliter, ty Daddan är hård.\r\n\r\nFör varje nØllan vi rädda kan\r\nen extra öl åt var man.\r\nDom som brukar djävlas, det vet vi ju,\r\nförr eller senare straffas av GUD.\r\n\r\nÄnnu har Drifvarna ej ramlat ner,\r\nmen dom närmar sig helvetet mer och mer.\r\nDom gräver 16 hål, dagens ackord.\r\nDom kämpar och sliter, men marken är hård.\r\nFör varje nØllan de kan få,\r\nen extra hacka tjänar de då.\r\n\r\nVi hjälper nØllan runt på sta’n.\r\nDet är inte roligt, tar hela da’n.\r\nVi tar oss en pilsner då och då.\r\nDet är enda chansen att få det att gå.",
