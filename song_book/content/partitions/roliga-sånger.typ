@@ -69,7 +69,7 @@
 #pagebreak()
 
 #song(<nuskaviklamma>)
-#song(<1_2_45>, text-first-line-indent: 0pt)
+#song(<siffervisan>, text-first-line-indent: 0pt)
 #pagebreak()
 
 #song(<sangen_till_kvinnan>)
