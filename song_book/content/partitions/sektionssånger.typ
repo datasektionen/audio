@@ -54,7 +54,7 @@
 )
 #pagebreak()
 
-#song(<agdas_skal>)
+#song(<agdas_skal>, text-spacing: 3.4mm)
 #insert-virtual-pages(2)
 #pagebreak()
 
