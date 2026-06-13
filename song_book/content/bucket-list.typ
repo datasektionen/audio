@@ -39,7 +39,7 @@
       #bucket-list-item[Sjung “Gaffeln” #text(style: "italic")[(s.19)] med en ny melodi.]
       #bucket-list-item[Drick ingen alkohol på en sittning och sjung “Jag #linebreak() ser ni krökar” #text(style: "italic")[(s.19)] till de som gör det.]
       #bucket-list-item[Bli tackad med "En liten blå förgätmigej" #text(style: "italic")[(s.34)] som personal på en sittning.]
-      #bucket-list-item[Sjung “Konglig Datasektionens Sektionssång” #text(style: "italic")[(s.39)] på #linebreak() en annan sektions (eller studentorginisations) sittning.]
+      #bucket-list-item[Sjung “Konglig Datasektionens Sektionssång” #text(style: "italic")[(s.39)] på #linebreak() en annan sektions (eller studentorganisations) sittning.]
       #bucket-list-item[Sjung “Bordeaux, Bordeaux” #text(style: "italic")[(s.89)] medan du dricker Bordeaux (Eller alkoholfritt alternativ).]
       #bucket-list-item[Sjung starkast av alla i någon sång (Starkt är vackert).]
       #bucket-list-item(after-spacing: -0.6em)[Få boken signerad av 5 personer på föregående uppslag.]
