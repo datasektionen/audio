@@ -54,7 +54,7 @@
 
  #text(size: subheader-size)[Qvinten]
 
-#song(<fordom_odlade_man>)
+#song(<regalskeppet_vasa>)
 #song(<magen_brummar>)
 #pagebreak()
 
