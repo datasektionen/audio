@@ -18,7 +18,7 @@
   "firstline": "Ni som samlat er här",
   "meta": "Melodi: The Star-Spangled Banner  (John Stafford Smith)\r\nText: M. Hammarström (T-91)\r\nSektion: Flyg",
   "text": "Ni som samlat er här\r\nifrån fjärran och när,\r\nsäg, vad vore vår värld\r\nutan farkoster alla?\r\n\r\nSedan Noak så stark\r\nseglat flott med sin ark\r\nfinnes fartyg för färd\r\növer djupen de kalla.\r\n\r\nHögt dit upp i det blå,\r\nvar och en kan förstå,\r\ningen män’ska kan nå\r\nutan Flyg-KTH!\r\n\r\nSå kröner vi vår hyllning\r\ntill Agda, i ord och ton\r\nmed en skål för dess person\r\noch för Flyg - vår sektion!",
-  "notes": "Visan skrevs till Flygsektionens vårbal 1997, som hölls till&shy;sammans med Väg &amp; Vattensektionen på Piperska Muren. Sången är som en nationalsång för flygsektionen och sjungs nästan varje sittning.",
+  "notes": "Visan skrevs till Flygsektionens vårbal 1997, som hölls till&shy;sammans med Väg &amp; Vattensektionen på Piperska Muren. Sången är som en nationalsång för flygsektionen och sjungs nästan varje sittning.\n\nEnligt legenden om Flygsektionens födelse steg hönan Agda ned från himmelen till borggårdens nordvästra hörn. Där lade hon ett ägg, och ur detta ägg kläcktes Kongliga Flygsektionen den elfte september 1969.",
   "partition": 2,
   "page": "0x41",
   "tags": [
@@ -3503,5 +3503,14 @@
   "meta": "Melodi: Jag kan lära dig C\nText: David Lindkvist (D-25), Rasmus Söderhielm (D-25) &amp; Dima Chirin (D-22)",
   "text": "Låt mig visa dig kod\nVacker, effektiv, härlig\nSäg om du ska va ärlig,\nhar du drömt om den ibland?\n\nJag kan lära dig Rust\nSäker minneshantering\nMera säker kompilering\nBorrow checka här med mig\n\nCargo init!\nNu kan vi göra vad som helst\nUnwrapen många är\nRustboken lär\nkompilatorn är vår vän (FAKTISKT!)\nEn helt ny värld\nPå låg nivå, med MDI\nOpinionerat ja, så underbart\nAtt koda i en helt ny värld, med dig",
   "notes": "Skrevs under Pingst-Skiftes 2026"
+ },
+ "den_jagade_masen": {
+  "id": "den_jagade_masen",
+  "title": "Den jagade måsen",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Måsen\nText: Ur Melodia",
+  "text": "Det satt en mås på en klyvar...\nBOM!\nTRÄFF!\nÅ' den sjönk!",
+  "notes": null
  }
 }
