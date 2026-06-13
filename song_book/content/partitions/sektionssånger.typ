@@ -139,6 +139,11 @@
 #pagebreak()
 
 #song(<cls_visa>)
+#insert-virtual-pages(2)
+#pagebreak()
+
+#song(<identitetskris>)
+#song(<skolan_kth>)
 #pagebreak()
 
 #song(<sang_om_tentor>, text-notes-spacing: 4mm, after-spacing: 3.5mm)
