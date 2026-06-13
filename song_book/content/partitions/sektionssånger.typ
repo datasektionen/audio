@@ -143,6 +143,16 @@
 
 #song(<sang_om_tentor>, text-notes-spacing: 4mm, after-spacing: 3.5mm)
 #song(<sektionssang_i>, text-spacing: 4.9mm)
+#insert-virtual-pages(4)
+#pagebreak()
+
+#song(<mecken_gar>)
+#song(<fader_abraham>)
+#song(<dataloger>)
+#song(<liljekonvaljen>)
+#pagebreak()
+#song(<open_ar_vart_val>)
+
 #pagebreak()
 
 #song(<skalmen>, after-spacing: 8mm)
