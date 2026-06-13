@@ -6,6 +6,14 @@
 #partition-marker[Register]
 #heading(level: 1)[Register]
 
+// Titles and alternate titles which won't be shown in the register.
+#let title-block-list = (
+  "Trippeln",
+  "Ett noll ett",
+  "Nu ska vi ha ljus",
+  "Om cykling med mera",
+)
+
 // Returns pairs of all song titles and their corresponding page numbers and
 // locations, sorted by title.
 #let entries() = {
@@ -18,6 +26,7 @@
       )
     })
     .sorted(key: ((title, page, _)) => (title, page))
+    .filter(((title, _, _)) => str(title) not in title-block-list)
 }
 
 #insert-virtual-pages(1, after: 5)
