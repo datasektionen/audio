@@ -1,4 +1,4 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes
+#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, insert-virtual-pages
 
 #partition-page[Punschvisor][
   #show: block.with(width: 100%, breakable: false)
@@ -26,7 +26,11 @@
 #song(<anglapunsch>)
 #pagebreak()
 
-#song(<imperial_punsch>)
+#box[
+  #song(<imperial_punsch>, text-notes-spacing: 1em)
+  #v(-1.5em)
+  #song(<var_ar_punschen>)
+]
 #pagebreak()
 
 #song(<studiemedelsrondo>)
@@ -39,4 +43,8 @@
 
 #song(<punschlatt>)
 #song(<sista_punschvisan>)
+#insert-virtual-pages(2)
 #pagebreak()
+
+#song(<metaspexets_punschvisa>)
+#song(<sveriges_arraktionalhymn>)
