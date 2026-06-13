@@ -30,9 +30,12 @@
   ]
 }
 
-/// How many extra pages will be added until the primary page counter starts
-/// incrementing again.
-#let remaining-extra-pages = state("extra-pages", 0)
+/// Is a list of two integers:
+/// 1. In how many pages the extra pages will be inserted (usually zero).
+/// 2. How many extra pages will be added until the primary page counter
+///    starts incrementing again. This is only decremented after the first
+///    integer is zero.
+#let extra-pages-count = state("extra-pages", (0, 0))
 /// The visual page number, allowing extra pages to be inserted between primary
 /// pages.
 #let virtual-page = counter("virtual-page")
@@ -41,9 +44,15 @@
 /// called on page 'x' with 3, the extra pages will be numbered 'x.a'..'x.c'.
 ///
 /// - number (int): The number of extra pages to insert.
+/// - after (int): How many pages to wait until until the extra pages are
+///   inserted. Is used for large content blocks which spans multiple pages,
+///   which are hard to insert in the middle of.
 /// -> content
-#let insert-virtual-pages(number) = {
-  remaining-extra-pages.update(count => count + number)
+#let insert-virtual-pages(number, after: 0) = {
+  extra-pages-count.update(((after-count, count)) => (
+    after-count + after,
+    count + number,
+  ))
 }
 
 /// Skipts the primary page counter a number of pages. Needs to be added after
@@ -139,12 +148,19 @@
     ),
     header: {
       // Increment virtual page
-      context if 0 < remaining-extra-pages.get() {
+      context if 0 < extra-pages-count.get().at(1) and extra-pages-count.get().at(0) == 0 {
         virtual-page.step(level: 2)
       } else {
         virtual-page.step(level: 1)
       }
-      remaining-extra-pages.update(count => calc.max(count - 1, 0))
+      extra-pages-count.update(((after-count, remaining-count)) => (
+        calc.max(after-count - 1, 0),
+        if after-count == 0 {
+          calc.max(remaining-count - 1, 0)
+        } else {
+          remaining-count
+        },
+      ))
 
       context {
         let page = counter(page).get().at(0)
