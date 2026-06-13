@@ -1,4 +1,4 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes
+#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, insert-virtual-pages
 
 #partition-page[Traditionellt][
   #show: block.with(width: 100%, breakable: false)
@@ -29,6 +29,8 @@
 #pagebreak()
 
 #song(<jag_fangade_en_rav>)
+#insert-virtual-pages(1)
+#song(<gaudeamus_igitur>)
 #pagebreak()
 
 #song(<om_haga>)

@@ -1,4 +1,5 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes
+
+#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, insert-virtual-pages
 
 #partition-page[Datasånger][
   #show: block.with(width: 100%, breakable: false)
@@ -150,6 +151,16 @@
 #pagebreak()
 
 #song(<till_emacs>)
+#insert-virtual-pages(3)
+#pagebreak()
+
+#song(<windows_7>)
+#pagebreak()
+
+#song(<jag_kan_lara_dig_c>)
+#pagebreak()
+
+#song(<jag_kan_lara_dig_rust>)
 #pagebreak()
 
 #set page(margin: (bottom: 3cm))
@@ -174,6 +185,14 @@
 #v(-1mm)
 
 #song(<systeme_interweb>)
+#insert-virtual-pages(1)
+#pagebreak()
+
+#box[
+  #song(<crash_branns_kampvisa_systeme_technologique>)
+  #v(-1em)
+  #song(<kursen_mdi>)
+]
 #pagebreak()
 
 #song(<du_nya_du_frascha>) // Kommentar behöver uppdateras i enlighet med djubileumsupplagan
