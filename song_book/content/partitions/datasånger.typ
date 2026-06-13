@@ -154,10 +154,13 @@
 #pagebreak()
 
 #song(<till_emacs>)
-#insert-virtual-pages(3)
+#insert-virtual-pages(4)
 #pagebreak()
 
 #song(<windows_7>)
+#pagebreak()
+
+#box[#song(<min_gamla_64_a>)]
 #pagebreak()
 
 #song(<jag_kan_lara_dig_c>)
