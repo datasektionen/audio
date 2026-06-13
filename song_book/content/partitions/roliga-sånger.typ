@@ -13,7 +13,7 @@
   ))
 ]
 
-#song(<nu_ska_jag_supa>)
+#song(<gravolsvisa_fran_rengsjo>)
 #pagebreak()
 
 #box[
@@ -54,6 +54,7 @@
 #pagebreak()
 
 #song(<fyllevisa>)
+#song(<man_cyklar_for_lite>)
 #pagebreak()
 
 #song(<lasa_matematik>)

@@ -150,8 +150,10 @@
 #song(<hata_data_ltu>)
 #pagebreak()
 
-#song(<javlaranammas_sittningsvisa>, text-spacing: 5.5mm, after-spacing: 5.1mm)
-#song(<d_sektionen_lth>)
+#box[
+  #song(<javlaranammas_sittningsvisa>, text-spacing: 5.5mm, after-spacing: 5.1mm, text-notes-spacing: 3mm)
+#song(<d_sektionen_lth>)  
+]
 #pagebreak()
 
 #place[#song(<pa_data_ltu>, override-notes-content: [], add-after-nth-par: (
@@ -159,7 +161,7 @@
   {
     set text(size: 9pt, style: "italic")
     v(-4pt)
-    [DØ -94]
+    [DØ-94]
     v(-7pt)
   },
 ))]
