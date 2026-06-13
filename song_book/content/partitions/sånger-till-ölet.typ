@@ -83,7 +83,7 @@ körsbär.
 ])
 
 #align(center + horizon)[
-  #text(weight: "bold")[bilden här saknas i driven :(]
+  #image("/song_book/assets/images/ölflaskor.png")
 ]
 #pagebreak()
 
