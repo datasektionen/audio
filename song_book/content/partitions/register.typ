@@ -32,6 +32,9 @@
 #insert-virtual-pages(1, after: 5)
 
 #context {
+  // Ensure that registry entries don't wrap to multiple lines.
+  show: pad.with(right: -base-margin)
+  
   set text(size: 10pt)
   set par(leading: 2.6pt)
   for (title, page, location) in entries() {
