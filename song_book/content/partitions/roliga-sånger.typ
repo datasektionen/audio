@@ -33,7 +33,8 @@
 #song(<dance_macabre>)
 #pagebreak()
 
-#song(<berkeley_california>)
+#pagebreak()
+#pagebreak()
 #pagebreak()
 
 #song(<bruces_philosophers_song>)
