@@ -134,7 +134,7 @@
     top-edge: 0.638em
   )
   set par(justify: false)
-  show heading.where(level: 1): set text(size: 22pt, weight: "regular")
+  show heading.where(level: 1): set text(size: 21pt, weight: "regular")
   show heading.where(level: 1): set block(below: 10pt)
 
   // Configure the A6 page layout

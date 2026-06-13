@@ -13,10 +13,10 @@
 
   //#title()
 
-  = Overallguide
+  = Guide till Overallen
   == Ovven
 
-  Overallen, eller Ovven som den ofta kallas, är bland de mest ärofyllda plaggen som en Datalog kan bära. Datasektionens overaller är cerise. Vissa andra missförstår färgen som rosa, orange eller till och med röd, men tro inte på dem. De är bara färgblinda.
+  Overallen, eller Ovven som den ofta kallas, är bland de mest ärofyllda plaggen som en Datalog kan bära. Datasektionens overaller är cerise. Vissa andra missförstår färgen som rosa, röd eller till och med orange, men tro inte på dem. De är bara färgblinda.
 
   == Märken
 
@@ -28,7 +28,7 @@
   + Det finns vissa märken som har en speciell plats på ovven #text(style: "italic")[(se nästa sida)]:
     + KTH-märket, som  sitter på vänster överarm.
     + Sektionsmärket, som sitter över hjärtat, alltså på vänster sida av bröstet.
-    + Årskursmärket, som sitter över $"hjärtat" ^(-1)$, alltså på höger sida av bröstet.
+    + Årskursmärket, som sitter över hjärtat$#[]^(-1)$, alltså på höger sida av bröstet.
     + NØlleraden, som är de märken som erhölls under mottagningen ska sitta i en vertikal rad på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket ska sitta över nØlleraden.
 
   \[Placera en infographic på overallen här\]
@@ -74,7 +74,7 @@
   
   #pagebreak()
 
-  = Guide till Högtidsdräkt
+  = Guide till Högtidsdräkten
 
   Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette och delar. Denna del tar upp två av de tre plagg som får bäras som högtidsdräkt: frack och balklänning. För information om folkdräkt hänvisas läsaren till godtycklig söktjänst. 
 
