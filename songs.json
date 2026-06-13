@@ -3284,7 +3284,7 @@
   "title": "Mecken går",
   "alttitle": null,
   "firstline": null,
-  "meta": "Melodi: Helan går",
+  "meta": "Melodi: Helan går\nSektion: Industriell Ekonomi",
   "text": "Mecken går, sjung hoppfadderallanlallanlej\nMecken går, sjung hoppfadderallanlallanlej\nOch den som inte mecken tar den heller ej examen får\nMecken går...\n\nJu nästa år igen. Hej!",
   "notes": "På I-sektionen finns en lång tradition av att uppskatta mekanik, så pass mycket att många skriver tentan fler än två gånger!"
  },
@@ -3512,5 +3512,14 @@
   "meta": "Melodi: Måsen\nText: Ur Melodia",
   "text": "Det satt en mås på en klyvar...\nBOM!\nTRÄFF!\nÅ' den sjönk!",
   "notes": null
+ },
+ "dataloger": {
+  "id": "dataloger",
+  "title": "Dataloger",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Camilla (Basshunter)\nText: Anastazja, Tyra &amp; Catharina (SystrarnaKM)",
+  "text": "Dataloger, om ni börjar frysa\nSå kan ni komma till grottan och mysa\nSå ska Systrarna värma er inatt\nDataloger, om ni vill kramas\nSå ta av er er rosa pyjamas\nSå ska Systrarna bevisa för er att\n\nVi kan supa utan stupa\nVi kan fả er att må bra\nÅh, dataloger, festa en natt hos oss\nVi sällan mot reglerna bryter\nHoppas nu ni inte tycker att vi skryter\nÅh, dataloger, ni kan ej säga nej\nKom till grottan och säg hej\n\nNi, ibland kan livet va svårt\nMen det blir lättare när man har syrrornas support\nMen vi, vill blanda DNA\nNi är dem vi vill ha, oh-oh-oh-oh-oh, yay!\nDatologer, vill ni vi ska chilla?\nOkej, först far ni sluta lukta illa\nVi skojar, kasta inte ut osss chorus\n\nVi kan supa utan stupa…",
+  "notes": "Skrevs av Systrarna inför skiftes 2025 som de var bjudna på. De framförde den som ett gästgyckel."
  }
 }
