@@ -1,4 +1,4 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes
+#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, skip-pages
 
 #partition-page[Roliga sånger][
   #show: block.with(width: 100%, breakable: false)
@@ -33,9 +33,7 @@
 #song(<dance_macabre>)
 #pagebreak()
 
-#pagebreak()
-#pagebreak()
-#pagebreak()
+#skip-pages(3)
 
 #song(<bruces_philosophers_song>)
 #song(<fru_svenssons_lyckliga_karl>)
@@ -55,7 +53,6 @@
 #pagebreak()
 
 #song(<fyllevisa>)
-#song(<man_cyklar_for_lite>)
 #pagebreak()
 
 #song(<lasa_matematik>)
