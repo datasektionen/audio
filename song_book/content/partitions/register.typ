@@ -1,5 +1,5 @@
 #import "/song_book/template.typ": (
-  base-margin, page-number, partition-marker, virtual-page,
+  base-margin, insert-virtual-pages, page-number, partition-marker, virtual-page,
 )
 
 #show heading: set text(size: 30pt)
@@ -19,6 +19,8 @@
     })
     .sorted(key: ((title, page, _)) => (title, page))
 }
+
+#insert-virtual-pages(1, after: 5)
 
 #context {
   set text(size: 10pt)
