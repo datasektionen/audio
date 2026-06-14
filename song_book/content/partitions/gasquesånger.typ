@@ -42,7 +42,7 @@
 ]
 #pagebreak()
 
-#song(<portos_visa>, text-spacing: 3.4mm)
+#song(<porthos_visa>, text-spacing: 3.4mm)
 
 #pad(bottom: -8mm, song(<skitakare_andersson>, text-spacing: 3.4mm))
 
