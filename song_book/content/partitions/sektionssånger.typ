@@ -1,5 +1,6 @@
 #import "/song_book/template.typ": (
-  base-margin, insert-virtual-pages, partition-page, song, song-notes,
+  base-margin, continues-on-next-page, continues-on-next-page-inline,
+  insert-virtual-pages, partition-page, song, song-notes,
 )
 
 // Title page
@@ -29,11 +30,19 @@
 #pagebreak()
 
 #song(<mediehymnen>, after-spacing: 7.5mm)
-#song(<nar_vi_festar>, add-after-nth-par: (1, v(-2.43mm)))
+#continues-on-next-page()
+#song(<nar_vi_festar>, add-after-nth-par: ((1, v(-2.43mm)),))
 #insert-virtual-pages(2)
 #pagebreak()
 
-#song(<balladen_om_arkitektens_kak>, text-spacing: 0.21in)
+#song(
+  <balladen_om_arkitektens_kak>,
+  text-spacing: 0.21in,
+  add-after-nth-par: ((5, {
+    align(right, continues-on-next-page-inline())
+  }),),
+)
+
 #pagebreak()
 
 #song(<en_bergsman_alskar>)
@@ -44,13 +53,6 @@
   <rovarvisan>,
   text-leading: 3pt,
   text-spacing: 4.55mm,
-  add-after-nth-par: (
-    2,
-    {
-      set text(size: 10pt)
-      place(bottom + right, dx: -3mm, dy: 4mm)[_fortsätter på nästa sida..._]
-    },
-  ),
 )
 #pagebreak()
 
@@ -120,12 +122,14 @@
 #pagebreak()
 
 #song(<om_sanningen_ska_fram>, add-after-nth-par: (
-  7,
-  {
-    set text(size: 10pt)
-    place(bottom + right, dx: 1mm, dy: -2mm)[_fortsätter på nästa sida..._]
-    pagebreak()
-  },
+  (
+    3,
+    {
+      continues-on-next-page(dx: 1mm, dy: -2mm)
+      pagebreak()
+    },
+  ),
+  (7, pagebreak())
 ))
 #pagebreak()
 
@@ -152,6 +156,7 @@
 #pagebreak()
 
 #song(<mecken_gar>)
+#continues-on-next-page()
 #song(<fader_abraham>)
 #song(<dataloger>)
 #song(<liljekonvaljen>)
@@ -171,7 +176,7 @@
 ]
 #pagebreak()
 
-#place[#song(<pa_data_ltu>, override-notes-content: [], add-after-nth-par: (
+#place[#song(<pa_data_ltu>, override-notes-content: [], add-after-nth-par: ((
   1,
   {
     set text(size: 9pt, style: "italic")
@@ -179,5 +184,5 @@
     [DØ-94]
     v(-7pt)
   },
-))]
+),))]
 #pagebreak()
