@@ -31,6 +31,7 @@
 
 #song(<ode_till_halvan>)
 #song(<ratt_lyft>)
+#song(<helangorakatt>)
 #pagebreak()
 
  #text(size: subheader-size)[Tersen]
@@ -105,7 +106,7 @@
 #pagebreak()
 
 #song(<fkane_faft>)
-#song(<helangorakatt>)
+#song(<minne>)
 #pagebreak()
 
  #text(size: subheader-size)[Spökförrådet]

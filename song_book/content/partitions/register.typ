@@ -8,7 +8,6 @@
 
 // Titles and alternate titles which won't be shown in the register.
 #let title-block-list = (
-  "Trippeln",
   "Ett noll ett",
   "Nu ska vi ha ljus",
   "Om cykling med mera",
@@ -17,7 +16,8 @@
 // Returns pairs of all song titles and their corresponding page numbers and
 // locations, sorted by title.
 #let entries() = {
-  query(<song-marker>)
+  let observed-titles = ();
+  let found-songs = query(<song-marker>)
     .map(metadata => {
       (
         metadata.value,
@@ -25,8 +25,23 @@
         metadata.location(),
       )
     })
-    .sorted(key: ((title, page, _)) => (title, page))
-    .filter(((title, _, _)) => str(title) not in title-block-list)
+    // Filter out blocked and duplicate titles. This is necessary since
+    // "Trippeln" is an alternative title to three songs, but we only want one
+    // of them in the registry.
+    .fold(((), ()), ((found-songs, observed-titles), song-data) => {
+      let (title, _, _) = song-data
+      (
+        found-songs + if str(title) not in title-block-list and str(title) not in observed-titles {
+          (song-data,)
+        } else {
+          ()
+        },
+        observed-titles + (str(title),),
+      )
+    })
+    .first()
+  // found-songs += (([Trippeln], 14, none),)
+  found-songs.sorted(key: ((title, page, _)) => (title, page))
 }
 
 #insert-virtual-pages(1, after: 5)
