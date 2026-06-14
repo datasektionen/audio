@@ -39,6 +39,7 @@
 
 #contributor-category[Korrekturläsare][
   Dmitri Chirin\
+  Douglas Fischer\
   Simon Kåhre\
   Erik Sparr\
   Rasmus Söderhielm\
