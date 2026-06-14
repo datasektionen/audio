@@ -31,14 +31,16 @@
   + KTH-märket, som  sitter på vänster överarm.
   + Sektionsmärket, som sitter över hjärtat, alltså på vänster sida av bröstet.
   + Årskursmärket, som sitter över hjärtat$#[]^(-1)$, alltså på höger sida av bröstet.
-  + NØlleraden, som är de märken som erhölls under mottagningen ska sitta i en vertikal rad på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket ska sitta över nØlleraden.
+  #box[
+  4. NØlleraden, som är de märken som erhölls under mottagningen ska sitta i en vertikal rad på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket ska sitta över nØlleraden.
   
   == Ovvenamn
   - Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
   - Ovvenamnet ska sitta på overallens högra ben.
   - Ett hållbart tyg, exempelvis möbeltyg, rekommenderas för att sy på ovvenamn.
 
-  \[Placera en infographic på overallen här\]
+  #align(center + horizon)[#image("/song_book/assets/images/ovve.svg", width: 75mm)]
+  ]
   #pagebreak()
 
   == Att sy på märken
