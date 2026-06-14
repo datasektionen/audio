@@ -377,7 +377,7 @@
   "firstline": null,
   "meta": "Melodi: Te deum laudamus\r\n",
   "text": "Det var en gång jag tänkt\r\natt punschen övergiva,\r\nmen det blir aldrig av,\r\nså länge jag får leva.\r\nOch när jag en gång dör,\r\nså står det på min grav:\r\n”Här vilar en som svenska punschen älskat har.”\r\n\r\nJag gillar, jag gillar punschen.\r\nJag gillar den som punschen skapat har.\r\nJag gillar, jag gillar punschen.\r\nJag gillar punschen och dess far!\r\n\r\nOm jag någon gång,\r\nsom likväl sällan händer,\r\ntar en punsch för mycket,\r\nså att jag blir full\r\n*och jag kryssar kring,\r\nibland gator och ibland gränder\r\noch det därvid händer,\r\natt jag seglar kull,\r\ndå reser jag mig upp\r\noch säger när jag går\r\n”Vad Fan gör det i alla fall om hundra år?”\r\n\r\nJag gillar…\r\n",
-  "notes": "* Melodin börjar om från början. Maskinsektionen, KTH.\r\n",
+  "notes": "*Melodin börjar om från början. Maskinsektionen, KTH.\r\n",
   "partition": 5
  },
  "detta_glas": {
@@ -1063,7 +1063,7 @@
   "firstline": null,
   "meta": "Melodi: O, hur saligt att få vandra\r\nText: Joël Blomqvist, Per Ollén\r\n",
   "text": "Jag har aldrig var’t på snusen,\r\naldrig rökat en cigarr, halleluja!\r\nMina dygder äro tusen,\r\ninga syndiga laster jag har.\r\nJag har aldrig sett nå't naket,\r\ninte ens ett litet nyfött barn.\r\nMina blickar går mot taket;\r\ndärmed undgår jag frestarens garn.\r\n\r\n||: Halleluja! :|| (ett otal gånger)\r\n\r\nBacchus spelar på gitarren.\r\nSatan spelar på sitt handklaver.\r\nAlla djävlar dansar tango.\r\nSäg, vad kan man väl önska sig mer?\r\nJo, att alla bäckar vore brännvin,\r\nRiddarfjärden* full av bayerskt öl,\r\nkonjak i varenda rännsten\r\noch punsch i varendaste pöl.\r\n\r\n||: Och mera öl! :||",
-  "notes": "* Människor från andra städer sjunger ofta varianter på just detta ord i texten, såsom ”Näckrosdammen”, ”hela\r\nSvartån” m.m. På KTH hörs ofta ”Gasqueparksdammen”,\r\nvilket är namnet på fontänen utanför kårhuset Nymble.",
+  "notes": "*Människor från andra städer sjunger ofta varianter på just detta ord i texten, såsom ”Näckrosdammen”, ”hela\r\nSvartån” m.m. På KTH hörs ofta ”Gasqueparksdammen”,\r\nvilket är namnet på fontänen utanför kårhuset Nymble.",
   "partition": 0,
   "page": "30",
   "tags": [
@@ -1549,7 +1549,7 @@
   "firstline": null,
   "meta": "Melodi: Hej tomtegubbar\r\n",
   "text": "||: Mitt lilla lån det räcker inte,\r\ndet går till öl och till brännvin. :||\r\n\r\nTill öl och brännvin går det åt,\r\noch till små flickor* emellanåt.\r\n\r\nMitt lilla lån det räcker inte,\r\ndet går till öl och till brännvin.\r\n",
-  "notes": "* Givetvis får man sjunga ”pojkar”, om man föredrar det.\r\n…eller vad man nu kan tänkas tända på; här ska vi inte diskriminera någon!\r\nVissa skolor sjunger ”flaskor”, men det är inte vanligt.\r\n",
+  "notes": "*Givetvis får man sjunga ”pojkar”, om man föredrar det.\r\n…eller vad man nu kan tänkas tända på; här ska vi inte diskriminera någon!\r\nVissa skolor sjunger ”flaskor”, men det är inte vanligt.\r\n",
   "preventSongOfTheDay": true
  },
  "moder_kista": {
@@ -1737,7 +1737,7 @@
   "firstline": null,
   "meta": "Melodi: O alte Burschenherrlichkeit (Eugen Höfling)\r\nText: August Lindh\r\n",
   "text": "O, gamla klang och jubeltid,\r\nditt minne skall förbliva.\r\nOch än åt livets bistra strid\r\nett rosigt skimmer giva.\r\nSnart tystnar allt vårt yra skämt,\r\nvår sång blir stum, vårt skratt förstämt.\r\nO, jerum, jerum, jerum!\r\nO, quæ mutatio rerum!\r\n\r\nVar äro de som kunde allt,\r\nblott ej sin ära svika.\r\nSom voro folk av äkta halt,\r\noch världens furstar lika.\r\nDe drogo bort från vin och sång,\r\ntill vardagslivets tråk och tvång.\r\nO, jerum, jerum, jerum!\r\nO, quæ mutatio rerum!\r\n\r\nDen ene vetenskap och vett\r\nin i scholares mänger. <i>(filosofer)</i>\r\nDen andre i sitt anlets svett\r\npå paragrafer vränger. <i>(jurister)</i>\r\nEn plåstrar själen som är skral. <i>(teologer)</i>\r\nEn lappar hop dess trasiga fodral. <i>(medicinare)</i>\r\nO, jerum, jerum, jerum!\r\nO, quæ mutatio rerum!\r\n\r\nMen hjärtat i en sann student\r\nkan ingen tid förfrysa.\r\nDen glädjeeld som där hen tänt,\r\nhens hela liv skall lysa.\r\nDet gamla skalet brustit har,\r\nmen kärnan* finnes frisk dock kvar.\r\nOch vad hen än skall mista,\r\nden skall dock aldrig brista.\r\n\r\nSå sluten vänner fast vår krets\r\ntill glädjens värn och ära.\r\nTrots allt vi tryggt och väl tillfreds,\r\nvår vänskap trohet svära.\r\nLyft bägarn högt och klinga vän,\r\nde gamla gudar leva än.\r\nBland skålar och pokaler!\r\nBland skålar och pokaler!\r\n",
-  "notes": "* Endast vid ”kärnan” dunkas näven i bordet en gång. Ingen annanstans.\r\nDen sista versen sjungs stående, och efter det att sista versen sjungits sätter sig ingen åter till bords.\r\nMeningen med denna sång är att man ska ställa sig upp där man känner sig kallad.\r\nJerum = Tysk omskrivning av ”Herr Jesus” (jfr. Jösses)\r\nO, quæ mutatio rerum! = O, vilken förändring i allt!\r\nQuæ uttalas egentligen ”kvä”, därav ligaturerna. \r\nDet finns alternativa tredjeverser som sjungs vid olika lärosäten.\r\n",
+  "notes": "*Endast vid ”kärnan” dunkas näven i bordet en gång. Ingen annanstans.\r\nDen sista versen sjungs stående, och efter det att sista versen sjungits sätter sig ingen åter till bords.\r\nMeningen med denna sång är att man ska ställa sig upp där man känner sig kallad.\r\nJerum = Tysk omskrivning av ”Herr Jesus” (jfr. Jösses)\r\nO, quæ mutatio rerum! = O, vilken förändring i allt!\r\nQuæ uttalas egentligen ”kvä”, därav ligaturerna. \r\nDet finns alternativa tredjeverser som sjungs vid olika lärosäten.\r\n",
   "partition": 9,
   "page": "148",
   "tags": [
@@ -2015,7 +2015,7 @@
   "firstline": null,
   "meta": "Alternativ titel: Du gamla, Du fria\r\nAlternativ titel 2: Till svenska fosterjorden\r\nMelodi: Traditionell\r\nText: Richard Dybeck",
   "text": "Du gamla, Du fria, Du fjällhöga nord,\r\nDu tysta, Du glädjerika sköna!\r\nJag hälsar Dig, vänaste land uppå jord,\r\n||: Din sol, Din himmel, Dina ängder gröna. :||\r\n\r\nDu tronar på minnen från fornstora da’r,\r\ndå ärat Ditt namn flög över jorden.\r\nJag vet att Du är och Du* blir vad Du var.\r\n||: Ja, jag vill leva, jag vill dö i Norden. :||\r\n",
-  "notes": "Till skillnad från många andra nationalsånger har denna sång aldrig officiellt, genom något politiskt beslut, antagits som nationalsång. Visan framfördes för första gången den 13 november 1844, och publicerades i tryck 1865 i tidskriften Runa.\r\nYtterligare två verser, med mer uttalat svenskt tema, skrevs av Louise Ahlén, men sjungs mycket sällan och har därför heller inte tagits med här.\r\n*: ”Du blir” i andra versen är i original endast ”blir”, men ”Du blir”, eller ”förblir” sjungs oftast och passar även bättre i melodin.\r\n",
+  "notes": "Till skillnad från många andra nationalsånger har denna sång aldrig officiellt, genom något politiskt beslut, antagits som nationalsång. Visan framfördes för första gången den 13 november 1844, och publicerades i tryck 1865 i tidskriften Runa.\r\nYtterligare två verser, med mer uttalat svenskt tema, skrevs av Louise Ahlén, men sjungs mycket sällan och har därför heller inte tagits med här.\r\n*”Du blir” i andra versen är i original endast ”blir”, men ”Du blir”, eller ”förblir” sjungs oftast och passar även bättre i melodin.\r\n",
   "partition": 9,
   "page": "0x93",
   "5ePage": 147
@@ -2396,7 +2396,7 @@
   "firstline": null,
   "meta": "Melodi: Nu tändas tusen juleljus\r\nText och Musik: Emmy Köhler\r\n",
   "text": "Nu tändas tusen juleljus\r\npå jordens mörka rund,\r\noch tusen, tusen stråla ock\r\npå himlens djupblå grund.\r\n\r\nOch över stad och land i kväll\r\ngår julens glada bud,\r\natt född är Herren Jesus Krist,\r\nvår Frälsare och Gud.\r\n\r\nDu stjärna över Betlehem,\r\no, låt ditt milda ljus\r\nfå lysa in med hopp och frid\r\ni varje hem och hus!\r\n\r\nI varje hjärta armt och mörkt\r\nsänd du en stråle blid,\r\nen stråle av Guds kärleks ljus\r\ni signad* juletid!\r\n",
-  "notes": "* [sIŋnad], inte [saInad]! Nörd.\r\n",
+  "notes": "*[sIŋnad], inte [saInad]! Nörd.\r\n",
   "partition": 10,
   "page": "160",
   "5ePage": 160
@@ -2741,7 +2741,7 @@
   "firstline": "Labbar gör jag men min kod är långsam, är för långsam,",
   "meta": "Melodi: Tomtarnas julnatt\r\nText: Max Wippich",
   "text": "Labbar gör jag men min kod är långsam, är för långsam,\r\nKoden inte, går i O(n)* tid, O(n) tid\r\nNP, NP, NP, NP, NP,\r\nskilt, från, P\r\n\r\nSen jag inser vad som är problemet, vad är det då?\r\nNondeterministic polynomial, polynomial\r\nNP, NP, NP, NP, NP,\r\nskilt, från, P",
-  "notes": "* sjunges \"Ordo n\".  Sångbokssittningen 2022",
+  "notes": "*Sjunges \"Ordo n\".  Sångbokssittningen 2022",
   "partition": 1,
   "tags": [
    "Programmering",
@@ -3186,7 +3186,7 @@
   "firstline": "Det där det gjorde han/hon/de fan så bra",
   "meta": "Melodi: Det var i vår ungdoms fagraste vår",
   "text": "Det där det gjorde han/hon/de fan så bra,\r\nen skål uti botten för honom/henne/dem nu vi ta.\r\nOch alla så dricker vi nu ”Osquarina”* till\r\n<b>Och ”Osquarina”* säger inte nej därtill.</b>\r\nFör det var i vår ungdoms fagraste vår,\r\nvi drack varandra till och vi sade ”Gutår!”",
-  "notes": "* Ersätt Osquarina med gycklarens/gycklarnas namn.\r\nSjunges efter det att någon framfört ett gyckel.\r\nDet som står i fetstil sjungs av gycklaren/gycklarna och\r\nbrukar ersättas med något passande.",
+  "notes": "*Ersätt Osquarina med gycklarens/gycklarnas namn.\r\nSjunges efter det att någon framfört ett gyckel.\r\nDet som står i fetstil sjungs av gycklaren/gycklarna och\r\nbrukar ersättas med något passande.",
   "partition": 1,
   "page": "28"
  },
@@ -3440,7 +3440,7 @@
   "firstline": null,
   "meta": "Melodi: Kjøpe Hele Sverige\nText: Alvin Yang (D-25)",
   "text": "VI KAN KÖPA HELA INDEK OM VI VILL\nVI KAN KÖPA HELA INDEK OM VI VILL \nVI KAN KÖPA HELA INDEK VI KAN KÖPA HELA INDEK\nVI KAN KÖPA HELA INDEK OM VI VILL \n\nSätt er ner, kära I\nför ifrån Meta kommer vi\nStår med höger hand på hjärtat när vi sjunger starkt o fint\n\"BEGIN; OutText(D);\"\nFör vi har pengar, mer än er\n\nKOM IGEN*\nVI KAN KÖPA HELA INDEK OM VI VILL\nVI KAN KÖPA HELA INDEK OM VI VILL \nVI KAN KÖPA HELA INDEK VI KAN KÖPA HELA INDEK\nVI KAN KÖPA HELA INDEK OM VI VILL \n\nVi har Cerise och vi har Lusen\ndet är våra bilar två✌️\nOch som roligast i världen är när Indek skriver kod\nOch våra ovvar är CERISE!\n\nI-sektionen, can you hear us?\n\nEN GÅNG TILL!\nVI KAN KÖPA HELA INDEK OM VI VILL\nVI KAN KÖPA HELA INDEK OM VI VILL \nVI KAN KÖPA HELA INDEK VI KAN KÖPA HELA INDEK\nVI KAN KÖPA HELA INDEK OM VI VILL\nHÆJ!",
-  "notes": "Framfördes för första gången på Reclaim 2025\n\n* Utropas av toastmastern"
+  "notes": "Framfördes för första gången på Reclaim 2025\n\n*Utropas av toastmastern"
  },
  "fader_abraham": {
   "id": "fader_abraham",
