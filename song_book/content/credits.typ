@@ -41,29 +41,29 @@
   Dmitri Chirin\
   Douglas Fischer\
   Simon Kåhre\
+  Leonard Smedberg\
   Erik Sparr\
   Rasmus Söderhielm\
   Marcus Sörberg\
   Alvin Yang\
 ]
 
-#v(10mm, weak: true)
+#colbreak()
 
-Stort tack även till alla sångförfattare och
-resterande prylmånglerister som hjälpts åt men
-inte återfinns i listan ovan!
-
-#contributor-category[Illustrationer][
+#box[#contributor-category[Illustrationer][
   Kei\
   Albin Haraldsson\
   Rey Karlander\
   Julia Wang\
 ]
 
-#v(1fr)
+Stort tack även till alla sångförfattare och
+resterande prylmånglerister som hjälpts åt men
+inte återfinns i listan ovan!
+
+#v(-0.5em)
 
 #align(center)[
   #image(width: 64.5mm, "/song_book/assets/images/cred-page.png")
   #v(1.5mm)
-]
-
+]]
