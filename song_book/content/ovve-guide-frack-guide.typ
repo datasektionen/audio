@@ -54,7 +54,7 @@
 
   - En ovve tvättas endast med innehåll (d.v.s. dig).
   - Exempel på tvättplatser är: i en sjö, i havet, i en fontän, duschen, eller en mycket stor tvättmaskin.
-  - Prylmångleriet ordnar en gemensam ovvetvätt som kallas Plasque varje sommar.
+  - Prylmångleriet ordnar en gemensam ovvetvätt som kallas Plask varje sommar.
 
   == Tips & tricks
   - Det ryms mycket i ovvens många fickor, men för att få extra plats kan man med fördel knyta en knut längst ut på ärmarna och sedan förvara större saker i dem.
