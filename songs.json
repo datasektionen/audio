@@ -337,8 +337,8 @@
   "alttitle": null,
   "firstline": "Alla vi som går på Data",
   "meta": "Melodi: Fysiks visa\r\nText: Mattis Castegren, undevicesimus\r\n",
-  "text": "Alla vi som går på Data\r\nsitter mest och kodar Perl-script varje natt.\r\nMed oss kan man inte prata\r\nom man inte loggat in på någon chatt.\r\nVåran hy är grå som aska\r\n– när solen skiner sysslar vi med webdesign\r\noch när de andra börjat gasqua\r\nsitter vi och spelar Ultima Online.\r\n\r\n||: Datan är grå – visst är det så!\r\nDatan är trist – javisst, javisst!\r\nDatan är skit – man drar en nit\r\nom man går dit! :||\r\n\r\nVi har något tomt i blicken,\r\nen hel skvadron av tomtar på vårt loft!\r\nIngen av oss har nån partner<gender>1</gender>,\r\nmen vi drömmer varje natt om Lara Croft<gender>2</gender>.\r\nData borde formateras,\r\nsystematiskt, partition för partition.\r\nNördarna dekompileras\r\noch uppgraderas till en användbar version.\r\n\r\nDatan är grå…\r\n",
-  "notes": "Framfördes första gången på Fysiksektionens Ettans fest läsåret 2001/2002.\r\n<gender>1</gender>Alternativt: flickvän/pojkvän\r\n<gender>2</gender>Du kan även sjunga Martin Frost, Microsoft, Samorost eller något annat passande.",
+  "text": "Alla vi som går på Data\r\nsitter mest och kodar Perl-script varje natt.\r\nMed oss kan man inte prata\r\nom man inte loggat in på någon chatt.\r\nVåran hy är grå som aska\r\n– när solen skiner sysslar vi med webdesign\r\noch när de andra börjat gasqua\r\nsitter vi och spelar Ultima Online.\r\n\r\n||: Datan är grå – visst är det så!\r\nDatan är trist – javisst, javisst!\r\nDatan är skit – man drar en nit\r\nom man går dit! :||\r\n\r\nVi har något tomt i blicken,\r\nen hel skvadron av tomtar på vårt loft!\r\nIngen av oss har nån partner,\r\nmen vi drömmer varje natt om Lara Croft<gender/>.\r\nData borde formateras,\r\nsystematiskt, partition för partition.\r\nNördarna dekompileras\r\noch uppgraderas till en användbar version.\r\n\r\nDatan är grå…\r\n",
+  "notes": "Framfördes första gången på Fysiksektionens Ettans fest läsåret 2001/2002.\r\n<gender/>Du kan även sjunga Martin Frost, Microsoft, Samorost eller något annat passande.",
   "partition": 0,
   "page": "0x21",
   "tags": [
@@ -1092,7 +1092,7 @@
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: Bamse\r\n",
-  "text": "Jag ska festa, ta det lugnt med spriten,\r\nha det roligt utan att va' full.\r\nInte krypa runt med festeliten,\r\nta det sansat för min egen skull.\r\n\r\nFörst en öl i torra strupen,\r\nefter det så kommer supen.\r\nI med vinet, ner med punschen,\r\nsist en groggbuffé.\r\n\r\nJag är skitfull, däckar först av alla,\r\nmissar festen, men vad gör väl de'?\r\nBlandar hejdlöst öl med gammal filmjölk,\r\nkastar upp på bordspartnen<gender/> breve'.\r\n",
+  "text": "Jag ska festa, ta det lugnt med spriten,\r\nha det roligt utan att va' full.\r\nInte krypa runt med festeliten,\r\nta det sansat för min egen skull.\r\n\r\nFörst en öl i torra strupen,\r\nefter det så kommer supen.\r\nI med vinet, ner med punschen,\r\nsist en groggbuffé.\r\n\r\nJag är skitfull, däckar först av alla,\r\nmissar festen, men vad gör väl de'?\r\nBlandar hejdlöst öl med gammal filmjölk,\r\nkastar upp på bordspartnern<gender/> breve'.\r\n",
   "notes": "Sångarstriden 1987, D-LTH\r\n\r\nPå Konglig Datasektionen är det vanligt att mellansticket upprepas, varpå Gaffeln sjungs som en tredje vers.\r\n\r\n<gender/>Alternativt: bordsdamen/bordsherren",
   "partition": 0,
   "page": "18",
@@ -2028,7 +2028,7 @@
   "meta": "Melodi: Mors lilla Olle\r\nMusik: Alice Tegnér\r\n",
   "text": "Hej du min pangbrud<gender>1</gender>, jag sjunger för dig,\r\nsången till Kvinnan<gender>2</gender>, kom lyssna på mig!\r\nSällan jag sett dig så fager och skär.\r\nVad jag vill säga det är ungefär:\r\n\r\nVad vore livet om kvinnan<gender>2</gender> ej fanns?\r\nJust som en jul utan julljusens glans!\r\nJust som en natt utan stjärnorna små!\r\nJust som en korv utan senapen på!\r\n\r\nDu är min lycka i levnadens natt.\r\nNär jag blir gammal och grinig och matt,\r\ndå ska du vara mitt livs Eau de Vie.\r\nSköterska<gender>3</gender> också tills allt är förbi.\r\n\r\nÅh, du min lycka, min krycka, mitt stöd,\r\nrussin och saffran i vardagens bröd.\r\nVad jag haft roligt, åh, lyckliga jag.\r\nNu ska jag skåla för kvinnan<gender>2</gender>, HURRA!\r\n",
   "partition": 11,
-  "notes": "<gender>1</gender>Alternativt ”brudgum” eller ”snygging”\r\n<gender>2</gender>Alternativt ”mannen” eller ”parntnen”\r\n<gender>3</gender>Alternativt ”Skötare”",
+  "notes": "<gender>1</gender>Alternativt ”snygging” eller ”brudgum”\r\n<gender>2</gender>Alternativt ”Partnern” eller ”Mannen”\r\n<gender>3</gender>Alternativt ”Skötare”",
   "page": "184",
   "5ePage": 184
  },
