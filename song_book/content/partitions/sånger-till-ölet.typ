@@ -1,9 +1,9 @@
 #import "/song_book/template.typ": base-margin, partition-page, song, song-notes
 
-#partition-page[Sånger till Ölet][
+#partition-page[Sånger till ölet][
   #show heading: pad.with(left: 6pt)
   #v(4.2mm)
-  = Sånger till Ölet
+  = Sånger till ölet
   #v(1fr)
   #v(-5pt)
   #align(center, pad(

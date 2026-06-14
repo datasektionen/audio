@@ -1,10 +1,10 @@
 #import "/song_book/template.typ": base-margin, partition-page, song, song-notes
 
-#partition-page[Dagen Efter][
+#partition-page[Dagen efter][
   #show: block.with(width: 100%, breakable: false)
   #show heading: pad.with(left: 6pt)
   #v(4.2mm)
-  = Dagen Efter
+  = Dagen efter
   #v(-4.2mm)
   #align(center, pad(
     x: -base-margin,

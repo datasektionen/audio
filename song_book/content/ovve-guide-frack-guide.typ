@@ -15,7 +15,7 @@
 
   //#title()
 
-  = Guide till Overallen
+  = Guide till overallen
   == Ovven
 
   Overallen, eller Ovven som den ofta kallas, är bland de mest ärofyllda plaggen som en Datalog kan bära. Datasektionens overaller är cerise. Vissa andra missförstår färgen som rosa, röd eller till och med orange, men tro inte på dem. De är bara färgblinda.
@@ -54,7 +54,7 @@
   - Exempel på tvättplatser är: i en sjö, i havet, i en fontän, duschen, eller en mycket stor tvättmaskin.
   - Prylmångleriet ordnar en gemensam ovvetvätt som kallas Plasque varje sommar.
 
-  == Tips & Tricks
+  == Tips & tricks
   - Det ryms mycket i ovvens många fickor, men för att få extra plats kan man med fördel knyta en knut längst ut på ärmarna och sedan förvara större saker i dem.
   - Det finns ett leverantörmärke (I skrivande stund svart, märkt JAC) på vänster bens ficka. Detta märke är din ovveoskuld. Äldre dataloger (och andra overallare) kan försöka ta den från er stackars ovve. En ovveoskuld tar man endast med tänderna. Inga andra hjälpmedel tillåtna.
   - Vill man ytterligare dekorera sin ovve kan man fästa saker som maskotar, capshanddukar (vad är caps? Fråga någon gammal), kapsylöppnare, lasersvärd, osv. osv. på sin ovve.
@@ -78,7 +78,7 @@
   
   #pagebreak()
 
-  = Guide till Högtidsdräkten
+  = Guide till högtidsdräkten
 
   Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette och delar. Denna del tar upp två av de tre plagg som får bäras som högtidsdräkt: frack och balklänning. För information om folkdräkt hänvisas läsaren till godtycklig söktjänst. 
 
