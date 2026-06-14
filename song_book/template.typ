@@ -338,9 +338,16 @@
   [
     #heading(level: 3, data.title) #id-label
     #metadata(data.title) <song-marker>
-    #if "alttitle" in data and data.alttitle != none [
-      #metadata(data.alttitle) <song-marker>
-    ]
+    #if "alttitle" in data and data.alttitle != none {
+      let alt-titles = if type(data.alttitle) == array {
+        data.alttitle
+      } else {
+        (data.alttitle,)
+      }
+      for alt-title in alt-titles [
+        #metadata(alt-title) <song-marker>
+      ]
+    }
 
     #song-meta(parse-text-content(data.meta))
 

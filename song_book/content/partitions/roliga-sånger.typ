@@ -11,14 +11,7 @@
     top: 25pt,
     image(width: 88mm, "/song_book/assets/images/funny.png"),
   ))
-  #insert-virtual-pages(2)
 ]
-
-#song(<portho_s_song>)
-#pagebreak()
-
-#song(<hallen_lutar>)
-#pagebreak()
 
 #song(<gravolsvisa_fran_rengsjo>)
 #pagebreak()
@@ -77,4 +70,11 @@
 
 #song(<systeme_international>, text-first-line-indent: 0pt)
 #song(<systeme_periodique>, text-first-line-indent: 0pt)
+#insert-virtual-pages(2)
+#pagebreak()
+
+#song(<portho_s_song>)
+#pagebreak()
+
+#song(<hallen_lutar>)
 #pagebreak()
