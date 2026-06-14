@@ -1872,21 +1872,21 @@
   "text": "Nu tänker jag bli allra bäst\r\noch bygga upp ett lag\r\nFör jag ska söka och fånga flest\r\noch träna dom var dag\r\n\r\nJag ska resa från stad till stad\r\nefter pokémon\r\nSå får jag se från grad till grad\r\nvar kraften kommer från\r\n\r\nPokémon! (Måste fånga fler)\r\nDet är du och jag\r\nTillsammans blir vi ett lag\r\nPokémon!\r\nÅåh min bästa vän vi räddar världen om igen\r\n\r\nPokémon! (Måste fånga fler)\r\nHelt okej\r\nVi vet hur man klarar sig\r\n\r\nDu lär mig och jag lär dig\r\nP-o-k-é-m-o-n (Måste fånga fler)\r\nJag ska fånga fler\r\nPokémon!\r\n",
   "notes": null
  },
- "portos_visa": {
-  "id": "portos_visa",
-  "title": "Portos visa",
+ "porthos_visa": {
+  "id": "porthos_visa",
+  "title": "Porthos visa",
   "alttitle": "Trippeln",
   "firstline": "Jag vill börja gasqua",
   "meta": "Melodi: You Can’t Get a Man With a Gun\r\nSektion: Data\r\n",
-  "text": "Jag vill börja gasqua. Var faan är min flaska,\r\nvem i helvete stal min butelj?\r\nSka törsten mig tvinga, en TT börja svinga?\r\nNej för fan, bara blunda och svälj!\r\n\r\nVilken smörja, får jag spörja,\r\nvem för fan tror att jag är en älg?\r\n\r\nTill England vi rider och sedan vad det lider,\r\nträffar vi välan på någon pub,\r\noch där ska vi festa, blott dricka av det bästa\r\nutav whisky och portvin, jag tänker gå hårt in\r\nför att smaka på rubb och stubb.\r\n",
+  "text": "Jag vill börja gasqua. Var faan är min flaska,\r\nvem i helvete stal min butelj?\r\nSkall törsten mig tvinga, en TT börja svinga?\r\nNej för fan, bara blunda och svälj!\r\n\r\nVilken smörja, får jag spörja,\r\nvem för fan tror att jag är en älg?\r\n\r\nTill England vi rider och sedan vad det lider,\r\nträffar vi välan på någon pub,\r\noch där ska vi festa, blott dricka av det bästa\r\nutav whisky och portvin, jag tänker gå hårt in\r\nför att smaka på rubb och stubb.\r\n",
   "notes": null,
   "partition": 0,
   "page": "14",
   "5ePage": 14
  },
- "portos_visa_int": {
-  "id": "portos_visa_int",
-  "title": "International Portos Visa",
+ "porthos_visa_int": {
+  "id": "porthos_visa_int",
+  "title": "International Porthos Visa",
   "alttitle": null,
   "firstline": "I wanna start the gasque now",
   "meta": "Melodi: You Can’t Get a Man With a Gun\r\n",
@@ -3402,7 +3402,7 @@
   "title": "Portho's song",
   "alttitle": null,
   "firstline": null,
-  "meta": "Melodi: Portos visa",
+  "meta": "Melodi: Porthos visa",
   "text": "Please start the gasque now\nI'm reaching for my flask now\nAll this waiting is making me think\n\nMy thirst is consuming,\nmy hunger is still fuming\nFor fuck sake, give me something to drink!\n\nAll this mayhem! Please just stop them\nWho the fuck thinks that I am a moose?\n\nTo England on horseback,\nwhile chugging down a six pack\nI am sure that we'll find us a pub\n\nAnd there we will party,\nwith some guy named Marty\nLet's drink whisky and port wine,\nand act like a real swine\nwe'll try all the rubb and the stubb!",
   "notes": null
  },
