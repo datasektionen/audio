@@ -3,7 +3,7 @@
 
 = Pronomen och andra könade ord
 
-Den svenska studentkulturen och de traditioner som hör därtill kan ofta spåras flera decennier och ibland sekler tillbaka i tiden. Så pass gammalt är en stor del av det studentikosa arvet, att när många traditioner uppkom fanns det helt enkelt inga kvinnliga eller ickebinära teknologer. Trots att andelen har ökat råder det i många studentvisor en stark mansnorm, där både sångare, åhörare och andra som nämns i sången antas vara herrar.
+Den svenska studentkulturen och de traditioner som hör därtill kan ofta spåras flera decennier och ibland sekler tillbaka i tiden. Så pass gammalt är en stor del av det studentikosa arvet, att när många traditioner uppkom tilläts helt enkelt inga kvinnliga eller ickebinära bli teknologer. Trots att andelen har ökat råder det i många studentvisor en stark mansnorm, där både sångare, åhörare och andra som nämns i sången antas vara herrar.
 
 Sådana fördomar anses vara otidsenliga, varför detta i många av sångbokens texter har justerats till mer neutrala formuleringar. När det ansågs nödvändigt markerades de ändrade orden med följande symbol: #gender-marker(none). Denna markör följs av en fotnot som förklarar vad det nya ordet ersätter samt alternativ om relevant.
 
