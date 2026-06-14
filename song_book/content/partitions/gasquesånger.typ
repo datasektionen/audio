@@ -92,21 +92,21 @@
 #song(<jag_ser_ni_krokar>)
 #pagebreak()
 
-#song(<kalmarevisan>, text-spacing: 0.204in, add-after-nth-par: (
+#song(<kalmarevisan>, text-spacing: 0.204in, add-after-nth-par: ((
   5,
   pagebreak(),
-))
+),))
 #song(<festen_ska_borjas>)
 #pagebreak()
 
 #song(
   <harjarevisan>,
-  add-after-nth-par: (
+  add-after-nth-par: ((
     3,
     place(bottom + left, footnote-entry[
       #super[⚧]Original: och blir en man från hår till häl.
     ])
-  ),
+  ),),
   override-notes-content: [
     Ur Lundaspexet ”Djingis Khan”, 1954.\
     Endast andra och tredje versen härrör ur spexet ifråga. Den förstas ursprung är okänt.
@@ -119,7 +119,7 @@
 #song(
   <nar_jar_ar_fuller>,
   after-spacing: 0.2in,
-  add-after-nth-par: (2, pagebreak() + v(-1.3mm)),
+  add-after-nth-par: ((2, pagebreak() + v(-1.3mm)),),
 )
 #song(<spritbolaget>, meta-text-spacing: 8pt)
 #pagebreak()

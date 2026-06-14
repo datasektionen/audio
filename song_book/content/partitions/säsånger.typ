@@ -1,4 +1,6 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes
+#import "/song_book/template.typ": (
+  base-margin, continues-on-next-page-inline, partition-page, song, song-notes
+)
 
 #partition-page[Säsånger][
   #show heading: pad.with(left: 6pt)
@@ -25,7 +27,10 @@
 #song(<pippis_sommarvisa>)
 #pagebreak()
 
-#song(<den_blomstertid_nu_kommer>)
+#song(
+  <den_blomstertid_nu_kommer>,
+  add-after-nth-par: ((2, align(right, continues-on-next-page-inline())),),
+)
 #song(<varvindar_friska>)
 #pagebreak()
 
@@ -41,10 +46,17 @@
 #song(<betlehems_stjarna>)
 #pagebreak()
 
-#song(<lucia_ver1>)
+#song(
+  <lucia_ver1>,
+  add-after-nth-par: ((4, align(right, continues-on-next-page-inline())),),
+)
 #song(<nu_ar_det_jul_igen>)
 #pagebreak()
 
-#song(<nu_har_vi_ljus>)
+#block(breakable: false, song(
+  <nu_har_vi_ljus>,
+  text-spacing: 3.4mm,
+  text-notes-spacing: 3.4mm,
+))
 #song(<hej_tomtegubbar>)
 #pagebreak()
