@@ -10,6 +10,8 @@
   #set page(margin: (top: base-margin + 1pt, bottom: base-margin - 1pt))
   #set par(leading: 4pt, spacing: 0.2in)
   #set text(size: 11pt, hyphenate: true)
+  
+  #set list(marker: (sym.bullet, sym.bullet.hyph))
 
   //#title()
 
@@ -20,12 +22,12 @@
 
   == Märken
 
-  + Märken är tyglappar som pryder din ovve.
-    + De kan visa saker som vilken sektion och nämnd du tillhör, vilka event du har varit på, vem du har bytt märken med, och sist men inte minst vad du tycker är roligt.
-    + En ovve utan märken är naken. Det är inte bra, så rappa på och sy!
-    + En naken ovve är fortfarande bättre än ingen ovve.
+  - Märken är tyglappar som pryder din ovve.
+    - De kan visa saker som vilken sektion och nämnd du tillhör, vilka event du har varit på, vem du har bytt märken med, och sist men inte minst vad du tycker är roligt.
+    - En ovve utan märken är naken. Det är inte bra, så rappa på och sy!
+    - En naken ovve är fortfarande bättre än ingen ovve.
 
-  + Det finns vissa märken som har en speciell plats på ovven #text(style: "italic")[(se nästa sida)]:
+  - Det finns vissa märken som har en speciell plats på ovven #text(style: "italic")[(se nästa sida)]:
     + KTH-märket, som  sitter på vänster överarm.
     + Sektionsmärket, som sitter över hjärtat, alltså på vänster sida av bröstet.
     + Årskursmärket, som sitter över hjärtat$#[]^(-1)$, alltså på höger sida av bröstet.
@@ -35,27 +37,27 @@
   #pagebreak()
 
   == Att sy på märken
-  + Märken skall sys för hand. Märken som fästes på andra sätt får ryckas.
-  + Märket ska inte täcka över någon del av Datasigillet på rygggen.
-  + Om ryggmärken önskas ska dessa sys så att stygnen inte går igenom Datasektionens sigill.
-    + Det rekommenderas därför att sy märken på insidan av ryggen, på den nedcabbade överdelen. De heter rumpmärken för en anledning!
-  + För att få märken att sitta hårt rekommenderas stark tråd, vanligtvis benämnt "björntråd". Ett exempel är Gütermann Extra Stark.
+  - Märken skall sys för hand. Märken som fästes på andra sätt får ryckas.
+  - Märket ska inte täcka över någon del av Datasigillet på rygggen.
+  - Om ryggmärken önskas ska dessa sys så att stygnen inte går igenom Datasektionens sigill.
+    - Det rekommenderas därför att sy märken på insidan av ryggen, på den nedcabbade överdelen. De heter rumpmärken för en anledning!
+  - För att få märken att sitta hårt rekommenderas stark tråd, vanligtvis benämnt "björntråd". Ett exempel är Gütermann Extra Stark.
 
   == Ovvenamn
-  + Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
-  + Ovvenamnet ska sitta på overallens högra ben.
-  + Ett hållbart tyg, exempelvis möbeltyg, rekommenderas för att sy på ovvenamn.
+  - Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
+  - Ovvenamnet ska sitta på overallens högra ben.
+  - Ett hållbart tyg, exempelvis möbeltyg, rekommenderas för att sy på ovvenamn.
 
   == Tvätt
 
-  + En ovve tvättas endast med innehåll (d.v.s. dig).
-  + Exempel på tvättplatser är: i en sjö, i havet, i en fontän, duschen, eller en mycket stor tvättmaskin.
-  + Prylmångleriet ordnar en gemensam ovvetvätt som kallas Plasque varje sommar.
+  - En ovve tvättas endast med innehåll (d.v.s. dig).
+  - Exempel på tvättplatser är: i en sjö, i havet, i en fontän, duschen, eller en mycket stor tvättmaskin.
+  - Prylmångleriet ordnar en gemensam ovvetvätt som kallas Plasque varje sommar.
 
   == Tips & Tricks
-  + Det ryms mycket i ovvens många fickor, men för att få extra plats kan man med fördel knyta en knut längst ut på ärmarna och sedan förvara större saker i dem.
-  + Det finns ett leverantörmärke (I skrivande stund svart, märkt JAC) på vänster bens ficka. Detta märke är din ovveoskuld. Äldre dataloger (och andra overallare) kan försöka ta den från er stackars ovve. En ovveoskuld tar man endast med tänderna. Inga andra hjälpmedel tillåtna.
-  + Vill man ytterligare dekorera sin ovve kan man fästa saker som maskotar, capshanddukar (vad är caps? Fråga någon gammal), kapsylöppnare, lasersvärd, osv. osv. på sin ovve.
+  - Det ryms mycket i ovvens många fickor, men för att få extra plats kan man med fördel knyta en knut längst ut på ärmarna och sedan förvara större saker i dem.
+  - Det finns ett leverantörmärke (I skrivande stund svart, märkt JAC) på vänster bens ficka. Detta märke är din ovveoskuld. Äldre dataloger (och andra overallare) kan försöka ta den från er stackars ovve. En ovveoskuld tar man endast med tänderna. Inga andra hjälpmedel tillåtna.
+  - Vill man ytterligare dekorera sin ovve kan man fästa saker som maskotar, capshanddukar (vad är caps? Fråga någon gammal), kapsylöppnare, lasersvärd, osv. osv. på sin ovve.
 
   == Andra sektioners sektionsplagg
 
@@ -100,27 +102,27 @@
   == Frack
   === Lista över frackens delar
   Ett frack har väldigt många delar och detaljer som man måste ha koll på. Nedan följer en lista. Listan är i den ordning som blir lättast när man ska sätta på fracken. Datalogen kan använda denna som handledning eller inköpslista.
-  + Frackskjorta
-  + Strumpor
-  + Bröst- och manschettknappar
-  + Fluga
-  + Frackbyxor
-  + Hängslen
-  + Frackväst
-  + Ev. frackband
-  + Ev. fickur
-  + Frackkavaj
-  + Pins och (Näsduk eller ev. medaljer)
-  + Lackskor
-  + Schmecken.
+  - Frackskjorta
+  - Strumpor
+  - Bröst- och manschettknappar
+  - Fluga
+  - Frackbyxor
+  - Hängslen
+  - Frackväst
+  - Ev. frackband
+  - Ev. fickur
+  - Frackkavaj
+  - Pins och (Näsduk eller ev. medaljer)
+  - Lackskor
+  - Schmecken.
   === Färger och material
-  + Frackskjorta och flugan ska vara vita.
-  + Västen är vanligtvis vit (med vissa undantag).
-  + Frackskjorta, väst, och flugan ska ha samma material.
-  + Frackkavaj och frackbyxor ska vara svarta eller djupt midnattsblå (nästan svarta).
-  + Frackkavaj och -byxor ska ha samma material.
-  + Strumpor ska vara svarta.
-  + Frackskor ska helst vara lackskor eller finskor i läder.
+  - Frackskjorta och flugan ska vara vita.
+  - Västen är vanligtvis vit (med vissa undantag).
+  - Frackskjorta, väst, och flugan ska ha samma material.
+  - Frackkavaj och frackbyxor ska vara svarta eller djupt midnattsblå (nästan svarta).
+  - Frackkavaj och -byxor ska ha samma material.
+  - Strumpor ska vara svarta.
+  - Frackskor ska helst vara lackskor eller finskor i läder.
   === Andra detaljer
   Nedan följer några mindre detaljer som kan vara bra att ha koll på.
   - Man ska aldrig ta av frackkavajen även om det är varmt. Skjortan är tunn och västen saknar rygg för en anledning.
