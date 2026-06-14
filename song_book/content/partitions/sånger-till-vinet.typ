@@ -1,10 +1,10 @@
 #import "/song_book/template.typ": base-margin, partition-page, song, song-notes
 
 // Title page
-#partition-page[Sånger till Vinet][
+#partition-page[Sånger till vinet][
   #show heading: pad.with(left: 6pt)
   #v(4.2mm)
-  = Sånger till Vinet
+  = Sånger till vinet
   #v(1fr)
   #v(-5pt)
   #align(center, pad(
