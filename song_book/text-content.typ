@@ -64,9 +64,9 @@
 /// `--` and `---` are converted to en and em dashes respectively.
 ///
 /// - string (str):
-/// - add-after-nth-par (none|array): If set, should be an array containing an
-///   index and content. That content will be inserted after the paragraph with
-///   that index (zero-indexed).
+/// - add-after-nth-par (none|array): If set, should be an array of arrays
+///   containing an index and content. Each content will be inserted after the
+///   paragraph with it's corresponding index (zero-indexed).
 /// -> content
 #let parse-text-content(string, add-after-nth-par: none) = {
   // The website use more than two consecutive line breaks at some places to
@@ -99,8 +99,12 @@
     }
 
     block(breakable: false, par(parse-basic-html(string)))
-    if (add-after-nth-par != none and index == add-after-nth-par.at(0)) {
-      add-after-nth-par.at(1)
+    if (add-after-nth-par != none and index in add-after-nth-par.map(pair => pair.at(0))) {
+      for (current-index, content) in add-after-nth-par {
+        if index == current-index {
+          content
+        }
+      }
     }
   }
 }

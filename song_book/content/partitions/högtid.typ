@@ -1,4 +1,7 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes
+#import "/song_book/template.typ": (
+  base-margin, insert-virtual-pages, partition-page, skip-pages, song,
+  song-notes
+)
 
 #partition-page[Högtid][
   #show: block.with(width: 100%, breakable: false)
@@ -17,10 +20,13 @@
 #pagebreak()
 
 #song(<sang_till_norden>)
+#insert-virtual-pages(1)
+#pagebreak()
+
+#box(song(<kungssangen>, text-notes-spacing: 9pt))
 #pagebreak()
 
 #song(<o_gamla_klang>)
 #pagebreak()
 
-#box(song(<kungssangen>, text-notes-spacing: 9pt))
-#pagebreak()
+#skip-pages(1)

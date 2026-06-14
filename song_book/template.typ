@@ -284,10 +284,10 @@
 ///   extra space between characters.
 /// - after-spacing: Override the space after the end of the song and the next
 ///   one.
-/// - add-after-nth-par (none|tuple): If set, should be an array containing an
-///   index and content. That content will be inserted after the paragraph with
-///   that index (zero-indexed). Is used for edge-cases where the original PDF
-///   has manually adjusted the layout in the middle of a song.
+/// - add-after-nth-par (none|array): If set, should be an array of arrays
+///   containing an index and content. Each content will be inserted after the
+///   paragraph with it's corresponding index (zero-indexed). Is used for
+///   edge-cases where the layout needs adjustment in the middle of a song.
 /// - override-text-content (none|content): If set, replaces the text content
 ///   with the provided content, instead of reading it from "songs.json".
 /// - override-notes-content (none|content): If set, replaces the notes content
@@ -381,4 +381,18 @@
 #let footnote-entry(body) = {
   set text(size: 10pt, style: "italic")
   body
+}
+
+/// Displays the "fortsätter på nästa sida..." text. This is separated since
+/// for some songs it's more elegant to make this text align to the bottom of
+/// the last paragraph.
+#let continues-on-next-page-inline() = {
+  text(size: 10pt)[_fortsätter på nästa sida..._]
+}
+
+/// Displays the "fortsätter på nästa sida..." text, aligned to the bottom right
+/// of the page.
+#let continues-on-next-page(dx: -4mm, dy: 4mm) = {
+  
+  place(bottom + right, dx: dx, dy: dy, continues-on-next-page-inline())
 }

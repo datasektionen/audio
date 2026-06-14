@@ -1,4 +1,7 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, insert-virtual-pages
+#import "/song_book/template.typ": (
+  base-margin, continues-on-next-page, partition-page, song, song-notes,
+  insert-virtual-pages
+)
 
 #partition-page[Nubbevisor][
   #show: block.with(width: 100%, breakable: false)
@@ -38,6 +41,7 @@
 #song(<can_can>)
 #pagebreak()
 
+#continues-on-next-page()
 #song(<om_cykling>, text-spacing: 13pt)
 #song(<mera_jarn>)
 #pagebreak()
@@ -71,6 +75,7 @@
 #pagebreak()
 
  #text(size: subheader-size)[Måsen]
+#continues-on-next-page()
 #song(<masen>)
 #song(<datalogen>)
 #pagebreak()

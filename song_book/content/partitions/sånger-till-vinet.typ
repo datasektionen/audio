@@ -1,4 +1,6 @@
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes
+#import "/song_book/template.typ": (
+  base-margin, continues-on-next-page, partition-page, song, song-notes
+)
 
 // Title page
 #partition-page[Sånger till vinet][
@@ -75,6 +77,7 @@
 #song(<imsig_vimsig>)
 #pagebreak()
 
+#continues-on-next-page()
 #song(<fredmans_sang_no_35>)
 #pagebreak()
 
