@@ -10,20 +10,21 @@
   // original PDF...
   #set page(margin: (top: base-margin + 1pt, bottom: base-margin - 1pt))
   #set par(leading: 4pt, spacing: 0.2in)
-  #set text(size: 11pt)
+  #set text(size: 11pt, hyphenate: true)
 
   = Förord
 
-  Hej och välkommen till den femte upplagan av #box[/dev/audio], Konglig Data-?sektionens Sångbok. Efter över två års arbete och en pandemi så kan du äntligen hålla den här boken i dina händer!
+  Hej och välkommen till den sjunde upplagan av #box[/dev/audio], Konglig Data-?sektionens Sångbok. Efter en ytterst intensiv termin kan du härmed läsa denna sångbok!
 
-  Det har självklart inneburit ett stort arbete och jag vill ge ett stort tack till alla som hjälpts åt för att göra detta möjligt. Listan med alla namn är för lång för att ha här och finns därför i slutet av boken! Jag vill ge ett speciellt tack till Erik Nordlöf och Julia Wang som, utöver annat, har stöttat detta arbete enormt som mina efterträdande prylmånglare!
+  Det vi uppnått under denna vår hade inte varit möjligt utan den grupp engagerade själar som kan återfinnas i slutet av boken, alla dessa förtjänar de största utav tack. Jag vill även rikta ett speciellt tack till Rasmus Söderhielm och Alvin Yang i deras särskilt enorma engagemang i skapandet av denna sångbok, utan dessa två hade projektet inte kunnat färdigställas eller inte ens påbörjas. 
 
-  Om du hittar en bugg i boken, maila #link("mailto:prylis@datasektionen.se") så kanske du får ett exklusivt märke som tack.
+  Om du hittar en bugg i boken, maila #box[#link("mailto:prylis@datasektionen.se")] så kanske du får ett exklusivt märke som tack.
 
-  11 Mars 2022\
-  Max Wippich\
-  Tricesimus Sextus\
-  Prylmånglaren 2020, Sångledare 22/23\
+  14 juni 2026\
+  David Lindkvist\
+  Quadragesimus Tertius\
+  Sångboksansvarig 2026, PUNG 26/27\
+
 
   #insert-virtual-pages(1)
   #pagebreak()
