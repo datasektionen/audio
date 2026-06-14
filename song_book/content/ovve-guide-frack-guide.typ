@@ -43,7 +43,7 @@
 
   == Att sy på märken
   - Märken skall sys för hand. Märken som fästes på andra sätt får ryckas.
-  - Märket ska inte täcka över någon del av Datasigillet på rygggen.
+  - Märket ska inte täcka över någon del av Datasigillet på ryggen.
   - Om ryggmärken önskas ska dessa sys så att stygnen inte går igenom Datasektionens sigill.
     - Det rekommenderas därför att sy märken på insidan av ryggen, på den nedcabbade överdelen. De heter rumpmärken för en anledning!
   - För att få märken att sitta hårt rekommenderas stark tråd, vanligtvis benämnt "björntråd". Ett exempel är Gütermann Extra Stark.
@@ -89,7 +89,7 @@
   Till högtidsdräkt bör Schmeck bäras.
 
   Schmecken har en svart tofs som fästes på kroken på dess högra sida.
-  På schmecken ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise.
+  På schmecken ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise och köpes från prylmångleriet.
 
   THS-symbolen på schmeckens band kan med fördel fästas på följande sätt:
   + Böj upp symbolens ben med en liten spetsig tång.
