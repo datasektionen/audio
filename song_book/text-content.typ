@@ -37,6 +37,7 @@
       "b": strong,
       "i": text.with(style: "italic"),
       "sup": super,
+      "del": strike,
       // Custom element
       "gender": gender-marker,
     )
