@@ -44,7 +44,7 @@
  "angbaten": {
   "id": "angbaten",
   "title": "Ångbåten",
-  "alttitle": "Å så kommer det…",
+  "alttitle": ["Å så kommer det…", "Ubåten"],
   "firstline": "Å så kommer det en ångbåt",
   "meta": "Alternativa titlar: Å så kommer det…, Ubåten\r\nMelodi: Jazzgossen\r\n",
   "text": "Å så kommer det en ångbåt,\r\nsom säger:\r\nTUUUUUUUUUUUUUUUUUUT.\r\n\r\nÅ så kommer det en ubåt,\r\nsom säger:\r\n\"Gurgeliblurgeliglur\"",
@@ -164,9 +164,9 @@
  "bredbandshymn": {
   "id": "bredbandshymn",
   "title": "Bredbandshymn",
-  "alttitle": null,
+  "alttitle": "En tråd att stilla bedja om",
   "firstline": "Allt fler numera",
-  "meta": "Melodi: Sovjethymnen (Alexander Alexandrov)\r\nText: Henrik Eriksson\r\nAlternativ titel: En tråd att stilla bedja om\r\n",
+  "meta": "Alternativ titel: En tråd att stilla bedja om\r\nMelodi: Sovjethymnen (Alexander Alexandrov)\r\nText: Henrik Eriksson\r\n",
   "text": "Allt flera numera\r\nvill telegrafera.\r\nSnart sprängs tråden längs\r\nvilken alla nu trängs.\r\nDen optiska fiber\r\nav grövre kaliber\r\nom vilken nu vi ber\r\när framtidens tråd.\r\n\r\nVi går i ledband till Jonas Birgersson, HEJ!\r\nBredband får inte fattas nån, NEJ!\r\nDatateknik är vår framtidsfabrik.\r\nFör ska det chattas i taski' ASCII-kod\r\nfattas det några megabaud.\r\nVärlden har råd\r\nmed en tjockare tråd!\r\n",
   "notes": "Dataspelet 1999, ”Hermans historia” eller ”…och kungen blev\r\nnaturligtvis rasande”, Datasektionen KTH.\r\n",
   "partition": 1,
@@ -187,8 +187,8 @@
  },
  "bruces_philosophers_song": {
   "id": "bruces_philosophers_song",
-  "title": "Bruces' Philosophers Song",
-  "alttitle": null,
+  "title": "Bruces’ Philosophers Song",
+  "alttitle": "The Philosopher’s Song",
   "firstline": "Immanuel Kant was a real pissant",
   "meta": "Alternativ titel: Bruces' song\r\nAlternativ titel 2: The Philosophy Song\r\nAlternativ titel 3: The Philosopher’s Song\r\nMelodi: Bruces' Philosophers Song\r\nText och Musik: Eric Idle\r\n",
   "text": "Immanuel Kant was a real pissant\r\nwho was very rarely stable.\r\nHeidegger, Heidegger was boozy beggar\r\nwho could think you under the table.\r\nDavid Hume could out-consume\r\nWilhelm Friedrich Hegel,\r\nand Wittgenstein was a beery swine\r\nwho was just as schloshed as Schlegel.\r\n\r\nThere’s nothing Nietzsche couldn’t teach ya\r\n’bout the raising of the wrist.\r\nSocrates, himself, was permanently pissed.\r\n\r\nJohn Stuart Mill, of his own free will,\r\non half a pint of shandy was particularly ill.\r\nPlato, they say, could stick it away,\r\nhalf a crate of whisky every day.\r\nAristotle, Aristotle was a bugger for the bottle.\r\nHobbes was fond of his dram,\r\nand René Descartes was a drunken fart,\r\n“I drink, therefore I am.”\r\n\r\nYes, Socrates, himself, is particularly missed.\r\nA lovely little thinker, but a bugger when he’s pissed!\r\n",
@@ -750,11 +750,11 @@
  },
  "gass_te_dej": {
   "id": "gass_te_dej",
-  "title": "Gäss te' dej",
+  "title": "Gäss te’ dej",
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: Yesterday\r\nText: Hans Alfredson, Tage Danielsson\r\nMusik: Paul McCartney\r\n",
-  "text": "Gäss te' dej\r\nJag vill giva nå'ra gäss te' dej.\r\nOm du bara säger yes te' mej\r\nså ger jag nå'ra gäss te' dej.\r\n\r\nEster, dej -\r\ngillar jag; om blott du fäster dej\r\nvid en så'n som vill ge gäss te' dej,\r\nså kommer jag med präst te' dej.\r\n\r\nPärlor får du ej av en fattiglapp som mej.\r\nÄndå vill jag ge som en ringa gest te' dej,\r\nyeah, yeah, yeah…\r\n\r\nGäss te' dej,\r\nde' ä' min delikatess te' dej.\r\nDen som kunde ge en häst te' dej,\r\nmen jag har bara gäss te' dej.\r\nJag har bara gäss te' dej.\r\n",
+  "text": "Gäss te’ dej\r\nJag vill giva nå’ra gäss te’ dej.\r\nOm du bara säger yes te’ mej\r\nså ger jag nå’ra gäss te’ dej.\r\n\r\nEster, dej -\r\ngillar jag; om blott du fäster dej\r\nvid en så’n som vill ge gäss te’ dej,\r\nså kommer jag med präst te’ dej.\r\n\r\nPärlor får du ej av en fattiglapp som mej.\r\nÄndå vill jag ge som en ringa gest te’ dej,\r\nyeah, yeah, yeah…\r\n\r\nGäss te’ dej,\r\nde’ ä’ min delikatess te’ dej.\r\nDen som kunde ge en häst te’ dej,\r\nmen jag har bara gäss te’ dej.\r\nJag har bara gäss te’ dej.\r\n",
   "notes": null,
   "partition": 11,
   "page": "168",
@@ -956,7 +956,7 @@
  "idas_sommarvisa": {
   "id": "idas_sommarvisa",
   "title": "Idas sommarvisa",
-  "alttitle": null,
+  "alttitle": "Du ska inte tro det blir sommar",
   "firstline": "Du ska inte tro det blir sommar",
   "meta": "Alternativ titel: Du ska inte tro det blir sommar\r\nMelodi: Idas sommarvisa\r\nText: Astrid Lindgren\r\nMusik: Georg Riedel\r\n",
   "text": "Du ska inte tro det blir sommar\r\nifall inte nån sätter fart\r\npå sommar’n och gör lite somrigt.\r\nDå kommer blommorna snart.\r\nJag gör så att blommorna blommar,\r\njag gör hela kohagen grön,\r\noch nu så har sommaren kommit\r\nför jag har just tagit bort snön.\r\n\r\nJag gör mycket vatten i bäcken,\r\nså där så det hoppar och far.\r\nJag gör fullt med svalor som flyger\r\noch myggor som svalorna tar.\r\nJag gör löven nya på träden\r\noch små fågelbon här och där.\r\nJag gör himlen vacker om kvällen\r\nför jag gör den alldeles skär.\r\n\r\nOch smultron det gör jag åt barna,\r\nför det tycker jag dom ska få\r\noch andra små roliga saker\r\nsom passar när barna är små.\r\nOch jag gör så roliga ställen\r\ndär barna kan springa omkring.\r\nDå blir barna fulla med sommar\r\noch bena blir fulla med spring.\r\n",
@@ -1042,10 +1042,10 @@
  },
  "jag_vill_va_som_du": {
   "id": "jag_vill_va_som_du",
-  "title": "Jag vill ju va' som du",
+  "title": "Jag vill ju va’ som du",
   "alttitle": null,
   "firstline": "Jag kungen över adobe är",
-  "meta": "Melodi: Jag vill ju va' som du\r\nText: Gabriella Dalman, Martin Lindberg",
+  "meta": "Melodi: Jag vill ju va’ som du\r\nText: Gabriella Dalman, Martin Lindberg",
   "text": "Jag kungen över adobe är\nGrafk, det är min grej\nMin frontend är ju snyggast här\nmen koden knasar sig\nJag drömmer om att bli en datalog\noch tänka helt i kod\nSå hör min bön och ge mig lön\nFör ni har ju faktiskt råd\n\nObidoo jag vill ju va som du\nJag vill va rik som du, skriva kod som du, duuu\nDet vill jag nu\nEn median som jag, vill lära mig bli en datalog!\n\nMästaren av alla språk\nsom Java, Pearl och C\nFrån salt och hash till git och bash\nMen jag vill va någons sked\nTänk om jag var en median\nmed grafisk kompetens\nMed frack och stil, en snygg profil\nJag vill veta hur det känns\n\nObidoo jag vill ju va som du\nFölja en trend som du, designa webb som du, duuu.\nDet vill jag nu\nEn datalog som jag, vill lära mig bli en median!",
   "notes": "Skriven tillsammans med både data- och medianØllan under mottagningen 2019.",
   "partition": 1,
@@ -1297,7 +1297,7 @@
  "kungssangen": {
   "id": "kungssangen",
   "title": "Kungssången",
-  "alttitle": null,
+  "alttitle": "Ur svenska hjärtans djup en gång",
   "firstline": "Ur svenska hjärtans djup en gång",
   "meta": "Alternativ titel: Ur svenska hjärtans djup en gång\r\nText: Carl Wilhelm August Strandberg\r\nMusik: Otto Lindblad\r\n",
   "text": "Ur svenska hjärtans djup en gång\r\nen samfälld och en enkel sång,\r\nsom går till kungen fram!\r\nVar honom trofast och hans ätt,\r\ngör kronan på hans hjässa lätt,\r\noch all din tro till honom sätt,\r\ndu folk av frejdad stam!\r\n\r\nDu himlens Herre, med oss var,\r\nsom förr du med oss varit har,\r\noch liva på vår strand\r\ndet gamla lynnets art igen\r\nhos sveakungen och hans män.\r\nOch låt din ande vila än\r\nutöver nordanland!\r\n",
@@ -1369,7 +1369,7 @@
  "lilla_manasse": {
   "id": "lilla_manasse",
   "title": "Lilla Manasse",
-  "alttitle": "Egolitär brännvinsvisa",
+  "alttitle": ["Egolitär brännvinsvisa", "Mera brännvin i glasen", "Mera Skåne"],
   "firstline": "Nu är det dags att taga supen",
   "meta": "Alternativ titel: Egolitär brännvinsvisa, Mera brännvin,\r\nMera brännvin i glasen, Mera Skåne\r\nMelodi: Internationalen (Pierre Degeyter)\r\nText: Hans Dalborg\r\n",
   "text": "Nu är det dags att taga supen,\r\nden stärker varje svag fysik.\r\nDen rinner ner igenom strupe,\r\nriver gott som en tolv tums spik.\r\nDen är vårt hopp mot gula faran,\r\nvår tröst vid varje bleklagd sorg.\r\nDen stärker oss mot mask i magen,\r\nstarkare än Sveaborg.\r\n\r\nMera brännvin i glasen,\r\nmera glas på vårt bord!\r\nMera bord på kalasen,\r\nmer kalas på vår jord!\r\nMera jordar kring månen,\r\nmera månar kring Mars!\r\nFlera marscher till Skåne,\r\nmera Skåne gu’bevars!\r\n",
@@ -1393,7 +1393,7 @@
  "lucia_ver1": {
   "id": "lucia_ver1",
   "title": "Luciasången",
-  "alttitle": null,
+  "alttitle": ["Sankta Lucia", "Natten går tunga fjät"],
   "firstline": "Natten går tunga fjät",
   "meta": "Alternativ titel: Sankta Lucia\r\nAlternativ titel 2: Natten går tunga fjät\r\nMelodi: Traditionell\r\nText: Arvid Rosén",
   "text": "Natten går tunga fjät\r\nrunt går och stuva,\r\nkring jord som sol’n förlät\r\nskuggorna ruva.\r\n\r\n||: Då i vårt mörka hus\r\nstiger med tända ljus\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n\r\nNatten var stor och stum.\r\nNu hör det svingar\r\ni alla tysta rum\r\nsus som av vingar.\r\n\r\n||: Se, på vår tröskel står,\r\nvitklädd, med ljus i hår,\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n\r\n”Mörkret skall flykta snart\r\nur jordens dalar.”\r\nSå hon ett underbart\r\nord till oss talar.\r\n\r\n||: Dagen skall åter ny\r\nstiga ur rosig sky,\r\nSankta Lucia,\r\nSankta Lucia. :||\r\n",
@@ -1670,9 +1670,9 @@
  "lyft_ditt_valforsedda_glas": {
   "id": "lyft_ditt_valforsedda_glas",
   "title": "Lyft ditt välförsedda glas",
-  "alttitle": null,
+  "alttitle": "Nu har grabbarna kalas",
   "firstline": "Lyft ditt välförsedda glas",
-  "meta": "Alternativ titel: Lyft ditt välförsedda glas  \r\nMelodi: Ding Dong Merrily on High (Jehan Tabourot)\r\n",
+  "meta": "Alternativ titel: Nu har grabbarna kalas\r\nMelodi: Ding Dong Merrily on High (Jehan Tabourot)\r\n",
   "text": "Lyft ditt välförsedda glas;\r\ndet är en härlig börda!\r\nNu har polarna kalas;\r\nI morgon är det lörda'!\r\n\r\n||: Dinge dinge dinge\r\ndinge dinge dinge\r\ndinge dinge dinge ding dong dong.\r\nVi segern snart ska skörda! :||\r\n\r\nSätt nu glaset till din mun.\r\nSe Döden på dig väntar.\r\nNu har polarna kalas,\r\nhör Liemannen flämtar.\r\n\r\n||: Dinge dinge dinge\r\ndinge dinge dinge\r\ndinge dinge dinge ding dong dong.\r\nBegravningsklockor klämtar! :||\r\n",
   "notes": null,
   "partition": 8,
@@ -1799,7 +1799,7 @@
  "om_haga": {
   "id": "om_haga",
   "title": "Om Haga",
-  "alttitle": null,
+  "alttitle": ["Fjäriln vingad syns på Haga", "Fredmans sång no. 64"],
   "firstline": "Fjäriln vingad syns på Haga",
   "meta": "Alternativ titel: Fjäriln vingad\r\nAlternativ titel 2: Fjäriln vingad syns på Haga\r\nAlternativ titel 3: Fredmans sång no. 64\r\nMelodi: Traditionell\r\nText och Musik: Carl Michael Bellman\r\n",
   "text": "Fjäriln vingad syns på Haga,\r\nmellan dimmors frost och dun\r\nsig sitt gröna skjul tillaga\r\noch i blomman sin paulun.\r\nMinsta kräk i kärr och syra,\r\nnyss av solens värma väckt,\r\ntill en ny högtidlig yra\r\neldas vid sefirens fläkt.\r\n\r\nHaga i ditt sköte röjes\r\ngräsets brodd och gula plan.\r\nStolt i dina rännlar höjes\r\ngungande den vita svan.\r\nLängst ur skogens glesa kamrar\r\nhöras täta återskall\r\nän från den graniten hamrar,\r\nän från yx i björk och tall.\r\n\r\nSe Brunnsvikens små najader\r\nhöja sina gyllne horn,\r\noch de frusande kaskader\r\nsprutas över Solna torn.\r\nUnder skygd av välvda stammar\r\npå den väg man städad ser,\r\nfålen yvs och hjulen dammar,\r\nbonden milt åt Haga ler.\r\n\r\nVad gudomlig lust att röna\r\ninom en så ljuvlig park,\r\ndå man hälsad av sin sköna\r\nögnas av en mild monark!\r\nVarje blick hens öga skickar,\r\nlockar tacksamhetens tår;\r\nrörd och tjust av dessa blickar,\r\nsjälv den trumpne glättig går.\r\n",
@@ -2011,7 +2011,7 @@
  "sang_till_norden": {
   "id": "sang_till_norden",
   "title": "Sång till Norden",
-  "alttitle": "Du gamla, Du fria",
+  "alttitle": ["Du gamla, Du fria", "Till svenska fosterjorden"],
   "firstline": null,
   "meta": "Alternativ titel: Du gamla, Du fria\r\nAlternativ titel 2: Till svenska fosterjorden\r\nMelodi: Traditionell\r\nText: Richard Dybeck",
   "text": "Du gamla, Du fria, Du fjällhöga nord,\r\nDu tysta, Du glädjerika sköna!\r\nJag hälsar Dig, vänaste land uppå jord,\r\n||: Din sol, Din himmel, Dina ängder gröna. :||\r\n\r\nDu tronar på minnen från fornstora da’r,\r\ndå ärat Ditt namn flög över jorden.\r\nJag vet att Du är och Du* blir vad Du var.\r\n||: Ja, jag vill leva, jag vill dö i Norden. :||\r\n",
@@ -2242,7 +2242,7 @@
   "title": "Système Périodique",
   "alttitle": null,
   "firstline": "Sn As B Pt Br",
-  "meta": "Melodi: Studentsången\r\nText: Tobias Hjelm (Undevicesimus) samt  Clara Skogsberg (F01)\r\nSektion: Kemi\r\n",
+  "meta": "Melodi: Studentsången\r\nText: Tobias Hjelm (Undevicesimus) samt Clara Skogsberg (F01)\r\nSektion: Kemi\r\n",
   "text": "Sn As B Pt Br\r\nNa Tl Pr\r\nP Pd Ni Cr\r\nEr I Xe Nd\r\nGd, Hg Pb Kr\r\nPa, Fe Bi Cl Rn\r\nV C Se Mo\r\n||: Al Si Ar :||\r\nU!\r\n",
   "notes": null,
   "partition": 11,
@@ -2303,7 +2303,7 @@
  "the_moose": {
   "id": "the_moose",
   "title": "The Moose",
-  "alttitle": null,
+  "alttitle": "Älgen",
   "firstline": "Det satt en älg i en klyvartopp",
   "meta": "Melodi: Måsen",
   "text": "Det satt en älg i en klyvartopp,\r\nförklädd i älgjaktens månad.\r\nHen var befjädrad till horn och kropp.\r\nJa, skeppar’n blev rätt förvånad.\r\n”Jag är en mås, go’a skeppar’n”, ljög den\r\nförklädda älgen. Därefter flög den.\r\nMjukt föll den sen,\r\npå skepparen.\r\n",
@@ -2548,7 +2548,7 @@
  "vingklippta_masen": {
   "id": "vingklippta_masen",
   "title": "Den vingklippta måsen",
-  "alttitle": null,
+  "alttitle": "Vingklippta måsen",
   "firstline": null,
   "meta": "Alternativ titel: Vingklippta måsen\r\nMelodi: Måsen",
   "text": "Det satt en mås på en klyvarbom\r\n- jag vill ha O.P.!\r\n",
@@ -2665,6 +2665,7 @@
  "nar_examen_viskar_mitt_namn": {
   "id": "nar_examen_viskar_mitt_namn",
   "title": "När examen viskar mitt namn",
+  "alttitle": "Examen viskar mitt namn",
   "firstline": "Jag har kämpat och pluggat",
   "meta": "Melodi: När vindarna viskar mitt namn\r\nText: Sandra Reinecke och Sara Videfors",
   "text": "Jag har kämpat och pluggat\r\nOch slitit mitt hår\r\nMen ändå är jag inte klar\r\nDet känns som examen är långt härifrån\r\nJag har bara en kurs kvar\r\nSå ge mig min styrka\r\nGe mig kraft att få klara mitt E\r\nGe mig en väg att gå\r\nOch så kanske så blir det succé\r\nVill ni att jag tentar om fler-varren igen?*\r\nFår det E jag kämpat för\r\nHela min studietid\r\nGe mig ett jävla E <i>(lång och hög)</i>",
@@ -2866,7 +2867,7 @@
  },
  "hallen_lutar": {
   "id": "hallen_lutar",
-  "title": "Hallen Lutar",
+  "title": "Hallen lutar",
   "firstline": "Jag minns knappt hur jag tog mig hem,",
   "meta": "Melodi: Hallelujah (Leonard Cohen)",
   "text": "Jag minns knappt hur jag tog mig hem,\r\nklockan var minst kvart i fem\r\nnär jag stod utanför min egen våning.\r\nJag lyfte upp min nyckelring,\r\noch haja nästan ingenting\r\nnär dörren öppnas står min hall och lutar.\r\n\r\nHallen luta, hallen luta,\r\nhallen luta, hallen lu-u-u-u-ta\r\n\r\nJag minns knappt julen åttitre\r\nmin bror var där å syster me,\r\nå snyggingen i rött satt alld’les breve.\r\nVi drack vår glögg och pratade,\r\nmin dejt blev trött och schappade.\r\nSå jag fick mera tid för han den röde.\r\n\r\nHan i luva, han i luva,\r\nhan i luva, han i lu-u-u-u-va\r\n\r\nFredagsmys har mer att ge\r\nän räkor, snask och en TV.\r\nMan kan ju hyra film och DVD.\r\nÅ vill man ha nåt riktigt bra,\r\nså kan man faktiskt bara ta,\r\nen film som vunnit Oscar åt en Berry:\r\n\r\nHalle Berry, Halle Berry,\r\nHalle Berry, Halle Be-e-e-e-rry",
