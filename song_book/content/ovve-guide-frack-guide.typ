@@ -21,17 +21,22 @@
   Overallen, eller Ovven som den ofta kallas, är bland de mest ärofyllda plaggen som en Datalog kan bära. Datasektionens overaller är cerise. Vissa andra missförstår färgen som rosa, röd eller till och med orange, men tro inte på dem. De är bara färgblinda.
 
   == Märken
+  Märken är tyglappar som pryder din ovve.
+  - De kan visa saker som vilken sektion och nämnd du tillhör, vilka event du har varit på, vem du har bytt märken med, och sist men inte minst vad du tycker är roligt.
+  - En ovve utan märken är naken. Det är inte bra, så rappa på och sy!
+  - En naken ovve är fortfarande bättre än ingen ovve.
 
-  - Märken är tyglappar som pryder din ovve.
-    - De kan visa saker som vilken sektion och nämnd du tillhör, vilka event du har varit på, vem du har bytt märken med, och sist men inte minst vad du tycker är roligt.
-    - En ovve utan märken är naken. Det är inte bra, så rappa på och sy!
-    - En naken ovve är fortfarande bättre än ingen ovve.
-
-  - Det finns vissa märken som har en speciell plats på ovven #text(style: "italic")[(se nästa sida)]:
-    + KTH-märket, som  sitter på vänster överarm.
-    + Sektionsmärket, som sitter över hjärtat, alltså på vänster sida av bröstet.
-    + Årskursmärket, som sitter över hjärtat$#[]^(-1)$, alltså på höger sida av bröstet.
-    + NØlleraden, som är de märken som erhölls under mottagningen ska sitta i en vertikal rad på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket ska sitta över nØlleraden.
+  == Speciella märken
+  Det finns vissa märken som har en speciell plats på ovven #text(style: "italic")[(se nästa sida)]:
+  + KTH-märket, som  sitter på vänster överarm.
+  + Sektionsmärket, som sitter över hjärtat, alltså på vänster sida av bröstet.
+  + Årskursmärket, som sitter över hjärtat$#[]^(-1)$, alltså på höger sida av bröstet.
+  + NØlleraden, som är de märken som erhölls under mottagningen ska sitta i en vertikal rad på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket ska sitta över nØlleraden.
+  
+  == Ovvenamn
+  - Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
+  - Ovvenamnet ska sitta på overallens högra ben.
+  - Ett hållbart tyg, exempelvis möbeltyg, rekommenderas för att sy på ovvenamn.
 
   \[Placera en infographic på overallen här\]
   #pagebreak()
@@ -42,11 +47,6 @@
   - Om ryggmärken önskas ska dessa sys så att stygnen inte går igenom Datasektionens sigill.
     - Det rekommenderas därför att sy märken på insidan av ryggen, på den nedcabbade överdelen. De heter rumpmärken för en anledning!
   - För att få märken att sitta hårt rekommenderas stark tråd, vanligtvis benämnt "björntråd". Ett exempel är Gütermann Extra Stark.
-
-  == Ovvenamn
-  - Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
-  - Ovvenamnet ska sitta på overallens högra ben.
-  - Ett hållbart tyg, exempelvis möbeltyg, rekommenderas för att sy på ovvenamn.
 
   == Tvätt
 
@@ -64,6 +64,8 @@
   Ibland när du är ute på campus, eller står i kön till en pub, kan du stöta på studenter klädda i overaller som inte är cerise. Märkligt, tänker du säkert. Men oroa dig inte, dessa är bara studenter som inte är dataloger. Det kan vara bra att lära känna de andra sektionernas overallfärger också, så att du inte verkar ignorant när du är ute och är social.
 
   Notera att vissa sektioner bär B-frack. Dessa är: Doktorandsektionen (Dr), Flygsektionen (T), Maskinsektionen (M), och Mediasektionen (Me). Bergssektionen (B) bär grå jaquette, något som är unikt för dem.
+  
+  #pagebreak()
 
   == Byte av ovvedel
   Något som är vanligt bland overallare är byte av delar på ovven. Olika sektioner, föreningar och lärosäten har olika regler för detta. Nedan följer några vanliga regler:
