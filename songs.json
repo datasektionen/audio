@@ -1878,7 +1878,7 @@
   "alttitle": "Trippeln",
   "firstline": "Jag vill börja gasqua",
   "meta": "Melodi: You Can’t Get a Man With a Gun\r\nSektion: Data\r\n",
-  "text": "Jag vill börja gasqua. Var faan är min flaska,\r\nvem i helvete stal min butelj?\r\nSkall törsten mig tvinga, en TT börja svinga?\r\nNej för fan, bara blunda och svälj!\r\n\r\nVilken smörja, får jag spörja,\r\nvem för fan tror att jag är en älg?\r\n\r\nTill England vi rider och sedan vad det lider,\r\nträffar vi välan på någon pub,\r\noch där ska vi festa, blott dricka av det bästa\r\nutav whisky och portvin, jag tänker gå hårt in\r\nför att smaka på rubb och stubb.\r\n",
+  "text": "Jag vill börja gasqua. Var fan är min flaska,\r\nvem i helvete stal min butelj?\r\nSkall törsten mig tvinga, en TT börja svinga?\r\nNej för fan, bara blunda och svälj!\r\n\r\nVilken smörja, får jag spörja,\r\nvem för fan tror att jag är en älg?\r\n\r\nTill England vi rider och sedan vad det lider,\r\nträffar vi välan på någon pub!\r\n\nO' där ska vi festa, blott dricka av det bästa\r\nutav whisky och portvin, jag tänker gå hårt in\r\nför att smaka på rubb och stubb.\r\n",
   "notes": null,
   "partition": 0,
   "page": "14",
@@ -3064,7 +3064,7 @@
   "id": "fanan_var",
   "title": "Fanan vår",
   "firstline": "Se fanan vår, i topp den går,",
-  "meta": "Melodi: Nu grönskar det\r\nText: Tobbe och Marlene, Bearb.: Adam Åberg\r\nSektion: Samhällsbyggnad",
+  "meta": "Melodi: Nu grönskar det\r\nSektion: Samhällsbyggnad",
   "text": "Se fanan vår, i topp den går,\r\nnu flaggas för vår S-sektion.\r\nMot himlen klar, vårt sektionsstandar,\r\nskall vaja i skön harmoni.\r\nTill vindens sång vi hör var gång,\r\nvår Qlocka slår an en melodi.\r\nSom då blir det bloss,\r\nsom skall leda oss,\r\ntill samhällsbyggnads sektion.",
   "notes": null,
   "partition": 2,
@@ -3522,5 +3522,14 @@
   "meta": "Melodi: Camilla (Basshunter)\nText: Anastazja, Tyra &amp; Catharina (SystrarnaKM)",
   "text": "Dataloger, om ni börjar frysa\nSå kan ni komma till grottan och mysa\nSå ska Systrarna värma er inatt\nDataloger, om ni vill kramas\nSå ta av er er <del>rosa</del>* pyjamas\nSå ska Systrarna bevisa för er att\n\nVi kan supa utan stupa\nVi kan fả er att må bra\nÅh, dataloger, festa en natt hos oss\nVi sällan mot reglerna bryter\nHoppas nu ni inte tycker att vi skryter\nÅh, dataloger, ni kan ej säga nej\nKom till grottan och säg hej\n\nNi, ibland kan livet va svårt\nMen det blir lättare när man har syrrornas support\nMen vi, vill blanda DNA\nNi är dem vi vill ha, oh-oh-oh-oh-oh, yay!\nDatologer, vill ni vi ska chilla?\nOkej, först far ni sluta lukta illa\nVi skojar, kasta inte ut osss chorus\n\nVi kan supa utan stupa…",
   "notes": "Skrevs av Systrarna inför skiftes 2025 som de var bjudna på. De framförde den som ett gästgyckel.\n\n*Bör naturligtvis sjungas ”cerisa”.\n"
+ },
+ "program_in_c": {
+  "id": "program_in_c",
+  "title": "Program in C",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Under the sea",
+  "text": "The syntax might seem much sweeter\nwhere objects and subtypes play.\nBut frills like inheritance\nwill only get in the way!\nAdmire C’s simple landscape;\nefficiently dangerous!\nNo templates or fancy pitfalls\nlike Java or C++.\n\nProgram in C.\nProgram in C.\n\nPointers, assembly,\nmanage your memory\nwith malloc() and free()!\nDon’t sink your app with runtime bloat.\nSoftware with C will stay afloat.\nDo what you want here\nclose to the hardware.\n\nProgram in C!",
+  "notes": null
  }
 }
