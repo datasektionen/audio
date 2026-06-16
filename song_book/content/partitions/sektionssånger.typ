@@ -117,8 +117,8 @@
 #song(<ingenjorssektionens_sang>)
 #pagebreak()
 
-#song(<fanan_var>)
-#place[#v(3mm) #song(<s_ingenjoren>, text-spacing: 3.1mm)]
+#song(<fanan_var>, text-spacing: 2.8mm)
+#place[#v(3mm) #song(<s_ingenjoren>, text-spacing: 2.8mm)]
 #pagebreak()
 
 #song(<om_sanningen_ska_fram>, add-after-nth-par: (
