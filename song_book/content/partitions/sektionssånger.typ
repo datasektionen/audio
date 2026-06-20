@@ -32,9 +32,9 @@
 #song(<mediehymnen>, after-spacing: 7.5mm)
 #continues-on-next-page()
 #song(<nar_vi_festar>, add-after-nth-par: ((1, v(-2.43mm)),))
-#insert-virtual-pages(2)
 #pagebreak()
 
+#insert-virtual-pages(2)
 #song(
   <balladen_om_arkitektens_kak>,
   text-spacing: 0.21in,
@@ -57,9 +57,9 @@
 #pagebreak()
 
 #song(<agdas_skal>, text-spacing: 3.4mm)
-#insert-virtual-pages(2)
 #pagebreak()
 
+#insert-virtual-pages(2)
 #song(<flygarsupen>)
 #place[#v(6.1mm) #song(<blaa_ringar>)]
 #pagebreak()
@@ -143,18 +143,18 @@
 #pagebreak()
 
 #song(<cls_visa>)
-#insert-virtual-pages(2)
 #pagebreak()
 
+#insert-virtual-pages(2)
 #song(<identitetskris>)
 #song(<skolan_kth>)
 #pagebreak()
 
 #song(<sang_om_tentor>, text-notes-spacing: 4mm, after-spacing: 3.5mm)
 #song(<sektionssang_i>, text-spacing: 4.9mm)
-#insert-virtual-pages(4)
 #pagebreak()
 
+#insert-virtual-pages(4)
 #song(<mecken_gar>)
 #continues-on-next-page()
 #song(<fader_abraham>)

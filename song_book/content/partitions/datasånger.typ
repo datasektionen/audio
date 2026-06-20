@@ -154,9 +154,9 @@
 #pagebreak()
 
 #song(<till_emacs>)
-#insert-virtual-pages(4)
 #pagebreak()
 
+#insert-virtual-pages(4)
 #song(<windows_7>)
 #pagebreak()
 
@@ -191,9 +191,9 @@
 #v(-1mm)
 
 #song(<systeme_interweb>)
-#insert-virtual-pages(1)
 #pagebreak()
 
+#insert-virtual-pages(1)
 #box[
   #song(<crash_branns_kampvisa_systeme_technologique>)
   #v(-1em)

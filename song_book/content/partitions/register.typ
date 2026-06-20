@@ -44,7 +44,7 @@
   found-songs.sorted(key: ((title, page, _)) => (title, page))
 }
 
-#insert-virtual-pages(1, after: 5)
+#insert-virtual-pages(1, after: 6)
 
 #context {
   // Ensure that registry entries don't wrap to multiple lines.

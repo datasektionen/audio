@@ -70,9 +70,9 @@
 
 #song(<systeme_international>, text-first-line-indent: 0pt)
 #song(<systeme_periodique>, text-first-line-indent: 0pt)
-#insert-virtual-pages(2)
 #pagebreak()
 
+#insert-virtual-pages(2)
 #song(<portho_s_song>)
 #pagebreak()
 

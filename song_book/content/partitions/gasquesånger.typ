@@ -63,9 +63,9 @@
 ))
 
 #song(<vikingen>)
-#insert-virtual-pages(2)
 #pagebreak()
 
+#insert-virtual-pages(2)
 #box[
   #song(<feministvikingen>)
   #v(-1em)
