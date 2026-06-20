@@ -20,9 +20,9 @@
 #pagebreak()
 
 #song(<sang_till_norden>)
-#insert-virtual-pages(1)
 #pagebreak()
 
+#insert-virtual-pages(1)
 #box(song(<kungssangen>, text-notes-spacing: 9pt))
 #pagebreak()
 

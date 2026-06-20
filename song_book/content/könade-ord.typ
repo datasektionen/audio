@@ -1,5 +1,7 @@
-#import "/song_book/template.typ": footnote-entry
+#import "/song_book/template.typ": footnote-entry, insert-virtual-pages
 #import "/song_book/gender-marker.typ": gender-marker
+
+#insert-virtual-pages(1)
 
 = Pronomen och andra könade ord
 

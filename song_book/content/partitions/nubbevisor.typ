@@ -83,9 +83,9 @@
 #song(<jasen>)
 #song(<the_moose>)
 #song(<vingklippta_masen>)
-#insert-virtual-pages(1)
 #pagebreak()
 
+#insert-virtual-pages(1)
 #song(<musen>)
 #song(<den_jagade_masen>)
 #pagebreak()
