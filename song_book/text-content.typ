@@ -68,8 +68,11 @@
 /// - add-after-nth-par (none|array): If set, should be an array of arrays
 ///   containing an index and content. Each content will be inserted after the
 ///   paragraph with it's corresponding index (zero-indexed).
+/// - override-nth-par (none|array): If set, should be an array of arrays
+///   containing an index and content. Each content will be inserted in place of
+///   the paragraph with it's corresponding index (zero-indexed).
 /// -> content
-#let parse-text-content(string, add-after-nth-par: none) = {
+#let parse-text-content(string, add-after-nth-par: none, override-nth-par: none) = {
   // The website use more than two consecutive line breaks at some places to
   // signal that the song is split across pages in the physical book. The book
   // PDF of course support pagebreaks, so we collapse these into
@@ -98,8 +101,20 @@
       set text(style: "normal")
       it
     }
-
-    block(breakable: false, par(parse-basic-html(string)))
+    
+    let replace-with = none
+    if override-nth-par != none {
+      for (current-index, content) in override-nth-par {
+        if index == current-index {
+          replace-with = content
+        }
+      }
+    }
+    block(breakable: false, if replace-with != none {
+      replace-with
+    } else {
+      par(parse-basic-html(string))
+    })
     if (add-after-nth-par != none and index in add-after-nth-par.map(pair => pair.at(0))) {
       for (current-index, content) in add-after-nth-par {
         if index == current-index {
