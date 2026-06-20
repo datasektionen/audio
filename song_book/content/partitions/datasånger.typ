@@ -197,7 +197,22 @@
 #box[
   #song(<crash_branns_kampvisa_systeme_technologique>)
   #v(-1em)
-  #song(<kursen_mdi>)
+  #song(
+    <kursen_mdi>,
+    override-nth-par: ((
+      1,
+      [
+        #box(grid(
+          columns: 2,
+          row-gutter: 4pt,
+          column-gutter: 1em,
+          [Skriftligt prov!], [(första gången)],
+          [Mindre prov!], [(andra gången)],
+          [Helt ny kurs!], [(tredje gången)],
+        ))
+      ]
+    ),),
+  )
 ]
 #pagebreak()
 

@@ -147,7 +147,25 @@
 
 #insert-virtual-pages(2)
 #song(<identitetskris>)
-#song(<skolan_kth>)
+#song(
+  <skolan_kth>,
+  override-nth-par: ((
+    1,
+    context [
+      Och så gjorde de så här\
+      #box(grid(
+        columns: 2,
+        row-gutter: 4pt,
+        column-gutter: 1em,
+        [Telge bort], [(första gången)],
+        [Kista bort], [(andra gången)],
+        [Sälj bort L], [(tredje gången)],
+        [Ta in fler], [(fjärde gången)],
+      ))
+    ],
+  ),),
+)
+
 #pagebreak()
 
 #song(<sang_om_tentor>, text-notes-spacing: 4mm, after-spacing: 3.5mm)
@@ -157,7 +175,25 @@
 #insert-virtual-pages(4)
 #song(<mecken_gar>)
 #continues-on-next-page()
-#song(<fader_abraham>)
+#song(
+  <fader_abraham>,
+  override-nth-par: ((
+    1,
+    [
+      #box(grid(
+        columns: 2,
+        row-gutter: 4pt,
+        column-gutter: 1em,
+        [Høyre arm], [(Første gang)],
+        [Venstre arm], [(Andre gang)],
+        [Høyre fot Venstre fot], [(Tredje gang)],
+        [Rumpa ut], [(Fjerde gang)],
+        [Kroppen frem], [(Femte gang)],
+        [Tunga ut], [(Sjette gang)],
+      ))
+    ]
+  ),),
+)
 #song(<dataloger>)
 #song(<liljekonvaljen>)
 #pagebreak()
