@@ -293,8 +293,10 @@
 ///   one.
 /// - add-after-nth-par (none|array): If set, should be an array of arrays
 ///   containing an index and content. Each content will be inserted after the
-///   paragraph with it's corresponding index (zero-indexed). Is used for
-///   edge-cases where the layout needs adjustment in the middle of a song.
+/// - override-nth-par (none|array): If set, should be an array of arrays
+///   containing an index and content. Each content will be inserted in place of
+///   the paragraph with it's corresponding index (zero-indexed). Is used for
+///   edge-cases where specific paragraphs need complex adjustments.
 /// - override-text-content (none|content): If set, replaces the text content
 ///   with the provided content, instead of reading it from "songs.json".
 /// - override-notes-content (none|content): If set, replaces the notes content
@@ -313,6 +315,7 @@
   notes-tracking: -0.23pt,
   after-spacing: 9mm,
   add-after-nth-par: none,
+  override-nth-par: none,
   override-text-content: none,
   override-notes-content: none,
   text-first-line-indent: 6pt,
@@ -363,6 +366,7 @@
       parse-text-content(
         data.text,
         add-after-nth-par: add-after-nth-par,
+        override-nth-par: override-nth-par,
       )
     } else {
       override-text-content
