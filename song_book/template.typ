@@ -40,8 +40,9 @@
 /// pages.
 #let virtual-page = counter("virtual-page")
 
-/// Inserts a number of extra pages after the current page. If this function was
-/// called on page 'x' with 3, the extra pages will be numbered 'x.a'..'x.c'.
+/// Inserts a number of extra pages, starting at the current page. If this
+/// function was called on the page after page 'x' with 3, the extra pages
+/// would be numbered 'x.a'..'x.c'.
 ///
 /// - number (int): The number of extra pages to insert.
 /// - after (int): How many pages to wait until until the extra pages are
@@ -77,7 +78,8 @@
   pagebreak()
 }
 
-/// Evaluates to the location of the next page element
+/// Evaluates to the location of the next page end marker, which is right
+/// before the next page element.
 #let next-page() = query(selector(<page-end>).after(here())).first().location()
 
 #let current-partition-number() = {
@@ -148,19 +150,14 @@
     ),
     header: {
       // Increment virtual page
-      context if 0 < extra-pages-count.get().at(1) and extra-pages-count.get().at(0) == 0 {
-        virtual-page.step(level: 2)
-      } else {
-        virtual-page.step(level: 1)
-      }
-      extra-pages-count.update(((after-count, remaining-count)) => (
-        calc.max(after-count - 1, 0),
-        if after-count == 0 {
-          calc.max(remaining-count - 1, 0)
+      context {
+        let (after-count, remaining-count) = extra-pages-count.at(next-page())
+        if 0 < remaining-count and after-count == 0 {
+          virtual-page.step(level: 2)
         } else {
-          remaining-count
-        },
-      ))
+          virtual-page.step(level: 1)
+        }
+      }
 
       context {
         let page = counter(page).get().at(0)
@@ -185,7 +182,7 @@
         ]
       }
     },
-    footer: (
+    footer: {
       context {
         let is-left-page = calc.rem(counter(page).get().first(), 2) == 0
 
@@ -208,9 +205,19 @@
           page-number(hex: not show-decimal, ..virtual-page.get())
         }
       }
-    )
+      
       // Add marker for end of page to be queried for.
-      + [#metadata(none) <page-end>],
+      [#metadata(none) <page-end>]
+      
+      extra-pages-count.update(((after-count, remaining-count)) => (
+        calc.max(after-count - 1, 0),
+        if after-count == 0 {
+          calc.max(remaining-count - 1, 0)
+        } else {
+          remaining-count
+        },
+      ))
+    },
   )
 
   // Title Page

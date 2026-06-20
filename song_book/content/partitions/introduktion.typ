@@ -1,6 +1,5 @@
 #import "/song_book/template.typ": (
-  base-margin, footnote-entry, insert-virtual-pages, partition-marker,
-  table-of-contents,
+  base-margin, footnote-entry, partition-marker, table-of-contents,
 )
 
 #partition-marker[Introduktion]
@@ -26,7 +25,6 @@
   Sångboksansvarig 2026, PUNG 26/27\
 
 
-  #insert-virtual-pages(1)
   #pagebreak()
 
   #include "/song_book/content/könade-ord.typ"
@@ -65,6 +63,4 @@
     Vill du läsa mer historia? Spana in #link("damm.datasektionen.se")\
     Douglas Fischer & Axel Elmarsson -- Sektionshistoriker 2021/2022
   ]
-
-  #insert-virtual-pages(11)
 ]

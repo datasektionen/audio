@@ -43,8 +43,8 @@
 
 #song(<punschlatt>)
 #song(<sista_punschvisan>)
-#insert-virtual-pages(2)
 #pagebreak()
 
+#insert-virtual-pages(2)
 #song(<metaspexets_punschvisa>)
 #song(<sveriges_arraktionalhymn>)

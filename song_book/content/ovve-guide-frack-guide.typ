@@ -2,6 +2,7 @@
   base-margin, insert-virtual-pages, partition-page, song, song-notes,
 )
 
+#insert-virtual-pages(11)
 #[
   #set document(title: [Datalogens guide till Overall och Högtidsdräkt])
 

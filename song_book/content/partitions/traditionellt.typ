@@ -32,7 +32,7 @@
 #pagebreak()
 
 #song(<jag_fangade_en_rav>)
-#insert-virtual-pages(1)
+#insert-virtual-pages(1, after: 1)
 #song(
   <gaudeamus_igitur>,
   add-after-nth-par: ((
