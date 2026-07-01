@@ -65,8 +65,8 @@
 
     #place(
       top + left,
-      dx: 23mm,
-      dy: 3mm,
+      dx: 15mm,
+      dy: 7mm,
       // You need to have this font installed
       text(size: 9mm, font: "Shadows Into Light Two")[Cerise],
     )
