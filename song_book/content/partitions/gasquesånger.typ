@@ -67,16 +67,16 @@
 
 #insert-virtual-pages(2)
 #box[
-  #song(<feministvikingen>)
-  #v(-1em)
-  #song(<pacifistvikingen>, text-notes-spacing: 10pt)
+  #song(<feministvikingen>, text-spacing: 8pt)
+  #v(-16pt)
+  #song(<nykteristvikingen>, text-spacing: 8pt)
 ]
 #pagebreak()
 
 #box[
-  #song(<kapitalistvikingen>)
-  #v(-1em)
-  #song(<kommunistvikingen>)
+  #song(<kapitalistvikingen>, text-notes-spacing: 8pt, text-spacing: 8pt)
+  #v(-16pt)
+  #song(<pacifistvikingen>, text-notes-spacing: 8pt, text-spacing: 8pt)
 ]
 #pagebreak()
 
