@@ -81,12 +81,16 @@
   
   #pagebreak()
 
-  = Guide till högtidsdräkten
 
-  Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette och delar. Denna del tar upp två av de tre plagg som får bäras som högtidsdräkt: frack och balklänning. För information om folkdräkt hänvisas läsaren till godtycklig söktjänst. 
+  #box[
+    = Guide till högtidsdräkten
 
-  \[Placera en infographic med frack och balklänning här.\]
+    Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette och delar. 
+    
+    Denna del tar upp två av de tre plagg som får bäras som högtidsdräkt: frack och balklänning. För information om folkdräkt hänvisas läsaren till godtycklig söktjänst. 
 
+    #pad(x: base-margin, bottom: -14mm)[#align(center + bottom)[#image("/song_book/assets/images/sangbok-Hogtidsdrakt-transparent.png", height: 85mm)]]
+  ]
   #pagebreak()
   == Schmecken
   Till högtidsdräkt bör Schmeck bäras.
