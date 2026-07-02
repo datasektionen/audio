@@ -13,9 +13,11 @@
 
   = Förord
 
-  Hej och välkommen till den sjunde upplagan av #box[/dev/audio], Konglig Data-?sektionens Sångbok. Efter en ytterst intensiv termin kan du härmed läsa denna sångbok!
+  Hej och välkommen till den sjunde upplagan av #box[/dev/audio], Konglig Data-?sektionens sångbok. Efter en ytterst intensiv vår och sommar kan du härmed läsa denna sångbok!
 
-  Det vi uppnått under denna vår hade inte varit möjligt utan den grupp engagerade själar som kan återfinnas i slutet av boken, alla dessa förtjänar de största utav tack. Jag vill även rikta ett speciellt tack till Rasmus Söderhielm och Alvin Yang i deras särskilt enorma engagemang i skapandet av denna sångbok, utan dessa två hade projektet inte kunnat färdigställas eller inte ens påbörjas. 
+  Vägen var inte spikrak, utan vi genomförde en stor förändring för denna upplaga. Från och med nu är #box[/dev/audio] helt skriven i Typst, ut med Adobe InDesign det vill säga!
+
+  Det vi uppnått under denna tid hade inte varit möjligt utan den grupp engagerade själar som kan återfinnas i slutet av boken, alla dessa förtjänar de största utav tack. Jag vill även rikta ett speciellt tack till Rasmus Söderhielm och Alvin Yang i deras särskilt enorma engagemang i skapandet av denna sångbok, utan dessa två hade projektet inte kunnat färdigställas eller inte ens påbörjas.
 
   Om du hittar en bugg i boken, maila #box[#link("mailto:prylis@datasektionen.se")] så kanske du får ett exklusivt märke som tack.
 
