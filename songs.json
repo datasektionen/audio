@@ -1150,7 +1150,7 @@
   "firsline": null,
   "meta": "Melodi: Pacifistvikingen\r\nText: Erik Nordlöf (D-19) &amp; Emil Wiktorsson (F-21)",
   "text": "En viking köper aktier, hurra, hurra!\r\nEn öppen marknad är vad vi vill ha, så bra!\r\nI stan, på landet, i varje by, \r\nnär skatter blir otroligt dyrt. \r\nJa, då vill ingen viking ha de pyrt.\r\n\r\nNär börsen småningom går ner, panik, panik!\r\nBankmannen har hängt sig själv, tragik, tragik!\r\nMen sen när det vänder, vi köper javisst,\r\nför aktievinst är aldrig trist.\r\nFör vår viking hen är kapitalist!",
-  "notes": "Från Amerikasittningen 2025"
+  "notes": "Från Amerikasittningen 2024"
  },
  "kalmarevisan": {
   "id": "kalmarevisan",
@@ -3530,6 +3530,15 @@
   "firstline": null,
   "meta": "Melodi: Under the sea",
   "text": "The syntax might seem much sweeter\nwhere objects and subtypes play.\nBut frills like inheritance\nwill only get in the way!\nAdmire C’s simple landscape;\nefficiently dangerous!\nNo templates or fancy pitfalls\nlike Java or C++.\n\nProgram in C.\nProgram in C.\n\nPointers, assembly,\nmanage your memory\nwith malloc() and free()!\nDon’t sink your app with runtime bloat.\nSoftware with C will stay afloat.\nDo what you want here\nclose to the hardware.\n\nProgram in C!",
+  "notes": null
+ },
+ "nykteristvikingen": {
+  "id": "nykteristvikingen",
+  "title": "Nykteristvikingen",
+  "alttitle": null,
+  "firstline": null,
+  "meta": "Melodi: Feministvikingen\nText: Emmie Zemack, Magdalena Christiansson &amp; Sarah Scheving (F-22)",
+  "text": "En viking älskar livets vann,\nhurra, hurra!\nVann er norsk för vatten, åh\nvad bra, vad bra!\nVarenda vatten är det man ska ha,\nIngen huvudvärk nästa da'\nAlkfri gasque är billigt det är bra!\n\nEn viking älskar livet som\nen har en har!\nBehöver inte spriten för\natt ha det bra!\nInga roliga minnen en mist,\nAlk är endast för den som är trist,\nFör vår viking är ju nykterist!",
   "notes": null
  }
 }
