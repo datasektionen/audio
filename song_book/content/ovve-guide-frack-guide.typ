@@ -131,7 +131,7 @@
   - [ ] Bröst- och manschettknappar
   - [ ] Fluga
   - [ ] Frackbyxor
-  - [ ] Hängslen
+  - [ ] Ev. hängslen
   - [ ] Frackväst
   - [ ] Ev. frackband
   - [ ] Ev. fickur
