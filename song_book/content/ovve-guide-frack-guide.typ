@@ -1,3 +1,5 @@
+#import "@preview/cheq:0.4.0": checklist
+// Detta är för att göra "inköpslistan".
 #import "/song_book/template.typ": (
   base-margin, insert-virtual-pages, partition-page, song, song-notes,
 )
@@ -14,6 +16,8 @@
   
   #set list(marker: (sym.bullet, sym.bullet.hyph))
 
+  #show: checklist
+  // Inköpslista
   //#title()
 
   = Guide till overallen
@@ -25,19 +29,19 @@
   Märken är tyglappar som pryder din ovve.
   - De kan visa saker som vilken sektion och nämnd du tillhör, vilka event du har varit på, vem du har bytt märken med, och sist men inte minst vad du tycker är roligt.
   - En ovve utan märken är naken. Det är inte bra, så rappa på och sy!
-  - En naken ovve är fortfarande bättre än ingen ovve.
+  - En naken ovve är bättre än ingen ovve.
 
   == Speciella märken
-  Det finns vissa märken som har en speciell plats på ovven #text(style: "italic")[(se nästa sida)]:
+  Det finns vissa märken som har en speciell plats på ovven _(se nästa sida)_:
   + KTH-märket, som  sitter på vänster överarm.
   + Sektionsmärket, som sitter över hjärtat, alltså på vänster sida av bröstet.
   + Årskursmärket, som sitter över hjärtat$#[]^(-1)$, alltså på höger sida av bröstet.
   #box[
-  4. NØlleraden, som är de märken som erhölls under mottagningen ska sitta i en vertikal rad på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket ska sitta över nØlleraden.
+  4. NØlleraden, som är de märken som erhölls under mottagningen, ska sitta i en vertikal rad på vänster ben, med det tidigaste eventet längst ner och nØllegasquemärket längst upp. Mottagningsmärket ska sitta över nØlleraden.
   
   == Ovvenamn
   - Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
-  - Ovvenamnet ska sitta på overallens högra ben.
+  - Ovvenamnet ska sitta på framsidan av \ overallens högra ben.
   - Ett hållbart tyg, exempelvis möbeltyg, rekommenderas för att sy på ovvenamn.
 
   #align(center + horizon)[#image("/song_book/assets/images/ovve.svg", width: 75mm)]
@@ -53,13 +57,13 @@
 
   == Tvätt
 
-  - En ovve tvättas endast med innehåll (d.v.s. dig).
+  - En ovve tvättas endast med invånare (d.v.s. dig).
   - Exempel på tvättplatser är: i en sjö, i havet, i en fontän, duschen, eller en mycket stor tvättmaskin.
   - Prylmångleriet ordnar en gemensam ovvetvätt som kallas Plask varje sommar.
 
   == Tips & tricks
   - Det ryms mycket i ovvens många fickor, men för att få extra plats kan man med fördel knyta en knut längst ut på ärmarna och sedan förvara större saker i dem.
-  - Det finns ett leverantörmärke (I skrivande stund svart, märkt JAC) på vänster bens ficka. Detta märke är din ovveoskuld. Äldre dataloger (och andra overallare) kan försöka ta den från er stackars ovve. En ovveoskuld tar man endast med tänderna. Inga andra hjälpmedel tillåtna.
+  - Det finns ett leverantörmärke (I skrivande stund svart, märkt JAC) på en ficka på det vänstra benet. Detta märke är din ovveoskuld. Äldre dataloger (och andra overallare) kan försöka ta den från er stackars ovve. En ovveoskuld tar man endast med tänderna. Inga andra hjälpmedel tillåtna.
   - Vill man ytterligare dekorera sin ovve kan man fästa saker som maskotar, capshanddukar (vad är caps? Fråga någon gammal), kapsylöppnare, lasersvärd, osv. osv. på sin ovve.
 
   == Andra sektioners sektionsplagg
@@ -74,10 +78,10 @@
   Något som är vanligt bland overallare är byte av delar på ovven. Olika sektioner, föreningar och lärosäten har olika regler för detta. Nedan följer några vanliga regler:
 
   - Att byta ben med någon betyder att man är nära vänner.
-  - Att byta bakfickor betyder att man gått bakvägen med personen. Tolkas fritt.
+  - Att byta bakfickor betyder att man gått bakvägen med personen. Detta kan tolkas fritt.
   - Att byta krage betyder att man har bytt kroppsvätskor. Detta kan också tolkas fritt.
 
-  #text(style: "italic")[Det bör även tilläggas till denna guide att det är din egen ovve i grund och botten och att du gör vad du vill, hur du vill med den. Mycket nöje!]
+  _Det bör även tilläggas till denna guide att det är din egen ovve i grund och botten och att du gör vad du vill, hur du vill med den. Mycket nöje!_
   
   #pagebreak()
 
@@ -87,70 +91,64 @@
 
     Högtidsdräkt är den mest formella av alla västerländska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette och delar. 
     
-    Denna del tar upp två av de tre plagg som får bäras som högtidsdräkt: frack och balklänning. För information om folkdräkt hänvisas läsaren till godtycklig söktjänst. 
+    Denna del tar upp två av de tre plagg som får bäras som högtidsdräkt: frack och balklänning. För information om folkdräkt hänvisas läsaren till godtycklig söktjänst.
 
     #pad(x: base-margin, bottom: -14mm)[#align(center + bottom)[#image("/song_book/assets/images/sangbok-Hogtidsdrakt-transparent.png", height: 85mm)]]
   ]
   #pagebreak()
   == Schmecken
-  Till högtidsdräkt bör Schmeck bäras.
+  Till högtidsdräkt i studentikosa sammanhang bör du bära teknologmössa, även känd som Schmeck. På KTH kan den antingen vara grå eller lila, beroende på vilket program du pluggar.
 
-  Schmecken har en svart tofs som fästes på kroken på dess högra sida.
-  På schmecken ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise och köpes från prylmångleriet.
-
-  THS-symbolen på schmeckens band kan med fördel fästas på följande sätt:
-  + Böj upp symbolens ben med en liten spetsig tång.
-  + Gör lämpligt stora hål igenom schmeckens band med hjälp av en syl, kniv, eller liten borr.
-  + Stick in symbolen och böj ner fötterna igen med tång.
+  Schmecken har en svart tofs som fästes på kroken på dess högra sida. På tofsen ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise och köpes från Prylmångleriet. Den har också en THS-symbol på bandet som köps separat; fråga en gammal hur man fäster den.
 
   == Utmärkelser
-  Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och eller högst tre pins.
+  Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och/eller högst tre pins.
 
-  När det kommer till ordensband ska bandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
+  När det kommer till frackband ska bandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
+  === Regler för fracken
+  Medaljer ska fästas på frackkavajen, över den vänstra fickan. När medaljer bärs ska näsduk inte bäras. Denna regel kan även formaliseras i Prolog: ```prolog
+  ValidFrackkavaj(Medals, Handkerchief) :-
+    (Medals, \+ Handkerchief); 
+    (\+ Medals, Handkerchief).
+  ```
+  Reglerna kring pins är vagare. Vissa Dataloger fäster pins på slaget, andra på schmeckens plös. Några hävdar att den enda platsen som du får fästa pins på en frack är på frackbandet.
+
+  På en frack ska frackbandet löpa från höger axel till vänster höft, innanför västen. De kan förslagsvis fästas med hjälp av säkerhetsnålar, eller med nål och tråd. Man kan även sy ihop frackbanden så att de sitter ihop med varandra.
+  === Regler för balklänningen
+  Medaljer placeras på vänster sida, förslagsvis tillsammans med eventuella frackband.
+
+  Pins kan fästas på klänningen på samma sätt som medaljer, eller fästas på Schmeckens plös. 
+
+  Då Datalogen önskar bära frackband till balklänning, ska denna knytas i en rosett och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Frackband ska fästas så att de(t) inte nuddar huden.
+
+  \[Placera en tutorial till rosett här\]
 
   == Frack
   === Lista över frackens delar
-  Ett frack har väldigt många delar och detaljer som man måste ha koll på. Nedan följer en lista. Listan är i den ordning som blir lättast när man ska sätta på fracken. Datalogen kan använda denna som handledning eller inköpslista.
-  - Frackskjorta
-  - Strumpor
-  - Bröst- och manschettknappar
-  - Fluga
-  - Frackbyxor
-  - Hängslen
-  - Frackväst
-  - Ev. frackband
-  - Ev. fickur
-  - Frackkavaj
-  - Pins och (Näsduk eller ev. medaljer)
-  - Lackskor
-  - Schmecken.
+  En frack har väldigt många delar som man måste ha koll på. Nedan följer en lista, som är i ordningen som blir lättast när man ska sätta på fracken. Datalogen kan använda denna som handledning eller inköpslista.
+  - [ ] Frackskjorta
+  - [ ] Strumpor
+  - [ ] Bröst- och manschettknappar
+  - [ ] Fluga
+  - [ ] Frackbyxor
+  - [ ] Hängslen
+  - [ ] Frackväst
+  - [ ] Ev. frackband
+  - [ ] Ev. fickur
+  - [ ] Frackkavaj
+  - [ ] Pins och (Näsduk eller ev. medaljer)
+  - [ ] Lackskor
+  - [ ] Schmecken
   === Färger och material
-  - Frackskjorta och flugan ska vara vita.
-  - Västen är vanligtvis vit (med vissa undantag).
-  - Frackskjorta, väst, och flugan ska ha samma material.
-  - Frackkavaj och frackbyxor ska vara svarta eller djupt midnattsblå (nästan svarta).
-  - Frackkavaj och -byxor ska ha samma material.
-  - Strumpor ska vara svarta.
-  - Frackskor ska helst vara lackskor eller finskor i läder.
+  Frackskjortan, västen och flugan ska vara vita och ha samma material. Svart väst kan bäras vid professionella sammanhang samt vid evenemang där endast män är tillåtna. Dessa förekommer inte bland evenemang arrangerade av Konglig Datasektionen.
+
+  Frackkavaj och frackbyxor ska vara svarta eller djupt midnattsblå (nästan svarta), och ha samma material som varandra.
+
+  Strumpor ska vara svarta, och frackskor ska helst vara lackskor eller finskor i läder.
   === Andra detaljer
   Nedan följer några mindre detaljer som kan vara bra att ha koll på.
   - Man ska aldrig ta av frackkavajen även om det är varmt. Skjortan är tunn och västen saknar rygg för en anledning.
-    - När det är kallt kan man spänna fast frackkavajen med hjälp av dess knappar samt ett spänne, men spännet ska av i kapprummet.
   - Se till att du inte skrynklar frackkavajens svansar när du sitter. 
-  === Medaljer
-  Medaljer ska fästas på frackkavajen, över den vänstra fickan. När medaljer bärs ska näsduk inte bäras. Detta kan även formaliseras i Prolog: ```prolog
-    ValidFrackkavaj(
-      Medals, 
-      Handkerchief
-    ) :-
-      (Medals, \+ Handkerchief); 
-      (\+ Medals, Handkerchief).
-  ```
-  === Pins 
-  Reglerna kring pins är vagare. Vissa Dataloger fäster pins på slaget, andra på schmeckens plös. Några hävdar att den enda platsen som du får fästa pins på ett frack är på ordensbandet. 
-  === Ordensband
-  På en frack ska frackbandet löpa från höger axel till vänster höft, innanför västen. De kan förslagsvis fästas med hjälp av säkerhetsnålar, eller med nål och tråd. Man kan även sy ihop frackbanden så att de sitter ihop med varandra.
-
   == Balklänning
   === Färg och material
   Utformningen av balklänningen har mycket större valfrihet jämfört med fracken. De enda reglerna är som följer:
@@ -160,13 +158,5 @@
   - Om handskar bärs ska de täcka armbågarna. Man bär aldrig ringar utanpå handskar.
   - En handväska är praktiskt då balklänningar sällan har fickor. Bär gärna en handväska som matchar din klänning och dubblar som accessoar. Både handväska med och utan axelrem är OK.
   - Skorna ska vara fina, dvs. ej sneakers eller idrottsskor.
-  === Medaljer
-  Medaljer placeras på vänster sida, förslagsvis tillsammans med eventuella ordensband.
-  === Pins
-  Pins kan fästas på klänningen på samma sätt som medaljer, eller fästas på Schmeckens plös. 
-  === Ordensband
-  Då Datalogen önskar bära ordensband till balklänning, ska denna knytas i en prydlig rosett och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Ordensband ska i alla fall fästas på ett sådant sätt att de(t) inte nuddar huden.
-
-  \[Placera en tutorial till rosett här\]
   
 ]
