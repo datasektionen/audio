@@ -81,6 +81,12 @@
   add-after-nth-par: ((4, align(right, continues-on-next-page-inline())),),
 )
 #song(<nu_ar_det_jul_igen>)
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: 0mm,
+  image(width: 45%, "/song_book/assets/images/Sid 163 djuldanke.svg"),
+)
 #pagebreak()
 
 #block(breakable: false, song(
