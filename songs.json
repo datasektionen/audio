@@ -312,9 +312,9 @@
   "title": "Datalogik",
   "alttitle": null,
   "firstline": "Dataloger är bättre än andra",
-  "meta": "Melodi: Gamla Nordsjön\r\nSektion: Ingenjörssektionen\r\n",
+  "meta": "Melodi: Gamla Nordsjön\r\nText: Dataingenjörerna vid Ingenjörssektionen Haninge\r\n",
   "text": "Dataloger är bättre än andra.\r\nDetta märks inte på en fest.\r\nDet finns vissa man aldrig kan klandra\r\noch bland dessa är IngSekten bäst!\r\n\r\nDetta kan verka skryt, men är sanning;\r\nkan bevisas med hjälp av Prolog.\r\nDärför uppmanar vi till ett kraftfullt HURRA!\r\nJag ÄR datateknolog!\r\n",
-  "notes": "Dataingenjörernas vid Ingenjörssektionen Haninge sång.\r\n",
+  "notes": null,
   "partition": 1,
   "page": "54",
   "5ePage": 54
@@ -1513,14 +1513,14 @@
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: Du gamla, du fria (Richard Dybeck)\r\n",
-  "text": "Du stora å luftiga, mé skyhögt i tak\r\nsom Media och Data förena\r\n\r\nJag hälsar dig Största lokal på KTH,\r\n\r\n||: Din bas, din rigg och dina soffor sköna. :||\r\n\r\nDu mången gång tatt hand om trött teknolog,\r\nsom just skrivit färdigt sin tentamen.\r\n\r\nJag vet att du är och förblir vad jag vill ha,\r\n\r\n||: Ja, jag vill leva, jag vill dö i META! :||\r\n",
+  "text": "Du stora å luftiga, mé skyhögt i tak\r\nsom Media och Data förena\r\n\r\nJag hälsar dig Största lokal på KTH,\r\n||: Din bas, din rigg och dina soffor sköna. :||\r\n\r\nDu mången gång tatt hand om trött teknolog,\r\nsom just skrivit färdigt sin tentamen.\r\n\r\nJag vet att du är och förblir vad jag vill ha,\r\n||: Ja, jag vill leva, jag vill dö i META! :||\r\n",
   "partition": 1,
   "tags": [
    "Nämnder"
   ],
   "5ePage": 54,
   "page": 54,
-  "notes": "Skrevs som gyckel till Sektionsgasquen 2007. Då handlade den om ESCapen eftersom META ännu inte fanns.\r\n"
+  "notes": "Skrevs som gyckel till Sektionsgasquen 2007. Då handlade den om ESCapen eftersom META ännu inte fanns."
  },
  "min_pilsner": {
   "id": "min_pilsner",
