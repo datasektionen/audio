@@ -20,6 +20,12 @@
 #pagebreak()
 
 #pad(bottom: 5%)[#song(<stockholm_i_mitt_hjarta>)]
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: -10mm,
+  image(width: 100%, "/song_book/assets/images/Sid 135 kth.svg"),
+)
 #pagebreak()
 
 #song(<lyft_ditt_valforsedda_glas>)
