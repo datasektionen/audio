@@ -37,6 +37,12 @@
 #pagebreak()
 
 #song(<pippis_sommarvisa>)
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: 5mm,
+  image(width: 90%, "/song_book/assets/images/Sid 155 pippi.svg"),
+)
 #pagebreak()
 
 #song(
