@@ -75,6 +75,12 @@
 
 #song(<elysisk_langtan>)
 #song(<imsig_vimsig>)
+#place(
+  center + bottom,
+  dx: -13mm,
+  dy: 15mm,
+  image(width: 100%, "/song_book/assets/images/Sid 91 spoderims.svg"),
+)
 #pagebreak()
 
 #continues-on-next-page()
