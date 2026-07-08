@@ -57,6 +57,12 @@
 
  #text(size: subheader-size)[Qvarten]
 #song(<grav_ur_tundran>)
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: 7mm,
+  image(width: 75%, "/song_book/assets/images/Sid 113 potatos.svg"),
+)
 #pagebreak()
 
 #song(<detta_glas>)
