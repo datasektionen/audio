@@ -31,6 +31,12 @@
 #pagebreak()
 
 #song(<dance_macabre>)
+#place(
+  center + bottom,
+  dx: 20mm,
+  dy: 30mm,
+  image(width: 120%, "/song_book/assets/images/Sid 170 delta.svg"),
+)
 #pagebreak()
 
 #skip-pages(3)
