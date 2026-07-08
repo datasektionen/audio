@@ -53,9 +53,21 @@
 #pagebreak()
 
 #song(<kraftan_ar_ett_lackert_djur>)
+#place(
+  center + bottom,
+  dx: -10mm,
+  dy: 5mm,
+  image(width: 90%, "/song_book/assets/images/Sid 158 kraftan.svg"),
+)
 #pagebreak()
 
 #song(<kraftor_atas>)
+#place(
+  center + bottom,
+  dx: -10mm,
+  dy: 10mm,
+  image(width: 105%, "/song_book/assets/images/Sid 159 hulukrafta.svg"),
+)
 #pagebreak()
 
 #song(<tusen_ljus>)
