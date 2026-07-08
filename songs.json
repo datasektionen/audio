@@ -1195,7 +1195,7 @@
   "firstline": "BEGIN",
   "meta": "Melodi: Triumfmarschen ur Aida\r\nMusik: Giuseppe Verdi\r\nText: Embraquel D. Tuta\r\n",
   "text": "BEGIN\r\nINTEGER a,b,c;\r\nOutText(D);\r\nOutText(-);\r\nOutText(Sektionen); OutImage;\r\nEND;\r\n",
-  "notes": null,
+  "notes": "Upprepas till dess att alla på området är väl medvetna om Konglig Datasektionens närvaro.",
   "partition": 1,
   "page": "0x27",
   "tags": [
