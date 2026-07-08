@@ -95,4 +95,10 @@
   text-notes-spacing: 3.4mm,
 ))
 #song(<hej_tomtegubbar>)
+#place(
+  center + bottom,
+  dx: -5mm,
+  dy: 15mm,
+  image(width: 180%, "/song_book/assets/images/Sid 165 lufva.svg"),
+)
 #pagebreak()
