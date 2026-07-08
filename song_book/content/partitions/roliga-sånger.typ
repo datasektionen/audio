@@ -56,6 +56,12 @@
 #pagebreak()
 
 #song(<gaffas_visa>)
+#place(
+  center + bottom,
+  dx: -5mm,
+  dy: 30mm,
+  image(width: 130%, "/song_book/assets/images/Sid 178 plankjavel.svg"),
+)
 #pagebreak()
 
 #song(<fyllevisa>)
