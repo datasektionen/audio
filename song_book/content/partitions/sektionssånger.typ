@@ -105,6 +105,12 @@
 #pagebreak()
 
 #song(<har_kommer_det_elektriker>)
+#place(
+  center + bottom,
+  dx: -2mm,
+  dy: 5mm,
+  image(width: 110%, "/song_book/assets/images/Sid 67 electricmagic.svg"),
+)
 #pagebreak()
 
 #song(<byggingenjorernas_bekannelse>)
@@ -164,7 +170,11 @@
       ))
     ],
   ),),
-)
+)#place(
+      bottom + center,
+      dy: 64mm,
+      image(width: 86%, "/song_book/assets/images/Dog Poker table shadow.png"),
+    )
 
 #pagebreak()
 
