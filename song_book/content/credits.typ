@@ -52,9 +52,12 @@
 
 #box[#contributor-category[Illustrationer][
   Kei\
-  Albin Haraldsson\
   Rey Karlander\
   Julia Wang\
+  Kristin Mickols\
+  Adam Sjöberg\
+  Douglas Fischer\
+  Albin Haraldsson\
 ]
 
 Stort tack även till alla sångförfattare och
@@ -64,6 +67,6 @@ inte återfinns i listan ovan!
 #v(-0.5em)
 
 #align(center)[
-  #image(width: 64.5mm, "/song_book/assets/images/cred-page.png")
+  #image(width: 50mm, "/song_book/assets/images/cred-page.png")
   #v(1.5mm)
 ]]
