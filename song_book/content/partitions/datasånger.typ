@@ -212,6 +212,6 @@
 ]
 #pagebreak()
 
-#song(<du_nya_du_frascha>) // Kommentar behöver uppdateras i enlighet med djubileumsupplagan
+#song(<meta_nationalsang>)
 #song(<datalogik>)
 #pagebreak()
