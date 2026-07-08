@@ -39,6 +39,12 @@
 
  #text(size: subheader-size)[Tersen]
 #song(<can_can>)
+#place(
+  right + bottom,
+  dx: 10mm,
+  dy: 10mm,
+  image(width: 100%, "/song_book/assets/images/Sid 110 grajsenbajken.svg"),
+)
 #pagebreak()
 
 #continues-on-next-page()
