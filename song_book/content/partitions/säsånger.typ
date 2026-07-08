@@ -17,6 +17,18 @@
 
 #box(song(<langtan_till_landet>, text-spacing: 4mm, text-notes-spacing: 4mm))
 #song(<nu_gronskar_det>)
+#place(
+  left + bottom,
+  dx: -10mm,
+  dy: 0mm,
+  image(width: 65%, "/song_book/assets/images/Sid 153 left flowapowa.svg"),
+)
+#place(
+  right + bottom,
+  dx: -8mm,
+  dy: -8mm,
+  image(width: 50%, "/song_book/assets/images/Sid 153 right hairrypotta.svg"),
+)
 #pagebreak()
 
 #box[
