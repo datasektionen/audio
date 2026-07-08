@@ -29,6 +29,12 @@
 #pagebreak()
 
 #song(<lyft_ditt_valforsedda_glas>)
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: 5mm,
+  image(width: 75%, "/song_book/assets/images/Sid 136 shotOclock.svg"),
+)
 #pagebreak()
 
 #song(<an_en_gang_daran>)
