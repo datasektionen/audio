@@ -93,12 +93,8 @@
 
 #box(
   [
-    #place(
-      bottom + center,
-      dy: 64mm,
-      image(width: 86%, "/song_book/assets/images/Dog Poker table shadow.png"),
-    )
     #song(<datas_bordsvisa>)
+    #song(<datasektionens_fodelsedagssang>)
   ],
 )
 #pagebreak()
