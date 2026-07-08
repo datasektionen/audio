@@ -19,7 +19,7 @@
 === Vinskola
 
 #let list-style = (first-line-indent: (amount: 6pt, all: true), leading: 0.5em)
-#let list-spacing = -0.8em
+#let list-spacing = 0em
 #text(size: 10.1pt)[
   #par(..list-style)[
     #text(style: "italic")[Öl är för barbarer, vin är för civiliserade.] 
