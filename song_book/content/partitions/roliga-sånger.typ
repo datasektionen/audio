@@ -75,6 +75,12 @@
 
 #song(<nuskaviklamma>)
 #song(<siffervisan>, text-first-line-indent: 0pt)
+#place(
+  center + bottom,
+  dx: 10mm,
+  dy: 25mm,
+  image(width: 130%, "/song_book/assets/images/Sid 183 1234567890.svg"),
+)
 #pagebreak()
 
 #song(<sangen_till_kvinnan>)
