@@ -60,6 +60,12 @@
     1, align(right, continues-on-next-page-inline())
   ),)
 )
+#place(
+  center + bottom,
+  dx: -10mm,
+  dy: 7mm,
+  image(width: 100%, "/song_book/assets/images/Sid 143 smoerflygare.svg"),
+)
 #pagebreak()
 
 #song(<uti_var_hage>)
