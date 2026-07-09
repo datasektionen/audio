@@ -48,7 +48,7 @@
   ]
   #v(list-spacing)
   #par(..list-style)[
-    #text(weight: "bold")[Starkviner:] Viner med hög alkoholhalt, oftast 15 till 22 volymprocent. Den höga alkoholhalten upp-#linebreak()nås med en tillsats av destillerad druvsprit. Starkvin kan vara vitt, rosécerise eller rött.
+    #text(weight: "bold")[Starkviner:] Viner med hög alkoholhalt, oftast 15 till 22 volymprocent. Den höga alkoholhalten upp-#linebreak()nås med en tillsats av destillerad druvsprit. Starkvin kan vara vitt, #strike[rosé]cerise eller rött.
   ]
 
   #par(..list-style)[
