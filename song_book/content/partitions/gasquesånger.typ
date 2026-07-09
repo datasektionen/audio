@@ -50,8 +50,8 @@
 #place(
   center + bottom,
   dx: -0.5mm,
-  dy: 9mm,
-  image(width: 80%, "/song_book/assets/images/trippeln-nohead.png"),
+  dy: 5mm,
+  image(width: 70%, "/song_book/assets/images/trippeln-nohead.png"),
 )
 
 #song(<hej_pa_er_broder_alla>, text-spacing: 3.4mm)
