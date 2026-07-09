@@ -158,9 +158,10 @@
     ],
   ),),
 )#place(
-      bottom + center,
-      dy: 64mm,
-      image(width: 86%, "/song_book/assets/images/Dog Poker table shadow.png"),
+      left + horizon,
+      dy: 25mm,
+      dx: 36mm,
+      image(width: 86%, "/song_book/assets/images/Dog Poker table shadow-transparent.png"),
     )
 
 #pagebreak()
