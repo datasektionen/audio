@@ -46,6 +46,12 @@
 #pagebreak()
 
 #song(<brev_fran_campus>)
+#place(
+  center + bottom,
+  dx: -5mm,
+  dy: 20mm,
+  image(width: 100%, "/song_book/assets/images/Sid 42 letter.svg"),
+)
 #pagebreak()
 
 #song(<en_matematiker>, override-notes-content: [
