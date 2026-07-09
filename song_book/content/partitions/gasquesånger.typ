@@ -160,6 +160,23 @@
 #place(song(<datas_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
 #pagebreak()
 
+#insert-virtual-pages(3)
+
+#place(song(<medias_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
+#pagebreak()
+
+#song(
+  <mattes_visa>,
+  meta-text-spacing: 5mm,
+  text-size: 10pt,
+  text-leading: 3.5pt,
+  text-spacing: 14.0pt,
+)
+#pagebreak()
+
+#place(song(<cls_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
+#pagebreak()
+
 #song(<raj_raj>, meta-text-spacing: 3mm)
 #song(<en_liten_bla_forgatmigej>, meta-text-spacing: 3mm)
 #pagebreak()
