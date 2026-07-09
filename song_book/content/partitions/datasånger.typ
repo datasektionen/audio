@@ -93,12 +93,8 @@
 
 #box(
   [
-    #place(
-      bottom + center,
-      dy: 64mm,
-      image(width: 86%, "/song_book/assets/images/Dog Poker table shadow.png"),
-    )
     #song(<datas_bordsvisa>)
+    #song(<datasektionens_fodelsedagssang>)
   ],
 )
 #pagebreak()
@@ -216,6 +212,6 @@
 ]
 #pagebreak()
 
-#song(<du_nya_du_frascha>) // Kommentar behöver uppdateras i enlighet med djubileumsupplagan
+#song(<meta_nationalsang>)
 #song(<datalogik>)
 #pagebreak()
