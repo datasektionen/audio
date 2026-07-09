@@ -90,6 +90,12 @@
 
 #song(<gaffeln>)
 #song(<jag_ser_ni_krokar>)
+#place(
+  right + bottom,
+  dx: 32mm,
+  dy: 9mm,
+  image(width: 110%, "/song_book/assets/images/Sid 18 jungelmannen_card.svg"),
+)
 #pagebreak()
 
 #song(<kalmarevisan>, text-spacing: 0.204in, add-after-nth-par: ((
