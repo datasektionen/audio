@@ -18,6 +18,18 @@
 #pagebreak()
 
 #song(<punschens_lov>)
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: 6mm,
+  image(width: 85%, "/song_book/assets/images/Sid 98 bokstavligen jag.svg"),
+)
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: 4mm,
+  text(size: 10pt, fill: rgb("#000"))[_Bokstavligen jag_]
+)
 #pagebreak()
 
 #song(<djungelpunsch>)

@@ -31,6 +31,12 @@
 #pagebreak()
 
 #song(<dance_macabre>)
+#place(
+  center + bottom,
+  dx: 20mm,
+  dy: 30mm,
+  image(width: 120%, "/song_book/assets/images/Sid 170 delta.svg"),
+)
 #pagebreak()
 
 #skip-pages(3)
@@ -50,6 +56,12 @@
 #pagebreak()
 
 #song(<gaffas_visa>)
+#place(
+  center + bottom,
+  dx: -5mm,
+  dy: 30mm,
+  image(width: 130%, "/song_book/assets/images/Sid 178 plankjavel.svg"),
+)
 #pagebreak()
 
 #song(<fyllevisa>)
@@ -63,6 +75,12 @@
 
 #song(<nuskaviklamma>)
 #song(<siffervisan>, text-first-line-indent: 0pt)
+#place(
+  center + bottom,
+  dx: 10mm,
+  dy: 25mm,
+  image(width: 130%, "/song_book/assets/images/Sid 183 1234567890.svg"),
+)
 #pagebreak()
 
 #song(<sangen_till_kvinnan>)
