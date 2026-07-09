@@ -19,8 +19,12 @@
   David Lindkvist\
 ]
 
+#contributor-category[Design (och lite allt möjligt)][
+  Max Wippich\
+]
+
 #contributor-category[Urval av Sånger][
-  Dmitri Chirin \
+  Dmitry Chirin \
   David Lindkvist \
   Rasmus Söderhielm\
 ]
@@ -38,32 +42,49 @@
 ]
 
 #contributor-category[Korrekturläsare][
-  Dmitri Chirin\
-  Douglas Fischer\
-  Simon Kåhre\
-  Leonard Smedberg\
-  Erik Sparr\
-  Rasmus Söderhielm\
-  Marcus Sörberg\
-  Alvin Yang\
+  #v(-1.2em)
+  #table(columns: (4cm, auto), stroke: none,
+  [
+    Dmitry Chirin\
+    Douglas Fischer\
+    Simon Kåhre\
+    Leonard Smedberg\
+  ],
+  [
+    Erik Sparr\
+    Rasmus Söderhielm\
+    Marcus Sörberg\
+    Alvin Yang\   
+  ])
 ]
 
 #colbreak()
 
 #box[#contributor-category[Illustrationer][
-  Kei\
-  Albin Haraldsson\
-  Rey Karlander\
-  Julia Wang\
+  #v(-1.2em)
+  #table(columns: (4cm, auto), stroke: none,
+  [
+    Kei\
+    Douglas Fischer\
+    Albin Haraldsson\
+    Rey Karlander\ 
+  ], 
+  [
+    Kristin Mickols\
+    Adam Sjöberg\
+    Julia Wang\
+  ])
 ]
 
 Stort tack även till alla sångförfattare och
 resterande prylmånglerister som hjälpts åt men
 inte återfinns i listan ovan!
 
+Och ännu ett stort tack till Max Wippich, Erik Nordlöf och Douglas Fischer i deras enorma ursprungliga arbete vilket denna upplaga är baserad på.
+
 #v(-0.5em)
 
 #align(center)[
-  #image(width: 64.5mm, "/song_book/assets/images/cred-page.png")
+  #image(width: 50.5mm, "/song_book/assets/images/cred-page.png")
   #v(1.5mm)
 ]]
