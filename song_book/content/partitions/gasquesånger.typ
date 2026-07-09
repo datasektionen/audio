@@ -36,8 +36,8 @@
 
   #place(
     center,
-    dy: 1mm,
-    image(width: 90%, "/song_book/assets/images/gåsque.png"),
+    dy: 0mm,
+    image(width: 80%, "/song_book/assets/images/gåsque.png"),
   )
 ]
 #pagebreak()
