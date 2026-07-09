@@ -85,6 +85,6 @@ Och ännu ett stort tack till Max Wippich, Erik Nordlöf och Douglas Fischer i d
 #v(-0.5em)
 
 #align(center)[
-  #image(width: 50.5mm, "/song_book/assets/images/cred-page.png")
+  #image(width: 45.5mm, "/song_book/assets/images/cred-page.png")
   #v(1.5mm)
 ]]
