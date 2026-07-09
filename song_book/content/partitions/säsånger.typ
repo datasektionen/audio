@@ -85,7 +85,7 @@
   center + bottom,
   dx: 0mm,
   dy: 0mm,
-  image(width: 45%, "/song_book/assets/images/Sid 163 djuldanke.svg"),
+  image(width: 45%, "/song_book/assets/images/djul-danke.png"),
 )
 #pagebreak()
 
