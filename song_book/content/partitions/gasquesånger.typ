@@ -90,6 +90,12 @@
 
 #song(<gaffeln>)
 #song(<jag_ser_ni_krokar>)
+#place(
+  right + bottom,
+  dx: 32mm,
+  dy: 9mm,
+  image(width: 110%, "/song_book/assets/images/Sid 18 jungelmannen_card.svg"),
+)
 #pagebreak()
 
 #song(<kalmarevisan>, text-spacing: 0.204in, add-after-nth-par: ((
@@ -152,6 +158,23 @@
 #pagebreak()
 
 #place(song(<datas_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
+#pagebreak()
+
+#insert-virtual-pages(3)
+
+#place(song(<medias_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
+#pagebreak()
+
+#song(
+  <mattes_visa>,
+  meta-text-spacing: 5mm,
+  text-size: 10pt,
+  text-leading: 3.5pt,
+  text-spacing: 14.0pt,
+)
+#pagebreak()
+
+#place(song(<cls_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
 #pagebreak()
 
 #song(<raj_raj>, meta-text-spacing: 3mm)

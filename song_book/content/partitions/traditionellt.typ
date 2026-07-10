@@ -20,9 +20,21 @@
 #pagebreak()
 
 #pad(bottom: 5%)[#song(<stockholm_i_mitt_hjarta>)]
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: -10mm,
+  image(width: 100%, "/song_book/assets/images/Sid 135 kth.svg"),
+)
 #pagebreak()
 
 #song(<lyft_ditt_valforsedda_glas>)
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: 5mm,
+  image(width: 75%, "/song_book/assets/images/Sid 136 shotOclock.svg"),
+)
 #pagebreak()
 
 #song(<an_en_gang_daran>)
@@ -47,6 +59,12 @@
   add-after-nth-par: ((
     1, align(right, continues-on-next-page-inline())
   ),)
+)
+#place(
+  center + bottom,
+  dx: -10mm,
+  dy: 7mm,
+  image(width: 100%, "/song_book/assets/images/Sid 143 smoerflygare.svg"),
 )
 #pagebreak()
 

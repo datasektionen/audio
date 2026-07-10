@@ -1,6 +1,6 @@
 #import "/song_book/template.typ": (
   base-margin, continues-on-next-page, continues-on-next-page-inline,
-  insert-virtual-pages, partition-page, song, song-notes,
+  insert-virtual-pages, partition-page, skip-pages, song, song-notes,
 )
 
 // Title page
@@ -26,8 +26,7 @@
 #song(<stackars_teknis>)
 #pagebreak()
 
-#song(<medias_visa>)
-#pagebreak()
+#skip-pages(1)
 
 #song(<mediehymnen>, after-spacing: 7.5mm)
 #continues-on-next-page()
@@ -105,6 +104,12 @@
 #pagebreak()
 
 #song(<har_kommer_det_elektriker>)
+#place(
+  center + bottom,
+  dx: -2mm,
+  dy: 5mm,
+  image(width: 110%, "/song_book/assets/images/Sid 67 electricmagic.svg"),
+)
 #pagebreak()
 
 #song(<byggingenjorernas_bekannelse>)
@@ -133,18 +138,6 @@
 ))
 #pagebreak()
 
-#song(
-  <mattes_visa>,
-  meta-text-spacing: 5mm,
-  text-size: 10pt,
-  text-leading: 3.5pt,
-  text-spacing: 14.0pt,
-)
-#pagebreak()
-
-#song(<cls_visa>)
-#pagebreak()
-
 #insert-virtual-pages(2)
 #song(<identitetskris>)
 #song(
@@ -164,9 +157,16 @@
       ))
     ],
   ),),
-)
+)#place(
+      left + horizon,
+      dy: 25mm,
+      dx: 36mm,
+      image(width: 86%, "/song_book/assets/images/Dog Poker table shadow-transparent.png"),
+    )
 
 #pagebreak()
+
+#skip-pages(2)
 
 #song(<sang_om_tentor>, text-notes-spacing: 4mm, after-spacing: 3.5mm)
 #song(<sektionssang_i>, text-spacing: 4.9mm)
