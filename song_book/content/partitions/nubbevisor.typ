@@ -98,8 +98,14 @@
 #pagebreak()
 
 #insert-virtual-pages(1)
-#song(<musen>)
 #song(<den_jagade_masen>)
+#song(<musen>)
+#place(
+  center + bottom,
+  dx: 0mm,
+  dy: 7mm,
+  image(width: 75%, "/song_book/assets/images/klotformad-råtta.png"),
+)
 #pagebreak()
 
  #text(size: subheader-size)[Byten]
