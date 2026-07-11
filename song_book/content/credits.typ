@@ -30,12 +30,20 @@
 ]
 
 #contributor-category[Övriga Texter i Boken][
-  Douglas Fischer\
-  Kristin Mickols\
-  Erik Nordlöf\
-  Adam Sjöberg\
-  Alvin Yang\
+  #v(-1.2em)
+  #table(columns: (4cm, auto), stroke: none,
+  [
+    Douglas Fischer\
+    Kristin Mickols\
+    Erik Nordlöf\
+  ],
+  [
+    Adam Sjöberg\
+    Alvin Yang\
+  ])
 ]
+
+
 
 #contributor-category[JML-Genomgång][
   Rasmus Söderhielm\
@@ -56,6 +64,10 @@
     Marcus Sörberg\
     Alvin Yang\   
   ])
+]
+
+#contributor-category[Adobe-dräpare & Typst-härskare][
+  Rasmus Söderhielm
 ]
 
 #colbreak()
