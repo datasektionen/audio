@@ -73,6 +73,7 @@
     Kristin Mickols\
     Adam Sjöberg\
     Julia Wang\
+    Rasmus Söderhielm\
   ])
 ]
 
