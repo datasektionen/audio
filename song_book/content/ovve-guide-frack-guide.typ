@@ -77,7 +77,7 @@
 
     - Att byta arm med någon betyder att man är nära vänner.
     - Att byta bakfickor betyder att man gått bakvägen med personen. Detta kan tolkas fritt.
-    - Att byta krage betyder att man i ett förhållande.
+    - Att byta krage betyder att man är i ett förhållande med personen.
 
     _Det bör även tilläggas till denna guide att det är din egen ovve i grund och botten och att du gör vad du vill, hur du vill med den. Mycket nöje!_
   ]
