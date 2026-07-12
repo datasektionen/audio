@@ -1,3 +1,5 @@
+#import "/song_book/template.typ": checkbox-square
+
 #{
   show heading.where(level: 1): set text(size: 12pt, weight: "bold")
   show heading.where(level: 1): it => pad(left: -9pt, it)
@@ -16,7 +18,9 @@
   grid(columns: (..range(squares).map(_ => auto), 1fr),
     gutter: 4pt,
     align: horizon,
-    ..range(squares).map(_ => align(top + left)[#square([], size: square-size, stroke: (thickness: square-line-width, paint: square-color))]),
+    ..range(squares).map(_ => align(top + left)[
+      #checkbox-square()
+    ]),
     body
   )
   v(after-spacing)

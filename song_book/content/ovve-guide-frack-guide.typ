@@ -1,7 +1,6 @@
-#import "@preview/cheq:0.4.0": checklist
-// Detta är för att göra "inköpslistan".
 #import "/song_book/template.typ": (
-  base-margin, insert-virtual-pages, partition-page, song, song-notes,
+  base-margin, checkbox-square, insert-virtual-pages, partition-page, song,
+  song-notes,
 )
 
 #insert-virtual-pages(9)
@@ -16,9 +15,11 @@
   
   #set list(marker: (sym.bullet, sym.bullet.hyph))
 
-  #show: checklist
-  // Inköpslista
-  //#title()
+  #let checklist(content) = {
+    set list(marker: checkbox-square())
+
+    content
+  }
 
   = Guide till overallen
   == Ovven
@@ -129,21 +130,22 @@
   == Frack
   En frack har väldigt många delar som man måste ha koll på. Nedan följer en lista, som är i ordningen som blir lättast när man ska sätta på fracken.
   #v(-0.5em)
-  #text(size: 10pt)[
-    - [ ] Frackskjorta
-    - [ ] Strumpor
-    - [ ] Bröst- och manschettknappar
-    - [ ] Fluga
-    - [ ] Frackbyxor
-    - [ ] Hängslen
-    - [ ] Frackväst
-    - [ ] Ev. frackband
-    - [ ] Ev. fickur
-    - [ ] Frackkavaj
-    - [ ] Pins och (Näsduk eller ev. medaljer)
-    - [ ] Lackskor
-    - [ ] Schmecken
-  ]
+
+  #text(size: 10pt, checklist[
+    - Frackskjorta
+    - Strumpor
+    - Bröst- och manschettknappar
+    - Fluga
+    - Frackbyxor
+    - Hängslen
+    - Frackväst
+    - Ev. frackband
+    - Ev. fickur
+    - Frackkavaj
+    - Pins och (Näsduk eller ev. medaljer)
+    - Lackskor
+    - Schmecken
+  ])
   #v(-0.5em)
   #text(style: "italic")[Datalogen kan med fördel använda denna som handledning eller inköpslista.]
 

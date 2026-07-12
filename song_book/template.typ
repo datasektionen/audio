@@ -407,3 +407,7 @@
   
   place(bottom + right, dx: dx, dy: dy, continues-on-next-page-inline())
 }
+
+#let checkbox-square() = {
+  square(size: 7pt, stroke: (thickness: 0.5pt, paint: black), radius: 1pt)
+}
