@@ -98,7 +98,7 @@
 )
 #pagebreak()
 
-#song(<kalmarevisan>, text-spacing: 0.204in, add-after-nth-par: ((
+#song(<kalmarevisan>, text-spacing: 0.204in, after-spacing: 5mm, add-after-nth-par: ((
   5,
   pagebreak(),
 ),))
