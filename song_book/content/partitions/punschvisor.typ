@@ -40,8 +40,14 @@
 
 #box[
   #song(<imperial_punsch>, text-notes-spacing: 1em)
+  #place(
+    center + top,
+    dx: 27mm,
+    dy: -4mm,
+    image("/song_book/assets/images/Sid 101 impressive.svg")
+  )
   #v(-1.5em)
-  #song(<var_ar_punschen>)
+  #song(<var_ar_punschen>, text-notes-spacing: 1em)
 ]
 #pagebreak()
 
