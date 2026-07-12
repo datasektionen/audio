@@ -151,7 +151,7 @@
  },
  "bordeaux_bordeaux": {
   "id": "bordeaux_bordeaux",
-  "title": "Bordeaux, Bordeaux",
+  "title": "Bordeaux, bordeaux",
   "alttitle": null,
   "firstline": "Jag minns än idag hur min fader",
   "meta": "Melodi: I sommarens soliga dagar\r\n",
@@ -333,8 +333,8 @@
 },
  "datas_bordsvisa": {
   "id": "datas_bordsvisa",
-  "title": "Datas Bordsvisa",
-  "alttitle": "Mata Data",
+  "title": "Datas bordsvisa",
+  "alttitle": "Mata data",
   "firstline": "Vi vill ha sill med Skåne till",
   "meta": "Alternativ titel: Mata Data\r\nMelodi: Oh! Susanna (Stephen Foster)\r\n",
   "text": "Vi vill ha sill med Skåne till\r\noch kanske lite Bäsk,\r\nmen till vår sprit\r\nvi vill ha hit\r\nen riktigt schlemmig bit.\r\n\r\nSå… MATA DATA!\r\nRo hit me' käket nu!\r\nFår jag ej nån mat\r\nblir jag plakat\r\noch käkar min kamrat!\r\n",
@@ -502,7 +502,7 @@
  },
  "en_matematiker": {
   "id": "en_matematiker",
-  "title": "En Matematiker",
+  "title": "En matematiker",
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: En sockerbagare\r\nText: Mathias Lundgren\r\n",
@@ -1190,7 +1190,7 @@
  },
  "konglig_datasektionens_sektionssang": {
   "id": "konglig_datasektionens_sektionssang",
-  "title": "Konglig Datasektionens Sektionssång",
+  "title": "Konglig Datasektionens sektionssång",
   "alttitle": null,
   "firstline": "BEGIN",
   "meta": "Melodi: Triumfmarschen ur Aida\r\nMusik: Giuseppe Verdi\r\nText: Embraquel D. Tuta\r\n",
@@ -1217,7 +1217,7 @@
  },
  "kongliga_punschvisan": {
   "id": "kongliga_punschvisan",
-  "title": "Kongliga Punschvisan",
+  "title": "Kongliga punschvisan",
   "alttitle": null,
   "firstline": "Nu låtom oss höja glasen",
   "meta": "Melodi: Eurovisionssignaturen\r\nMusik: Marc-Antoine Charpentier\r\n",
@@ -1368,7 +1368,7 @@
  },
  "lasa_matematik": {
   "id": "lasa_matematik",
-  "title": "Läsa Matematik",
+  "title": "Läsa matematik",
   "alttitle": null,
   "firstline": "Om du ska läsa matematik",
   "meta": "Melodi: Läsa matematik\r\nText: Matte Matik\r\n",
@@ -1824,10 +1824,10 @@
  },
  "om_sanningen_ska_fram": {
   "id": "om_sanningen_ska_fram",
-  "title": "Om Sanningen Ska Fram",
+  "title": "Om sanningen ska fram",
   "alttitle": null,
   "firstline": "När jag kodat hela natten",
-  "meta": "Melodi: Om Sanningen Ska Fram\r\nMusik: Eric Amarillo\r\nText: Anna Johansson\r\n",
+  "meta": "Melodi: Om sanningen ska fram\r\nMusik: Eric Amarillo\r\nText: Anna Johansson\r\n",
   "text": "När jag kodat hela natten,\r\nhaft en dust med Halo 2.\r\nNär jag druckit massa cola,\r\nlöst en Rubiks kub och så.\r\nSer jag ut i cyberrymden\r\nför att leta efter dig,\r\noch här är du nu min flicka\r\nså nu frågar jag dig.\r\n\r\n||: Vill du bli en datalog,\r\nom sanningen ska fram… :||\r\n\r\nHar fått olja på min t-shirt,\r\noch vet inte hur man gör.\r\nOch ni säger vi små männ'skor,\r\nvi vet inte hur man kör.\r\nSå nu söker jag en stark typ\r\nsom kan mecka med min bil.\r\nDu ska olja min motor,\r\noch ha en häftig stil.\r\n\r\n||: Vill du bli min maskinist,\r\nom sanningen ska fram… :||\r\n\r\nOm jag bara räknar kvarkar,\r\ndiggar Einstein som en gud.\r\nJag ser ut som televerket,\r\noch har aldrig sett en brud.\r\nAttraheras av din laddning\r\noch din oskuldsfulla stil.\r\nOch sen när vi är tillsammans\r\nkan du få min Clearasil.\r\n\r\n||: Ja, jag pluggar Fysik,\r\nom sanningen ska fram… :||\r\n\r\nOm det smäller i mitt dragskåp,\r\noch det luktar lite bränt.\r\nHar jag eldat upp min labbrock,\r\nmed något lättantänt.\r\nPå Kemi finns vissa regler,\r\nman måste labba två.\r\nOch jag råkar sakna partner,\r\nför den siste fick gå.\r\n\r\n||: Vill du labba med mig då,\r\nom sanningen ska fram… :||\r\n\r\n\r\nOm jag fotar hela dagen,\r\nhatar WordPress för en stund.\r\nOm jag fotar Paris Hilton,\r\noch hennes lilla hund.\r\nOm jag ej kan räkna matte,\r\ninte ens en integral.\r\nOm jag flyttar ihop med data,\r\nför att få en bra lokal.\r\n\r\n||: Vill du plugga Media då,\r\nom sanningen ska fram… :||\r\n\r\nOm jag ville gå på Handels,\r\nmen kom in på KTH.\r\nOm jag glider runt i backslick,\r\nringer Madde då och då.\r\nOm jag vaskar hela flaskan,\r\nfast jag inte alls har råd.\r\nOm jag sticker ned till Troppan,\r\nför att ”study abroad”.\r\n\r\n||: Indeks pappa kan betala,\r\nom sanningen ska fram… :||",
   "notes": "Framförd tillsammans med Lekis för Schabraket 2011.\r\n",
   "partition": 2,
@@ -1900,7 +1900,7 @@
  },
  "porthos_visa_int": {
   "id": "porthos_visa_int",
-  "title": "International Porthos Visa",
+  "title": "International Porthos visa",
   "alttitle": null,
   "firstline": "I wanna start the gasque now",
   "meta": "Melodi: You Can’t Get a Man With a Gun\r\n",
@@ -2937,7 +2937,7 @@
  },
  "metaspexets_punschvisa": {
   "id": "metaspexets_punschvisa",
-  "title": "METAspexets Punschvisa",
+  "title": "METAspexets punschvisa",
   "firstline": "Säg vad värmer gott och väl?",
   "meta": "Melodi: Diggy Diggy Hole\r\nText: Maria Moliteus",
   "text": "Säg vad värmer gott och väl?\r\nPunsch punsch punsch javäl!\r\nVad svalkar både kropp och själ?\r\nPunsch punsch punsch javäl!\r\n\r\nHöj edra glas\r\nSe drycken skimrar ljuvt i guld\r\nKamrater gutår\r\nLåt flaskan tömmas i din mun\r\n\r\nLjuvlig är den\r\nPunschen vår vän\r\n\r\nVi blir vackra, styrkta sen\r\nNär vi dricker punsch igen\r\n\r\nI METAspexet så älskar vi punsch\r\n||: Älskar älskar punch :||\r\n\r\nI METAspexet så hinkar vi punsch\r\nHinka hinka punsch\r\nPunschelipunsch\r\n\r\n<i>(Tonartshöjning)</i>\r\nI METAspexet så älskar vi punsch\r\n||: Älskar älskar punch :||\r\n\r\nI METAspexet så hinkar vi punsch\r\nHinka hinka punsch\r\nPunschelipunsch",
@@ -2948,10 +2948,10 @@
  },
  "metaspexets_visa": {
   "id": "metaspexets_visa",
-  "title": "METAspexets Visa",
+  "title": "METAspexets visa",
   "firstline": "Jag vill aldrig Metaspexa",
   "meta": "Melodi: Jag har aldrig var’t på snusen\r\nText: Max Wippich",
-  "text": "Jag vill aldrig Metaspexa\r\nAldrig klä mig i nåt burgundy!\r\nVi är inte så komplexa\r\nAtt se på,oss är rent slöseri\r\nVi är alldeles för många\r\nI våran chefsgrupp är vi 26\r\nvåra spex är allt för långa\r\nde är längre än en 30 meter haj\r\n\r\nÅ, Metaspex! -- Har fått fobi\r\nÅ Metaspex! -- rent aperi\r\nÅ Metaspex! -- jag vill bli fri\r\nFrån burgundy\r\n\r\nvåra slasquer är ett stort kaos\r\nsquådis knockas med sphagetti\r\nOch när de andra börjar repa,\r\nDet för vårt manus krävs sympati\r\nMetaspexet är en kult nu\r\nEgna strumpor har vi minsann!\r\nGår på varje annat vänspex\r\nmen punschvisa vi ingen kan\r\n\r\nÅ Metaspex…",
+  "text": "Jag vill aldrig Metaspexa\r\nAldrig klä mig i nåt burgundy!\r\nVi är inte så komplexa\r\nAtt se på oss är rent slöseri\r\nVi är alldeles för många\r\nI våran chefsgrupp är vi 26\r\nvåra spex är allt för långa\r\nde är längre än en 30 meter haj\r\n\r\nÅ, Metaspex! -- Har fått fobi\r\nÅ Metaspex! -- rent aperi\r\nÅ Metaspex! -- jag vill bli fri\r\nFrån burgundy\r\n\r\nvåra slasquer är ett stort kaos\r\nsquådis knockas med sphagetti\r\nOch när de andra börjar repa,\r\nDet för vårt manus krävs sympati\r\nMetaspexet är en kult nu\r\nEgna strumpor har vi minsann!\r\nGår på varje annat vänspex\r\nmen punschvisa vi ingen kan\r\n\r\nÅ Metaspex…",
   "notes": null,
   "tags": [
    "Nämnder"
@@ -3011,7 +3011,7 @@
  },
  "grabbarna_i_b": {
   "id": "grabbarna_i_b",
-  "title": "Åh, Grabbarna i B",
+  "title": "Åh, grabbarna i B",
   "firstline": "Åh, grabbarna i B, de tar en nubbe té.",
   "meta": "Melodi: Hertigen av York\r\nText: Carl Sebart\r\nSektion: Bergs",
   "text": "Åh, grabbarna* i B, de tar en nubbe té.\r\nDem föra den till munnen sin,\r\noch slå den i halsen ner.\r\nÅh, när var den upp, var den upp.\r\nÅh, när den var ner var den ner.\r\nÅh när den på halva vägen var,\r\nvar den varken upp eller ner. Tjo!",
@@ -3359,7 +3359,7 @@
  },
  "800_samer": {
   "id": "800_samer",
-  "title": "800 Samer",
+  "title": "800 samer",
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: 800 grader\nText: D-LTH, 1986",
@@ -3413,7 +3413,7 @@
  },
  "portho_s_song": {
   "id": "portho_s_song",
-  "title": "Portho's song",
+  "title": "Portho's Song",
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: Porthos visa",
@@ -3440,7 +3440,7 @@
  },
  "the_viking": {
   "id": "the_viking",
-  "title": "The viking",
+  "title": "The Viking",
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: Vikingen",
