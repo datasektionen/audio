@@ -1,6 +1,6 @@
 #import "/song_book/template.typ": (
   base-margin, continues-on-next-page, partition-page, song, song-notes,
-  insert-virtual-pages
+  insert-virtual-pages, skip-pages
 )
 
 #partition-page[Nubbevisor][
@@ -111,21 +111,19 @@
  #text(size: subheader-size)[Byten]
 #song(<vi_aro_sma_humlor_vi>)
 #song(<den_digitala_snapsvisan>)
-#song(<nu_tar_vi_den>)
+#song(<sill_och_ansjovis>)
 #pagebreak()
 
 #song(<minnet>)
  #text(size: subheader-size)[Biten]
 #song(<borsras>)
 #pagebreak()
-
-#song(<vad_ska_vi_gora_med_supen>)
-#song(<sill_och_ansjovis>)
-#pagebreak()
+#skip-pages(1)
 
  #text(size: subheader-size)[Barstopp]
-#song(<toj_hamtegubbar>)
-#song(<krok_armen_i_vinkel>)
+#song(<toj_hamtegubbar>, after-spacing: 7mm)
+#song(<krok_armen_i_vinkel>, after-spacing: 7mm)
+#song(<nu_tar_vi_den>, after-spacing: 7mm)
 #pagebreak()
 
 #song(<fkane_faft>)
@@ -138,4 +136,3 @@
 #song(<ingmar_bergman>)
 #song(<skal>)
 #pagebreak()
-
