@@ -44,12 +44,11 @@
 #pagebreak()
 
 #song(<jag_fangade_en_rav>)
-#insert-virtual-pages(1, after: 1)
+#pagebreak()
+
+#insert-virtual-pages(2)
 #song(
   <gaudeamus_igitur>,
-  add-after-nth-par: ((
-    0, align(right, continues-on-next-page-inline())
-  ),)
 )
 #pagebreak()
 
