@@ -74,9 +74,9 @@
 #pagebreak()
 
 #box[
-  #song(<kapitalistvikingen>, text-notes-spacing: 8pt, text-spacing: 8pt)
-  #v(-16pt)
-  #song(<pacifistvikingen>, text-notes-spacing: 8pt, text-spacing: 8pt)
+  #song(<kapitalistvikingen>, meta-text-spacing: 8pt, text-notes-spacing: 8pt, text-spacing: 8pt)
+  #v(-17pt)
+  #song(<pacifistvikingen>, meta-text-spacing: 8pt, text-notes-spacing: 8pt, text-spacing: 8pt)
 ]
 #pagebreak()
 

@@ -546,7 +546,7 @@
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: Vikingen",
-  "text": "En viking viker tvätten själv, hurra hurra!\r\nOrdet viking härstammar därav, jaha!\r\nFöräldraledighet delas exakt, \r\nnär vikingen sina barn har lagt, \r\ndå är frun hens ute på en jakt! \r\n\r\nEn viking vill ha livets vann, hurra hurra! \r\nMen på sig själv hen lägger band, jaha, vad bra! \r\nMjödet det prioriteras sist,\r\ntvätta och städa blir aldrig trist.\r\nFör vår viking, hen är feminist!",
+  "text": "En viking viker tvätten själv, hurra hurra!\r\nOrdet viking härstammar därav, jaha!\r\nFöräldraledighet delas exakt, \r\nnär vikingen sina barn har lagt, \r\ndå är vikingens fru ute på jakt! \r\n\r\nEn viking vill ha livets vann, hurra hurra! \r\nMen på sig själv hen lägger band, jaha, vad bra! \r\nMjödet det prioriteras sist,\r\ntvätta och städa blir aldrig trist.\r\nFör vår viking hen är feminist!",
   "notes": null,
   "partition": 0,
   "page": null,
@@ -1160,7 +1160,7 @@
   "title": "Kapitalistvikingen",
   "alttitle": null,
   "firsline": null,
-  "meta": "Melodi: Pacifistvikingen\r\nText: Erik Nordlöf (D-19) &amp; Emil Wiktorsson (F-21)",
+  "meta": "Melodi: Nykteristvikingen\r\nText: Erik Nordlöf (D-19) &amp; Emil Wiktorsson (F-21)",
   "text": "En viking köper aktier, hurra, hurra!\r\nEn öppen marknad är vad vi vill ha, så bra!\r\nI stan, på landet, i varje by, \r\nnär skatter blir otroligt dyrt. \r\nJa, då vill ingen viking ha de pyrt.\r\n\r\nNär börsen småningom går ner, panik, panik!\r\nBankmannen har hängt sig själv, tragik, tragik!\r\nMen sen när det vänder, vi köper javisst,\r\nför aktievinst är aldrig trist.\r\nFör vår viking hen är kapitalist!",
   "notes": "Från Amerikasittningen 2024"
  },
@@ -1851,8 +1851,8 @@
   "title": "Pacifistvikingen",
   "alttitle": null,
   "firstline": null,
-  "meta": "Melodi: Feministvikingen\r\nText: David Lindkvist (D-25) &amp; Erik Sparr (D-25)",
-  "text": "En viking är så snäll och rar, hurra, hurra!\r\nFred i världen ska det va, hurra hurra\r\nFrån norr, till söder, till öst, till väst,\r\nfest istället för krig är bäst,\r\nDet är vad vår viking vill ha mest!\r\n\r\nNär freden småningom är slut\r\nTragik, PANIK!\r\nDå sörjer varje viking sin etik, logik\r\nHen går ut på staden som aktivist,\r\noch håller upp skylten med duva och kvist\r\nFör vår viking, hen är pacifist!",
+  "meta": "Melodi: Kapitalistvikingen\r\nText: David Lindkvist (D-25) &amp; Erik Sparr (D-25)",
+  "text": "En viking är så snäll och rar, hurra, hurra!\r\nFred i världen ska det va, hurra hurra\r\nFrån norr, till söder, till öst, till väst,\r\nfest istället för krig är bäst,\r\ndet är vad vår viking vill ha mest!\r\n\r\nNär freden småningom är slut\r\nTragik, PANIK!\r\nDå sörjer varje viking sin etik, logik.\r\nHen går ut på staden som aktivist,\r\noch håller upp skylten med duva och kvist\r\nFör vår viking hen är pacifist!",
   "notes": "Skrevs på Sista Sångledarens Sittning, 2025, i protest mot\n/dev/audio's brist på vikingar."
  },
  "pilsnergladje": {
@@ -3552,7 +3552,7 @@
   "alttitle": null,
   "firstline": null,
   "meta": "Melodi: Feministvikingen\nText: Emmie Zemack, Magdalena Christiansson &amp; Sarah Scheving (F-22)",
-  "text": "En viking älskar livets vann,\nhurra, hurra!\nVann er norsk för vatten, åh\nvad bra, vad bra!\nVarenda vatten är det man ska ha,\nIngen huvudvärk nästa da'\nAlkfri gasque är billigt det är bra!\n\nEn viking älskar livet som\nen har en har!\nBehöver inte spriten för\natt ha det bra!\nInga roliga minnen en mist,\nAlk är endast för den som är trist,\nFör vår viking är ju nykterist!",
+  "text": "En viking älskar livets vann, hurra, hurra!\nVann er norsk för vatten, åh vad bra, vad bra!\nVarenda vatten är det man ska ha,\nIngen huvudvärk nästa da'\nAlkfri gasque är billigt, det är bra!\n\nEn viking älskar livet som en har, en har!\nBehöver inte spriten för att ha det bra!\nInga roliga minnen en mist,\nAlk är endast för den som är trist,\nFör vår viking är ju nykterist!",
   "notes": null
  }
 }
