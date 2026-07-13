@@ -26,6 +26,11 @@
 #song(<stackars_teknis>)
 #pagebreak()
 
+
+#insert-virtual-pages(1)
+#song(<finland_ar_finland>)
+#pagebreak()
+
 #skip-pages(1)
 
 #song(<mediehymnen>, after-spacing: 7.5mm)
