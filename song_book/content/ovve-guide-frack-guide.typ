@@ -87,9 +87,9 @@
   #box[
     = Guide till högtidsdräkten
 
-    Högtidsdräkt är den mest formella av alla svenska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förstående för klädkodens etiquette och delar. 
+    Högtidsdräkt är den mest formella av alla svenska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förståelse för klädkodens etiquette och delar.
     
-    När klädkoden är högtidsdräkt bär man balklänning, frack eller folkdräkt. Denna guide kommer endast beröra de förstnämnda, för information om folkdräkt hänvisas läsaren till godtycklig söktjänst
+    När klädkoden är högtidsdräkt bär man balklänning, frack eller folkdräkt. Denna guide kommer endast beröra de två förstnämnda, för information om folkdräkt hänvisas läsaren till godtycklig söktjänst
 
     #pad(x: base-margin, bottom: -14mm)[#align(center + bottom)[#image("/song_book/assets/images/sangbok-Hogtidsdrakt-transparent.png", height: 85mm)]]
   ]
@@ -105,7 +105,7 @@
   Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och/eller högst tre pins.
 
   När det kommer till frackband ska bandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
-  
+
   #pagebreak()
 
   === Regler för fracken
@@ -129,7 +129,7 @@
 
   == Frack
   En frack har väldigt många delar som man måste ha koll på. Nedan följer en lista, som är i ordningen som blir lättast när man ska sätta på fracken.
-  #v(-0.5em)
+   #v(-0.5em)
 
   #text(size: 10pt, checklist[
     - Frackskjorta
