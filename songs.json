@@ -322,7 +322,7 @@
  "datasektionens_fodelsedagssang": {
   "id": "datasektionens_fodelsedagssang",
   "title": "Datasektionens födelsedagssång",
-  "alttitle": "",
+  "alttitle": null,
   "firstline": "Ja, må D leva!",
   "meta": "Melodi: Ja, må han/hon leva\r\nText: Douglas Fischer och Delta-Johnny\r\n",
   "text": "Ja, må D leva!\r\nJa, må D leva!\r\nJa, må D leva uti hundrade år!\r\nJavisst ska D leva!\r\nJavisst ska D leva!\r\nJavisst ska D leva uti hundrade år!\r\n",
