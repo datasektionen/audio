@@ -117,6 +117,11 @@
 #pagebreak()
 
 #song(<brev_fran_kongligen>)
+#place(
+  center + bottom,
+  dy: 16mm,
+  image(width: 60mm, "/song_book/assets/images/Sid 42 letter.svg")
+)
 #pagebreak()
 
 #song(<en_kvall_i_meta>)
