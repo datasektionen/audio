@@ -194,7 +194,7 @@
 #song(<systeme_interweb>)
 #pagebreak()
 
-#insert-virtual-pages(1)
+#insert-virtual-pages(2)
 #box[
   #song(<crash_branns_kampvisa_systeme_technologique>)
   #v(-1em)
@@ -215,6 +215,9 @@
     ),),
   )
 ]
+#pagebreak()
+
+#song(<integrera>)
 #pagebreak()
 
 #song(<meta_nationalsang>)
