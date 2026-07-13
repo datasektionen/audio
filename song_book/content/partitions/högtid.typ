@@ -22,11 +22,8 @@
 #song(<sang_till_norden>)
 #pagebreak()
 
-#insert-virtual-pages(1)
-#box(song(<kungssangen>, text-notes-spacing: 9pt))
-#pagebreak()
-
 #song(<o_gamla_klang>)
 #pagebreak()
 
-#skip-pages(1)
+#box(song(<kungssangen>, text-notes-spacing: 9pt))
+#pagebreak()
