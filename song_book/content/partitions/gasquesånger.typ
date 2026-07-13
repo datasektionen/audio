@@ -1,4 +1,7 @@
-#import "/song_book/template.typ": base-margin, footnote-entry, partition-page, song, song-notes, insert-virtual-pages
+#import "/song_book/template.typ": (
+  continues-on-next-page, base-margin, footnote-entry, partition-page, song,
+  song-notes, insert-virtual-pages
+)
 
 // Title page
 #partition-page[Gasquesånger][
@@ -160,7 +163,7 @@
 #place(song(<datas_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
 #pagebreak()
 
-#insert-virtual-pages(3)
+#insert-virtual-pages(4)
 
 #place(song(<medias_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
 #pagebreak()
@@ -177,6 +180,27 @@
 #place(song(<cls_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
 #pagebreak()
 
-#song(<raj_raj>, meta-text-spacing: 3mm)
-#song(<en_liten_bla_forgatmigej>, meta-text-spacing: 3mm)
+#song(
+  <merge-conflictens_visa>,
+  text-spacing: 4mm,
+  text-notes-spacing: 4mm,
+  after-spacing: 4mm,
+  override-nth-par: ((
+    4,
+    [
+      Datan är grå -- och mera öl\
+      Datan är trist -- och mera öl\
+      Datan är skit -- och mera öl\
+      Och mera öl\
+      #v(-1cm)
+    ]
+  ),),
+  add-after-nth-par: ((
+    4,
+    continues-on-next-page(),
+  ),)
+)
+
+#song(<raj_raj>, meta-text-spacing: 3mm, text-notes-spacing: 4mm, after-spacing: 4mm)
+#song(<en_liten_bla_forgatmigej>, meta-text-spacing: 3mm, text-notes-spacing: 4mm,)
 #pagebreak()
