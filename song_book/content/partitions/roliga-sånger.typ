@@ -39,6 +39,11 @@
 )
 #pagebreak()
 
+#insert-virtual-pages(1)
+
+#song(<osqvik>)
+#pagebreak()
+
 #skip-pages(3)
 
 #song(<bruces_philosophers_song>)
