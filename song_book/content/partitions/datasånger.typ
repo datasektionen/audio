@@ -14,6 +14,11 @@
   ))
 ]
 
+#song(<konglig_datasektionens_sektionssang>)
+#song(<datas_bordsvisa>, text-notes-spacing: 3.1mm)
+#pagebreak()
+
+#song(<datasektionens_fodelsedagssang>)
 #box(
   [
     #song(<arskursvisan>)
@@ -27,26 +32,8 @@
     vi drack varandra till och vi sade gutår!
 
     #song-notes(
-      "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n”gästerna” och eventuellt ”personalen”.\r\n\r\nVartefter Konglig Datasektionens årskurser fick längre och längre namn, innebar det en större utmaning att hinna sjunga ”Och alla så dricka vi nu…”. Därför föreslås följande sätt att sjunga längre-än-tvåstaviga namn:",
+      "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n”gästerna” och eventuellt ”personalen”.\r\n\r\nVartefter Konglig Datasektionens årskurser fick längre och längre namn, innebar det en större utmaning att hinna sjunga ”Och alla så dricka vi nu…”.\r\n",
     )
-    #v(0.5em)
-    - #text(style: "italic")[
-        ”Och alla vi dricka D-Osquarina till”
-        #v(-0.8em)
-        (Ex: dovicesimus)
-      ]
-
-    - #text(style: "italic")[
-        ”Och alla, drick D-Osquarina till”
-        #v(-0.8em)
-        (Ex: dodevicesimus)
-      ]
-
-    - #text(style: "italic")[
-        ”Och alla, nu drick D-Osquarina till”
-        #v(-0.8em)
-        (Ex: vicesimus quartus)
-      ]
   ],
 )
 #pagebreak()
@@ -93,16 +80,6 @@
 
 #box(
   [
-    #song(<datas_bordsvisa>)
-    #song(<datasektionens_fodelsedagssang>)
-  ],
-)
-#pagebreak()
-
-#box(
-  [
-    #song(<konglig_datasektionens_sektionssang>)
-    #v(-1em)
     #song(<nar_examen_viskar_mitt_namn>)
   ],
 )
