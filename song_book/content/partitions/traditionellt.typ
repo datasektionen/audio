@@ -58,13 +58,10 @@
 )
 #pagebreak()
 
+#song(<bort_allt_vad_oro_gor>)
+#pagebreak()
+#song(<om_haga>)
 
-#song(
-  <om_haga>,
-  add-after-nth-par: ((
-    1, align(right, continues-on-next-page-inline())
-  ),)
-)
 #place(
   center + bottom,
   dx: -10mm,
@@ -74,4 +71,7 @@
 #pagebreak()
 
 #song(<uti_var_hage>)
+#pagebreak()
+
+#song(<i_kalifornien>, text-notes-spacing: 3.4mm)
 #pagebreak()
