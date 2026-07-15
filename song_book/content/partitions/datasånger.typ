@@ -51,7 +51,7 @@
 )
 #pagebreak()
 
-=== Årskursnamn hittills
+=== Årskursnamn
 
 #set text(size: 10pt)
 #let extra-space = 1em
