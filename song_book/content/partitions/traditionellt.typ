@@ -43,6 +43,12 @@
 #song(<frans_michael_franzens_dryckesvisa>)
 #pagebreak()
 
+#place(
+      left + horizon,
+      dy: 13mm,
+      dx: 30mm,
+      image(width: 86%, "/song_book/assets/images/Dog Poker table shadow-transparent.png"),
+    )
 #song(<jag_fangade_en_rav>)
 #pagebreak()
 
