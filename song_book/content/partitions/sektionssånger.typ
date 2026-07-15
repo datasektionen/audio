@@ -162,12 +162,7 @@
       ))
     ],
   ),),
-)#place(
-      left + horizon,
-      dy: 25mm,
-      dx: 36mm,
-      image(width: 86%, "/song_book/assets/images/Dog Poker table shadow-transparent.png"),
-    )
+)
 
 #pagebreak()
 
