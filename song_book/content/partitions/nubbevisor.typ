@@ -47,7 +47,6 @@
 )
 #pagebreak()
 
-#continues-on-next-page()
 #song(<om_cykling>, text-spacing: 13pt)
 #song(<mera_jarn>)
 #pagebreak()
@@ -87,7 +86,6 @@
 #pagebreak()
 
  #text(size: subheader-size)[Måsen]
-#continues-on-next-page()
 #song(<masen>)
 #song(<datalogen>)
 #pagebreak()
