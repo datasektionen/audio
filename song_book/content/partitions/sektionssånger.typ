@@ -34,7 +34,6 @@
 #skip-pages(1)
 
 #song(<mediehymnen>, after-spacing: 7.5mm)
-#continues-on-next-page()
 #song(<nar_vi_festar>, add-after-nth-par: ((1, v(-2.43mm)),))
 #pagebreak()
 
@@ -42,9 +41,6 @@
 #song(
   <balladen_om_arkitektens_kak>,
   text-spacing: 0.21in,
-  add-after-nth-par: ((5, {
-    align(right, continues-on-next-page-inline())
-  }),),
 )
 
 #pagebreak()
@@ -53,6 +49,7 @@
 #pagebreak()
 
 #song(<grabbarna_i_b>, text-notes-spacing: 9pt, after-spacing: 4.5mm)
+#continues-on-next-page()
 #song(
   <rovarvisan>,
   text-leading: 3pt,
@@ -132,18 +129,19 @@
 #pagebreak()
 
 #song(<om_sanningen_ska_fram>, add-after-nth-par: (
+  (3, pagebreak()),
   (
-    3,
+    7,
     {
       continues-on-next-page(dx: 1mm, dy: -2mm)
       pagebreak()
     },
   ),
-  (7, pagebreak())
 ))
 #pagebreak()
 
 #insert-virtual-pages(2)
+#continues-on-next-page()
 #song(<identitetskris>)
 #song(
   <skolan_kth>,
@@ -174,7 +172,6 @@
 
 #insert-virtual-pages(4)
 #song(<mecken_gar>)
-#continues-on-next-page()
 #song(
   <fader_abraham>,
   override-nth-par: ((
@@ -194,6 +191,7 @@
     ]
   ),),
 )
+#continues-on-next-page(dx: 1mm, dy: -2mm)
 #song(<dataloger>)
 #song(<liljekonvaljen>)
 #pagebreak()
@@ -208,7 +206,7 @@
 
 #box[
   #song(<javlaranammas_sittningsvisa>, text-spacing: 5.5mm, after-spacing: 5.1mm, text-notes-spacing: 3mm)
-#song(<d_sektionen_lth>)  
+  #song(<d_sektionen_lth>)
 ]
 #pagebreak()
 
