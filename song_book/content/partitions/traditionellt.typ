@@ -52,16 +52,20 @@
 #song(<jag_fangade_en_rav>)
 #pagebreak()
 
-#insert-virtual-pages(2)
+#insert-virtual-pages(4)
+
+#song(<bort_allt_vad_oro_gor>)
+#pagebreak()
+
+#song(<i_kalifornien>, text-notes-spacing: 3.4mm)
+#pagebreak()
+
 #song(
   <gaudeamus_igitur>,
 )
 #pagebreak()
 
-#song(<bort_allt_vad_oro_gor>)
-#pagebreak()
 #song(<om_haga>)
-
 #place(
   center + bottom,
   dx: -10mm,
@@ -71,7 +75,4 @@
 #pagebreak()
 
 #song(<uti_var_hage>)
-#pagebreak()
-
-#song(<i_kalifornien>, text-notes-spacing: 3.4mm)
 #pagebreak()
