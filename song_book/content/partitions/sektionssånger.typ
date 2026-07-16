@@ -27,19 +27,22 @@
 #pagebreak()
 
 #insert-virtual-pages(1)
+
+#let emoji-line-spacing = -0.1em
+
 #song(<emojisangen>, text-size: 16pt, text-leading: 0.5em, override-text-content: [
-  #emoji.face.happy #emoji.face.cry #emoji.face.angry.red #emoji.thumb #emoji.thumb.down #linebreak()
-  #emoji.bride #emoji.santa #emoji.baby #emoji.rabbit.face #emoji.mushroom #emoji.wave #linebreak()
-  #emoji.watermelon #emoji.pizza #emoji.football #emoji.banana #linebreak()
-  #emoji.pumpkin #emoji.beer #emoji.heart #emoji.snowman #emoji.horse.face #linebreak()
-  #emoji.cooking #linebreak()
-  #emoji.bomb #emoji.hamster #emoji.alien #linebreak()
-  #emoji.tractor #emoji.shoe #emoji.scissors #emoji.chicken.male #linebreak()
-  #emoji.clip #emoji.hat.top #emoji.car #emoji.hourglass #linebreak()
+  #emoji.face.happy #emoji.face.cry #emoji.face.angry.red #emoji.thumb #emoji.thumb.down #linebreak() #v(emoji-line-spacing)
+  #emoji.bride #emoji.santa #emoji.baby #emoji.rabbit.face #emoji.mushroom #emoji.wave #linebreak() #v(emoji-line-spacing)
+  #emoji.watermelon #emoji.pizza #emoji.football #emoji.banana #linebreak() #v(emoji-line-spacing)
+  #emoji.pumpkin #emoji.beer #emoji.heart #emoji.snowman #emoji.horse.face #linebreak() #v(emoji-line-spacing)
+  #emoji.cooking #linebreak() #v(emoji-line-spacing)
+  #emoji.bomb #emoji.hamster #emoji.alien #linebreak() #v(emoji-line-spacing)
+  #emoji.tractor #emoji.shoe #emoji.scissors #emoji.chicken.male #linebreak() #v(emoji-line-spacing)
+  #emoji.clip #emoji.hat.top #emoji.car #emoji.hourglass #linebreak() #v(emoji-line-spacing)
   #emoji.bread #emoji.fish #emoji.turtle #emoji.turtle #linebreak()
-  #v(-0.6em)
+  #v(emoji-line-spacing - 0.2em)
   #image("/song_book/assets/images/woman_no.png", width: 1em)
-  #v(-0.6em)
+  #v(emoji-line-spacing - 0.3em)
   #[#image("/song_book/assets/images/woman.png", width: 1em) #v(-1.7em) #h(1.48em) #emoji.flower.tulip]
 ])
 #pagebreak()
