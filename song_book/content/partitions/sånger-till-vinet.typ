@@ -22,9 +22,9 @@
 #let list-spacing = 0em
 #text(size: 10.1pt)[
   #par(..list-style)[
-    #text(style: "italic")[Öl är för barbarer, vin är för civiliserade.] 
+    #text(style: "italic")[Öl är för barbarer, vin är för civiliserade.]
     #linebreak()
-    Liknande uttalanden har gjorts i tusentals år, med ett möjligt ursprung i antika Grekland. Huruvi-#linebreak()da det stämmer är svårt att säga. Människan har druckit vin i över 8000 år, men somliga tycks ännu inte ha behärskat konsten. Vingliga steg, jobbiga bakfyllor och roliga historier är bara några av konsekvenserna, resten får du upptäcka själv.  
+    Liknande uttalanden har gjorts i tusentals år, med ett möjligt ursprung i antika Grekland. Huruvi-#linebreak()da det stämmer är svårt att säga. Människan har druckit vin i över 8000 år, men somliga tycks ännu inte ha behärskat konsten. Vingliga steg, jobbiga bakfyllor och roliga historier är bara några av konsekvenserna, resten får du upptäcka själv.
   ]
 
   #par(..list-style)[
@@ -65,7 +65,7 @@
 #box[
   #song(<feta_fransyskor>)
   #v(-2.6em)
-  #align(center, 
+  #align(center,
   [
     #pad(left: 1.6em)[
     #image("/song_book/assets/images/feta_fransyskor.png", width: 90%)]
@@ -83,7 +83,6 @@
 )
 #pagebreak()
 
-#continues-on-next-page()
 #song(<fredmans_sang_no_35>)
 #pagebreak()
 

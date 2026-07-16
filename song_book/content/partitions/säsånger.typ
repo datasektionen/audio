@@ -45,10 +45,7 @@
 )
 #pagebreak()
 
-#song(
-  <den_blomstertid_nu_kommer>,
-  add-after-nth-par: ((2, align(right, continues-on-next-page-inline())),),
-)
+#song(<den_blomstertid_nu_kommer>)
 #song(<varvindar_friska>)
 #pagebreak()
 
@@ -76,10 +73,7 @@
 #song(<betlehems_stjarna>)
 #pagebreak()
 
-#song(
-  <lucia_ver1>,
-  add-after-nth-par: ((4, align(right, continues-on-next-page-inline())),),
-)
+#song(<lucia_ver1>)
 #song(<nu_ar_det_jul_igen>)
 #place(
   center + bottom,
