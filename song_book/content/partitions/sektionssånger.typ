@@ -26,9 +26,22 @@
 #song(<stackars_teknis>)
 #pagebreak()
 
-
 #insert-virtual-pages(1)
-#song(<finland_ar_finland>)
+#song(<emojisangen>, text-size: 16pt, text-leading: 0.5em, override-text-content: [
+  #emoji.face.happy #emoji.face.cry #emoji.face.angry.red #emoji.thumb #emoji.thumb.down #linebreak()
+  #emoji.bride #emoji.santa #emoji.baby #emoji.rabbit.face #emoji.mushroom #emoji.wave #linebreak()
+  #emoji.watermelon #emoji.pizza #emoji.football #emoji.banana #linebreak()
+  #emoji.pumpkin #emoji.beer #emoji.heart #emoji.snowman #emoji.horse.face #linebreak()
+  #emoji.cooking #linebreak()
+  #emoji.bomb #emoji.hamster #emoji.alien #linebreak()
+  #emoji.tractor #emoji.shoe #emoji.scissors #emoji.chicken.male #linebreak()
+  #emoji.clip #emoji.hat.top #emoji.car #emoji.hourglass #linebreak()
+  #emoji.bread #emoji.fish #emoji.turtle #emoji.turtle #linebreak()
+  #v(-0.6em)
+  #image("/song_book/assets/images/woman_no.png", width: 1em)
+  #v(-0.6em)
+  #[#image("/song_book/assets/images/woman.png", width: 1em) #v(-1.7em) #h(1.48em) #emoji.flower.tulip]
+])
 #pagebreak()
 
 #skip-pages(1)
