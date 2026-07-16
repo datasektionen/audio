@@ -44,12 +44,12 @@
   found-songs.sorted(key: ((title, page, _)) => (title, page))
 }
 
-#insert-virtual-pages(1, after: 6)
+#insert-virtual-pages(2, after: 6)
 
 #context {
   // Ensure that registry entries don't wrap to multiple lines.
   show: pad.with(right: -base-margin)
-  
+
   set text(size: 10pt)
   set par(leading: 2.6pt)
   for (title, page, location) in entries() {
