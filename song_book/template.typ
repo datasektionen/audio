@@ -128,7 +128,16 @@
     // original PDF's font, "Bell MT", especially in its character height and
     // width.
     // It's installed by default in Typst btw!
-    font: "Libertinus Serif",
+    font: (
+      // Prefer Twitter Color Emoji, except for the gender marker character, as
+      // we don't want to render it as an emoji.
+      (
+        // You must install TwitterColorEmoji from "song_book/assets/fonts".
+        "name": "Twitter Color Emoji",
+        "covers": regex("[^⚧]")
+      ),
+      ("name": "Libertinus Serif"),
+    ),
     size: 11pt,
     lang: "sv",
     // This ensures that the text layouting box is the same height as with "Bell

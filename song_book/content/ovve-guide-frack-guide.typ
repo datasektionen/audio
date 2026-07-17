@@ -65,6 +65,9 @@
   - På den vänstra nedre sidofickan (även kallad sångboksfickan) finns leverantörsmärket, detta är din ovveoslkuld. Man får endast rycka av den med tänderna men var uppmärksam om andra försöker ta den!
   - Vill man ytterligare dekorera sin ovve kan man fästa saker som maskotar, capshanddukar (vad är caps? Fråga någon gammal), kapsylöppnare, lasersvärd, osv. osv. på sin ovve.
 
+  // For some reason having the "Twitter Color Emoji" font also be confgured
+  // breaks some of the hyphenation... 😖
+  #set text(font: "Libertinus Serif")
   == Andra sektioners sektionsplagg
 
   Ibland när du är ute på campus, eller står i kön till en pub, kan du stöta på studenter klädda i overaller som inte är cerise. Märkligt, tänker du säkert. Men oroa dig inte, dessa är bara studenter som inte är dataloger. Det kan vara bra att lära känna de andra sektionernas overallfärger också, så att du inte verkar ignorant när du är ute och är social.
