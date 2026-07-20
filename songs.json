@@ -1889,7 +1889,7 @@
  "porthos_visa": {
   "id": "porthos_visa",
   "title": "Porthos visa",
-  "alttitle": "Trippeln",
+    "alttitle": ["Trippeln", "Athos visa"],
   "firstline": "Jag vill börja gasqua",
   "meta": "Melodi: You Can’t Get a Man With a Gun\r\n",
   "text": "Jag vill börja gasqua. Var fan är min flaska,\r\nvem i helvete stal min butelj?\r\nSkall törsten mig tvinga, en TT börja svinga?\r\nNej för fan, bara blunda och svälj!\r\n\r\nVilken smörja, får jag spörja,\r\nvem för fan tror att jag är en älg?\r\n\r\nTill England vi rider och sedan vad det lider,\r\nträffar vi välan på någon pub!\r\n\nO' där ska vi festa, blott dricka av det bästa\r\nutav whisky och portvin, jag tänker gå hårt in\r\nför att smaka på rubb och stubb.\r\n",
