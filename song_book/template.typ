@@ -69,10 +69,13 @@
 #let partition-marker(body) = [#metadata(body) <partition-marker>]
 
 /// Defines a new partition and creates a new page only containing `body` heading element along with metadata which defines a new partition.
-#let partition-page(partition-content, body) = {
+#let partition-page(partition-content, body, show-footer: false) = {
   pagebreak(weak: true)
   partition-marker(partition-content)
 
+  if not show-footer {
+    set page(footer: none)
+  }
   show heading: set text(size: 30pt, weight: "regular")
   body
   pagebreak()
