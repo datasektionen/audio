@@ -45,7 +45,7 @@
 ]
 #pagebreak()
 
-#song(<porthos_visa>, text-spacing: 3.4mm)
+#song(<porthos_visa>, text-spacing: 3.4mm, after-spacing: 3mm)
 
 #let hagagatan-three() = [
   #text(fill: rgb("#c5c5c5"))[8]
