@@ -112,8 +112,8 @@
 #song(<sill_och_ansjovis>)
 #pagebreak()
 
+#text(size: subheader-size)[Biten]
 #song(<minnet>)
- #text(size: subheader-size)[Biten]
 #song(<borsras>)
 #pagebreak()
 #skip-pages(1)
