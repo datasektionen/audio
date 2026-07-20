@@ -39,7 +39,7 @@
   #v(field-margin)
 
   #field-label[Favoritspråk:]\
-  #field-description[(t.ex. Prolog, Scratch, Japanska)]
+  #field-description[(t.ex. Prolog, Go, Rust, Japanska)]
   #v(field-margin)
 ]
 
