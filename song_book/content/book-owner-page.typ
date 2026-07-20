@@ -65,16 +65,17 @@
 
     #place(
       top + left,
-      dx: 15mm,
+      dx: 23mm,
       dy: 7mm,
       // You need to have this font installed
       text(size: 9mm, font: "Shadows Into Light Two")[Cerise],
     )
   ]
 
+  #v(1mm)
   #align(right)[
     #text(size: 12pt)[Om borttappad, kontakta mig på:]
-    #v(11mm)
+    #v(10mm)
     #line(length: 83%)
   ]
 ]

@@ -66,6 +66,7 @@
     <text id="text-1" style="fill: rgb(35, 31, 32); font-family: Actor; font-size: 12px; stroke-width: 1.333px; white-space: pre; visibility: hidden;"><tspan x="38.24" y="48.409" dx="0 0 0 0 0 0 0.081 0 0 0.162">Sångstyrka</tspan><tspan x="41.444" y="119.869" dx="1.065 0 0 0 0 0.153" dy="23.849">Kodskriv-</tspan><tspan x="41.183" y="128.869" dx="0.968" dy="26.813">hastighet</tspan><tspan x="46.286" y="191.77" dx="2.699 -0.884 0.014 0.002 0.0109999 -0.02" dy="47.754 0.0299999 -0.032 0.008 0.041 0.014">Tenta-</tspan><tspan x="39.086" y="200.77" dx="0.269 0 -0.09" dy="50.79">prestanda</tspan></text>
     <text style="fill: rgb(51, 51, 51); font-family: Actor; font-size: 12px; white-space: pre; text-anchor: middle;" x="65.1" y="49.409">Sångstyrka</text>
     <text style="fill: rgb(51, 51, 51); font-family: Actor; font-size: 12px; white-space: pre; text-anchor: middle;" x="65.1" y="146.221">Promille</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Actor; font-size: 12px; white-space: pre; text-anchor: middle;" x="65.1" y="242.786" transform="matrix(1, 0, 0, 1, 0, -1)">Kodskriv-<tspan x="65.0999984741211" dy="1em">​</tspan>hastighet</text>
+    <text style="fill: rgb(51, 51, 51); font-family: Actor; font-size: 12px; white-space: pre; text-anchor: middle;" x="65.1" y="242.786">WPM</text>
+    <!-- <text style="fill: rgb(51, 51, 51); font-family: Actor; font-size: 12px; white-space: pre; text-anchor: middle;" x="65.1" y="242.786" transform="matrix(1, 0, 0, 1, 0, -1)">Kodskriv-<tspan x="65.0999984741211" dy="1em">​</tspan>hastighet</text> -->
   </g>
 </svg>
