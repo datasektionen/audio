@@ -72,9 +72,8 @@
 #let partition-page(partition-content, body, show-footer: false) = {
   pagebreak(weak: true)
   partition-marker(partition-content)
-
   if not show-footer {
-    set page(footer: none)
+    [#metadata(none) <partition-title-page>]
   }
   show heading: set text(size: 30pt, weight: "regular")
   body
@@ -217,7 +216,9 @@
         let show-decimal = is-left-page or secondary-page != none
 
         // Only show headers after the first partition has been defined.
-        if (partition-number != none) {
+        // Also suppress footer on partition title pages (detected via marker).
+        let is-partition-title = query(<partition-title-page>).any(m => m.location().page() == here().page())
+        if partition-number != none and not is-partition-title {
           page-number(hex: not show-decimal, ..virtual-page.get())
         }
       }
