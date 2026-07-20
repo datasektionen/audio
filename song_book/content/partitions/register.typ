@@ -46,18 +46,31 @@
 
 #insert-virtual-pages(2, after: 6)
 
+#let register-entry(title, page, location) = block(width: 100%)[
+  #grid(
+    columns: (70%, auto),
+    column-gutter: 1mm,
+    [
+      #set par(leading: 2.4pt)
+      #link(location)[#title]
+    ],
+    [#align(left + horizon)[#link(location)[#page]]],
+  )
+]
+
 #context {
   // Ensure that registry entries don't wrap to multiple lines.
   show: pad.with(right: -base-margin)
 
-  set text(size: 10pt)
-  set par(leading: 2.6pt)
-  for (title, page, location) in entries() {
-    link(location)[
-      #title#"  "#page
+  set text(size: 8pt)
+  set par(leading: 3.4pt)
+
+  columns(2, gutter: 0mm)[
+    #for (title, page, location) in entries() [
+      #register-entry(title, page, location)
+      #v(4.5pt, weak: true)
     ]
-    linebreak()
-  }
+  ]
 }
 
 #pagebreak()
