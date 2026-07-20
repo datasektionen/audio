@@ -72,9 +72,11 @@
     )
   ]
 
-  #align(right, text(size: 12pt)[
-    Om bortappad, kontakta mig på:
-  ])
+  #align(right)[
+    #text(size: 12pt)[Om borttappad, kontakta mig på:]
+    #v(11mm)
+    #line(length: 83%)
+  ]
 ]
 
 #pagebreak()
