@@ -118,7 +118,11 @@
     left-pad-zeros(str(primary-page), 3)
   }
   if secondary-page != none {
-    numbering(".a", secondary-page)
+    "." + if secondary-page == 4 {
+      "δ"
+    } else {
+      numbering("a", secondary-page)
+    }
   }
 }
 
