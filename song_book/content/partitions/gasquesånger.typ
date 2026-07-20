@@ -47,7 +47,17 @@
 
 #song(<porthos_visa>, text-spacing: 3.4mm)
 
-#pad(bottom: -8mm, song(<skitakare_andersson>, text-spacing: 3.4mm))
+#let hagagatan-three() = [
+  #text(fill: rgb("#c5c5c5"))[8]
+  #h(-0.69em)
+  3
+  #h(-0.30em)
+]
+
+#context {
+  show "3": it => hagagatan-three()
+  pad(bottom: -8mm, song(<skitakare_andersson>, text-spacing: 3.4mm))
+}
 
 #pagebreak()
 #place(
