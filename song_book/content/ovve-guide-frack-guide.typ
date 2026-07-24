@@ -45,7 +45,7 @@
   - Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
   - Ovvenamnet ska sitta på framsidan av \ overallens högra ben.
 
-  #align(center + horizon)[#image("/song_book/assets/images/ovve.svg", width: 75mm)]
+  #align(center + horizon)[#image("/song_book/assets/images/ovve-black.svg", width: 75mm)]
   ]
   #pagebreak()
 
@@ -127,8 +127,9 @@
 
   Då Datalogen önskar bära frackband till balklänning, ska denna knytas i en rosett och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Frackband ska fästas så att de(t) inte nuddar huden.
 
-  \[Placera en tutorial till rosett här\]
-  #v(8em)
+  #linebreak()
+
+  #pad(y: -1cm)[#align(center)[#image("/song_book/assets/images/frackband.png")]]
 
   == Frack
   En frack har väldigt många delar som man måste ha koll på. Nedan följer en lista, som är i ordningen som blir lättast när man ska sätta på fracken.
