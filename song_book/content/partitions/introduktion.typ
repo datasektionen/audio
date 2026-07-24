@@ -15,9 +15,11 @@
 
   Hej och välkommen till den sjunde upplagan av #box[/dev/audio], Konglig Data-?sektionens sångbok. Efter en ytterst intensiv vår och sommar kan du härmed läsa denna sångbok!
 
-  Vägen var inte spikrak, utan vi genomförde en stor förändring för denna upplaga. Från och med nu är #box[/dev/audio] helt skriven i Typst, ut med Adobe InDesign det vill säga!
+  Från att gräva upp gamla filer från forna datalogers datorer, till att trillskas med programvara ej känd för dess användarvänlighet, till att helt enkelt få nog och göra om hela boken i Typst. Ja, denna resa har varit intressant måste jag säga. 
 
-  Det vi uppnått under denna tid hade inte varit möjligt utan den grupp engagerade själar som kan återfinnas i slutet av boken, alla dessa förtjänar de största utav tack. Jag vill även rikta ett speciellt tack till Rasmus Söderhielm och Alvin Yang i deras särskilt enorma engagemang i skapandet av denna sångbok, utan dessa två hade projektet inte kunnat färdigställas eller inte ens påbörjas.
+  Jag vill rikta ett speciellt tack till Rasmus Söderhielm, som i princip enväldigt konverterade boken från InDesign till Typst(!), och Alvin Yang, som kämpade för att pränta ner i detalj en av de största delarna av vår studentkultur; allt om våra kära ovveraller!
+
+  Såklart finns ännu fler att tacka för deras arbete, alldeles för många för att nämnas på denna sida. Dessa kan återfinnas i slutet av boken!
 
   Om du hittar en bugg i boken, maila #box[#link("mailto:prylis@datasektionen.se")] så kanske du får ett exklusivt märke som tack.
 
