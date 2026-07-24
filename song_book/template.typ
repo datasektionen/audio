@@ -181,7 +181,7 @@
         if partition-number != none [
           #text(size: 10.5pt, {
             if is-left-page {
-              [Konglig Datasektionens Sångbok]
+              [Konglig Datasektionens sångbok]
             } else {
               [Partition #partition-number -- #current-partition-text()]
             }
@@ -234,9 +234,9 @@
     #set page(margin: (x: 0pt, y: base-margin))
     #set par(spacing: 0pt)
     #show title: set text(size: 16pt, weight: "bold")
-    #title[Konglig Datasektionens Sångbok]
+    #title[Konglig Datasektionens sångbok]
     #v(1.5mm)
-    #image(height: 62.5mm, "assets/images/delta-logo.svg")
+    #image(height: 62.5mm, "/song_book/assets/images/data-loggan-gråskala-mörk.png")
     #v(4.5mm)
     #text(size: 23pt)[/dev/audio]
   ]
