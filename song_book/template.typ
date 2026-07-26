@@ -9,10 +9,11 @@
   ("0" * calc.max(min-len - str.len(), 0)) + str
 }
 
-/// Displays the message binary string for the current page. Each page gets two of the Unicode codepoints in "DATASEKTIONENS SÅNGBOK", encoded in binary.
+/// Displays the message binary string for the current page. Each page gets two of the Unicode codepoints in "skicka kvitton till simkah@kth.se!", encoded in binary.
 #let page-message-codepoints-binary = context {
-  let message = "DATASEKTIONENS SÅNGBOK"
+  let message = "skicka kvitton till simkah@kth.se!"
 
+  let message-start-offset = 5
   let page-number = counter(page).get().at(0) - 1
 
   // Gets the codepoint at the specified index, mod the number of codepoints in `str`, and encodes it in binary, padded to a length of 8.
@@ -25,8 +26,8 @@
   }
 
   [
-    #get-codepoint-wrapped-binary(message, page-number * 2)
-    #get-codepoint-wrapped-binary(message, page-number * 2 + 1)
+    #get-codepoint-wrapped-binary(message, (page-number - message-start-offset) * 2)
+    #get-codepoint-wrapped-binary(message, (page-number - message-start-offset) * 2 + 1)
   ]
 }
 
