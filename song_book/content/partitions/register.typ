@@ -52,7 +52,7 @@
       #set par(leading: 2.4pt)
       #link(location)[#title]
     ],
-    [#align(left + horizon)[#link(location)[#page]]],
+    link(location)[#page],
   )
 ]
 
