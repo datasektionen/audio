@@ -136,11 +136,12 @@
     // It's installed by default in Typst btw!
     font: (
       // Prefer Twitter Color Emoji, except for the gender marker character, as
-      // we don't want to render it as an emoji.
+      // we don't want to render it as an emoji. We also filter out some white
+      // space characters included in the emoji font.
       (
         // You must install TwitterColorEmoji from "song_book/assets/fonts".
         "name": "Twitter Color Emoji",
-        "covers": regex("[^⚧]")
+        "covers": regex("[^ \r⚧©®]")
       ),
       ("name": "Libertinus Serif"),
     ),
