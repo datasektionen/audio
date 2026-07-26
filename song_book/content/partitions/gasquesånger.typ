@@ -153,8 +153,8 @@
 ]
 #pagebreak()
 
-#song(<wenngarn>)
-#place(dy: 4mm, song(<tackvisan>, text-notes-spacing: 3mm))
+#song(<wenngarn>, text-notes-spacing: 3mm)
+#place(dy: 3.5mm, song(<tackvisan>, text-notes-spacing: 3mm))
 #pagebreak()
 
 #song(<uti_min_mage>)
