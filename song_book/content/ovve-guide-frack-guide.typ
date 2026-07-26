@@ -125,7 +125,7 @@
 
   Pins kan fästas på klänningen på samma sätt som medaljer, eller fästas på Schmeckens plös. 
 
-  Då Datalogen önskar bära frackband till balklänning, ska denna knytas i en rosett och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Frackband ska fästas så att de(t) inte nuddar huden.
+  Då Datalogen önskar bära frackband till balklänning, ska denna knytas i en rosett _(se nästa sida)_ och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Frackband ska fästas så att de(t) inte nuddar huden.
 
   #linebreak()
 
