@@ -32,7 +32,7 @@
     vi drack varandra till och vi sade gutår!
 
     #song-notes(
-      "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n”gästerna” och eventuellt ”personalen”.\r\n\r\nVartefter Konglig Datasektionens årskurser fick längre och längre namn, innebar det en större utmaning att hinna sjunga ”Och alla så dricka vi nu…”.\r\n",
+      "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n”gästerna” och eventuellt ”personalen”.",
     )
   ],
 )
@@ -138,7 +138,7 @@
 #song(<windows_7>)
 #pagebreak()
 
-#box[#song(<min_gamla_64_a>)]
+#box[#song(<min_gamla_64_a>, text-notes-spacing: 7pt)]
 #pagebreak()
 
 #song(<jag_kan_lara_dig_c>)
@@ -171,7 +171,7 @@
 #song(<systeme_interweb>)
 #pagebreak()
 
-#insert-virtual-pages(2)
+#insert-virtual-pages(1)
 #box[
   #song(<crash_branns_kampvisa_systeme_technologique>)
   #v(-1em)
@@ -192,9 +192,6 @@
     ),),
   )
 ]
-#pagebreak()
-
-#song(<integrera>)
 #pagebreak()
 
 #song(<meta_nationalsang>)
