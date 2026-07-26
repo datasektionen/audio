@@ -47,12 +47,11 @@
 
 #song(<porthos_visa>, text-spacing: 3.4mm, after-spacing: 3mm)
 
-#let hagagatan-three() = [
-  #text(fill: rgb("#c5c5c5"))[8]
-  #h(-0.69em)
-  3
-  #h(-0.30em)
-]
+#let hagagatan-three() = {
+  text(fill: rgb("#c5c5c5"))[8]
+  h(-0.42em)
+  [3]
+}
 
 #context {
   show "3": it => hagagatan-three()
