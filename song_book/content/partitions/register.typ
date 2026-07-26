@@ -1,5 +1,5 @@
 #import "/song_book/template.typ": (
-  base-margin, insert-virtual-pages, page-number, partition-marker, virtual-page,
+  base-margin, page-number, partition-marker, skip-pages, virtual-page,
 )
 
 #show heading: set text(size: 30pt)
@@ -44,8 +44,6 @@
   found-songs.sorted(key: ((title, page, _)) => (title, page))
 }
 
-#insert-virtual-pages(2, after: 6)
-
 #let register-entry(title, page, location) = block(width: 100%)[
   #grid(
     columns: (70%, auto),
@@ -72,5 +70,7 @@
     ]
   ]
 }
+
+#skip-pages(2)
 
 #pagebreak()
