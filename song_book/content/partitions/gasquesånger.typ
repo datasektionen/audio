@@ -172,7 +172,7 @@
 #place(song(<datas_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
 #pagebreak()
 
-#insert-virtual-pages(4)
+#insert-virtual-pages(3)
 
 #place(song(<medias_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
 #pagebreak()
@@ -184,9 +184,6 @@
   text-leading: 3.5pt,
   text-spacing: 14.0pt,
 )
-#pagebreak()
-
-#place(song(<cls_visa>, meta-text-spacing: 3mm, text-spacing: 5.3mm))
 #pagebreak()
 
 #song(
