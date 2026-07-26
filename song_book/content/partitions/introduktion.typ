@@ -17,17 +17,16 @@
 
   Från att gräva upp gamla filer från forna datalogers datorer, till att trillskas med programvara ej känd för dess användarvänlighet, till att helt enkelt få nog och göra om hela boken i Typst. Ja, denna resa har varit intressant måste jag säga. 
 
-  Jag vill rikta ett speciellt tack till Rasmus Söderhielm, som i princip enväldigt konverterade boken från InDesign till Typst(!), och Alvin Yang, som kämpade för att pränta ner i detalj en av de största delarna av vår studentkultur; allt om våra kära ovveraller!
+  Jag vill rikta ett speciellt tack till Rasmus Söderhielm, som i princip helt på egen hand konverterade boken från InDesign till Typst(!), och Alvin Yang, som kämpade för att pränta ner i detalj en av de största delarna av vår studentkultur; allt om våra kära ovveraller!
 
-  Såklart finns ännu fler att tacka för deras arbete, alldeles för många för att nämnas på denna sida. Dessa kan återfinnas i slutet av boken!
+  Såklart finns ännu fler att tacka för deras arbete, alldeles för många för att nämnas på denna sida, så istället kan de återfinnas i slutet av boken!
 
   Om du hittar en bugg i boken, maila #box[#link("mailto:prylis@datasektionen.se")] så kanske du får ett exklusivt märke som tack.
 
-  14 juni 2026\
+  26 juli 2026\
   David Lindkvist\
   Quadragesimus Tertius\
   Sångboksansvarig 2026, PUNG 26/27\
-
 
   #pagebreak()
 
