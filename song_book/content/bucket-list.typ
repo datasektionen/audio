@@ -39,7 +39,7 @@
       #bucket-list-item[Sjung varje sång i sångboken #text(style: "italic")[(s.0-185.b)].]
       #bucket-list-item[Var sångledare för ”Kalmarevisan” #text(style: "italic")[(s.20)].]
       #bucket-list-item[Sjung ”Nuskaviklämma...” #text(style: "italic")[(s.183)] snabbare än en prylmånglerist. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ (underskrift)]
-      #bucket-list-item[Sjung ”Gaffeln” #text(style: "italic")[(s.19)] med en ny melodi.]
+      #bucket-list-item[Sjung ”Gaffeln” #text(style: "italic")[(s.19)] med en ny melodi\*.#linebreak()#text(size: 9pt)[\*Kända melodier finns på _dsekt.se/gaffeln_]#v(0.2em)]
       #bucket-list-item[Drick ingen alkohol på en sittning och sjung ”Jag #linebreak() ser ni krökar” #text(style: "italic")[(s.19)] till de som gör det.]
       #bucket-list-item[Bli tackad med "En liten blå förgätmigej" #text(style: "italic")[(s.34)] som personal på en sittning.]
       #bucket-list-item[Sjung ”Konglig Datasektionens Sektionssång” #text(style: "italic")[(s.39)] på #linebreak() en annan sektions (eller studentorganisations) sittning.]
