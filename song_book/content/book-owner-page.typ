@@ -31,7 +31,7 @@
   #show: block.with(height: 50mm)
   #set par(leading: 5pt)
   #field-label[Namn:]\
-  #field-description[(t.ex. Osquar, Quristina)]
+  #field-description[(t.ex. Osquar, Quristina, Osquarina)]
   #v(field-margin)
 
   #field-label[Årskurs & Årskursnamn:]\
