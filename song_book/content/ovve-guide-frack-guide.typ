@@ -107,7 +107,7 @@
   == Utmärkelser
   Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och/eller högst tre pins.
 
-  När det kommer till frackband ska bandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
+  När det kommer till frackband ska bandet för den största organisationen som man är del av sitta överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
 
   #pagebreak()
 
@@ -123,17 +123,17 @@
   === Regler för balklänningen
   Medaljer placeras på vänster sida, förslagsvis tillsammans med eventuella frackband.
 
-  Pins kan fästas på klänningen på samma sätt som medaljer, eller fästas på Schmeckens plös. 
+  Pins kan fästas på klänningen på samma sätt som medaljer, eller fästas på schmeckens plös. 
 
-  Då Datalogen önskar bära frackband till balklänning, ska denna knytas i en rosett _(se nästa sida)_ och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Frackband ska fästas så att de(t) inte nuddar huden.
+  Då Datalogen önskar bära frackband till balklänning, ska detta knytas i en rosett _(se nästa sida)_ och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Frackbandet ska fästas så att det inte nuddar huden.
 
   #linebreak()
 
   #pad(y: -1cm)[#align(center)[#image("/song_book/assets/images/frackband.png")]]
 
   == Frack
-  En frack har väldigt många delar som man måste ha koll på. Nedan följer en lista, som är i ordningen som blir lättast när man ska sätta på fracken.
-   #v(-0.5em)
+  En frack har väldigt många delar som man måste ha koll på. Nedan följer en lista, som är i ordningen som blir lättast när man ska ta på sig fracken.
+  #v(-0.5em)
 
   #text(size: 10pt, checklist[
     - Frackskjorta
@@ -151,7 +151,7 @@
     - Schmecken
   ])
   #v(-0.5em)
-  #text(style: "italic")[Datalogen kan med fördel använda denna som handledning eller inköpslista.]
+  #text(style: "italic")[Datalogen kan med fördel använda denna lista som handledning eller inköpslista.]
 
   === Detaljer
   Vid studentikosa evenemang ska frackskjortan, västen och flugan vara vita, om inget annat specificeras. Frackkavaj och frackbyxor ska vara svarta eller djupt midnattsblå, och ha samma material som varandra. Strumporna ska vara svarta och lackskor eller finskor i läder ska bäras därtill.
