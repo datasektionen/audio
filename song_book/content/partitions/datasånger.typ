@@ -134,11 +134,8 @@
 #song(<till_emacs>)
 #pagebreak()
 
-#insert-virtual-pages(4)
+#insert-virtual-pages(3)
 #song(<windows_7>)
-#pagebreak()
-
-#box[#song(<min_gamla_64_a>, text-notes-spacing: 7pt)]
 #pagebreak()
 
 #song(<jag_kan_lara_dig_c>)
@@ -148,7 +145,7 @@
 #pagebreak()
 
 #set page(margin: (bottom: 3cm))
-#continues-on-next-page()
+//#continues-on-next-page()
 #song(<write_in_c>)
 
 
@@ -166,7 +163,7 @@
 #pagebreak()
 #set page(margin: (x: base-margin, y: base-margin))
 
-#continues-on-next-page()
+//#continues-on-next-page()
 #pad(right: -1pt, song(<matlab>, text-notes-spacing: 14pt, notes-leading: 3pt, notes-spacing: 2.5mm))
 
 #v(-1mm)
@@ -174,7 +171,7 @@
 #song(<systeme_interweb>)
 #pagebreak()
 
-#insert-virtual-pages(1)
+#insert-virtual-pages(2)
 #box[
   #song(<crash_branns_kampvisa_systeme_technologique>)
   #v(-1em)
@@ -195,6 +192,9 @@
     ),),
   )
 ]
+#pagebreak()
+
+#box[#song(<min_gamla_64_a>, text-notes-spacing: 7pt)]
 #pagebreak()
 
 #song(<meta_nationalsang>)
