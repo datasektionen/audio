@@ -92,9 +92,9 @@
 
     Högtidsdräkt är den mest formella av alla svenska klädkoder, inte bara i studentsammanhang utan även allmänt i livet. Därför är det av ytterst vikt att Datalogen, när hen blir bjuden till ett evenemang med denna klädkod, har god förståelse för klädkodens etiquette och delar.
     
-    När klädkoden är högtidsdräkt bär man balklänning, frack eller folkdräkt. Denna guide kommer endast beröra de två förstnämnda, för information om folkdräkt hänvisas läsaren till godtycklig söktjänst
+    När klädkoden är högtidsdräkt bär man balklänning, frack, folkdräkt, mässdräkt eller prästrock. Denna guide kommer endast beröra de två förstnämnda, för information om de andra dräkterna hänvisas läsaren till sin favoritsöktjänst
 
-    #pad(x: base-margin, bottom: -14mm)[#align(center + bottom)[#image("/song_book/assets/images/sangbok-Hogtidsdrakt-transparent.png", height: 85mm)]]
+    #pad(x: base-margin, bottom: -8mm)[#align(center + bottom)[#image("/song_book/assets/images/sangbok-Hogtidsdrakt-transparent.png", height: 75mm)]]
   ]
   #pagebreak()
   == Schmecken
