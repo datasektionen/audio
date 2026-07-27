@@ -1,5 +1,5 @@
 
-#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, insert-virtual-pages
+#import "/song_book/template.typ": base-margin, partition-page, song, song-notes, insert-virtual-pages, continues-on-next-page
 
 #partition-page[Datasånger][
   #show: block.with(width: 100%, breakable: false)
@@ -113,7 +113,7 @@
 #pagebreak()
 
 #box[
-  #pad(right: -5pt, song(<jag_vill_va_som_du>))
+  #pad(right: -5pt, song(<jag_vill_va_som_du>, text-notes-spacing: 8pt))
 ]
 #pagebreak()
 
@@ -148,7 +148,9 @@
 #pagebreak()
 
 #set page(margin: (bottom: 3cm))
+#continues-on-next-page()
 #song(<write_in_c>)
+
 
 #block()
 #place(song(<the_basic_song>,override-text-content: [
@@ -164,6 +166,7 @@
 #pagebreak()
 #set page(margin: (x: base-margin, y: base-margin))
 
+#continues-on-next-page()
 #pad(right: -1pt, song(<matlab>, text-notes-spacing: 14pt, notes-leading: 3pt, notes-spacing: 2.5mm))
 
 #v(-1mm)
