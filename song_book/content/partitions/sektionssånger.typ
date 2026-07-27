@@ -28,7 +28,9 @@
 
 #insert-virtual-pages(1)
 
-#song(<emojisangen>, text-size: 16pt, text-leading: 0.6em)
+#song(<emojisangen>, text-size: 16pt, text-leading: 0.6em, override-text-content: [
+  #pad(bottom: 80mm)[#place()[#image("/song_book/assets/images/emojisången-grayscale.png", height: 80mm)]]
+])
 #pagebreak()
 
 #skip-pages(1)
