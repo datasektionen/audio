@@ -39,14 +39,13 @@
 
  #text(size: subheader-size)[Tersen]
 #song(<can_can>)
+#pagebreak()
 #place(
   right + bottom,
-  dx: 10mm,
-  dy: 10mm,
+  dx: 30mm,
+  dy: -4mm,
   image(width: 100%, "/song_book/assets/images/Sid 110 grajsenbajken.svg"),
 )
-#pagebreak()
-
 #song(<om_cykling>, text-spacing: 13pt)
 #song(<mera_jarn>)
 #pagebreak()
