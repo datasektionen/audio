@@ -45,7 +45,7 @@
   - Ovvenamnet är ditt namn eller ett smeknamn som du fått av någon annan.
   - Ovvenamnet ska sitta på framsidan av \ overallens högra ben.
 
-  #align(center + horizon)[#image("/song_book/assets/images/ovve-black.svg", width: 75mm)]
+  #align(center + horizon)[#v(-4mm) #image("/song_book/assets/images/ovve-black.svg", width: 70mm)]
   ]
   #pagebreak()
 
@@ -98,40 +98,36 @@
   ]
   #pagebreak()
   == Schmecken
-  Till högtidsdräkt i studentikosa sammanhang bör du bära teknologmössa, även känd som Schmeck. På KTH kan den antingen vara grå eller lila, beroende på om du studerar civilingenjör eller högskoleingenjör.
+  Till högtidsdräkt i studentikosa sammanhang bör teknologen bära teknologmössa. På KTH är teknolgmössan kallad schmeck, och färgen på kullen och plösen beror på typ av ingenjör, grå för civilingenjör och lila för högskoleingenjörer.
 
-  Schmecken har en svart tofs som fästes på kroken på dess högra sida. På tofsen ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise och köpes från Prylmångleriet. 
+  Schmecken har en svart tofs som är fäst på dess högra sida. På snöret till tofsen ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise och köpes från Prylmångleriet. 
   
-  Schmecken har också en THS-symbol på bandet som köps separat; fråga nån gammal hur man fäster den.
+  Schmecken har också en THS-krokard på mössbandet som köps separat; fråga nån gammal hur man fäster den.
 
   == Utmärkelser
-  Allmänt gäller att man ska ha max tre utmärkelser av varje sort, d.v.s. högst tre frackband, högst tre medaljer och/eller högst tre pins.
-
-  När det kommer till frackband ska bandet för den största organisationen som man är del av sitta överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
+  Allmänt gäller att man ska ha max tre frackband samtidigt och bandet för den största organisationen som man är del av sitter överst. För de flesta Dataloger innebär detta alltså THS kårband överst, och eventuella sektionsband under kårbandet.
 
   #pagebreak()
 
-  === Regler för fracken
-  Medaljer ska fästas på frackkavajen, över den vänstra fickan. När medaljer bärs ska näsduk inte bäras. Denna regel kan även formaliseras i Prolog: ```prolog
-  ValidFrackkavaj(Medals, Handkerchief) :-
-    (Medals, \+ Handkerchief); 
-    (\+ Medals, Handkerchief).
-  ```
-  Reglerna kring pins är vagare. Vissa Dataloger fäster pins på slaget, andra på schmeckens plös.
+  === Utmärkelser för fracken
+  Medaljer ska fästas på frackkavajen, över den vänstra fickan. När medaljer bärs ska näsduk inte bäras.
+  
+  Pins fästs normalt på slaget, dock kan de även fästas på plösen men detta är mindre formellt.
 
-  På en frack ska frackbandet löpa från höger axel till vänster höft, innanför västen. De kan förslagsvis fästas med hjälp av säkerhetsnålar, eller med nål och tråd. Man kan även sy ihop frackbanden så att de sitter ihop med varandra.
-  === Regler för balklänningen
-  Medaljer placeras på vänster sida, förslagsvis tillsammans med eventuella frackband.
+  På en frack ska frackbandet löpa från höger axel till vänster höft, innanför västen. 
+  #v(-0.5em)
+  #text(style: "italic")[Tips: Frackband kan fästas med hjälp av säkerhetsnålar, eller med nål och tråd.]
+  #box[#v(0.5em)
+  === Utmärkelser för balklänningen
+  Medaljer och pins placeras på vänster sida, förslagsvis tillsammans med eventuella frackband. Pins kan även mindre formellt fästas på plösen.
 
-  Pins kan fästas på klänningen på samma sätt som medaljer, eller fästas på schmeckens plös. 
+  Då Datalogen önskar bära frackband till balklänning, ska detta knytas i en rosett och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Frackbandet ska fästas så att det inte nuddar huden.
+  #v(3em)
+  #place(center, dy: -4em)[#align(center)[#image("/song_book/assets/images/frackband.png", height: 56mm)]]]
 
-  Då Datalogen önskar bära frackband till balklänning, ska detta knytas i en rosett _(se nästa sida)_ och nålas fast på klänningens vänstra sida, antingen i brösthöjd eller i höjd med midjan. Frackbandet ska fästas så att det inte nuddar huden.
+  #pagebreak()
 
-  #linebreak()
-
-  #pad(y: -1cm)[#align(center)[#image("/song_book/assets/images/frackband.png")]]
-
-  == Frack
+  == Fracken
   En frack har väldigt många delar som man måste ha koll på. Nedan följer en lista, som är i ordningen som blir lättast när man ska ta på sig fracken.
   #v(-0.5em)
 
@@ -159,12 +155,12 @@
   #v(-0.5em)
   #text(style: "italic")[Tips: Se till att du inte skrynklar kavajens svansar när du sätter dig ned.] 
   
-  == Balklänning
+  == Balklänningen
   Utformningen av balklänningen har mycket större valfrihet jämfört med fracken. De enda reglerna är som följer:
   + Materialet ska vara lyxigt och/eller festligt.
   + Klänningen måste gå hela vägen till golvet. 
   === Accessoarer
-  - Om handskar bärs ska de täcka armbågarna. Man bär aldrig ringar utanpå handskar.
+  - Om silkeshandskar bärs ska de täcka armbågarna. Man bär aldrig ringar utanpå handskar.
   - En handväska är praktiskt då balklänningar sällan har fickor. Bär gärna en handväska som matchar din klänning och dubblar som accessoar. Både handväska med och utan axelrem är OK.
-  - Skorna ska vara fina, dvs. ej sneakers eller idrottsskor.
+  - Skorna ska ha stängd tå och vara fina, dvs. ej sneakers eller idrottsskor. Klack eller inte spelar ingen roll.
 ]
