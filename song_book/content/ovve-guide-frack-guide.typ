@@ -98,7 +98,7 @@
   ]
   #pagebreak()
   == Schmecken
-  Till högtidsdräkt i studentikosa sammanhang bör teknologen bära teknologmössa. På KTH är teknolgmössan kallad schmeck, och färgen på kullen och plösen beror på typ av ingenjör, grå för civilingenjör och lila för högskoleingenjör.
+  Till högtidsdräkt i studentikosa sammanhang bör teknologen bära teknologmössa. På KTH är teknologmössan kallad schmeck, och färgen på kullen och plösen beror på typ av ingenjör, grå för civilingenjör och lila för högskoleingenjör.
 
   Schmecken har en svart tofs som är fäst på dess högra sida. På snöret till tofsen ska det sitta spegater, en för varje påbörjat läsår. Datasektionens spegat är cerise och köpes från Prylmångleriet. 
   
