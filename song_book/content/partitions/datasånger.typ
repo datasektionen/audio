@@ -32,7 +32,7 @@
     vi drack varandra till och vi sade gutår!
 
     #song-notes(
-      "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n”gästerna” och eventuellt ”personalen”.",
+      "D-Osquarina utbytes lämpligen mot årskursnamn, \r\n”gästerna” och eventuellt ”personalen”\r\n\r\nVartefter Konglig Datasektionens årskurser fick längre och längre namn, innebar det en större utmaning att hinna sjunga ”Och alla så dricka vi nu…”.\r\n",
     )
   ],
 )
@@ -66,7 +66,7 @@
   [1998,#h(extra-space)sextus decimus],   [2023,#h(extra-space)unquadragesimus],
   [1999,#h(extra-space)septus decimus],   [2024,#h(extra-space)douquadragesimus],
   [2000,#h(extra-space)dodevicesimus],    [2025,#h(extra-space)quadragesimus tertius],
-  [2001,#h(extra-space)undevicesimus],    [2026,#h(extra-space)\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_],
+  [2001,#h(extra-space)undevicesimus],    [2026,#h(extra-space)quadragesimus quartus],
   [2002,#h(extra-space)vicesimus],        [2027,#h(extra-space)\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_],
   [2003,#h(extra-space)unvicesimus],      [2028,#h(extra-space)\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_],
   [2004,#h(extra-space)dovicesimus],      [2029,#h(extra-space)\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_],
