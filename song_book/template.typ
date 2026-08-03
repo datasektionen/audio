@@ -9,9 +9,9 @@
   ("0" * calc.max(min-len - str.len(), 0)) + str
 }
 
-/// Displays the message binary string for the current page. Each page gets two of the Unicode codepoints in "skicka kvitton till simkah@kth.se!", encoded in binary.
+/// Displays the message binary string for the current page. Each page gets two of the Unicode codepoints in "skicka kvitton till prylis@datasektionen.se!", encoded in binary.
 #let page-message-codepoints-binary = context {
-  let message = "skicka ditt kvitto till simkah@kth.se!"
+  let message = "skicka ditt kvitto till prylis@datasektionen.se!"
 
   let message-start-offset = 5
   let page-number = counter(page).get().at(0) - 1
