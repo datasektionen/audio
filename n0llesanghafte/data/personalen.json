@@ -1,0 +1,682 @@
+[
+    {
+        "kth_username": "wilmerfh",
+        "title": null,
+        "name": "Wilmer Fredriksson Handler",
+        "phone": "070-556 48 58",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Gottegris i livskris"
+    },
+    {
+        "kth_username": "rsoderh",
+        "title": null,
+        "name": "Rasmus Söderhielm",
+        "phone": "070-144 76 59",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Eminem me' M&Ms"
+    },
+    {
+        "kth_username": "eaeklof",
+        "title": null,
+        "name": "Eynar Ason Eklöf",
+        "phone": "070-445 49 74",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Cshh... Björnen sover... "
+    },
+    {
+        "kth_username": "axelahm",
+        "title": null,
+        "name": "Axel Åhman",
+        "phone": "070-686 82 13",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Jätteskum tomte"
+    },
+    {
+        "kth_username": "lorentzs",
+        "title": null,
+        "name": "Alexander Lorentzson",
+        "phone": "073-084 60 82",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "BelicatoDollar"
+    },
+    {
+        "kth_username": "hanneshu",
+        "title": null,
+        "name": "Hannes Hultin",
+        "phone": "070-303 36 44",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Jätteskum tomte"
+    },
+    {
+        "kth_username": "mahamad",
+        "title": null,
+        "name": "Mariam Hamad",
+        "phone": "073-919 91 64",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "I stora lass, glass"
+    },
+    {
+        "kth_username": "hfahlin",
+        "title": null,
+        "name": "Hedda Fahlin",
+        "phone": "072-447 40 78",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Cshh... Björnen sover... "
+    },
+    {
+        "kth_username": "elsai",
+        "title": null,
+        "name": "Elsa Illerström",
+        "phone": "070-302 11 93",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Andra Bullar"
+    },
+    {
+        "kth_username": "awahren",
+        "title": null,
+        "name": "Adam Wahren",
+        "phone": "073-655 53 92",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Eminem me' M&Ms"
+    },
+    {
+        "kth_username": "liamt",
+        "title": null,
+        "name": "Liam Thorell",
+        "phone": "076-781 71 10",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Eminem me' M&Ms"
+    },
+    {
+        "kth_username": "valterm",
+        "title": null,
+        "name": "Valter Mann",
+        "phone": "073-656 68 13",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Humla som mumlar"
+    },
+    {
+        "kth_username": "jennybs",
+        "title": null,
+        "name": "Jenny Backlund Stridh",
+        "phone": "073-873 67 28",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Jätteskum tomte"
+    },
+    {
+        "kth_username": "casimirb",
+        "title": null,
+        "name": "Casimir Bähr",
+        "phone": "070-881 39 38",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Frackbärande pingvin"
+    },
+    {
+        "kth_username": "hultdin",
+        "title": null,
+        "name": "Melker Hultdin",
+        "phone": "070-508 03 80",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Frackbärande pingvin"
+    },
+    {
+        "kth_username": "linupet",
+        "title": null,
+        "name": "Linus Pettersson",
+        "phone": "073-580 12 30",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Humla som mumlar"
+    },
+    {
+        "kth_username": "elliotel",
+        "title": null,
+        "name": "Elliot Elmenbeck",
+        "phone": "070-799 27 01",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Andra Bullar"
+    },
+    {
+        "kth_username": "emeso",
+        "title": null,
+        "name": "Emelie Söderlund",
+        "phone": "073-595 66 84",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "BelicatoDollar"
+    },
+    {
+        "kth_username": "ewandel",
+        "title": null,
+        "name": "Emma Wandel",
+        "phone": "076-802 15 17",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Humla som mumlar"
+    },
+    {
+        "kth_username": "lohag",
+        "title": null,
+        "name": "Lo Häggström",
+        "phone": "076-306 07 75",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "I stora lass, glass"
+    },
+    {
+        "kth_username": "leoeh",
+        "title": null,
+        "name": "Leo Ehrenberg",
+        "phone": "070-525 00 41",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Gottegris i livskris"
+    },
+    {
+        "kth_username": "hermanha",
+        "title": null,
+        "name": "Herman Hallonqvist",
+        "phone": "072-313 77 29",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Andra Bullar"
+    },
+    {
+        "kth_username": "sibelli",
+        "title": null,
+        "name": "Sibell Israelsson",
+        "phone": "072-043 79 28",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Frackbärande pingvin"
+    },
+    {
+        "kth_username": "davidn5",
+        "title": null,
+        "name": "David Nilsson",
+        "phone": "072-444 43 95",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Dumskurk med hand i syltburk"
+    },
+    {
+        "kth_username": "mortadan",
+        "title": null,
+        "name": "Mortada Nasser",
+        "phone": "072-044 01 44",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "I stora lass, glass"
+    },
+    {
+        "kth_username": "elliotan",
+        "title": null,
+        "name": "Elliot Anderson",
+        "phone": "073-263 70 40",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "BelicatoDollar"
+    },
+    {
+        "kth_username": "jlohman",
+        "title": null,
+        "name": "Julia Lohman",
+        "phone": "076-075 15 66",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Dumskurk med hand i syltburk"
+    },
+    {
+        "kth_username": "algotle",
+        "title": null,
+        "name": "Algot Levin",
+        "phone": "073-503 33 39",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": "Cshh... Björnen sover... "
+    },
+    {
+        "kth_username": "sbobert",
+        "title": "Halvsyster",
+        "name": "Stella Bobert",
+        "phone": "073-399 68 82",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "erennel",
+        "title": "Lillebror",
+        "name": "Erik Rennel",
+        "phone": "070-370 31 34",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "karmela",
+        "title": "Lillasyster",
+        "name": "Karmela Eliasson",
+        "phone": "072-712 09 89",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "knelleus",
+        "title": "Storasyskon",
+        "name": "Kristoffer Nelléus",
+        "phone": "072-350 37 94",
+        "branch_name": "Dadderiet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "neojc",
+        "title": null,
+        "name": "Neo Carlberg",
+        "phone": "070-336 69 84",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "ghaggs",
+        "title": null,
+        "name": "Gustav Häggström",
+        "phone": "076-329 96 55",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "leoag",
+        "title": null,
+        "name": "Leo Andersson Guillou",
+        "phone": "073-334 76 05",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "josjer",
+        "title": null,
+        "name": "Josephine Jerselius",
+        "phone": "076-880 10 72",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "aegnell",
+        "title": null,
+        "name": "Adam Egnell",
+        "phone": "072-315 70 11",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "rrosenq",
+        "title": "Konglig Öfverdrif",
+        "name": "Robert Rosenquist",
+        "phone": "076-094 13 55",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "msorberg",
+        "title": null,
+        "name": "Marcus Sörberg",
+        "phone": "079-348 29 34",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "sweister",
+        "title": "Konglig Direktifdrif",
+        "name": "Sara Weister",
+        "phone": "072-222 46 01",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "robinwid",
+        "title": "Konglig Indrif",
+        "name": "Robin Widjeback",
+        "phone": "072-218 59 91",
+        "branch_name": "Drifveriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "hugokar",
+        "title": null,
+        "name": "Hugo Karlsson",
+        "phone": "073-147 47 39",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "saksberg",
+        "title": null,
+        "name": "Simon Aksberg",
+        "phone": "073-528 75 90",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "lsme",
+        "title": null,
+        "name": "Leonard Smedberg",
+        "phone": "072-315 80 82",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "lukmal",
+        "title": null,
+        "name": "Lukas Malmberg",
+        "phone": "073-303 28 29",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "julina",
+        "title": null,
+        "name": "Julina Savela",
+        "phone": "070-461 82 22",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "sofwall",
+        "title": null,
+        "name": "Sofia Wallgren",
+        "phone": "076-814 07 49",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "casparsk",
+        "title": null,
+        "name": "Caspar Skoglund",
+        "phone": "073-277 71 14",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "linmort",
+        "title": null,
+        "name": "Linus Mörtberg",
+        "phone": "072-504 80 99",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "alvinw",
+        "title": null,
+        "name": "Alvin Westling",
+        "phone": "073-513 50 89",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "melvinj",
+        "title": null,
+        "name": "Melvin Jakobsson",
+        "phone": "072-299 56 91",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "jplant",
+        "title": "Storquisine",
+        "name": "Johanna Plant",
+        "phone": "072-321 11 73",
+        "branch_name": "Quisineriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "davbergl",
+        "title": null,
+        "name": "David Berglund",
+        "phone": "076-199 59 43",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "dalindk",
+        "title": null,
+        "name": "David Lindkvist",
+        "phone": "072-577 09 88",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "plindv",
+        "title": null,
+        "name": "Peter Lindvall",
+        "phone": "073-941 96 57",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "sgranho",
+        "title": null,
+        "name": "Sara Granholm",
+        "phone": "070-038 34 64",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "ahavren",
+        "title": null,
+        "name": "Alvin Hävrén",
+        "phone": "073-914 15 23",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "zixuanli",
+        "title": null,
+        "name": "Tina Lin",
+        "phone": "076-755 92 33",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "ofuruhed",
+        "title": null,
+        "name": "Oskar Furuhed",
+        "phone": "072-035 80 39",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "antojans",
+        "title": null,
+        "name": "Anton Jansson",
+        "phone": "073-841 38 69",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "simonpo",
+        "title": null,
+        "name": "Simon Pohjalainen",
+        "phone": "070-728 78 41",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "zacsod",
+        "title": null,
+        "name": "Zackarias Söderberg",
+        "phone": "070-630 27 53",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "silanc",
+        "title": null,
+        "name": "Silan Cetinkaya",
+        "phone": "073-551 66 41",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "louisete",
+        "title": null,
+        "name": "Louise Tornberg Engbrink",
+        "phone": "072-712 23 31",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "daniels5",
+        "title": null,
+        "name": "Daniel Svensson",
+        "phone": "072-316 60 40",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "timbg",
+        "title": null,
+        "name": "Tim Bäckstadi Gjötterberg",
+        "phone": "076-185 64 71",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "juliusge",
+        "title": null,
+        "name": "Julius Geiryd",
+        "phone": "076-188 11 23",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "sofiatl",
+        "title": null,
+        "name": "Sofia Tegsten Lasu",
+        "phone": "072-718 47 74",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "toreste",
+        "title": "Samdoquise",
+        "name": "Tore Stenberg",
+        "phone": "076-340 99 98",
+        "branch_name": "Doqumenteriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "sieric",
+        "title": null,
+        "name": "Emma Ericsson",
+        "phone": "072-713 26 29",
+        "branch_name": "Ekonomeriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "reiver",
+        "title": null,
+        "name": "Noah Reiver",
+        "phone": "070-810 20 24",
+        "branch_name": "Ekonomeriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "andren4",
+        "title": null,
+        "name": "André Nilsson",
+        "phone": "070-287 72 53",
+        "branch_name": "Ekonomeriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "lindencr",
+        "title": null,
+        "name": "Agnes Lindencrona",
+        "phone": "073-566 70 40",
+        "branch_name": "Ekonomeriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "viktoe",
+        "title": null,
+        "name": "Viktor Ekby",
+        "phone": "070-431 03 33",
+        "branch_name": "Ekonomeriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "hfja",
+        "title": null,
+        "name": "Hjalmar Fjällborg",
+        "phone": "073-719 34 04",
+        "branch_name": "Ekonomeriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "jharj",
+        "title": null,
+        "name": "Johannes Harju",
+        "phone": "070-277 06 51",
+        "branch_name": "Ekonomeriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "olofbm",
+        "title": "Storekom",
+        "name": "Olof Bargholtz Melcherson",
+        "phone": "072-578 11 78",
+        "branch_name": "Ekonomeriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "abdulin",
+        "title": null,
+        "name": "Ruslan Abdulin",
+        "phone": "073-078 41 41",
+        "branch_name": "Syssleriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "somasz",
+        "title": null,
+        "name": "Soma Szabó ",
+        "phone": "072-003 85 80",
+        "branch_name": "Syssleriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "simkah",
+        "title": null,
+        "name": "Simon Kåhre",
+        "phone": "079-337 43 00",
+        "branch_name": "Syssleriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "osen",
+        "title": null,
+        "name": "Oskar Engström",
+        "phone": "076-008 85 08",
+        "branch_name": "Syssleriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "lovisacl",
+        "title": null,
+        "name": "Lovisa Claesson",
+        "phone": "072-878 24 96",
+        "branch_name": "Syssleriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "framslov",
+        "title": null,
+        "name": "Filip Ramslöv",
+        "phone": "072-578 57 86",
+        "branch_name": "Syssleriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "eliaswet",
+        "title": null,
+        "name": "Elias Wetterwik",
+        "phone": "070-455 19 79",
+        "branch_name": "Syssleriet",
+        "n0llegroup_name": null
+    },
+    {
+        "kth_username": "johanhah",
+        "title": "Ursyssling",
+        "name": "Johan Hahlin",
+        "phone": "070-283 93 77",
+        "branch_name": "Syssleriet",
+        "n0llegroup_name": null
+    }
+]

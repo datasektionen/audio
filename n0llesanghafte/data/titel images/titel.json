@@ -1,0 +1,7 @@
+{
+    "top kth-ids" : ["johanhah", "toreste", "knelleus", "jplant", "olofbm"],
+    "bottom kth-ids" : ["karmela", "erennel", "sbobert"],
+    "top-padding-x-mm" : 0,
+    "bottom-padding-x-mm" : 23,
+    "top-text-spacing-mm" : -6
+}

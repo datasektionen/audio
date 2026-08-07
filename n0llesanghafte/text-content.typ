@@ -1,0 +1,151 @@
+//! Contains a function for parsing the format used by the content fields for
+//! songs in 'songs.json', which support line breaks, basic HTML elements, and
+//! some character aliases.
+//! Also contains functions for working with Typst text content, for example for finding elements in text.
+
+#import "gender-marker.typ": gender-marker
+
+/// Parses a string containing <i> and <b> HTML tags into content. Any other
+/// tags is an error.
+///
+/// - string (str):
+/// -> content
+#let parse-basic-html(string) = {
+  // To parse the HTML we just pretend that it's valid XML, and use the built in
+  // XML parser (surely this won't cause issues). We need to wrap the document
+  // in any arbitrary root element for it to be valid XML.
+  // We also replace the `&shy;` entity manually since Typst's XML parser
+  // doesn't support defining entities.
+  string = string.replace("&shy;", [-?].text)
+  let xml-document = ("<root>" + string + "</root>")
+
+  let document = xml(bytes(xml-document))
+
+  /// Convert all valid (based on the outer functions notion) tags in a XML
+  /// element into Typst content. Allows list elements on the top level
+  ///
+  /// Note: An "XML element" is either a string or a dictionary (following the
+  /// format of the `xml` function of course).
+  ///
+  /// -> content
+  let convert-tags(element) = {
+    if type(element) == str {
+      return element
+    }
+
+    let tag-element-functions = (
+      "p": par,
+      "b": strong,
+      "i": text.with(style: "italic"),
+      "sup": super,
+      "del": strike,
+      // Custom element
+      "gender": gender-marker,
+    )
+
+    let element-function = if element.tag in tag-element-functions {
+      tag-element-functions.at(element.tag)
+    } else {
+      panic("unsupported HTML tag <" + str(element.tag) + ">")
+    }
+
+    element-function(
+      element.children.map(child => { convert-tags(child) }).join(),
+    )
+  }
+
+  let elements = document.first().children
+  for line-element in elements {
+    convert-tags(line-element)
+  }
+}
+
+/// Parses a content field of a song from 'songs.json' into content. This format
+/// supports line breaks and <i> and <b> HTML tags. Any other HTML tags is an
+/// error.
+/// `--` and `---` are converted to en and em dashes respectively.
+///
+/// - string (str):
+/// - add-after-nth-par (none|array): If set, should be an array of arrays
+///   containing an index and content. Each content will be inserted after the
+///   paragraph with it's corresponding index (zero-indexed).
+/// - override-nth-par (none|array): If set, should be an array of arrays
+///   containing an index and content. Each content will be inserted in place of
+///   the paragraph with it's corresponding index (zero-indexed).
+/// -> content
+#let parse-text-content(string, add-after-nth-par: none, override-nth-par: none) = {
+  // The website use more than two consecutive line breaks at some places to
+  // signal that the song is split across pages in the physical book. The book
+  // PDF of course support pagebreaks, so we collapse these into
+  // a single paragraph break.
+  let paragraph-strings = string.split(regex(`\r?\n\r?\n(\r?\n)*`.text))
+
+  for (index, string) in paragraph-strings.enumerate() {
+    show regex("[^-]--[^-]"): it => {
+      let ends = it.text.split("--")
+      ends.first()
+      [--]
+      ends.last()
+    }
+    show regex("[^-]---[^-]"): it => {
+      let ends = it.text.split("---")
+      ends.first()
+      [---]
+      ends.last()
+    }
+    show "\"": sym.quote.r.double
+    show "'": sym.quote.r.single
+    
+    // This character doesn't have an italic glyph, so we simply force it to be
+    // rendered normally.
+    show "⚧": it => {
+      set text(style: "normal")
+      it
+    }
+    
+    let replace-with = none
+    if override-nth-par != none {
+      for (current-index, content) in override-nth-par {
+        if index == current-index {
+          replace-with = content
+        }
+      }
+    }
+    block(breakable: false, if replace-with != none {
+      replace-with
+    } else {
+      par(parse-basic-html(string))
+    })
+    if (add-after-nth-par != none and index in add-after-nth-par.map(pair => pair.at(0))) {
+      for (current-index, content) in add-after-nth-par {
+        if index == current-index {
+          content
+        }
+      }
+    }
+  }
+}
+
+
+#let contains-block(elem) = {
+  if type(elem) != content {
+    return false
+  }
+  if elem.func() == block {
+    return true
+  }
+  if elem.has("child") {
+    return contains-block(elem.child)
+  }
+  if elem.has("body") {
+    return contains-block(elem.body)
+  }
+  false
+}
+
+#let split-at-blocks(body) = {
+  if type(body) != content or not body.has("children") {
+    return (body,)
+  }
+  body.children.filter(c => contains-block(c))
+}

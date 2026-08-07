@@ -29,3 +29,9 @@ yarn-error.log*
 # Ignore Typst compiled PDF files
 
 *.pdf
+n0llesanghafte/songs.json
+
+# Ignore personalen images except placeholder and manifest
+n0llesanghafte/data/personalen images/*
+!n0llesanghafte/data/personalen images/placeholder.jpg
+!n0llesanghafte/data/personalen images/manifest.json
