@@ -28,7 +28,6 @@ This will:
 1. Regenerate `data/personalen images/manifest.json` from the images currently in that folder.
 2. Copy `../songs.json` into the project root so Typst can access it within its sandbox.
 3. Compile all five variants to `export/`.
-4. Remove the temporary `songs.json` copy on exit.
 
 Output PDFs land in `export/`:
 
