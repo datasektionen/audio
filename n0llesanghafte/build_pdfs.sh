@@ -54,10 +54,10 @@ with open('$MANIFEST', 'w') as f:
 
 echo "Manifest updated with $(jq 'length' "$MANIFEST") images"
 
-# Copy songs.json into the project root so Typst can access it within its sandbox
+# Copy songs.json into the project root so Typst can access it within its sandbox.
+# The copy is kept after the build so that `typst preview` continues to work.
 echo "Copying songs.json..."
 cp "$SCRIPT_DIR/../songs.json" "$SCRIPT_DIR/songs.json"
-trap 'rm -f "$SCRIPT_DIR/songs.json"' EXIT
 
 # Build PDFs
 mkdir -p "$EXPORT_DIR"
