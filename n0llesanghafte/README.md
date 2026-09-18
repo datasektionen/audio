@@ -15,6 +15,15 @@ Six variants are produced, differing in front pages:
 - [Typst](https://typst.app/) — the `typst` CLI must be on your `PATH`
 - `python3` and `jq` — used by the build script to maintain the personalen image manifest
 
+## Updating for a new year
+
+1. Set `current_year` in `data/meta.json`.
+2. Add the new year-class entry to the `years` map in `data/meta.json`.
+3. Replace `data/personalen.json` with the current year's personnel export.
+4. Drop portrait photos into `data/personalen images/` — filenames must match the KTH usernames used in `personalen.json`. The manifest is rebuilt automatically on each build.
+5. Update `data/titel images/titel.jpg` and `titel.json` for the new Titel group photo.
+6. Run `./build_pdfs.sh`.
+
 ## Building
 
 Run the build script from anywhere:
@@ -90,11 +99,33 @@ n0llesanghafte/
 └── export/                # Build output — generated, not committed
 ```
 
-## Updating for a new year
+## Printing a replacement cover
 
-1. Set `current_year` in `data/meta.json`.
-2. Add the new year-class entry to the `years` map in `data/meta.json`.
-3. Replace `data/personalen.json` with the current year's personnel export.
-4. Drop portrait photos into `data/personalen images/` — filenames must match the KTH usernames used in `personalen.json`. The manifest is rebuilt automatically on each build.
-5. Update `data/titel images/titel.jpg` and `titel.json` for the new Titel group photo.
-6. Run `./build_pdfs.sh`.
+When a nØllan needs a new booklet, use `build_cover_pdf.sh` to generate a standalone cover spread (two A5 pages imposed side-by-side on landscape A4, ready for printing and folding).
+
+```bash
+./build_cover_pdf.sh <cover-name> [namn]
+```
+
+| Argument | Description |
+|---|---|
+| `cover-name` | Which cover template to use (without `.typ` extension) |
+| `namn` | Optional — substituted for the `[NAMN]` placeholder in the cover |
+
+The output lands in `export/<cover-name>-spread.pdf`.
+
+### Lost their booklet
+
+Use `nollan-forgotten-cover` — this variant carries the message for nØllan who had a booklet but lost it:
+
+```bash
+./build_cover_pdf.sh nollan-forgotten-cover "Förnamn Efternamn"
+```
+
+### Never received a booklet
+
+Use `nollan-ordinary-cover` — this is a plain booklet cover for nØllan who never got one in the first place:
+
+```bash
+./build_cover_pdf.sh nollan-ordinary-cover "Förnamn Efternamn"
+```
