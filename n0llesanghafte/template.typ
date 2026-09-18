@@ -72,7 +72,10 @@
   }
 }
 
-#let song-book(body) = {
+#let song-book(
+  body,
+  background: image("resources/background.pdf"),
+  ) = {
   let header-line-thickness = 0.3pt
 
   set page(
@@ -83,7 +86,7 @@
       top: base-margin-top,
       bottom: base-margin-bottom,
     ),
-    background: image("resources/background.pdf"),/*place[#pad(x: base-margin,
+    background: background,/*place[#pad(x: base-margin,
     y: base-margin)[#rect(width: 100%, height: 100%, stroke: 0.5pt)]]*/
     footer: context [
       #v(-20mm)
