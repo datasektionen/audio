@@ -39,7 +39,7 @@
       "sup": super,
       "del": strike,
       // Custom element
-      "gender": gender-marker,
+      "gender-marker": gender-marker,
     )
 
     let element-function = if element.tag in tag-element-functions {
