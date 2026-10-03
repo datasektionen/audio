@@ -9,7 +9,7 @@ COPY src src
 COPY postcss.config.js tailwind.config.js ./
 RUN npm run build
 
-FROM rust:1.82-slim-bookworm AS backend
+FROM rust:1.96-slim-bookworm AS backend
 WORKDIR /app
 COPY Cargo.toml Cargo.lock ./
 RUN echo "fn main() {}" > main.rs
