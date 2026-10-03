@@ -11,8 +11,7 @@ RUN npm run build
 
 FROM rust:1.82-slim-bookworm AS backend
 WORKDIR /app
-COPY Cargo.toml Cargo.lock sqlx-data.json main.rs ./
-COPY migrations migrations
+COPY Cargo.toml Cargo.lock main.rs ./
 RUN cargo install --locked --path .
 
 FROM debian:bookworm-slim
