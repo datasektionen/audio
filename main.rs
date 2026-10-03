@@ -9,17 +9,21 @@ use rocket::serde::{
 };
 use rocket::tokio;
 use rocket::{Build, Rocket};
+use serde_with::{formats::PreferMany, serde_as, DefaultOnNull, OneOrMany};
 
 use std::collections::HashMap;
 use std::env;
 use std::fs;
 
+#[serde_as]
 #[derive(Serialize, Deserialize)]
 #[serde(crate = "rocket::serde")]
 struct Song {
     id: String,
     title: String,
-    alttitle: Option<String>,
+    #[serde_as(as = "DefaultOnNull<OneOrMany<_, PreferMany>>")]
+    #[serde(default)]
+    alttitle: Vec<String>,
     firstline: Option<String>,
     meta: Option<String>,
     text: Option<String>,

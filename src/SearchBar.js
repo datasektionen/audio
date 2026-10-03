@@ -105,11 +105,12 @@ export const SearchBar = ({ allSongs, addToBooklet, bookletList, partitions, tag
   )
 }
 
-const SongTile = ({ song, addToBooklet, divider = true, prefix = ""}) => {
+const SongTile = ({ song, addToBooklet, divider = true, prefix = "" }) => {
+  let altTitleString = (song.alttitle ?? []).join(", ");
   return (
     <div>
       <div onClick={e => {addToBooklet(song.id, e)}} className="text-white overflow-hidden m-0.5 px-4 py-1 rounded-3xl hover:bg-[#222222] cursor-pointer">
-          <div dangerouslySetInnerHTML={{__html: `${prefix+song.title}${song.alttitle ? ` (${song.alttitle})` : ''}`}} />
+          <div dangerouslySetInnerHTML={{__html: `${prefix+song.title}${altTitleString ? ` (${altTitleString})` : ''}`}} />
       </div>
 
       <hr hidden={!divider} className='border-[#333333] m-1 mx-3'/>
