@@ -11,7 +11,12 @@ RUN npm run build
 
 FROM rust:1.82-slim-bookworm AS backend
 WORKDIR /app
-COPY Cargo.toml Cargo.lock main.rs ./
+COPY Cargo.toml Cargo.lock ./
+RUN echo "fn main() {}" > main.rs
+# Cache dependencies first
+RUN cargo build --locked --release
+
+COPY main.rs ./
 RUN cargo install --locked --path .
 
 FROM debian:bookworm-slim
