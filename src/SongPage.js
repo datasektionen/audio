@@ -26,6 +26,12 @@ export const SongPage = ({ song, bookletIndex, partitions, removeSong }) => {
         page = song["page"]
     }
 
+    // Replace "--" and "---" with en and em dashes.
+    let text = song.text
+      .replace(/(?<=[^-])--(?=[^-])/g, "–")
+      .replace(/(?<=[^-])---(?=[^-])/g, "—")
+    
+
     return (
         <>
             <div className={'landscape:h-[calc(90vh-7rem)] portrait:w-[calc(90vw)] text-black bg-white min-h-0 aspect-[1/1.414] max-w-[90vw] max-h-[calc(90vh-7rem)] flex flex-col px-10 py-5 whitespace-pre-wrap font-serif leading-tight break-normal scroll overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full overflow-hidden'}>
@@ -36,7 +42,7 @@ export const SongPage = ({ song, bookletIndex, partitions, removeSong }) => {
                 <b>{song.title}</b>
                 </h2>
                 <i>{song.meta}</i>
-                <p className='pt-2' dangerouslySetInnerHTML={{__html: song.text}} />
+                <p className='pt-2' dangerouslySetInnerHTML={{__html: text}} />
                 <i><p className='pt-4 text-gray-900 whitespace-pre-wrap' dangerouslySetInnerHTML={{__html: song.notes}} /></i>
                 <div className='flex-grow'></div>
                 <div className='text-right'>{page}</div>
