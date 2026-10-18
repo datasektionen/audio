@@ -26,7 +26,8 @@ WORKDIR /app
 
 COPY --from=frontend /app/build build
 COPY --from=backend /usr/local/bin/audio audio
-COPY songs.json Rocket.toml ./
+COPY Rocket.toml ./
+COPY ./jsongs ./jsongs
 
 ENV ROCKET_PROFILE=release
 CMD ["/app/audio"]

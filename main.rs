@@ -13,7 +13,6 @@ use serde_with::{formats::PreferMany, serde_as, DefaultOnNull, OneOrMany};
 
 use std::collections::HashMap;
 use std::env;
-use std::fs;
 
 #[serde_as]
 #[derive(Serialize, Deserialize)]
@@ -30,7 +29,20 @@ struct Song {
     notes: Option<String>,
 }
 
-static SONGS: std::sync::OnceLock<HashMap<String, Song>> = std::sync::OnceLock::new();
+#[derive(Serialize, Deserialize)]
+#[serde(crate = "rocket::serde")]
+struct Meta {
+    partitions: Vec<String>,
+}
+
+#[derive(Serialize, Deserialize)]
+#[serde(crate = "rocket::serde")]
+struct Songs {
+    meta: Meta,
+    songs: HashMap<String, Song>,
+}
+
+static SONGS: std::sync::OnceLock<Songs> = std::sync::OnceLock::new();
 
 #[get("/songs.json")]
 async fn get_songs() -> Result<Value, String> {
@@ -45,22 +57,81 @@ async fn get_songs() -> Result<Value, String> {
 }
 
 async fn load_songs(rocket: Rocket<Build>) -> fairing::Result {
-    let Ok(Ok(json)) =
-        tokio::task::spawn_blocking(|| fs::read_to_string(relative!("songs.json"))).await
-    else {
-        error!("Failed to read the songs.json file");
-        return Err(rocket);
-    };
-
-    let map: HashMap<String, Song> = match json::from_str(&json) {
-        Ok(m) => m,
-        Err(e) => {
-            error!("Failed to parse the songs.json content: {}", e);
+    let mut entries = match tokio::fs::read_dir(relative!("jsongs/")).await {
+        Ok(filenames) => filenames,
+        Err(error) => {
+            error!("Failed to list files in 'jsongs/': {}", error);
             return Err(rocket);
         }
     };
 
-    if SONGS.set(map).is_err() {
+    let mut songs = HashMap::<String, Song>::new();
+    while let Some(entry) = match entries.next_entry().await {
+        Ok(entry) => entry,
+        Err(error) => {
+            error!("Failed to get next directory entry: {}", error);
+            return Err(rocket);
+        }
+    } {
+        if entry.file_name().to_string_lossy() == "__META__.json"
+            || entry
+                .metadata()
+                .await
+                .expect("reading metadata to work")
+                .is_dir()
+        {
+            continue;
+        }
+
+        let json = match tokio::fs::read_to_string(entry.path()).await {
+            Ok(json) => json,
+            Err(error) => {
+                error!(
+                    "Failed to read '{}': {}",
+                    entry.path().to_string_lossy(),
+                    error
+                );
+                return Err(rocket);
+            }
+        };
+
+        let id = entry
+            .path()
+            .file_stem()
+            .expect("file path isn't expty")
+            .to_string_lossy()
+            .into_owned();
+        let song: Song = match json::from_str(&json) {
+            Ok(m) => m,
+            Err(error) => {
+                error!(
+                    "Failed to parse the '{}' content: {}",
+                    entry.path().to_string_lossy(),
+                    error
+                );
+                return Err(rocket);
+            }
+        };
+        songs.insert(id, song);
+    }
+
+    let meta_json = match tokio::fs::read_to_string(relative!("jsongs/__META__.json")).await {
+        Ok(string) => string,
+        Err(error) => {
+            error!("Failed to read 'jsongs/__META__.json': {}", error);
+            return Err(rocket);
+        }
+    };
+
+    let meta: Meta = match json::from_str(&meta_json) {
+        Ok(meta) => meta,
+        Err(error) => {
+            error!("Failed to parse 'jsongs/__META__.json': {}", error);
+            return Err(rocket);
+        }
+    };
+
+    if SONGS.set(Songs { meta, songs }).is_err() {
         error!("Songs map already initialized");
         return Err(rocket);
     }
@@ -73,7 +144,7 @@ fn rocket() -> _ {
     let figment = rocket::Config::figment();
 
     rocket::custom(figment)
-        .attach(AdHoc::try_on_ignite("Song reading", load_songs))
+        .attach(AdHoc::try_on_ignite("Song loading", load_songs))
         .mount("/", routes![get_songs])
         .mount("/", FileServer::from(relative!("build")).rank(20))
 }

@@ -3,9 +3,9 @@
     "title": "Hej på er bröder alla",
     "alttitle": "Trippeln",
     "firstline": null,
-    "meta": "",
-    "text": "Hej på er bröder alla!\r\nNu ska vi supa till dess vi falla,\r\nmen brännvinslitern, den är för liten,\r\nden är för liten för oss alla.\r\n\r\nOch en gång när jag är döder\r\noch lagd mellan tvenne bröder,\r\nbegrav mig, begrav mig\r\ni en brännvinskällare på Söder.\r\n\r\nOch på min gravsten ska det stå ristat\r\nmed tvenne små enkla rader:\r\n“Här vilar det en fyllebror,\r\nsom alltid var så god och glader.\r\nJa, här vilar det en fyllebror,\r\nsom alltid var så glad och goder.”\r\n",
-    "notes": null,
+    "meta": "Melodi: Traditionell",
+    "text": "Hej på er bröder<gender-marker></gender-marker> alla!\r\nNu ska vi supa till dess vi falla,\r\nmen brännvinslitern, den är för liten,\r\nden är för liten för oss alla.\r\n\r\nOch en gång när jag är döder\r\noch lagd mellan tvenne bröder<gender-marker></gender-marker>,\r\nbegrav mig, begrav mig\r\ni en brännvinskällare på Söder.\r\n\r\nOch på min gravsten ska det stå ristat\r\nmed tvenne små enkla rader:\r\n\r\n”Här vilar det en fyllebror/-syster/-vän/-svin,\r\nsom alltid var så god och glader.\r\nJa, här vilar det en fyllebror/-syster/-vän/-svin,\r\nsom alltid var så glad och goder.”\r\n",
+    "notes": "<gender-marker></gender-marker>Alternativt: systrar/vänner",
     "partition": 0,
     "page": "0xF",
     "5ePage": 15

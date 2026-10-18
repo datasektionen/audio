@@ -26,4 +26,4 @@ installed. We tried removing webpack, but then it _also_ complained.
 
 ### Adding and updating songs
 
-Songs are loaded from songs.json at boot. Simply edit songs.json and restart your development server to see your changes.
+Songs are loaded from the JSON files under jsongs/ at boot. Simply edit the JSON files and restart your development server to see your changes.
