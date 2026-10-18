@@ -1,4 +1,4 @@
-FROM node:20-alpine as frontend
+FROM node:20-alpine AS frontend
 WORKDIR /app
 
 COPY package.json package-lock.json ./
@@ -16,14 +16,16 @@ RUN echo "fn main() {}" > main.rs
 # Cache dependencies first
 RUN cargo build --locked --release
 
+# COPY preserves the source mtime, which can be older than the stub build above;
+# touch it so cargo's mtime-based fingerprint doesn't consider the stub up to date.
 COPY main.rs ./
-RUN cargo install --locked --path .
+RUN touch main.rs && cargo install --locked --path . --root /usr/local
 
 FROM debian:bookworm-slim
 WORKDIR /app
 
 COPY --from=frontend /app/build build
-COPY --from=backend /app/target/release/audio audio
+COPY --from=backend /usr/local/bin/audio audio
 COPY songs.json Rocket.toml ./
 
 EXPOSE 8000
