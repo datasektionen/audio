@@ -28,6 +28,5 @@ COPY --from=frontend /app/build build
 COPY --from=backend /usr/local/bin/audio audio
 COPY songs.json Rocket.toml ./
 
-EXPOSE 8000
-ENV ROCKET_ENV=production
+ENV ROCKET_PROFILE=release
 CMD ["/app/audio"]
