@@ -1,7 +1,5 @@
 #import "text-content.typ": parse-text-content
 
-#let songs-data = json("../songs.json")
-
 /// The default amount of padding, used (among others) for song pages.
 #let base-margin = 12.7mm
 
@@ -294,8 +292,8 @@
 
 /// Renders a song.
 ///
-/// - id-label (label): A label containing one of the top level IDs in
-///   "songs.json".
+/// - id-label (label): A label containing one of the file name IDs under
+///   "jsongs/".
 /// - text-size: Override for the font size of the main song text.
 /// - text-leading: Override for the spacing between lines in the main song
 ///   text.
@@ -339,12 +337,7 @@
   override-notes-content: none,
   text-first-line-indent: 6pt,
 ) = {
-  assert(
-    str(id-label) in songs-data,
-    message: "\"" + str(id-label) + "\" isn't in songs.json",
-  )
-
-  let data = songs-data.at(str(id-label))
+  let data = json("/jsongs/" + str(id-label) + ".json")
 
   let song-meta(body) = {
     set text(style: "italic", size: 10pt)

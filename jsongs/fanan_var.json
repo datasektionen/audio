@@ -1,10 +1,10 @@
 {
     "id": "fanan_var",
-    "title": "Fanan Vår",
+    "title": "Fanan vår",
     "firstline": "Se fanan vår, i topp den går,",
-    "meta": "Melodi: Nu grönskar det\r\nText: Tobbe och Marlene, Bearb.: Adam Åberg\r\nSektion: Samhällsbyggnad",
+    "meta": "Melodi: Nu grönskar det\r\nSektion: Samhällsbyggnad",
     "text": "Se fanan vår, i topp den går,\r\nnu flaggas för vår S-sektion.\r\nMot himlen klar, vårt sektionsstandar,\r\nskall vaja i skön harmoni.\r\nTill vindens sång vi hör var gång,\r\nvår Qlocka slår an en melodi.\r\nSom då blir det bloss,\r\nsom skall leda oss,\r\ntill samhällsbyggnads sektion.",
-    "notes": "",
+    "notes": null,
     "partition": 2,
     "tags": [
         "Samhällsbyggnad"

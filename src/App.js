@@ -10,32 +10,9 @@ var seedrandom = require('seedrandom');
 
 var globalSongs;
 var songOfTheDay;
-var metaData;
 
-//When testing, set this variable to true, in order to load songs statically, rather than from the database
-var loadSongsStatically = false;
-// uncomment below line if loading songs statically
-// const staticSongs = preval`module.exports = require('./getSongs.js')`;
-/*
-0 - Gasquesånger
-1 - Datasånger
-2 - Sektionssånger
-3 - Sånger till ölet
-4 - Sånger till vinet
-5 - Punschvisor
-6 - Nubbevisor
-7 - Dagen efter
-8 - Traditionellt
-9 - Högtid
-10 - Säsånger
-11 - Roliga sånger ("Byte-size skämt i sångformat" i jubileumsutgåvan)
-12 - Mottagningssånger (inte med i sångboken)
-For now they are hardcoded, but should be moved to database.
-*/
-var partitions = ["Gasquesånger", "Datasånger", "Sektionssånger", "Sånger till ölet", "Sånger till vinet", "Punschvisor", "Nubbevisor", "Dagen efter", "Traditionellt", "Högtid", "Säsånger", "Roliga sånger", "Mottagningssånger"];
-// Also hardcoded for now
+// Hardcoded for now
 var tags = ["Sångledares favoriter", "Finsittning", "Alkfritt", "Programmering", "Nämnder", "Sånger som aldrig tar slut", "English"];
-
 
 // Gets a random song, seeded from todays date, so that everyone has the same random song, everyday.
 function setSongOfTheDay(attempt = 0){
@@ -63,26 +40,18 @@ export const App = () => {
     // The current index in the booklet
     const [ songIndex, setSongIndex ] = useState(bookletList.length - 1)
     // All songs
-    const [ songs, setSongs ] = useState({});
+  const [songs, setSongs] = useState({});
+  const [partitions, setPartitions] = useState([]);
 
     // Fetch ALL songs as a single API request to the backend.
     useEffect(() => {
         const getSongs = async () => {
-          if(loadSongsStatically){
-            globalSongs = staticSongs;
-          } else {
-              var res = await fetch("/songs.json");
-              var json = await res.json();
-              globalSongs = json;
-          }
-          if("__META__" in globalSongs){
-            metaData = globalSongs["__META__"]
-            delete globalSongs["__META__"]
-            if("partitions" in metaData){
-              partitions = metaData["partitions"]
-            }
-          }
-
+          
+          var res = await fetch("/songs.json");
+          var songs = await res.json();
+          globalSongs = songs["songs"];
+          setPartitions(songs["meta"]["partitions"])
+          
           setSongOfTheDay();
           setSongs(globalSongs);
           //If path in route, add song ids to booklet
