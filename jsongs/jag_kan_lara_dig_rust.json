@@ -5,5 +5,7 @@
     "firstline": null,
     "meta": "Melodi: Jag kan lära dig C\nText: David Lindkvist (D-25), Rasmus Söderhielm (D-25) &amp; Dima Chirin (D-22)",
     "text": "Låt mig visa dig kod\nVacker, effektiv, härlig\nSäg om du ska va ärlig,\nhar du drömt om den ibland?\n\nJag kan lära dig Rust\nSäker minneshantering\nMera säker kompilering\nBorrow checka här med mig\n\nCargo init!\nNu kan vi göra vad som helst\nUnwrapen många är\nRustboken lär\nkompilatorn är vår vän (FAKTISKT!)\nEn helt ny värld\nPå låg nivå, med MDI\nOpinionerat ja, så underbart\nAtt koda i en helt ny värld, med dig",
-    "notes": "Skrevs under Pingst-Skiftes 2026"
+    "notes": "Skrevs under Pingst-Skiftes 2026",
+    "partition": 1,
+    "page": "049.c"
 }
