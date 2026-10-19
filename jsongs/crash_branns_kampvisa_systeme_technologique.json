@@ -5,5 +5,7 @@
     "firstline": null,
     "meta": "Melodi: Système Interweb\nText: Rasmus Söderhielm (D-25)",
     "text": "Open ID Connect SSO\nVue React Django Simple Store Solution\nWireguard Nomad Hetzner Nix\nDocker Secure Socket Layer\n\nUniversal Resource Locator\nApplication Programming Interface\nStructured Query Language\nHtmx Rust och Go\nHypertext Transfer Protocol\nSecure!",
-    "notes": "Skrevs under INDA-tentamen 2026"
+    "notes": "Skrevs under INDA-tentamen 2026",
+    "partition": 1,
+    "page": "053.a"
 }
