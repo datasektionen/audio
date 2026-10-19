@@ -27,6 +27,7 @@ struct Song {
     meta: Option<String>,
     text: Option<String>,
     notes: Option<String>,
+    partition: Option<u32>,
 }
 
 #[derive(Serialize, Deserialize)]
