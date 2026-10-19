@@ -28,6 +28,10 @@ struct Song {
     text: Option<String>,
     notes: Option<String>,
     partition: Option<u32>,
+    page: Option<String>,
+    page5e: Option<u32>,
+    #[serde(default)]
+    tags: Vec<String>,
 }
 
 #[derive(Serialize, Deserialize)]
