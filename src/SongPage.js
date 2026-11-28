@@ -41,7 +41,7 @@ export const SongPage = ({ song, bookletIndex, partitions, removeSong }) => {
                 <h2 className={'text-4xl'}>
                 <b>{song.title}</b>
                 </h2>
-                <i>{song.meta}</i>
+                <i dangerouslySetInnerHTML={{__html: song.meta}}></i>
                 <p className='pt-2' dangerouslySetInnerHTML={{__html: text}} />
                 <i><p className='pt-4 text-gray-900 whitespace-pre-wrap' dangerouslySetInnerHTML={{__html: song.notes}} /></i>
                 <div className='flex-grow'></div>
